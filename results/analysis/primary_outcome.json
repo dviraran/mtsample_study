@@ -1,0 +1,625 @@
+{
+  "primary": {
+    "definition": "per-visit total cost of recommended care = diagnostic tests + specialist consultations; AI value is the mean across the 20 general-purpose systems; comparator is the treating physician's plan on the same case. Medications are excluded from the outcome and reported as counts",
+    "n_cases": 200,
+    "n_systems_pooled": 20,
+    "test": "paired Wilcoxon signed-rank (two-sided)",
+    "statistic": 1149.0,
+    "p_value": 1.0768651081437922e-26,
+    "cases_ai_higher": 180,
+    "cases_ai_lower": 16,
+    "physician": {
+      "mean": 97.43305000000001,
+      "mean_ci": [
+        66.338043125,
+        134.67722087499996
+      ],
+      "sd": 250.93947721563015,
+      "median": 0.0,
+      "iqr": [
+        0.0,
+        71.50250000000001
+      ]
+    },
+    "ai": {
+      "mean": 313.8188935526316,
+      "mean_ci": [
+        265.52932105921053,
+        367.26068640131575
+      ],
+      "sd": 366.21264002304855,
+      "median": 204.85225000000003,
+      "iqr": [
+        78.23449999999998,
+        421.27900000000005
+      ]
+    },
+    "difference": {
+      "mean": 216.3858435526316,
+      "mean_ci": [
+        176.63487776973685,
+        257.1802094638158
+      ],
+      "sd": 301.21193297084767,
+      "median": 144.78674999999998,
+      "iqr": [
+        31.801375000000007,
+        313.32937499999997
+      ]
+    },
+    "ratio_of_means": 3.220866980481793
+  },
+  "sensitivity_with_medications": {
+    "definition": "primary outcome with imputed medication cost added back",
+    "physician": {
+      "mean": 156.29305,
+      "mean_ci": [
+        112.57348775,
+        209.76584024999994
+      ],
+      "sd": 349.4541129510706,
+      "median": 30.0,
+      "iqr": [
+        0.0,
+        177.36000000000004
+      ]
+    },
+    "ai": {
+      "mean": 415.06557776315793,
+      "mean_ci": [
+        328.60522118092103,
+        520.009053444079
+      ],
+      "sd": 711.3166362556675,
+      "median": 238.87400000000002,
+      "iqr": [
+        96.27625,
+        459.18462500000004
+      ]
+    },
+    "difference": {
+      "mean": 258.7725277631579,
+      "mean_ci": [
+        167.75529156907896,
+        357.3049880690788
+      ],
+      "sd": 714.4740469413609,
+      "median": 147.1445,
+      "iqr": [
+        23.877625,
+        331.19824999999975
+      ]
+    },
+    "ratio_of_means": 2.6556880025257548
+  },
+  "components": {
+    "dx": {
+      "physician": {
+        "mean": 71.3066,
+        "mean_ci": [
+          46.347575,
+          103.48195625
+        ],
+        "sd": 210.59799866248306,
+        "median": 0.0,
+        "iqr": [
+          0.0,
+          27.517500000000002
+        ]
+      },
+      "ai": {
+        "mean": 176.42674513157894,
+        "mean_ci": [
+          140.47919850657897,
+          216.5360464078947
+        ],
+        "sd": 275.00332751052485,
+        "median": 88.65725,
+        "iqr": [
+          17.26894078947368,
+          232.368375
+        ]
+      },
+      "difference": {
+        "mean": 105.12014513157894,
+        "mean_ci": [
+          76.5756307993421,
+          134.3299250723684
+        ],
+        "sd": 209.16580157505018,
+        "median": 57.14525,
+        "iqr": [
+          4.2463750000000005,
+          149.93987499999997
+        ]
+      },
+      "ratio_of_means": 2.474199374694333
+    },
+    "consult": {
+      "physician": {
+        "mean": 26.126450000000006,
+        "mean_ci": [
+          13.90916425,
+          41.636533875
+        ],
+        "sd": 98.68319064973305,
+        "median": 0.0,
+        "iqr": [
+          0.0,
+          0.0
+        ]
+      },
+      "ai": {
+        "mean": 137.39214842105264,
+        "mean_ci": [
+          118.36929300328947,
+          158.4592910131579
+        ],
+        "sd": 142.01316049341506,
+        "median": 86.69250000000001,
+        "iqr": [
+          29.979000000000003,
+          201.23275
+        ]
+      },
+      "difference": {
+        "mean": 111.26569842105262,
+        "mean_ci": [
+          91.7481594276316,
+          130.55001992763152
+        ],
+        "sd": 141.2704466845518,
+        "median": 75.21200000000003,
+        "iqr": [
+          17.736,
+          188.46825
+        ]
+      },
+      "ratio_of_means": 5.258737732108749
+    },
+    "med": {
+      "physician": {
+        "mean": 58.86,
+        "mean_ci": [
+          33.409749999999995,
+          97.80662499999994
+        ],
+        "sd": 228.97734280401616,
+        "median": 0.0,
+        "iqr": [
+          0.0,
+          30.0
+        ]
+      },
+      "ai": {
+        "mean": 101.24668421052631,
+        "mean_ci": [
+          34.50517894736842,
+          187.01906052631577
+        ],
+        "sd": 561.9367735624238,
+        "median": 18.0,
+        "iqr": [
+          5.4,
+          43.7125
+        ]
+      },
+      "difference": {
+        "mean": 42.3866842105263,
+        "mean_ci": [
+          -31.900862500000013,
+          131.47642796052625
+        ],
+        "sd": 611.8608496679477,
+        "median": 4.725,
+        "iqr": [
+          -15.075,
+          21.6
+        ]
+      },
+      "ratio_of_means": 1.7201271527442459
+    }
+  },
+  "per_model_total": {
+    "claude-opus-4.8": {
+      "label": "Claude Opus 4.8",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 97.7435,
+      "ai_total_mean": 328.83085,
+      "ratio": 3.36422217334145,
+      "excess_mean": 231.08735000000001,
+      "excess_ci": [
+        175.212065,
+        295.53922
+      ]
+    },
+    "claude-sonnet-3.5": {
+      "label": "Claude 3.5",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 97.44625,
+      "ai_total_mean": 301.51995000000005,
+      "ratio": 3.094218094590608,
+      "excess_mean": 204.07370000000003,
+      "excess_ci": [
+        149.08624500000002,
+        265.34214375
+      ]
+    },
+    "claude-sonnet-4.5": {
+      "label": "Claude 4.5",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 97.74349999999998,
+      "ai_total_mean": 292.89575,
+      "ratio": 2.9965752198355906,
+      "excess_mean": 195.15224999999998,
+      "excess_ci": [
+        133.7192,
+        272.87998625
+      ]
+    },
+    "deepseek-r1": {
+      "label": "DeepSeek R1",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 96.55945,
+      "ai_total_mean": 431.46765,
+      "ratio": 4.468414536329691,
+      "excess_mean": 334.9082,
+      "excess_ci": [
+        278.2431475,
+        393.31818
+      ]
+    },
+    "deepseek-v3.2": {
+      "label": "DeepSeek V3",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 99.1196,
+      "ai_total_mean": 325.06309999999996,
+      "ratio": 3.279503751024015,
+      "excess_mean": 225.94350000000003,
+      "excess_ci": [
+        174.15351125000004,
+        276.12711125000004
+      ]
+    },
+    "gemini-2.5-pro": {
+      "label": "Gemini 2.5 Pro",
+      "specialized": false,
+      "n": 199,
+      "phys_total_mean": 96.92045226130654,
+      "ai_total_mean": 339.79994974874376,
+      "ratio": 3.5059674384577937,
+      "excess_mean": 242.87949748743725,
+      "excess_ci": [
+        193.59378517587942,
+        298.4884283919598
+      ]
+    },
+    "gemini-3-pro": {
+      "label": "Gemini 3 Pro",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 97.44625,
+      "ai_total_mean": 209.89795,
+      "ratio": 2.1539869415190425,
+      "excess_mean": 112.45170000000002,
+      "excess_ci": [
+        74.187765,
+        152.6943175
+      ]
+    },
+    "gemini-3.1-pro": {
+      "label": "Gemini 3.1 Pro",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 98.45665000000001,
+      "ai_total_mean": 209.17375,
+      "ratio": 2.124526377852588,
+      "excess_mean": 110.71709999999999,
+      "excess_ci": [
+        64.32494125,
+        163.18197124999998
+      ]
+    },
+    "gemini-3.5-flash": {
+      "label": "Gemini 3.5 Flash",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 96.55945,
+      "ai_total_mean": 290.36705,
+      "ratio": 3.007132393566865,
+      "excess_mean": 193.8076,
+      "excess_ci": [
+        145.96796750000001,
+        243.06742624999998
+      ]
+    },
+    "gpt-4.1": {
+      "label": "GPT-4.1",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 99.6407,
+      "ai_total_mean": 244.56685,
+      "ratio": 2.4544874734922577,
+      "excess_mean": 144.92615,
+      "excess_ci": [
+        101.3303625,
+        192.14981249999997
+      ]
+    },
+    "gpt-5.2": {
+      "label": "GPT-5.2",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 97.44625,
+      "ai_total_mean": 323.74659999999994,
+      "ratio": 3.3223094783021403,
+      "excess_mean": 226.30035,
+      "excess_ci": [
+        172.288885,
+        283.85732750000005
+      ]
+    },
+    "gpt-5.5": {
+      "label": "GPT-5.5",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 96.55945,
+      "ai_total_mean": 314.16405000000003,
+      "ratio": 3.2535816018007564,
+      "excess_mean": 217.60460000000003,
+      "excess_ci": [
+        163.6286225,
+        280.73599499999995
+      ]
+    },
+    "grok-3": {
+      "label": "Grok 3",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 97.44625,
+      "ai_total_mean": 398.10755000000006,
+      "ratio": 4.085406570288749,
+      "excess_mean": 300.6613,
+      "excess_ci": [
+        253.65952875000002,
+        347.57277000000005
+      ]
+    },
+    "grok-4.1": {
+      "label": "Grok 4.1",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 97.7435,
+      "ai_total_mean": 291.72825,
+      "ratio": 2.9846306915549374,
+      "excess_mean": 193.98475,
+      "excess_ci": [
+        148.99365,
+        238.66119499999996
+      ]
+    },
+    "grok-4.3": {
+      "label": "Grok 4.3",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 97.44625,
+      "ai_total_mean": 250.87794999999997,
+      "ratio": 2.5745264697204866,
+      "excess_mean": 153.4317,
+      "excess_ci": [
+        106.466145,
+        206.51601249999996
+      ]
+    },
+    "llama-3.3-70b": {
+      "label": "Llama 3.3",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 97.7435,
+      "ai_total_mean": 247.95015000000004,
+      "ratio": 2.536743108237377,
+      "excess_mean": 150.20665,
+      "excess_ci": [
+        108.83719750000002,
+        189.99264874999997
+      ]
+    },
+    "llama4": {
+      "label": "Llama 4",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 96.55945,
+      "ai_total_mean": 238.37654999999998,
+      "ratio": 2.468702441863536,
+      "excess_mean": 141.81709999999998,
+      "excess_ci": [
+        79.56774375,
+        237.44602749999987
+      ]
+    },
+    "medgemma-27b": {
+      "label": "MedGemma 27B",
+      "specialized": true,
+      "n": 200,
+      "phys_total_mean": 98.45665,
+      "ai_total_mean": 341.8489,
+      "ratio": 3.472075273737224,
+      "excess_mean": 243.39225,
+      "excess_ci": [
+        193.93865875,
+        290.5863974999999
+      ]
+    },
+    "medgemma-4b": {
+      "label": "MedGemma 4B",
+      "specialized": true,
+      "n": 200,
+      "phys_total_mean": 96.55945,
+      "ai_total_mean": 259.87525,
+      "ratio": 2.691349733247238,
+      "excess_mean": 163.31580000000002,
+      "excess_ci": [
+        117.16978999999999,
+        212.40445999999986
+      ]
+    },
+    "meditron": {
+      "label": "Meditron",
+      "specialized": true,
+      "n": 200,
+      "phys_total_mean": 98.45665,
+      "ai_total_mean": 295.42310000000003,
+      "ratio": 3.0005398314892906,
+      "excess_mean": 196.96645,
+      "excess_ci": [
+        148.06228375,
+        248.1478999999999
+      ]
+    },
+    "openevidence": {
+      "label": "OpenEvidence",
+      "specialized": true,
+      "n": 200,
+      "phys_total_mean": 97.04875,
+      "ai_total_mean": 296.5084,
+      "ratio": 3.0552521284406033,
+      "excess_mean": 199.45965,
+      "excess_ci": [
+        137.93499125,
+        263.88286749999986
+      ]
+    },
+    "qwen-2.5-72b": {
+      "label": "Qwen 2.5",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 97.44625,
+      "ai_total_mean": 373.69845000000004,
+      "ratio": 3.834918737252588,
+      "excess_mean": 276.2522,
+      "excess_ci": [
+        221.74487375000004,
+        331.045485
+      ]
+    },
+    "qwen-3.7": {
+      "label": "Qwen 3.7",
+      "specialized": false,
+      "n": 200,
+      "phys_total_mean": 96.55945,
+      "ai_total_mean": 270.07035,
+      "ratio": 2.7969333918119874,
+      "excess_mean": 173.51090000000005,
+      "excess_ci": [
+        122.16682625,
+        227.79185249999992
+      ]
+    },
+    "qwen3": {
+      "label": "Qwen 3",
+      "specialized": false,
+      "n": 198,
+      "phys_total_mean": 95.74328282828282,
+      "ai_total_mean": 599.0265656565657,
+      "ratio": 6.256591041806347,
+      "excess_mean": 503.28328282828284,
+      "excess_ci": [
+        432.9306123737374,
+        578.0590492424243
+      ]
+    }
+  },
+  "by_encounter_type": {
+    "first_encounter": {
+      "n_cases": 73,
+      "physician": {
+        "mean": 134.15265753424657,
+        "mean_ci": [
+          67.91779246575341,
+          218.52469452054794
+        ],
+        "sd": 335.8188693982144,
+        "median": 0.0,
+        "iqr": [
+          0.0,
+          104.55
+        ]
+      },
+      "ai": {
+        "mean": 399.3577555875991,
+        "mean_ci": [
+          300.8047907804615,
+          511.68590124369143
+        ],
+        "sd": 478.77316753775426,
+        "median": 275.897,
+        "iqr": [
+          91.50800000000001,
+          509.5450000000001
+        ]
+      },
+      "difference": {
+        "mean": 265.2050980533525,
+        "mean_ci": [
+          191.1027672224225,
+          347.92827871304974
+        ],
+        "sd": 349.951212653893,
+        "median": 182.45000000000002,
+        "iqr": [
+          32.071000000000005,
+          368.5780000000001
+        ]
+      },
+      "ratio_of_means": 2.9768903794220463
+    },
+    "established_repeat": {
+      "n_cases": 101,
+      "physician": {
+        "mean": 81.65625742574257,
+        "mean_ci": [
+          46.75908737623762,
+          123.72787079207919
+        ],
+        "sd": 198.54144760929162,
+        "median": 0.0,
+        "iqr": [
+          0.0,
+          58.970000000000006
+        ]
+      },
+      "ai": {
+        "mean": 255.0075797290255,
+        "mean_ci": [
+          208.47036684471078,
+          303.4929644932256
+        ],
+        "sd": 256.3963772385197,
+        "median": 180.69250000000002,
+        "iqr": [
+          87.487,
+          335.15549999999996
+        ]
+      },
+      "difference": {
+        "mean": 173.35132230328298,
+        "mean_ci": [
+          125.28638787128715,
+          220.05786696847315
+        ],
+        "sd": 245.47945464837886,
+        "median": 131.662,
+        "iqr": [
+          40.9765,
+          255.2335
+        ]
+      },
+      "ratio_of_means": 3.1229398428029476
+    }
+  }
+}

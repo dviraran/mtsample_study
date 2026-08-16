@@ -1,0 +1,221 @@
+Case ID,Grok Score,Grok Comment
+MTS_0001,2,Surveillance plan for uterine papillary serous carcinoma remains largely appropriate; every-3-month visits and imaging for first 2 years align with high-risk endometrial cancer follow-up. Minor updates possible regarding preferred imaging modality or integration of molecular profiling.
+MTS_0002,4,Prescribing Percocet (opioid) for occasional post-surgical pain is significantly outdated. Current CDC guidelines emphasize non-opioid analgesics first-line for most acute and chronic pain.
+MTS_0003,3,"Phentermine remains an approved short-term adjunct for obesity, but core approach is partially outdated. GLP-1 receptor agonists are now first-line pharmacotherapy with superior efficacy and cardiovascular benefits."
+MTS_0004,2,"Single-dose intramuscular corticosteroid, antihistamine, ice, and elevation remain reasonable for acute wasp sting reaction. Minor updates possible regarding oral steroids vs IM and epinephrine availability."
+MTS_0005,1,Recommending repeat MRI for suspected tethered cord evaluation is fully current and standard of care.
+MTS_0006,1,Symptomatic treatment only for viral URI with no antibiotics is fully current and aligns with antibiotic stewardship principles.
+MTS_0008,2,"Postpartum care, allergy management, and hemorrhoid treatment are mostly current. Micronor (norethindrone) is still acceptable but other progestin-only options or shared decision-making for contraception have evolved."
+MTS_0010,2,Prednisone taper for immune thrombocytopenia (ITP) and monitoring platelet counts remain core management. Minor updates in preferred second-line agents and osteoporosis prophylaxis.
+MTS_0013,2,Avoiding controlled substances in substance abuse is fully appropriate. Fluoxetine for co-occurring depression is standard; modern care would likely include stronger emphasis on psychosocial referral and possible MAT evaluation if opioid history.
+MTS_0017,2,NSAID and wrist splint for suspected carpal tunnel syndrome remain first-line. Minor updates include potential earlier electrodiagnostic testing and consideration of corticosteroid injection.
+MTS_0018,3,"Surgical resection for suspected glioblastoma remains central. However, standard of care now includes molecular profiling (IDH, MGMT), temozolomide with radiation, and tumor-treating fields; immunotherapy and targeted options have advanced."
+MTS_0019,2,Recognition of multifactorial insomnia and environmental factors is appropriate. Modern management would place greater emphasis on CBT-I as first-line over pharmacotherapy.
+MTS_0021,1,Continued CPAP therapy with adherence monitoring and weight management for obstructive sleep apnea is fully current.
+MTS_0022,3,"Referral to primary care for refractory hypertension is reasonable. However, evaluation for secondary causes, updated medication choices (e.g., mineralocorticoid antagonists), and home BP monitoring protocols have evolved."
+MTS_0023,2,Testosterone evaluation and PDE5 inhibitor (Cialis) trial for sexual dysfunction remain standard. Minor updates in cardiovascular risk assessment before prescribing and broader use of testosterone therapy criteria.
+MTS_0024,2,"Corticosteroid injection for epicondylitis is still commonly used. However, evidence for long-term benefit is limited; physical therapy is now strongly preferred first-line, and methotrexate use in lupus requires rheumatology input."
+MTS_0025,2,"Conservative management of stable severe COPD with targeted oxygen use is mostly current. Minor updates would include pulmonary rehabilitation referral, inhaler technique review, and vaccination status."
+MTS_0026,2,Plan for rotator cuff repair and nonoperative cervical management is largely appropriate. Minor updates in preoperative optimization and potential role of physical therapy or injections.
+MTS_0027,3,"Stimulant therapy for ADHD remains core treatment. However, current guidelines emphasize behavioral interventions, cardiovascular screening, and consideration of non-stimulant alternatives or newer formulations."
+MTS_0028,2,Monitoring lupus pneumonitis with PFTs and imaging is appropriate. Minor updates include preferred steroid-sparing agents and rheumatology co-management.
+MTS_0035,2,"Core plan is observation for slow PSA rise after prostate fossa irradiation. Minor updates possible (e.g., imaging or PSMA PET per current guidelines), but approach remains largely unchanged."
+MTS_0037,4,Plan focuses on opiates for chronic pain in cirrhosis patient and basic workup. Opioid-first approach for chronic non-cancer pain is now significantly outdated per CDC guidelines; non-opioid and multidisciplinary strategies preferred.
+MTS_0041,3,"Early consideration of JAK2 inhibitor trial is forward-thinking. However, current PV management includes routine cytoreductive therapy (hydroxyurea first-line), phlebotomy, and risk-adapted aspirin; plan partially outdated."
+MTS_0042,2,"Local corticosteroid injection, strapping, and heel lift for plantar fasciitis remain acceptable. Minor updates possible (e.g., emphasis on stretching, night splints, or weight loss), core approach still valid."
+MTS_0043,3,"Post-transplant lymphoproliferative disorder (PTLD) management has evolved with rituximab-based therapy and reduced immunosuppression. PET follow-up and growth factor support still reasonable, but overall approach partially outdated."
+MTS_0050,4,"Duricef (cefadroxil) for presumed bacterial lymphangitis from spider bite is outdated. Current guidelines favor different antibiotics (e.g., TMP-SMX or clindamycin) for skin/soft tissue infections with MRSA coverage."
+MTS_0052,1,"Post-ORIF plan for non-weight-bearing status, aggressive ROM, and short-interval follow-up is fully consistent with current orthopedic trauma care."
+MTS_0059,2,"Management of COPD exacerbation, pneumonia, and respiratory failure with mechanical ventilation and antibiotics is mostly current. Minor updates in antibiotic choice, steroid dosing, and ventilation strategies possible."
+MTS_0060,4,Use of digoxin for AF in elderly patient with dementia and ordering yearly levels is significantly outdated. Rate control now prefers beta-blockers or calcium channel blockers; digoxin rarely used.
+MTS_0062,2,Observation without routine scanning 4+ years post-allotransplant for mantle cell lymphoma in remission is reasonable. Iron supplementation and endoscopy for bleeding remain appropriate.
+MTS_0068,3,"Recognizing statin myalgia and switching to alternative statin is still valid. However, current guidelines emphasize checking CK, trying lower dose or different statin, or non-statin therapies for hyperlipidemia in diabetes."
+MTS_0070,5,Lap-Band (adjustable gastric banding) adjustments reflect an obsolete bariatric procedure. Sleeve gastrectomy is now preferred; GLP-1 receptor agonists have also transformed obesity management.
+MTS_0072,3,Surveillance with chest CT at 6 months for stage IA NSCLC is partially outdated. Current NCCN guidelines recommend more frequent initial imaging and annual low-dose CT; nifedipine for esophageal spasm still acceptable.
+MTS_0076,5,"Trizivir (zidovudine/lamivudine/abacavir) is substantially outdated for HIV. Current standard is integrase inhibitor-based single-tablet regimens (e.g., bictegravir/FTC/TAF) with far superior safety and efficacy."
+MTS_0077,4,Prescribing amoxicillin for persistent viral URI and routine annual PSA screening are both outdated. Antibiotic stewardship discourages antibiotics for viral illness; PSA screening now involves shared decision-making.
+MTS_0078,2,"Assessment of weight loss, dementia, and depression with nutritional support is mostly current. Minor updates in pharmacologic and non-pharmacologic dementia care possible."
+MTS_0079,4,"Stopping warfarin for hematuria, starting Lortab (opioid) for pain, and low-dose aspirin are significantly outdated. Opioids not first-line for chronic back pain; DOACs preferred over warfarin when anticoagulation indicated."
+MTS_0081,3,Transitioning from metronidazole to Diflucan for C. difficile is partially outdated. Current first-line is oral vancomycin or fidaxomicin; metronidazole no longer recommended.
+MTS_0082,2,Wrist splint trial for carpal tunnel and azithromycin for URI are mostly current. Conservative management of carpal tunnel remains first-line.
+MTS_0083,1,Admission for observation and temperature control in febrile seizure is fully consistent with current pediatric guidelines for first-time simple febrile seizures.
+MTS_0084,2,Core supportive management for SBO/ileus and specialist-directed care for pulmonary fibrosis remain appropriate. Minor updates possible around modern DVT prophylaxis preferences and antibiotic stewardship.
+MTS_0085,3,"Listing of comorbidities is fine, but 2000s-era management of T2DM, CAD, and hyperlipidemia lacks current first-line agents (SGLT2i/GLP-1RA, high-intensity statin, etc.). Follow-up labs and mammogram timing are still reasonable."
+MTS_0089,4,Prescribing Ativan (benzodiazepine) as anxiolytic for palpitations/fatigue is significantly outdated. SSRIs/SNRIs are now first-line for anxiety; stress management and workup (stress test) remain acceptable.
+MTS_0091,3,Workup of leg swelling with Doppler and basic labs is still standard. Starting Mobic (NSAID) for joint pain and Detrol for frequency are acceptable but require caution in elderly; obesity and tobacco counseling would be more emphasized today.
+MTS_0093,1,"Reassurance, food avoidance trial, and encouragement of varied diet for presumed food intolerance in a child remains fully current."
+MTS_0094,2,Supportive care for viral gastroenteritis with hydration advice and ruling out serious causes is still appropriate. Minor update on limiting juice is consistent with current recommendations.
+MTS_0095,3,"Discussion of sleep apnea risks and basic labs are reasonable. Management of obesity, hypertension, and lipids has evolved substantially with GLP-1RAs and newer agents; rectal bleeding evaluation not detailed."
+MTS_0096,5,Strongly encouraging high-dose Klonopin (clonazepam) for anxiety and ongoing Coumadin monitoring represent substantially outdated practices. Benzodiazepines are no longer first-line for anxiety; DOACs have largely replaced warfarin.
+MTS_0097,4,"Use of doripenem for ESBL-suspected E. coli UTI is outdated; current guidelines favor carbapenems like meropenem or ertapenem when needed, plus broader sepsis bundle care. Heart failure and diabetes management lack modern four-pillar and SGLT2i therapy."
+MTS_0098,2,Discontinuing statin + fibrate in rhabdomyolysis and IV hydration remain standard. Renal and hematologic monitoring are appropriate; minor updates in statin re-challenge and rhabdomyolysis protocols.
+MTS_0100,3,"Weight loss counseling, osteoarthritis management, and screening colonoscopy are largely current. Fosamax (alendronate) still used but bisphosphonate holidays and alternatives now considered; CRP for cardiac risk is less emphasized."
+MTS_0102,4,"Prescribing Lortab (hydrocodone) for foot pain with refill, especially with red-flag history of multiple pain med visits, is significantly outdated per CDC opioid guidelines. Non-opioid therapies are now first-line."
+MTS_0103,3,Supportive care for presumed viral illness is fine. Continued empiric antibiotics and subcutaneous heparin DVT prophylaxis are partially outdated given current stewardship and DOAC preferences.
+MTS_0106,3,"Comprehensive labs including A1c, lipids, and microalbumin are still appropriate. Ibuprofen for shoulder pain is acceptable short-term; diabetes and hyperlipidemia management lack current cardiorenal protective agents."
+MTS_0108,4,Omnicef (cefdinir) for presumed bacterial sinusitis in a viral presentation (fifth disease) violates current antibiotic stewardship guidelines. Most acute sinusitis is viral and does not require antibiotics.
+MTS_0109,2,Preoperative risk discussion for bariatric surgery is thorough and largely current. Gastric bypass still performed but sleeve gastrectomy is now more common; GLP-1RAs offer a non-surgical option.
+MTS_0112,1,"Post-fracture physical therapy, progressive weight bearing, and range-of-motion goals remain fully consistent with current orthopedic rehabilitation principles."
+MTS_0113,2,"Detailed calorie assessment, emphasis on fruits/vegetables, and moderate activity counseling are still core to obesity management. GLP-1RAs now provide additional pharmacologic support."
+MTS_0117,3,Monitoring LFTs on terbinafine (Lamisil) for onychomycosis and adjusting levothyroxine based on TSH remain standard. Minor updates in Down syndrome-specific health screening guidelines.
+MTS_0118,2,"Detailed dietary review, calorie tracking, and adjustment of fat/protein intake for weight and lipid management are still appropriate. Newer pharmacologic options (GLP-1RAs) would also be discussed today."
+MTS_0119,1,Lifestyle-focused weight loss management emphasizing food diary and physical activity remains fully current in 2026.
+MTS_0120,2,Calorie estimation and irregular eating pattern counseling for gestational diabetes is still appropriate; minor updates possible with newer GDM nutrition guidelines.
+MTS_0121,1,Positive reinforcement and PRN follow-up for successful weight management is fully consistent with current behavioral approaches.
+MTS_0122,2,Carbohydrate management and addressing ketonuria in pregnancy remains core; calorie calculations and snack addition approach is still largely valid.
+MTS_0123,1,"Behavioral reinforcement of food diary, balanced diet, and activity for weight loss is fully current."
+MTS_0124,3,"Basal-bolus insulin adjustment for hypoglycemia is still used, but modern basal insulins (glargine U300/degludec), CGM, and tighter targets have substantially changed practice."
+MTS_0125,2,Diabetes self-management education and review of blood glucose/food logs remains standard; minor evolution in targets and technology.
+MTS_0130,2,Conservative management with saline irrigation for symptomatic septal perforation is still first-line; surgical options have evolved modestly.
+MTS_0131,1,Dietary counseling to reduce fat and cholesterol intake with follow-up lipid monitoring remains fully appropriate.
+MTS_0132,3,"Insulin pump management is still used, but 2026 standards favor CGM-integrated automated insulin delivery systems and newer insulins."
+MTS_0134,4,Follow-up with PET-CT after SBRT (CyberKnife) for stage IA NSCLC is partially outdated; current guidelines emphasize CT surveillance and molecular testing/immunotherapy considerations.
+MTS_0136,4,Use of metronidazole (Flagyl) as primary therapy for C. difficile is significantly outdated; oral vancomycin or fidaxomicin is now first-line per IDSA guidelines.
+MTS_0140,2,Multimodal pain and osteoarthritis management with appropriate referrals is largely current; minor updates in pharmacotherapy and imaging.
+MTS_0142,3,"Insulin pump management in CKD/diabetes is still relevant but current care emphasizes SGLT2 inhibitors, GLP-1 RAs, and CGM."
+MTS_0143,2,Surgical consultation for hardware complication after cervical fusion remains appropriate; imaging and decision-making process is largely unchanged.
+MTS_0145,2,Shared decision-making for cervical stenosis with radiculopathy including PT and surgical options is fully consistent with current guidelines.
+MTS_0149,3,"Basic diagnostic workup for prior MI is reasonable, but 2026 post-MI care includes high-intensity statins, ARNI, SGLT2i, and antiplatelet therapy."
+MTS_0151,4,"Heart failure management relying on beta-blockers, digoxin, and Coumadin is significantly outdated; four-pillar GDMT (ARNI, BB, MRA, SGLT2i) and DOACs are now standard."
+MTS_0152,2,Carbohydrate counting and insulin-to-carb ratio teaching remains core to diabetes management.
+MTS_0153,3,"Cataract surgery discussion in advanced AMD is still relevant; however, anti-VEGF therapy has revolutionized wet AMD management since mid-2000s."
+MTS_0157,2,Core approach of SSRI (Luvox) for OCD and atypical antipsychotic for Asperger/ASD symptoms remains reasonable. Minor updates: DSM-5 no longer separates Asperger; behavioral therapy emphasis has increased and dosing titration could be more gradual.
+MTS_0159,3,Antiviral (Valtrex) within 72h for Bell’s palsy is still acceptable but current guidelines prefer prednisone ± antiviral. EKG review and stroke reassurance appropriate; smoking cessation counseling remains current.
+MTS_0162,1,"Plan to monitor TSH, free T4, and thyroglobulin in post-thyroidectomy papillary carcinoma patient is fully consistent with current guidelines."
+MTS_0164,2,Intranasal corticosteroid (Nasonex) and second-generation antihistamine trial remain first-line for allergic rhinitis. Minor update: intranasal steroids generally preferred over oral antihistamines as monotherapy.
+MTS_0179,4,Prophylactic antibiotics not indicated for simple hand lacerations; opioid (Vicoprofen) is now strongly discouraged for acute pain per CDC guidelines. Core wound care and follow-up are appropriate.
+MTS_0189,2,Restarting ACE inhibitor (lisinopril) for perioperative hypertension is reasonable. Minor updates: target BP thresholds and preferred agents have evolved slightly; DOAC consideration if AF history requires anticoagulation.
+MTS_0213,1,Routine newborn care and hepatitis B immunization prior to discharge fully align with current AAP and CDC guidelines.
+MTS_0230,4,"Prescribing opioid (Vicodin) and muscle relaxant (Flexeril) for acute pain after negative workup is significantly outdated. Current guidelines emphasize non-opioid analgesia (NSAIDs, acetaminophen) first-line."
+MTS_0231,2,Salt supplementation for hyponatremia and follow-up instructions are reasonable. Minor updates: more specific diagnostic workup and fluid management recommendations now exist.
+MTS_0235,2,Antihistamine (Claritin) for large local reaction to insect sting remains appropriate. Reassurance and expectation setting are current.
+MTS_0238,2,Antihistamine and epinephrine for allergic reaction are standard. Minor update: consider short-course oral steroids for more severe cutaneous reactions.
+MTS_0239,1,"Diagnostic bone marrow, LP, and anticoagulation management for new ALL with DVT are consistent with current pediatric oncology standards."
+MTS_0244,3,"Use of loop diuretic, beta-blocker, ACEI, hydralazine, and aldosterone antagonist shows good foundation for HFrEF. However, missing ARNI and SGLT2i components; four-pillar therapy is now standard."
+MTS_0254,3,"IV fluids, NPO, and symptomatic treatment for pancreatitis remain appropriate. Use of sliding-scale insulin and PRN clonidine for hypertension are outdated; morphine is no longer preferred for pain."
+MTS_0255,2,"Stroke workup (MRI, carotid US, echo), antiplatelet, and UTI treatment are largely current. Minor updates: preferred antiplatelet and statin regimens have evolved; LMWH bridging still acceptable."
+MTS_0285,2,Conservative management of anxiety and hypertension with annual follow-up is reasonable. Minor updates: first-line anxiety treatment now favors SSRI/SNRI over benzodiazepines (not mentioned here); colon screening now starts at 45.
+MTS_0286,3,"Lifestyle focus for diabetes and hypertension is good. However, insulin management and absence of SGLT2i/GLP-1RA consideration for cardiorenal protection make this partially outdated."
+MTS_0287,2,"No specific plan provided, but listed diagnoses do not trigger major outdated therapies. Neuropathy and allergic rhinitis management would likely see minor updates."
+MTS_0292,4,Use of warfarin + Lovenox bridge for cancer-associated DVT is significantly outdated. DOACs are now preferred over warfarin in most cancer patients per current guidelines.
+MTS_0304,3,"Empiric antibiotics for presumed UTI/pharyngitis with culture follow-up partially acceptable. However, IM Rocephin + Omnicef is not first-line; fluoroquinolone avoidance and shorter courses now emphasized."
+MTS_0305,2,"Core stroke workup (MRI/MRA, carotid imaging, echo) remains standard. However, AF management would now prioritize DOAC over warfarin (not mentioned) and hyperglycemia would use metformin/SGLT2i rather than sliding-scale insulin alone."
+MTS_0314,4,"Opioid-containing Tylenol #3 is no longer appropriate first-line for chronic back pain per CDC guidelines. Non-opioid therapy (NSAIDs, acetaminophen, physical therapy, duloxetine) is now preferred."
+MTS_0316,1,Continuation of Cymbalta for depression and BP meds is fully consistent with current practice. Bowel regimen adjustment is reasonable.
+MTS_0317,3,"Source testing and HBV immunity assessment remain correct. Post-exposure management for HCV has evolved (earlier RNA testing, possible DAA prophylaxis consideration); HIV PEP decision is reasonable but protocols have been updated."
+MTS_0321,2,Intranasal corticosteroid (Nasonex) and second-generation antihistamine remain first-line for allergic rhinitis. Minor updates in pediatric dosing and flu vaccine guidance for egg allergy.
+MTS_0324,2,Zyrtec and nasal steroid for allergic rhinitis are still appropriate. Asthma monitoring with peak flows is acceptable but current guidelines emphasize ICS-formoterol as preferred controller.
+MTS_0325,4,Antibiotic (Omnicef/cefdinir) for presumed bacterial sinusitis is often unnecessary; most cases are viral. Current guidelines emphasize watchful waiting and saline irrigation. Neosporin for impetigo is suboptimal (mupirocin preferred).
+MTS_0327,2,Zyrtec for allergic rhinitis is appropriate. Supportive care is reasonable; minor changes in rhinitis pharmacotherapy options since mid-2000s.
+MTS_0328,3,Nutritional management in chronic lung disease patient is generally sound. Modern approaches include more structured caloric supplementation and earlier evaluation for gastrostomy if needed.
+MTS_0329,2,ENT referral for adenoid hypertrophy and conservative toenail care remain standard. No major changes.
+MTS_0331,3,"Intranasal steroid for serous otitis is acceptable. Atopic dermatitis topical steroid use is still valid but current guidelines include proactive therapy, non-steroidal options (PDE4/CRISPR inhibitors), and avoidance of combination antihistamine-decongestants like Duraphen."
+MTS_0332,4,Antibiotics for clinical sinusitis without clear bacterial indicators contradict current stewardship guidelines. Most acute sinusitis is viral; amoxicillin is no longer first-line when antibiotics are indicated.
+MTS_0333,3,Evaluation of inflammatory arthritis is appropriate. Diabetes management described as 'well controlled' would now emphasize SGLT2i/GLP-1RA for cardiorenal benefit even if controlled.
+MTS_0334,3,"Workup for dyspnea in patient with HTN and diabetes is reasonable but incomplete. Current guidelines would include BNP, echo, and consideration of SGLT2i/GLP-1RA for presumed metabolic syndrome/cardiac risk."
+MTS_0336,2,Wound care with bacitracin and monitoring for infection remains standard for uncomplicated retained foreign body.
+MTS_0337,4,"Antibiotics for infected foreign body in nose are not routinely indicated. Current practice favors removal, saline irrigation, and topical therapy unless clear cellulitis."
+MTS_0338,3,Wellbutrin for mood swings in menopause is reasonable. HRT discussion is appropriate but current guidelines have more nuanced risk-benefit counseling. Routine labs ordered are overly broad.
+MTS_0339,3,"Adding inhaled corticosteroid (Flovent) for persistent asthma is correct in principle, but GINA guidelines now prefer ICS-formoterol as both maintenance and reliever rather than SABA alone. Allergic rhinitis management is current."
+MTS_0340,2,"Urologic intervention for symptomatic ureteral stone is appropriate. Stone management has minor updates but core approach (lithotripsy options, antibiotics if infected) remains similar."
+MTS_0343,3,"Cephalexin for folliculitis is still acceptable. However, pelvic pain and mood evaluation would now include updated gynecology and psychiatry approaches; broad lab panel is not high-value."
+MTS_0344,2,"Core plan for hypertension, hypothyroidism, and osteoporosis screening remains largely valid. Minor updates would include preferred first-line antihypertensives, modern lipid guidelines, and avoiding full-body DEXA."
+MTS_0346,4,Starting beta-blocker for hypertension without ACEI/ARB or CCB is suboptimal. Prescribing diazepam for alcohol withdrawal is significantly outdated; benzodiazepines are now used cautiously and thiamine dosing is low.
+MTS_0356,1,Supportive care only for pediatric viral URI with no antibiotics is fully consistent with current guidelines and antibiotic stewardship principles.
+MTS_0380,5,Symptomatic management with clonidine and promethazine for opioid withdrawal is substantially outdated. Standard of care is now buprenorphine initiation or methadone for opioid use disorder.
+MTS_0395,2,"Admission, pertussis testing, and sepsis monitoring in a young infant remain appropriate. Minor updates would include current pertussis treatment protocols and broader viral testing."
+MTS_0396,2,GERD management with PPI escalation is still valid. Modern practice would favor once-daily PPI trial first and might include different topical treatment for tinea versicolor.
+MTS_0398,3,Full sepsis workup including LP and empiric antibiotics in a neonate is still core approach. Ampicillin/gentamicin regimen has been largely replaced by ampicillin/cefotaxime in many centers.
+MTS_0402,2,Surgical excision after failed core biopsy for suspicious calcifications remains standard. Preoperative wire localization technique is still used though newer localization methods exist.
+MTS_0415,3,"Admission, imaging, and surgical consultation for choledocholithiasis is reasonable. Preferred approach now often favors ERCP prior to or instead of intraoperative cholangiogram."
+MTS_0418,1,Correctly ruling out intra-abdominal emergency and admitting for hyponatremia management is fully current.
+MTS_0419,4,"Use of sulfonylurea (Micronase) and Bactrim for UTI in diabetes is outdated. First-line diabetes therapy now emphasizes metformin, SGLT2i or GLP-1RA; first-line UTI therapy is typically nitrofurantoin or TMP-SMX with resistance considerations."
+MTS_0420,2,Discharge with PCP follow-up after benign ingestion is appropriate. Current poison control guidance might include specific observation periods or home safety counseling.
+MTS_0425,2,Surgical exploration for suspected testicular torsion remains the standard of care. Minor updates in phrasing and timing of intervention.
+MTS_0426,3,"Outpatient cardiac evaluation for syncope is reasonable. However, thiazide diuretic is not first-line for hypertension in 2026; preferred agents are ACEI/ARB, CCB or thiazide-like diuretics with better evidence."
+MTS_0440,2,Urology referral for biopsy/excision of penile mass is appropriate. Minor updates would include documentation of sexual history and HPV-related considerations.
+MTS_0441,1,Transfer to labor and delivery for abdominal pain in third-trimester pregnancy is fully current.
+MTS_0449,3,Staging with bone scan and surgical consultation for pathologic fracture is partially outdated. Current oncology practice would favor PET-CT and consideration of prophylactic fixation or radiation.
+MTS_0452,4,"Management of supratherapeutic INR with vitamin K is still used but approach has been refined. More importantly, warfarin is no longer first-line for AF; DOACs are preferred in most patients."
+MTS_0459,3,"Metronidazole remains an acceptable treatment for bacterial vaginosis but is no longer first-line in many guidelines. Preferred options are now metronidazole gel, clindamycin, or secnidazole."
+MTS_0468,3,"Referral to dentist for dental pain is correct. However, empirical antibiotics without clear signs of systemic infection or abscess violate current antibiotic stewardship guidelines."
+MTS_0471,2,Core decision to transfer stable adult male with nonspecific chest/abdominal pain for further evaluation remains reasonable; minor updates possible in documentation and risk stratification but approach unchanged.
+MTS_0473,4,Prescribing Vicodin (opioid) for dental pain is now significantly outdated per CDC guidelines favoring non-opioid analgesics first-line; Keflex for abscess is acceptable but dental referral timing and opioid avoidance represent major change.
+MTS_0476,2,"Pregnancy evaluation with quantitative HCG and ultrasound, plus prenatal vitamins, remains standard; counseling on teratogenicity of Ambien/tramadol is mostly current though specific risk data has been refined."
+MTS_0480,1,Admission to trauma surgery service for observation of closed head injury and possible intra-abdominal injury is still the standard approach for this presentation.
+MTS_0481,1,"Supportive care with aggressive suctioning, supplemental oxygen as needed, and avoidance of unnecessary respiratory treatments for bronchiolitis in a 2-month-old aligns with current AAP guidelines."
+MTS_0497,1,"Anticipatory guidance, safety counseling, and scheduled follow-up for a 2-week-old well infant are fully consistent with current AAP Bright Futures recommendations."
+MTS_0498,3,"Keflex for mild cellulitis remains acceptable, but tetanus booster indication and work restrictions are reasonable; however, current guidelines prefer narrower-spectrum or shorter courses when possible and emphasize wound care."
+MTS_0499,1,"Anticipatory guidance, immunizations (MMR, DTaP, IPV), vision/hearing screening, and school physical for a 5-year-old are fully current per AAP and ACIP schedules."
+MTS_0500,3,"Post-hysterectomy well-woman care with mammogram, lipids, CBC, and DEXA is mostly appropriate, but annual Pap is no longer indicated post-hysterectomy for benign disease, hemoccult has been replaced by FIT/colonoscopy screening starting at age 45, and frequency of visits has changed."
+MTS_0502,2,"Anticipatory guidance, vaccines (Pediarix, Hib), and lead/CBC screening at 1 year are largely current; minor updates in exact vaccine formulations and universal lead screening criteria exist."
+MTS_0503,1,"Diet, growth, safety discussion, hepatitis B immunization, and scheduled 2-month follow-up for a young infant are fully consistent with current well-child care standards."
+MTS_0504,1,"Anticipatory guidance, safety counseling, and scheduled 1-month follow-up for a 2-week-old are fully current per AAP Bright Futures."
+MTS_0505,2,Observation of molluscum and resolved otitis media is appropriate; well-child guidance at this age is mostly current though specific safety topics and immunization timing have minor updates.
+MTS_0506,2,"Developmental assessment and vaccine administration (MMR, Varivax) are appropriate; minor updates in exact vaccine schedule and documentation of milestones exist but core plan is sound."
+MTS_0507,4,"Compazine (prochlorperazine) for nausea is less favored now due to side effects; Imodium use in acute gastroenteritis is discouraged in many guidelines, especially if invasive disease possible; supportive care focus is correct but specific medications are outdated."
+MTS_0510,3,"Systemic and topical steroids for severe uveitis remain a valid acute approach; however, current practice increasingly uses steroid-sparing immunomodulators earlier and specific workup (e.g., Quantiferon instead of PPD) has evolved."
+MTS_0511,2,Use of Flomax and Proscar for BPH with self-catheterization is still acceptable; minor updates in preferred alpha-blocker choices and consideration of other therapies exist but core management is largely unchanged.
+MTS_0516,3,"Education and symptomatic treatment for viral URI is correct; however, routine recommendation of Afrin (oxymetazoline) for 3-5 days carries rebound risk and Advil Cold & Sinus contains pseudoephedrine with cardiovascular cautions; antibiotic stewardship not relevant here as none given."
+MTS_0530,2,"Immunization updates (Hep A, tetanus) and anticipatory guidance for adolescent are mostly current; minor changes in vaccine schedules and hearing follow-up recommendations exist."
+MTS_0536,2,"Anticipatory guidance, allergy management with Clarinex and nasal steroid, and follow-up plan for healthy adolescent are largely current; minor updates in exact medication preferences exist."
+MTS_0538,1,Global aphasia assessment using Western Aphasia Battery remains standard. Core diagnostic approach and description unchanged.
+MTS_0539,2,Developmental milestones and well-child guidance largely consistent with current Bright Futures/AAP standards. Minor shifts in exact milestone language possible.
+MTS_0544,3,"Asthma management with albuterol rescue appropriate, but routine H&H screening not indicated. Inhaled corticosteroid controller therapy now emphasized for persistent asthma."
+MTS_0545,4,Hydroxyzine (Atarax) no longer first-line for allergic dermatitis or pruritus due to sedation and anticholinergic risks; second-generation antihistamines and topical steroids preferred.
+MTS_0546,4,Long-term prednisone monotherapy for RA without DMARD is outdated. Current guidelines recommend early DMARD initiation (methotrexate first-line) and rapid taper of steroids.
+MTS_0555,2,Intranasal corticosteroid (Nasacort) for allergic rhinitis remains first-line. Evaluation for adenoid hypertrophy or sleep-disordered breathing still appropriate.
+MTS_0559,2,"Aspiration precautions, speech therapy, and dietary modification for oropharyngeal dysphagia remain core management. GERD treatment not detailed but approach largely unchanged."
+MTS_0560,1,Clinical assessment of resolved lateral epicondylitis based on physical exam is standard and unchanged.
+MTS_0574,3,"Psychosis management and waiting for seclusion to end appropriate. Leukocytosis/UTI evaluation standard, though specific antimicrobial choice would follow current stewardship."
+MTS_0578,4,"Use of methylphenidate (Ritalin) for depression/lethargy in advanced cancer is not standard. SSRIs, SNRIs, or palliative psychiatry approaches now preferred."
+MTS_0582,2,"Plan to await neurological workup for rapidly progressive dementia is appropriate. Core diagnostic approach remains similar, though specific tests (e.g., prion, autoimmune panels) have expanded."
+MTS_0586,1,Shunt reprogramming and radiographic confirmation for pseudotumor cerebri management remain standard neurosurgical practice.
+MTS_0593,4,Annual Pap smear no longer recommended; current guidelines use Pap every 3 years or co-testing every 5 years for ages 30-65. Intranasal steroid and saline still appropriate.
+MTS_0599,2,Conservative approach to non-cardiac chest pain and hypothyroidism monitoring appropriate. Osteoporosis and RA management would likely include updated pharmacologic options.
+MTS_0600,2,Observation and counseling for possible post-viral reactive arthritis in child remains reasonable. Current practice might include more specific serologic testing.
+MTS_0611,3,"Vitamin D supplementation appropriate. Meloxicam (Mobic) use acceptable short-term, but oligoarticular JIA now often managed with intra-articular steroids or early DMARDs per ACR guidelines."
+MTS_0613,2,Post-TKA management and DVT prophylaxis approach largely consistent. Acromegaly hormone replacement unchanged.
+MTS_0621,4,"Indomethacin for oligoarticular arthritis acceptable short-term, but current JIA guidelines favor NSAIDs only as bridge while rapidly escalating to DMARDs (methotrexate) or biologics if persistent."
+MTS_0622,3,HPV DNA testing for ASCUS is current. Recommended surveillance intervals and colposcopy indications have been refined by ASCCP guidelines.
+MTS_0625,2,Combined oral contraceptive for dysmenorrhea and irregular menses remains standard. Ovarian cyst management with expectant observation appropriate.
+MTS_0655,4,"Chemotherapy with carboplatin/gemcitabine alone for metastatic NSCLC is significantly outdated. Current standard requires molecular profiling (EGFR, ALK, etc.) and immunotherapy (pembrolizumab) or targeted therapy as first-line."
+MTS_0656,2,Core approach of EEG to characterize spells in a young child remains valid. Minor updates possible regarding newer antiseizure medications and EEG protocols.
+MTS_0670,3,"Recognition of possible iNPH is appropriate; however, diagnostic approach and management have evolved with more emphasis on CSF dynamics testing, standardized gait assessment, and updated criteria."
+MTS_0675,2,Attributing breakthrough seizures to febrile illness and avoiding immediate medication changes is still reasonable. Minor updates in preferred anticonvulsants and shunt evaluation protocols.
+MTS_0677,3,"Staging and follow-up imaging approach remains similar, but neuroblastoma treatment has advanced significantly with risk-stratified multimodal therapy, immunotherapy (anti-GD2), and different chemotherapy regimens."
+MTS_0680,2,Kidney transplant evaluation for ESRD patient is still standard. Minor updates in pre-transplant cardiac/pulmonary risk stratification and immunosuppression protocols.
+MTS_0687,2,"Workup with EMG/NCS and PT for neuropathy and gait issues remains appropriate. Core diagnostic approach unchanged, though newer neuropathy treatments exist."
+MTS_0692,2,Assessment of concussion and recommendation for observation is consistent with current practice. Post-concussion management has some updates but core approach similar.
+MTS_0697,4,"Avoiding surgery in poor candidate is reasonable, but meningioma management has evolved with better surgical techniques, stereotactic radiosurgery, and targeted therapies for atypical/malignant cases."
+MTS_0699,2,"Conservative management discussion and diagnostic testing (X-rays, EMG) for lumbar radiculopathy remains standard. Epidural injections still used, though indications refined."
+MTS_0706,2,Conservative management with activity modification and pain meds for spinal stenosis is still acceptable first-line. Minor updates in preferred analgesics per opioid guidelines.
+MTS_0717,3,"Kyphoplasty for painful non-healing vertebral compression fracture is still performed, but current guidelines emphasize shared decision-making, medical optimization (osteoporosis treatment), and have more restrictive indications."
+MTS_0718,2,Observation and PT for mild adolescent kyphosis is appropriate. Bracing and follow-up imaging approach remains similar.
+MTS_0727,3,Use of AMA 5th edition for impairment rating is outdated (current is 6th edition). Diagnosis and concept of MMI remain valid.
+MTS_0733,4,"Heavy benzodiazepine (Xanax, lorazepam) and anticholinergic (Artane, Haldol) use for Huntington-related psychiatric symptoms is significantly outdated. SSRIs/SNRIs are now first-line for depression/anxiety."
+MTS_0736,4,"Condylox and CO2 laser for genital molluscum/HPV lesions are outdated. Current first-line includes cryotherapy, podophyllotoxin alternatives, or imiquimod; emphasis on HPV vaccination and screening."
+MTS_0749,2,Short-arm casting and staged mobilization for metacarpal dislocations remains standard practice. Minor updates in splinting materials and rehab protocols.
+MTS_0823,4,Gastric bypass discussion and pre-op workup is partially outdated. Sleeve gastrectomy is now more common than bypass; GLP-1 RAs are major pharmacological option before or instead of surgery.
+MTS_0829,4,Ciprofloxacin for uncomplicated UTI is significantly outdated per stewardship guidelines. Fluoroquinolones are now avoided when possible due to resistance and side effects; nitrofurantoin or TMP-SMX preferred.
+MTS_0834,2,Post-shunt management and adjustment for adult hydrocephalus remains similar. Core clinical assessment approach is still current.
+MTS_0835,3,"Core workup for menorrhagia/pelvic pain (CBC, TSH, pelvic US) remains reasonable. However, CT brain for new-onset migraine in a young woman is significantly outdated; MRI preferred and imaging often not first-line. NSAID use is still acceptable."
+MTS_0837,2,"Workup for secondary causes of erythema nodosum and livedo (including APS serologies, echo, PPD, HIV) is largely still current. Vitamin D repletion approach unchanged. Minor updates in rheumatologic testing panels possible."
+MTS_0840,3,"MRI brain for new/worsening essential tremor is still often performed. However, first-line pharmacologic therapy (propranolol or primidone) should have been offered rather than deferred. Botox remains valid for torticollis."
+MTS_0851,4,"Augmentin for chronic otitis media is reasonable, but attributing ear pain primarily to GERD/carbonated beverages without clear linkage is outdated. Omeprazole course acceptable but overall diagnostic framework has shifted."
+MTS_0857,2,"Cefuroxime and Ciprodex for otitis media with otorrhea remains acceptable in many settings. However, current guidelines increasingly favor topical therapy alone when tympanic membrane is perforated and emphasize antibiotic stewardship."
+MTS_0859,2,Topical tacrolimus (Protopic) for facial discoid lupus and continuation of hydroxychloroquine are still standard. Weight management and acanthosis nigricans attention is appropriate. Minor updates in pediatric lupus monitoring.
+MTS_0862,1,"AREDS2 supplementation (Ocuvite PreserVision), visual field testing, and disc photos for AMD and glaucoma suspect remain fully consistent with current guidelines. Cataract and presbyopia management unchanged."
+MTS_0863,2,"Dietary counseling focused on protein at bedtime snack and increased activity for blood sugar control is still valid. However, current diabetes guidelines emphasize specific dietary patterns and medication review (e.g., SGLT2i/GLP-1)."
+MTS_0867,1,"Behavioral counseling on food records, calorie awareness, and increasing fruits/vegetables for weight management is fully current and aligns with 2026 lifestyle-first approaches."
+MTS_0881,2,Preoperative evaluation with barium enema and review of operative notes for colostomy reversal is largely still appropriate. Laparoscopic approaches and hernia repair techniques have evolved but core plan remains similar.
+MTS_0898,3,"Recognition of possible NPH vs PSP with gait/cognitive issues is reasonable. However, current workup would typically include high-volume LP or CSF dynamics testing earlier rather than observation alone."
+MTS_0915,3,"Facet denervation and NSAID use for facet syndrome/back pain partially outdated. Current guidelines emphasize non-opioid multimodal therapy, physical therapy, and interventional procedures per evidence-based pain management."
+MTS_0917,2,"Post-stroke management documentation is reasonable. However, blood pressure 170/66 would prompt more aggressive control per current guidelines, and secondary prevention (statin, antiplatelet) should be explicitly addressed."
+MTS_0962,2,Surgical planning for recurrent bunion with osteotomies remains valid. Conservative options and patient discussion are appropriate. Minor updates in perioperative protocols and fixation techniques.
+MTS_0971,4,Pre-bariatric workup is mostly appropriate but Lap-Band is now rarely performed (sleeve gastrectomy dominant). Preoperative Medifast/very-low-calorie diet has been largely replaced by GLP-1 agonists in many programs.
+MTS_0974,4,Focus on surgical weight loss for diabetes/hypertension is outdated. Current 2026 standard prioritizes GLP-1 receptor agonists and SGLT2 inhibitors for cardiorenal protection and substantial weight loss before or instead of surgery.
+MTS_0976,5,"Lap-Band is substantially outdated; now rarely used due to high failure/complication rates. Current standard is sleeve gastrectomy or RYGB, with GLP-1 RAs as first-line or bridge pharmacological therapy for morbid obesity."
+MTS_0977,4,"Gastric bypass interest is still performed but sleeve gastrectomy is now more common. Preoperative endoscopy is still used selectively. However, GLP-1 medications have dramatically changed the bariatric landscape since mid-2000s."
+MTS_0986,1,Conservative management with follow-up for acute ankle sprain is fully consistent with current guidelines. RICE/early mobilization principles remain standard.
+MTS_0995,2,Large-volume lumbar puncture for diagnostic evaluation of possible NPH is still a key part of workup. Gait and cognitive assessment approach remains valid with minor updates in imaging and CSF biomarker criteria.

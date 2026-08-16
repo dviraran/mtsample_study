@@ -1,0 +1,918 @@
+{
+  "claude-opus-4.8": {
+    "n_common": 200,
+    "arms": {
+      "default": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 215.5,
+        "phys_cost": 71.3,
+        "ratio": 3.023,
+        "concordance_pct": 82.8,
+        "wrong_pct": 4.5,
+        "under_order_pct": 23.9,
+        "n_phys_pos": 67,
+        "med_dx_orders": 5.42,
+        "med_count": 1.01,
+        "ref_count": 0.86
+      },
+      "parsimonious": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 113.4,
+        "phys_cost": 71.3,
+        "ratio": 1.59,
+        "concordance_pct": 75.8,
+        "wrong_pct": 7.1,
+        "under_order_pct": 47.8,
+        "n_phys_pos": 67,
+        "med_dx_orders": 3.28,
+        "med_count": 1.05,
+        "ref_count": 0.32
+      },
+      "costaware": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 133.6,
+        "phys_cost": 71.3,
+        "ratio": 1.874,
+        "concordance_pct": 81.3,
+        "wrong_pct": 4.5,
+        "under_order_pct": 49.3,
+        "n_phys_pos": 67,
+        "med_dx_orders": 3.19,
+        "med_count": 0.94,
+        "ref_count": 0.49
+      }
+    }
+  },
+  "claude-sonnet-4.5": {
+    "n_common": 200,
+    "arms": {
+      "default": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 181.2,
+        "phys_cost": 71.3,
+        "ratio": 2.541,
+        "concordance_pct": 78.3,
+        "wrong_pct": 6.1,
+        "under_order_pct": 34.3,
+        "n_phys_pos": 67,
+        "med_dx_orders": 4.19,
+        "med_count": 1.15,
+        "ref_count": 0.74
+      },
+      "parsimonious": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 77.9,
+        "phys_cost": 71.3,
+        "ratio": 1.093,
+        "concordance_pct": 71.7,
+        "wrong_pct": 7.1,
+        "under_order_pct": 67.2,
+        "n_phys_pos": 67,
+        "med_dx_orders": 2.13,
+        "med_count": 1.03,
+        "ref_count": 0.35
+      },
+      "costaware": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 108.3,
+        "phys_cost": 71.3,
+        "ratio": 1.519,
+        "concordance_pct": 78.8,
+        "wrong_pct": 6.1,
+        "under_order_pct": 47.8,
+        "n_phys_pos": 67,
+        "med_dx_orders": 2.79,
+        "med_count": 1,
+        "ref_count": 0.49
+      }
+    }
+  },
+  "deepseek-r1": {
+    "n_common": 197,
+    "arms": {
+      "default": {
+        "n": 197,
+        "n_judged": 194,
+        "ai_cost": 219.2,
+        "phys_cost": 71.3,
+        "ratio": 3.074,
+        "concordance_pct": 76.8,
+        "wrong_pct": 6.7,
+        "under_order_pct": 25.8,
+        "n_phys_pos": 66,
+        "med_dx_orders": 6.03,
+        "med_count": 1.78,
+        "ref_count": 1.47
+      },
+      "parsimonious": {
+        "n": 197,
+        "n_judged": 194,
+        "ai_cost": 126.8,
+        "phys_cost": 71.3,
+        "ratio": 1.778,
+        "concordance_pct": 63.9,
+        "wrong_pct": 11.3,
+        "under_order_pct": 53.0,
+        "n_phys_pos": 66,
+        "med_dx_orders": 3.57,
+        "med_count": 1.33,
+        "ref_count": 0.32
+      },
+      "costaware": {
+        "n": 197,
+        "n_judged": 195,
+        "ai_cost": 122.4,
+        "phys_cost": 71.3,
+        "ratio": 1.717,
+        "concordance_pct": 75.4,
+        "wrong_pct": 6.2,
+        "under_order_pct": 43.9,
+        "n_phys_pos": 66,
+        "med_dx_orders": 3.46,
+        "med_count": 1.41,
+        "ref_count": 0.81
+      }
+    }
+  },
+  "deepseek-v3.2": {
+    "n_common": 200,
+    "arms": {
+      "default": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 170.9,
+        "phys_cost": 71.3,
+        "ratio": 2.396,
+        "concordance_pct": 75.3,
+        "wrong_pct": 6.6,
+        "under_order_pct": 32.8,
+        "n_phys_pos": 67,
+        "med_dx_orders": 3.85,
+        "med_count": 1.03,
+        "ref_count": 1.12
+      },
+      "parsimonious": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 84.0,
+        "phys_cost": 71.3,
+        "ratio": 1.177,
+        "concordance_pct": 64.6,
+        "wrong_pct": 10.6,
+        "under_order_pct": 67.2,
+        "n_phys_pos": 67,
+        "med_dx_orders": 2.14,
+        "med_count": 0.73,
+        "ref_count": 0.28
+      },
+      "costaware": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 123.3,
+        "phys_cost": 71.3,
+        "ratio": 1.729,
+        "concordance_pct": 78.3,
+        "wrong_pct": 5.1,
+        "under_order_pct": 61.2,
+        "n_phys_pos": 67,
+        "med_dx_orders": 2.72,
+        "med_count": 0.99,
+        "ref_count": 0.69
+      }
+    }
+  },
+  "gemini-2.5-pro": {
+    "n_common": 183,
+    "arms": {
+      "default": {
+        "n": 183,
+        "n_judged": 181,
+        "ai_cost": 180.5,
+        "phys_cost": 70.5,
+        "ratio": 2.561,
+        "concordance_pct": 75.7,
+        "wrong_pct": 6.1,
+        "under_order_pct": 27.9,
+        "n_phys_pos": 61,
+        "med_dx_orders": 4.05,
+        "med_count": 1.41,
+        "ref_count": 0.82
+      },
+      "parsimonious": {
+        "n": 183,
+        "n_judged": 181,
+        "ai_cost": 70.7,
+        "phys_cost": 70.5,
+        "ratio": 1.004,
+        "concordance_pct": 71.3,
+        "wrong_pct": 7.7,
+        "under_order_pct": 52.5,
+        "n_phys_pos": 61,
+        "med_dx_orders": 2.51,
+        "med_count": 1.21,
+        "ref_count": 0.2
+      },
+      "costaware": {
+        "n": 183,
+        "n_judged": 181,
+        "ai_cost": 135.4,
+        "phys_cost": 70.5,
+        "ratio": 1.922,
+        "concordance_pct": 80.1,
+        "wrong_pct": 5.5,
+        "under_order_pct": 42.6,
+        "n_phys_pos": 61,
+        "med_dx_orders": 3.16,
+        "med_count": 1.33,
+        "ref_count": 0.75
+      }
+    }
+  },
+  "gemini-3.1-pro": {
+    "n_common": 200,
+    "arms": {
+      "default": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 146.0,
+        "phys_cost": 71.3,
+        "ratio": 2.048,
+        "concordance_pct": 81.8,
+        "wrong_pct": 4.0,
+        "under_order_pct": 41.8,
+        "n_phys_pos": 67,
+        "med_dx_orders": 3.0,
+        "med_count": 0.83,
+        "ref_count": 0.45
+      },
+      "parsimonious": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 64.7,
+        "phys_cost": 71.3,
+        "ratio": 0.907,
+        "concordance_pct": 74.2,
+        "wrong_pct": 7.6,
+        "under_order_pct": 67.2,
+        "n_phys_pos": 67,
+        "med_dx_orders": 1.53,
+        "med_count": 0.69,
+        "ref_count": 0.25
+      },
+      "costaware": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 132.6,
+        "phys_cost": 71.3,
+        "ratio": 1.859,
+        "concordance_pct": 79.8,
+        "wrong_pct": 6.1,
+        "under_order_pct": 47.8,
+        "n_phys_pos": 67,
+        "med_dx_orders": 2.6,
+        "med_count": 0.81,
+        "ref_count": 0.41
+      }
+    }
+  },
+  "gemini-3.5-flash": {
+    "n_common": 200,
+    "arms": {
+      "default": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 166.8,
+        "phys_cost": 71.3,
+        "ratio": 2.339,
+        "concordance_pct": 79.8,
+        "wrong_pct": 5.6,
+        "under_order_pct": 38.8,
+        "n_phys_pos": 67,
+        "med_dx_orders": 3.81,
+        "med_count": 1.32,
+        "ref_count": 0.81
+      },
+      "parsimonious": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 97.7,
+        "phys_cost": 71.3,
+        "ratio": 1.371,
+        "concordance_pct": 75.3,
+        "wrong_pct": 8.1,
+        "under_order_pct": 65.7,
+        "n_phys_pos": 67,
+        "med_dx_orders": 2.85,
+        "med_count": 1.28,
+        "ref_count": 0.3
+      },
+      "costaware": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 146.4,
+        "phys_cost": 71.3,
+        "ratio": 2.054,
+        "concordance_pct": 85.4,
+        "wrong_pct": 6.1,
+        "under_order_pct": 44.8,
+        "n_phys_pos": 67,
+        "med_dx_orders": 2.94,
+        "med_count": 1.23,
+        "ref_count": 0.71
+      }
+    }
+  },
+  "gpt-4.1": {
+    "n_common": 200,
+    "arms": {
+      "default": {
+        "n": 200,
+        "n_judged": 196,
+        "ai_cost": 136.7,
+        "phys_cost": 71.3,
+        "ratio": 1.918,
+        "concordance_pct": 82.1,
+        "wrong_pct": 6.1,
+        "under_order_pct": 44.8,
+        "n_phys_pos": 67,
+        "med_dx_orders": 3.87,
+        "med_count": 0.57,
+        "ref_count": 0.78
+      },
+      "parsimonious": {
+        "n": 200,
+        "n_judged": 197,
+        "ai_cost": 40.5,
+        "phys_cost": 71.3,
+        "ratio": 0.568,
+        "concordance_pct": 76.1,
+        "wrong_pct": 8.6,
+        "under_order_pct": 86.6,
+        "n_phys_pos": 67,
+        "med_dx_orders": 1.07,
+        "med_count": 0.41,
+        "ref_count": 0.1
+      },
+      "costaware": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 95.2,
+        "phys_cost": 71.3,
+        "ratio": 1.335,
+        "concordance_pct": 79.8,
+        "wrong_pct": 5.6,
+        "under_order_pct": 55.2,
+        "n_phys_pos": 67,
+        "med_dx_orders": 2.98,
+        "med_count": 0.51,
+        "ref_count": 0.56
+      }
+    }
+  },
+  "gpt-5.2": {
+    "n_common": 199,
+    "arms": {
+      "default": {
+        "n": 199,
+        "n_judged": 197,
+        "ai_cost": 212.2,
+        "phys_cost": 69.6,
+        "ratio": 3.048,
+        "concordance_pct": 84.3,
+        "wrong_pct": 5.1,
+        "under_order_pct": 27.3,
+        "n_phys_pos": 66,
+        "med_dx_orders": 5.78,
+        "med_count": 1.45,
+        "ref_count": 0.83
+      },
+      "parsimonious": {
+        "n": 199,
+        "n_judged": 194,
+        "ai_cost": 103.7,
+        "phys_cost": 69.6,
+        "ratio": 1.488,
+        "concordance_pct": 82.0,
+        "wrong_pct": 4.6,
+        "under_order_pct": 54.5,
+        "n_phys_pos": 66,
+        "med_dx_orders": 3.73,
+        "med_count": 1.82,
+        "ref_count": 0.23
+      },
+      "costaware": {
+        "n": 199,
+        "n_judged": 197,
+        "ai_cost": 131.5,
+        "phys_cost": 69.6,
+        "ratio": 1.889,
+        "concordance_pct": 83.8,
+        "wrong_pct": 6.1,
+        "under_order_pct": 43.9,
+        "n_phys_pos": 66,
+        "med_dx_orders": 3.8,
+        "med_count": 1.42,
+        "ref_count": 0.57
+      }
+    }
+  },
+  "gpt-5.5": {
+    "n_common": 193,
+    "arms": {
+      "default": {
+        "n": 193,
+        "n_judged": 191,
+        "ai_cost": 219.3,
+        "phys_cost": 64.4,
+        "ratio": 3.406,
+        "concordance_pct": 88.0,
+        "wrong_pct": 5.2,
+        "under_order_pct": 27.4,
+        "n_phys_pos": 62,
+        "med_dx_orders": 5.58,
+        "med_count": 1.17,
+        "ref_count": 0.68
+      },
+      "parsimonious": {
+        "n": 193,
+        "n_judged": 191,
+        "ai_cost": 124.1,
+        "phys_cost": 64.4,
+        "ratio": 1.927,
+        "concordance_pct": 89.0,
+        "wrong_pct": 4.2,
+        "under_order_pct": 45.2,
+        "n_phys_pos": 62,
+        "med_dx_orders": 3.61,
+        "med_count": 1.47,
+        "ref_count": 0.19
+      },
+      "costaware": {
+        "n": 193,
+        "n_judged": 191,
+        "ai_cost": 152.6,
+        "phys_cost": 64.4,
+        "ratio": 2.37,
+        "concordance_pct": 85.9,
+        "wrong_pct": 3.7,
+        "under_order_pct": 40.3,
+        "n_phys_pos": 62,
+        "med_dx_orders": 3.49,
+        "med_count": 1.03,
+        "ref_count": 0.46
+      }
+    }
+  },
+  "grok-4.3": {
+    "n_common": 200,
+    "arms": {
+      "default": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 147.7,
+        "phys_cost": 71.3,
+        "ratio": 2.072,
+        "concordance_pct": 80.3,
+        "wrong_pct": 6.1,
+        "under_order_pct": 44.8,
+        "n_phys_pos": 67,
+        "med_dx_orders": 3.81,
+        "med_count": 1.01,
+        "ref_count": 0.64
+      },
+      "parsimonious": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 52.7,
+        "phys_cost": 71.3,
+        "ratio": 0.739,
+        "concordance_pct": 70.7,
+        "wrong_pct": 8.6,
+        "under_order_pct": 82.1,
+        "n_phys_pos": 67,
+        "med_dx_orders": 1.36,
+        "med_count": 0.78,
+        "ref_count": 0.13
+      },
+      "costaware": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 84.0,
+        "phys_cost": 71.3,
+        "ratio": 1.178,
+        "concordance_pct": 76.8,
+        "wrong_pct": 6.1,
+        "under_order_pct": 58.2,
+        "n_phys_pos": 67,
+        "med_dx_orders": 2.12,
+        "med_count": 0.9,
+        "ref_count": 0.38
+      }
+    }
+  },
+  "llama-3.3-70b": {
+    "n_common": 200,
+    "arms": {
+      "default": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 97.5,
+        "phys_cost": 71.3,
+        "ratio": 1.367,
+        "concordance_pct": 71.7,
+        "wrong_pct": 8.1,
+        "under_order_pct": 49.3,
+        "n_phys_pos": 67,
+        "med_dx_orders": 2.28,
+        "med_count": 0.36,
+        "ref_count": 0.66
+      },
+      "parsimonious": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 62.6,
+        "phys_cost": 71.3,
+        "ratio": 0.878,
+        "concordance_pct": 63.6,
+        "wrong_pct": 12.6,
+        "under_order_pct": 74.6,
+        "n_phys_pos": 67,
+        "med_dx_orders": 1.36,
+        "med_count": 0.29,
+        "ref_count": 0.55
+      },
+      "costaware": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 80.8,
+        "phys_cost": 71.3,
+        "ratio": 1.134,
+        "concordance_pct": 68.2,
+        "wrong_pct": 9.1,
+        "under_order_pct": 58.2,
+        "n_phys_pos": 67,
+        "med_dx_orders": 1.94,
+        "med_count": 0.32,
+        "ref_count": 0.56
+      }
+    }
+  },
+  "llama4": {
+    "n_common": 200,
+    "arms": {
+      "default": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 129.7,
+        "phys_cost": 71.3,
+        "ratio": 1.819,
+        "concordance_pct": 73.7,
+        "wrong_pct": 8.6,
+        "under_order_pct": 59.7,
+        "n_phys_pos": 67,
+        "med_dx_orders": 2.05,
+        "med_count": 0.28,
+        "ref_count": 0.56
+      },
+      "parsimonious": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 86.1,
+        "phys_cost": 71.3,
+        "ratio": 1.208,
+        "concordance_pct": 67.2,
+        "wrong_pct": 11.6,
+        "under_order_pct": 71.6,
+        "n_phys_pos": 67,
+        "med_dx_orders": 1.64,
+        "med_count": 0.4,
+        "ref_count": 0.39
+      },
+      "costaware": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 83.3,
+        "phys_cost": 71.3,
+        "ratio": 1.168,
+        "concordance_pct": 70.2,
+        "wrong_pct": 8.6,
+        "under_order_pct": 59.7,
+        "n_phys_pos": 67,
+        "med_dx_orders": 1.87,
+        "med_count": 0.3,
+        "ref_count": 0.57
+      }
+    }
+  },
+  "medgemma-27b": {
+    "n_common": 199,
+    "arms": {
+      "default": {
+        "n": 199,
+        "n_judged": 195,
+        "ai_cost": 186.2,
+        "phys_cost": 71.7,
+        "ratio": 2.598,
+        "concordance_pct": 80.5,
+        "wrong_pct": 5.1,
+        "under_order_pct": 31.3,
+        "n_phys_pos": 67,
+        "med_dx_orders": 4.48,
+        "med_count": 0.91,
+        "ref_count": 1.17
+      },
+      "parsimonious": {
+        "n": 199,
+        "n_judged": 197,
+        "ai_cost": 80.1,
+        "phys_cost": 71.7,
+        "ratio": 1.118,
+        "concordance_pct": 60.9,
+        "wrong_pct": 12.7,
+        "under_order_pct": 62.7,
+        "n_phys_pos": 67,
+        "med_dx_orders": 3,
+        "med_count": 0.86,
+        "ref_count": 0.49
+      },
+      "costaware": {
+        "n": 199,
+        "n_judged": 196,
+        "ai_cost": 193.7,
+        "phys_cost": 71.7,
+        "ratio": 2.703,
+        "concordance_pct": 74.5,
+        "wrong_pct": 4.6,
+        "under_order_pct": 37.3,
+        "n_phys_pos": 67,
+        "med_dx_orders": 4.56,
+        "med_count": 0.89,
+        "ref_count": 1.23
+      }
+    }
+  },
+  "medgemma-4b": {
+    "n_common": 200,
+    "arms": {
+      "default": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 141.7,
+        "phys_cost": 71.3,
+        "ratio": 1.987,
+        "concordance_pct": 72.7,
+        "wrong_pct": 9.1,
+        "under_order_pct": 43.3,
+        "n_phys_pos": 67,
+        "med_dx_orders": 3.17,
+        "med_count": 0.65,
+        "ref_count": 0.69
+      },
+      "parsimonious": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 71.7,
+        "phys_cost": 71.3,
+        "ratio": 1.006,
+        "concordance_pct": 69.7,
+        "wrong_pct": 10.1,
+        "under_order_pct": 73.1,
+        "n_phys_pos": 67,
+        "med_dx_orders": 1.66,
+        "med_count": 0.64,
+        "ref_count": 0.34
+      },
+      "costaware": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 134.2,
+        "phys_cost": 71.3,
+        "ratio": 1.882,
+        "concordance_pct": 72.7,
+        "wrong_pct": 8.1,
+        "under_order_pct": 43.3,
+        "n_phys_pos": 67,
+        "med_dx_orders": 3.29,
+        "med_count": 0.63,
+        "ref_count": 0.73
+      }
+    }
+  },
+  "meditron": {
+    "n_common": 194,
+    "arms": {
+      "default": {
+        "n": 194,
+        "n_judged": 191,
+        "ai_cost": 173.7,
+        "phys_cost": 70.6,
+        "ratio": 2.461,
+        "concordance_pct": 68.1,
+        "wrong_pct": 10.5,
+        "under_order_pct": 36.5,
+        "n_phys_pos": 63,
+        "med_dx_orders": 3.84,
+        "med_count": 0.79,
+        "ref_count": 0.88
+      },
+      "parsimonious": {
+        "n": 194,
+        "n_judged": 192,
+        "ai_cost": 82.3,
+        "phys_cost": 70.6,
+        "ratio": 1.166,
+        "concordance_pct": 76.0,
+        "wrong_pct": 8.3,
+        "under_order_pct": 77.8,
+        "n_phys_pos": 63,
+        "med_dx_orders": 2.24,
+        "med_count": 0.8,
+        "ref_count": 0.36
+      },
+      "costaware": {
+        "n": 194,
+        "n_judged": 191,
+        "ai_cost": 181.9,
+        "phys_cost": 70.6,
+        "ratio": 2.577,
+        "concordance_pct": 69.6,
+        "wrong_pct": 9.4,
+        "under_order_pct": 41.3,
+        "n_phys_pos": 63,
+        "med_dx_orders": 4.04,
+        "med_count": 0.86,
+        "ref_count": 0.94
+      }
+    }
+  },
+  "qwen-2.5-72b": {
+    "n_common": 200,
+    "arms": {
+      "default": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 171.1,
+        "phys_cost": 71.3,
+        "ratio": 2.399,
+        "concordance_pct": 67.7,
+        "wrong_pct": 8.1,
+        "under_order_pct": 38.8,
+        "n_phys_pos": 67,
+        "med_dx_orders": 3.6,
+        "med_count": 0.81,
+        "ref_count": 1.34
+      },
+      "parsimonious": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 134.8,
+        "phys_cost": 71.3,
+        "ratio": 1.891,
+        "concordance_pct": 59.6,
+        "wrong_pct": 13.6,
+        "under_order_pct": 47.8,
+        "n_phys_pos": 67,
+        "med_dx_orders": 3.24,
+        "med_count": 1,
+        "ref_count": 0.72
+      },
+      "costaware": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 135.6,
+        "phys_cost": 71.3,
+        "ratio": 1.901,
+        "concordance_pct": 69.2,
+        "wrong_pct": 9.1,
+        "under_order_pct": 37.3,
+        "n_phys_pos": 67,
+        "med_dx_orders": 3.35,
+        "med_count": 0.78,
+        "ref_count": 1.04
+      }
+    }
+  },
+  "qwen-3.7": {
+    "n_common": 200,
+    "arms": {
+      "default": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 155.1,
+        "phys_cost": 71.3,
+        "ratio": 2.175,
+        "concordance_pct": 80.8,
+        "wrong_pct": 6.1,
+        "under_order_pct": 43.3,
+        "n_phys_pos": 67,
+        "med_dx_orders": 3.33,
+        "med_count": 1.11,
+        "ref_count": 0.75
+      },
+      "parsimonious": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 81.6,
+        "phys_cost": 71.3,
+        "ratio": 1.144,
+        "concordance_pct": 70.7,
+        "wrong_pct": 10.6,
+        "under_order_pct": 62.7,
+        "n_phys_pos": 67,
+        "med_dx_orders": 2.06,
+        "med_count": 0.86,
+        "ref_count": 0.26
+      },
+      "costaware": {
+        "n": 200,
+        "n_judged": 198,
+        "ai_cost": 126.0,
+        "phys_cost": 71.3,
+        "ratio": 1.767,
+        "concordance_pct": 81.8,
+        "wrong_pct": 4.5,
+        "under_order_pct": 47.8,
+        "n_phys_pos": 67,
+        "med_dx_orders": 2.88,
+        "med_count": 0.88,
+        "ref_count": 0.59
+      }
+    }
+  },
+  "qwen3": {
+    "n_common": 197,
+    "arms": {
+      "default": {
+        "n": 197,
+        "n_judged": 195,
+        "ai_cost": 290.2,
+        "phys_cost": 72.4,
+        "ratio": 4.008,
+        "concordance_pct": 77.9,
+        "wrong_pct": 6.7,
+        "under_order_pct": 22.4,
+        "n_phys_pos": 67,
+        "med_dx_orders": 6.8,
+        "med_count": 1.4,
+        "ref_count": 1.91
+      },
+      "parsimonious": {
+        "n": 197,
+        "n_judged": 195,
+        "ai_cost": 137.4,
+        "phys_cost": 72.4,
+        "ratio": 1.898,
+        "concordance_pct": 63.1,
+        "wrong_pct": 13.3,
+        "under_order_pct": 46.3,
+        "n_phys_pos": 67,
+        "med_dx_orders": 4.04,
+        "med_count": 1.03,
+        "ref_count": 0.7
+      },
+      "costaware": {
+        "n": 197,
+        "n_judged": 195,
+        "ai_cost": 194.2,
+        "phys_cost": 72.4,
+        "ratio": 2.682,
+        "concordance_pct": 75.4,
+        "wrong_pct": 7.2,
+        "under_order_pct": 40.3,
+        "n_phys_pos": 67,
+        "med_dx_orders": 5.13,
+        "med_count": 1.12,
+        "ref_count": 1.4
+      }
+    }
+  },
+  "_aggregate": {
+    "default": {
+      "mean_ratio": 2.486,
+      "mean_concordance_pct": 77.8,
+      "mean_wrong_pct": 6.5,
+      "mean_under_order_pct": 36.5,
+      "n_models": 19
+    },
+    "parsimonious": {
+      "mean_ratio": 1.261,
+      "mean_concordance_pct": 70.8,
+      "mean_wrong_pct": 9.4,
+      "mean_under_order_pct": 63.5,
+      "n_models": 19
+    },
+    "costaware": {
+      "mean_ratio": 1.856,
+      "mean_concordance_pct": 77.2,
+      "mean_wrong_pct": 6.4,
+      "mean_under_order_pct": 47.4,
+      "n_models": 19
+    }
+  }
+}

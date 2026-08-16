@@ -1,0 +1,1518 @@
+[
+  {
+    "case_id": "MTS_0027",
+    "sample_name": "Recheck of ADHD Meds",
+    "model": "claude-sonnet",
+    "human_ap": "ASSESSMENT:,  At this point is attention deficit hyperactivity disorder, doing fairly well with the Adderall.,PLAN:,  Discussed with mother two options.  Switch him to the Ritalin LA, which I think has better release of the medicine early in the morning or to increase his Adderall dose.  As far as the afternoon, if she really wanted him to be on the medication, we will do a small dose of the Adderall, which she would prefer.  So I have decided at this point to increase him to the Adderall XR 15 ",
+    "human_orders": [],
+    "human_dx_cost": 0,
+    "human_all_count": 5,
+    "llm_plan": "**ASSESSMENT:**\nADHD in 6-year-old male with good therapeutic response to Adderall XR 10mg daily but experiencing end-of-dose wearing off in early afternoon and delayed morning onset. Patient shows significant clinical improvement per mother and teachers, with the patient himself recognizing benefit of medication. Mild weight loss noted (2.5 lbs over one month) but appetite is improving.\n\n**PLAN:**\n\n**Medications:**\n- Increase Adderall XR from 10mg to 15mg once daily in the morning to address af",
+    "llm_orders": [
+      {
+        "order": "No labs needed at this time given short duration of treatment and stable clinical status",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "No imaging indicated",
+        "category": "imaging",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Monitor weight, appetite, sleep, and behavioral response",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Obtain teacher feedback on afternoon behavior improvement",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "llm_dx_cost": 0,
+    "llm_all_count": 8,
+    "cost_ratio": 1.0
+  },
+  {
+    "case_id": "MTS_0027",
+    "sample_name": "Recheck of ADHD Meds",
+    "model": "gpt-4.1",
+    "human_ap": "ASSESSMENT:,  At this point is attention deficit hyperactivity disorder, doing fairly well with the Adderall.,PLAN:,  Discussed with mother two options.  Switch him to the Ritalin LA, which I think has better release of the medicine early in the morning or to increase his Adderall dose.  As far as the afternoon, if she really wanted him to be on the medication, we will do a small dose of the Adderall, which she would prefer.  So I have decided at this point to increase him to the Adderall XR 15 ",
+    "human_orders": [],
+    "human_dx_cost": 0,
+    "human_all_count": 5,
+    "llm_plan": "**ASSESSMENT:**\n\n6-year-old male with ADHD, currently on Adderall XR 10 mg daily for one month. He has shown significant improvement in symptoms per mother and teachers, with clear benefit from medication. However, there are concerns about:\n- Delayed onset of medication effect in the morning (takes a while to \"kick in\")\n- Medication wearing off by 2 PM, leading to increased symptoms in the late afternoon/evening\n- Initial appetite suppression, now improving\n- Mild weight loss (49 lbs to 46.5 lbs",
+    "llm_orders": [
+      {
+        "order": "Monitor for side effects, especially appetite suppression, sleep disturbance, and mood changes.",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Recheck weight at next visit.",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "llm_dx_cost": 0,
+    "llm_all_count": 11,
+    "cost_ratio": 1.0
+  },
+  {
+    "case_id": "MTS_0027",
+    "sample_name": "Recheck of ADHD Meds",
+    "model": "grok-4.1",
+    "human_ap": "ASSESSMENT:,  At this point is attention deficit hyperactivity disorder, doing fairly well with the Adderall.,PLAN:,  Discussed with mother two options.  Switch him to the Ritalin LA, which I think has better release of the medicine early in the morning or to increase his Adderall dose.  As far as the afternoon, if she really wanted him to be on the medication, we will do a small dose of the Adderall, which she would prefer.  So I have decided at this point to increase him to the Adderall XR 15 ",
+    "human_orders": [],
+    "human_dx_cost": 0,
+    "human_all_count": 5,
+    "llm_plan": "**ASSESSMENT:**  \n1. ADHD, markedly improved on Adderall XR 10 mg daily per history and teacher reports, confirming good response to stimulant therapy. Suboptimal duration of action with delayed morning onset (~30-60 min post-dose) and early afternoon wear-off (~2 PM), limiting coverage through school day and early evening. Mild weight loss (46.5 lbs, down 2.5 lbs from last visit) likely due to transient appetite suppression, now improving; ongoing monitoring of linear growth needed given young ",
+    "llm_orders": [],
+    "llm_dx_cost": 0,
+    "llm_all_count": 5,
+    "cost_ratio": 1.0
+  },
+  {
+    "case_id": "MTS_0028",
+    "sample_name": "Pulmonary - Followup Note",
+    "model": "gpt-4.1",
+    "human_ap": "ASSESSMENT:,1.  Lupus with mild pneumonitis.,2.  Respiratory status is stable.,3.  Increasing back and joint pain, possibly related to patient\u2019s lupus, however, in fact may be related to recent discontinuation of prednisone.,PLAN:,  At this time, I have recommended to continue her current medications.  We would like to see her back in approximately four to five months, at which time I would like to recheck her pulmonary function test as well as check CAT scan.  At that point, it may be reasonabl",
+    "human_orders": [
+      {
+        "order": "Recheck her pulmonary function test",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Check CAT scan",
+        "category": "imaging",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "human_dx_cost": 0,
+    "human_all_count": 5,
+    "llm_plan": "**ASSESSMENT:**\n\n1. **Interstitial lung disease secondary to lupus pneumonitis, stable:**  \n   The patient has a known history of interstitial lung disease (ILD) due to lupus pneumonitis. She reports no major respiratory symptoms, no cough, sputum, fever, or chills. Her oxygen saturation is stable (94\u201396% with ambulation), and chest x-ray shows only mild increased interstitial markings, which are less prominent than on previous CT. Overall, her pulmonary status appears stable.\n\n2. **Recent incre",
+    "llm_orders": [
+      {
+        "order": "Monitor O2 saturation at home if possible",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Repeat chest x-ray or consider high-resolution CT only if new or worsening respiratory symptoms develop",
+        "category": "imaging",
+        "cpt_code": "71046",
+        "price": 50.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Monitor for further signs of lupus flare",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "CBC with differential",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Comprehensive metabolic panel (CMP)",
+        "category": "labs",
+        "cpt_code": "80053",
+        "price": 25.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "ESR and CRP",
+        "category": "labs",
+        "cpt_code": "85652",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Urinalysis",
+        "category": "labs",
+        "cpt_code": "81003",
+        "price": 10.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "TSH",
+        "category": "labs",
+        "cpt_code": "84443",
+        "price": 35.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Consider ANA, anti-dsDNA, C3/C4 if not checked recently",
+        "category": "labs",
+        "cpt_code": "86038",
+        "price": 35.0,
+        "source": "rule_based"
+      }
+    ],
+    "llm_dx_cost": 185.0,
+    "llm_all_count": 23,
+    "cost_ratio": Infinity
+  },
+  {
+    "case_id": "MTS_0028",
+    "sample_name": "Pulmonary - Followup Note",
+    "model": "grok-4.1",
+    "human_ap": "ASSESSMENT:,1.  Lupus with mild pneumonitis.,2.  Respiratory status is stable.,3.  Increasing back and joint pain, possibly related to patient\u2019s lupus, however, in fact may be related to recent discontinuation of prednisone.,PLAN:,  At this time, I have recommended to continue her current medications.  We would like to see her back in approximately four to five months, at which time I would like to recheck her pulmonary function test as well as check CAT scan.  At that point, it may be reasonabl",
+    "human_orders": [
+      {
+        "order": "Recheck her pulmonary function test",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Check CAT scan",
+        "category": "imaging",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "human_dx_cost": 0,
+    "human_all_count": 5,
+    "llm_plan": "**ASSESSMENT:**  \n1. Stable interstitial lung disease due to prior lupus pneumonitis: No acute respiratory symptoms, O2 saturations 94-96% with activity, CXR shows mild stable interstitial markings (less prominent than prior CT).  \n2. Possible mild SLE flare vs. musculoskeletal strain: New back/joint pain with pleuritic component and fatigue, temporally related to recent prednisone discontinuation (off 2.5 mg since 06/16/2004); no fever, cough, or other systemic signs.  \n3. Allergic rhinitis: Mi",
+    "llm_orders": [
+      {
+        "order": "CBC",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "CMP",
+        "category": "labs",
+        "cpt_code": "80053",
+        "price": 25.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "ESR",
+        "category": "labs",
+        "cpt_code": "85652",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "CRP",
+        "category": "labs",
+        "cpt_code": "86140",
+        "price": 20.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "C3/C4",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "anti-dsDNA",
+        "category": "labs",
+        "cpt_code": "86255",
+        "price": 12.05,
+        "source": "llm"
+      }
+    ],
+    "llm_dx_cost": 87.05,
+    "llm_all_count": 12,
+    "cost_ratio": Infinity
+  },
+  {
+    "case_id": "MTS_0035",
+    "sample_name": "Prostate Fossa Irradiation - Followup",
+    "model": "claude-sonnet",
+    "human_ap": "ASSESSMENT: , Abdominal cramping in the past 2 days.  No more than 1 to 2 of 10 in intensity.,PERFORMANCE STATUS: , Karnofsky score 100.  He continues to work full-time.,NUTRITIONAL STATUS: , Appetite has been depressed over the past couple of days, and he has lost about 5 pounds.  (Per him, mostly this week.),PSYCHIATRIC: , Some stress regarding upcoming IRS audits of clients.,REVIEW OF SYSTEMS: , Otherwise noncontributory.,MEDICATIONS,1.  NyQuil.,2.  Timolol eye drops.,3.  Aspirin.,4.  Advil.,",
+    "human_orders": [],
+    "human_dx_cost": 0,
+    "human_all_count": 7,
+    "llm_plan": "**ASSESSMENT:**\n\n1. **Acute urinary frequency with nocturia** - Likely urinary tract infection given acute onset of symptoms with cramping. Differential includes radiation cystitis given history of prostate fossa irradiation, though the acute presentation favors infectious etiology.\n\n2. **Rising PSA (1.2) in setting of prior Gleason 8 prostate adenocarcinoma status post radiation** - Concerning for biochemical recurrence. PSA trend needs monitoring and likely oncology evaluation given the aggres",
+    "llm_orders": [
+      {
+        "order": "Urinalysis with microscopy and urine culture",
+        "category": "labs",
+        "cpt_code": "81003",
+        "price": 10.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "PSMA PET scan",
+        "category": "imaging",
+        "cpt_code": "78815",
+        "price": 0.0,
+        "source": "llm"
+      },
+      {
+        "order": "Continue PSA monitoring every 3 months",
+        "category": "monitoring",
+        "cpt_code": "84153",
+        "price": 35.0,
+        "source": "rule_based"
+      }
+    ],
+    "llm_dx_cost": 45.0,
+    "llm_all_count": 11,
+    "cost_ratio": Infinity
+  },
+  {
+    "case_id": "MTS_0035",
+    "sample_name": "Prostate Fossa Irradiation - Followup",
+    "model": "gpt-4.1",
+    "human_ap": "ASSESSMENT: , Abdominal cramping in the past 2 days.  No more than 1 to 2 of 10 in intensity.,PERFORMANCE STATUS: , Karnofsky score 100.  He continues to work full-time.,NUTRITIONAL STATUS: , Appetite has been depressed over the past couple of days, and he has lost about 5 pounds.  (Per him, mostly this week.),PSYCHIATRIC: , Some stress regarding upcoming IRS audits of clients.,REVIEW OF SYSTEMS: , Otherwise noncontributory.,MEDICATIONS,1.  NyQuil.,2.  Timolol eye drops.,3.  Aspirin.,4.  Advil.,",
+    "human_orders": [],
+    "human_dx_cost": 0,
+    "human_all_count": 7,
+    "llm_plan": "**ASSESSMENT:**\n1. **History of recurrent prostate adenocarcinoma (Gleason 8), post-prostate fossa irradiation, with slowly rising PSA (now 1.2):** The rising PSA is concerning for biochemical recurrence of prostate cancer. The patient is 21 months post-radiation, and the PSA trend should be closely monitored. No evidence of gross hematuria, bone pain, or other metastatic symptoms at this time.\n2. **New onset nocturia and abdominal cramping:** Acute worsening of urinary frequency and abdominal c",
+    "llm_orders": [
+      {
+        "order": "Repeat PSA in 3 months",
+        "category": "labs",
+        "cpt_code": "84153",
+        "price": 35.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Urinalysis and urine culture",
+        "category": "labs",
+        "cpt_code": "81003",
+        "price": 10.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Bladder ultrasound",
+        "category": "imaging",
+        "cpt_code": "76770",
+        "price": 106.21,
+        "source": "llm"
+      },
+      {
+        "order": "PSA",
+        "category": "labs",
+        "cpt_code": "84153",
+        "price": 35.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Urinalysis and urine culture",
+        "category": "labs",
+        "cpt_code": "81003",
+        "price": 10.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Bladder ultrasound",
+        "category": "imaging",
+        "cpt_code": "76770",
+        "price": 106.21,
+        "source": "llm"
+      }
+    ],
+    "llm_dx_cost": 302.41999999999996,
+    "llm_all_count": 17,
+    "cost_ratio": Infinity
+  },
+  {
+    "case_id": "MTS_0035",
+    "sample_name": "Prostate Fossa Irradiation - Followup",
+    "model": "grok-4.1",
+    "human_ap": "ASSESSMENT: , Abdominal cramping in the past 2 days.  No more than 1 to 2 of 10 in intensity.,PERFORMANCE STATUS: , Karnofsky score 100.  He continues to work full-time.,NUTRITIONAL STATUS: , Appetite has been depressed over the past couple of days, and he has lost about 5 pounds.  (Per him, mostly this week.),PSYCHIATRIC: , Some stress regarding upcoming IRS audits of clients.,REVIEW OF SYSTEMS: , Otherwise noncontributory.,MEDICATIONS,1.  NyQuil.,2.  Timolol eye drops.,3.  Aspirin.,4.  Advil.,",
+    "human_orders": [],
+    "human_dx_cost": 0,
+    "human_all_count": 7,
+    "llm_plan": "**ASSESSMENT:**\n\n1. **Concern for biochemical recurrence of Gleason 8 prostate adenocarcinoma** s/p prostatectomy and salvage prostate fossa radiation 21 months ago: PSA has been slowly rising and now at 1.2 ng/mL (recent trend concerning for failure of salvage RT; nadir not specified but warrants prompt urologic oncology reevaluation for possible systemic therapy or further local therapy).\n   \n2. **Acute irritative voiding symptoms (severe nocturia, abdominal cramping)** onset 2 days ago: Likel",
+    "llm_orders": [
+      {
+        "order": "Urinalysis with reflex culture and microscopy",
+        "category": "labs",
+        "cpt_code": "81003",
+        "price": 10.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "CBC with diff",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Renal/bladder ultrasound (if UA positive for infection or symptoms persist/worsen)",
+        "category": "imaging",
+        "cpt_code": "76770",
+        "price": 106.21,
+        "source": "llm"
+      }
+    ],
+    "llm_dx_cost": 131.20999999999998,
+    "llm_all_count": 10,
+    "cost_ratio": Infinity
+  },
+  {
+    "case_id": "MTS_0037",
+    "sample_name": "Progress Note - Liver Cirrhosis",
+    "model": "claude-sonnet",
+    "human_ap": "ASSESSMENT AND PLAN:,  The patient is a 55-year-old with established diagnosis of liver cirrhosis, unknown cause.,1.  Epigastric pain.  The patient had chronic pain syndrome, he had multiple back surgeries, and he has taken opiate for a prolonged period of time.  In the office twice the patient did not have any abdominal pain on physical exam.  His pain does not sound like obstruction of common bile duct and he had these episodes of abdominal pain almost continuously.  He probably requires incre",
+    "human_orders": [
+      {
+        "order": "Hepatitis panel",
+        "category": "labs",
+        "cpt_code": "80074",
+        "price": 47.63,
+        "source": "llm"
+      },
+      {
+        "order": "Alpha-fetoprotein level",
+        "category": "labs",
+        "cpt_code": "82105",
+        "price": 16.77,
+        "source": "llm"
+      },
+      {
+        "order": "Ultrasound of the liver",
+        "category": "imaging",
+        "cpt_code": "76700",
+        "price": 114.23,
+        "source": "llm"
+      },
+      {
+        "order": "Nuclear antibody",
+        "category": "labs",
+        "cpt_code": "86038",
+        "price": 12.09,
+        "source": "llm"
+      },
+      {
+        "order": "INR",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "EGD",
+        "category": "procedure",
+        "cpt_code": "43235",
+        "price": 322.65,
+        "source": "llm"
+      },
+      {
+        "order": "Colonoscopy",
+        "category": "procedure",
+        "cpt_code": "45378",
+        "price": 378.1,
+        "source": "llm"
+      }
+    ],
+    "human_dx_cost": 891.47,
+    "human_all_count": 12,
+    "llm_plan": "**ASSESSMENT:**\n\n1. **Chronic liver disease with cirrhosis** - Patient has established history of cirrhosis with current findings consistent with decompensated liver disease including splenomegaly, hypoalbuminemia (2.5), elevated total bilirubin (5.63), and recent hospitalization for confusion suggesting possible hepatic encephalopathy. The elevated ammonia level (53) supports this concern.\n\n2. **Protein-energy malnutrition** - Significant weight loss evident (107 lbs at 6'1\" height, BMI ~14) wi",
+    "llm_orders": [
+      {
+        "order": "Complete hepatitis panel (Hep A IgM, Hep B surface antigen/antibody/core antibody, Hep C antibody)",
+        "category": "labs",
+        "cpt_code": "80074",
+        "price": 47.63,
+        "source": "llm"
+      },
+      {
+        "order": "Alpha-fetoprotein",
+        "category": "labs",
+        "cpt_code": "82105",
+        "price": 16.77,
+        "source": "llm"
+      },
+      {
+        "order": "PT/INR, PTT",
+        "category": "labs",
+        "cpt_code": "85610",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "CBC with differential",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Iron studies, B12, folate",
+        "category": "labs",
+        "cpt_code": "80051",
+        "price": 7.01,
+        "source": "llm"
+      },
+      {
+        "order": "Ionized calcium, magnesium, phosphorus",
+        "category": "labs",
+        "cpt_code": "J3475",
+        "price": 20.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Obtain abdominal ultrasound report from recent hospitalization",
+        "category": "imaging",
+        "cpt_code": "76700",
+        "price": 200.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "If unavailable, order repeat abdominal ultrasound to assess liver morphology, portal vein patency, and ascites",
+        "category": "imaging",
+        "cpt_code": "76700",
+        "price": 200.0,
+        "source": "rule_based"
+      }
+    ],
+    "llm_dx_cost": 521.41,
+    "llm_all_count": 16,
+    "cost_ratio": 0.584887881813185
+  },
+  {
+    "case_id": "MTS_0037",
+    "sample_name": "Progress Note - Liver Cirrhosis",
+    "model": "gpt-4.1",
+    "human_ap": "ASSESSMENT AND PLAN:,  The patient is a 55-year-old with established diagnosis of liver cirrhosis, unknown cause.,1.  Epigastric pain.  The patient had chronic pain syndrome, he had multiple back surgeries, and he has taken opiate for a prolonged period of time.  In the office twice the patient did not have any abdominal pain on physical exam.  His pain does not sound like obstruction of common bile duct and he had these episodes of abdominal pain almost continuously.  He probably requires incre",
+    "human_orders": [
+      {
+        "order": "Hepatitis panel",
+        "category": "labs",
+        "cpt_code": "80074",
+        "price": 47.63,
+        "source": "llm"
+      },
+      {
+        "order": "Alpha-fetoprotein level",
+        "category": "labs",
+        "cpt_code": "82105",
+        "price": 16.77,
+        "source": "llm"
+      },
+      {
+        "order": "Ultrasound of the liver",
+        "category": "imaging",
+        "cpt_code": "76700",
+        "price": 114.23,
+        "source": "llm"
+      },
+      {
+        "order": "Nuclear antibody",
+        "category": "labs",
+        "cpt_code": "86038",
+        "price": 12.09,
+        "source": "llm"
+      },
+      {
+        "order": "INR",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "EGD",
+        "category": "procedure",
+        "cpt_code": "43235",
+        "price": 322.65,
+        "source": "llm"
+      },
+      {
+        "order": "Colonoscopy",
+        "category": "procedure",
+        "cpt_code": "45378",
+        "price": 378.1,
+        "source": "llm"
+      }
+    ],
+    "human_dx_cost": 891.47,
+    "human_all_count": 12,
+    "llm_plan": "**ASSESSMENT:**\n\n55-year-old Hispanic male with a history of liver cirrhosis (etiology unclear, prior care records unavailable), presenting with recurrent episodes of epigastric and right upper quadrant pain, nausea, bloating, and a recent hospitalization for similar symptoms plus confusion and diarrhea. On exam, he has splenomegaly but no hepatomegaly, no asterixis, and is currently oriented. Labs reveal significant hypoalbuminemia (2.5), hyperbilirubinemia (total bili 5.63), mild transaminitis",
+    "llm_orders": [
+      {
+        "order": "Hepatitis panel (A, B, C serologies)",
+        "category": "labs",
+        "cpt_code": "80074",
+        "price": 47.63,
+        "source": "llm"
+      },
+      {
+        "order": "Alpha-fetoprotein (AFP)",
+        "category": "labs",
+        "cpt_code": "82105",
+        "price": 40.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Repeat CMP, LFTs, ammonia, CBC with differential, PT/INR",
+        "category": "labs",
+        "cpt_code": "85610",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Iron studies, ceruloplasmin, and autoimmune markers (ANA, ASMA, anti-LKM)",
+        "category": "labs",
+        "cpt_code": "86038",
+        "price": 35.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Calcium recheck and consider magnesium, phosphate",
+        "category": "labs",
+        "cpt_code": "J3475",
+        "price": 20.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Obtain official copy of recent abdominal ultrasound",
+        "category": "imaging",
+        "cpt_code": "76700",
+        "price": 200.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Repeat abdominal ultrasound with Doppler",
+        "category": "imaging",
+        "cpt_code": "76700",
+        "price": 200.0,
+        "source": "rule_based"
+      }
+    ],
+    "llm_dx_cost": 557.63,
+    "llm_all_count": 16,
+    "cost_ratio": 0.6255174038386037
+  },
+  {
+    "case_id": "MTS_0037",
+    "sample_name": "Progress Note - Liver Cirrhosis",
+    "model": "grok-4.1",
+    "human_ap": "ASSESSMENT AND PLAN:,  The patient is a 55-year-old with established diagnosis of liver cirrhosis, unknown cause.,1.  Epigastric pain.  The patient had chronic pain syndrome, he had multiple back surgeries, and he has taken opiate for a prolonged period of time.  In the office twice the patient did not have any abdominal pain on physical exam.  His pain does not sound like obstruction of common bile duct and he had these episodes of abdominal pain almost continuously.  He probably requires incre",
+    "human_orders": [
+      {
+        "order": "Hepatitis panel",
+        "category": "labs",
+        "cpt_code": "80074",
+        "price": 47.63,
+        "source": "llm"
+      },
+      {
+        "order": "Alpha-fetoprotein level",
+        "category": "labs",
+        "cpt_code": "82105",
+        "price": 16.77,
+        "source": "llm"
+      },
+      {
+        "order": "Ultrasound of the liver",
+        "category": "imaging",
+        "cpt_code": "76700",
+        "price": 114.23,
+        "source": "llm"
+      },
+      {
+        "order": "Nuclear antibody",
+        "category": "labs",
+        "cpt_code": "86038",
+        "price": 12.09,
+        "source": "llm"
+      },
+      {
+        "order": "INR",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "EGD",
+        "category": "procedure",
+        "cpt_code": "43235",
+        "price": 322.65,
+        "source": "llm"
+      },
+      {
+        "order": "Colonoscopy",
+        "category": "procedure",
+        "cpt_code": "45378",
+        "price": 378.1,
+        "source": "llm"
+      }
+    ],
+    "human_dx_cost": 891.47,
+    "human_all_count": 12,
+    "llm_plan": "**ASSESSMENT:**  \n55-year-old male with established but unconfirmed history of liver cirrhosis (etiology unknown; no records obtained despite requests), presenting with recurrent epigastric/RUQ pain, nausea, bloating, and recent hospitalization for epigastric pain, vomiting, diarrhea, fever, chills, and confusion (per patient, diagnosed as viral infection). Labs show hypoalbuminemia (2.5), hyperbilirubinemia (5.63), mildly elevated alk phos (165) and ammonia (53), mild transaminitis, with spleno",
+    "llm_orders": [
+      {
+        "order": "hepatitis A IgM",
+        "category": "labs",
+        "cpt_code": "86695",
+        "price": 13.19,
+        "source": "llm"
+      },
+      {
+        "order": "HBsAg/HBcAb/HBsAb",
+        "category": "labs",
+        "cpt_code": "80074",
+        "price": 47.63,
+        "source": "llm"
+      },
+      {
+        "order": "anti-HCV with HCV RNA if positive",
+        "category": "labs",
+        "cpt_code": "86803",
+        "price": 14.27,
+        "source": "llm"
+      },
+      {
+        "order": "AFP",
+        "category": "labs",
+        "cpt_code": "82105",
+        "price": 40.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "CBC w/diff/platelet",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "PT/INR",
+        "category": "labs",
+        "cpt_code": "85610",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "repeat CMP",
+        "category": "labs",
+        "cpt_code": "80053",
+        "price": 25.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "lipase",
+        "category": "labs",
+        "cpt_code": "83690",
+        "price": 20.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Urgent fax request for recent Gila Medical Center abdominal US report",
+        "category": "imaging",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "RUQ US",
+        "category": "imaging",
+        "cpt_code": "76700",
+        "price": 114.23,
+        "source": "llm"
+      }
+    ],
+    "llm_dx_cost": 304.32,
+    "llm_all_count": 15,
+    "cost_ratio": 0.34136875049076243
+  },
+  {
+    "case_id": "MTS_0041",
+    "sample_name": "Polycythemia Vera Followup",
+    "model": "claude-sonnet",
+    "human_ap": "ASSESSMENT AND PLAN:,1.  JAK-2 positive myeloproliferative disorder.  The patient has failed pretty much all available options.  He is not a candidate for chlorambucil or radioactive phosphorus because of his young age and the concern for secondary malignancy.  I have e-mailed Dr. X to see whether he will be a candidate for the LBH trial.  Hopefully, we can get a JAK-2 inhibitor trial quickly on board.,2.  I am concerned about the risk of thrombosis with his elevated white count.  He is on aspir",
+    "human_orders": [
+      {
+        "order": "X-rays of the left tibia and knee",
+        "category": "imaging",
+        "cpt_code": "73560",
+        "price": 34.4,
+        "source": "llm"
+      }
+    ],
+    "human_dx_cost": 34.4,
+    "human_all_count": 6,
+    "llm_plan": "**ASSESSMENT:**\n\n1. **Polycythemia vera with secondary myelofibrosis** - Patient has established diagnosis (JAK-2 positive) with progression to myelofibrosis as evidenced by splenomegaly (4 fingerbreadths below costal margin). Current labs show leukocytosis with WBC 41,900 and neutrophilia (ANC 34,400), concerning for disease progression or transformation. Hemoglobin 14.8 with microcytosis (MCV 56.7) suggests possible iron deficiency, likely from previous phlebotomy treatments. Patient has faile",
+    "llm_orders": [
+      {
+        "order": "Comprehensive metabolic panel",
+        "category": "labs",
+        "cpt_code": "80053",
+        "price": 25.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "LDH",
+        "category": "labs",
+        "cpt_code": "83615",
+        "price": 6.04,
+        "source": "llm"
+      },
+      {
+        "order": "Uric acid",
+        "category": "labs",
+        "cpt_code": "84550",
+        "price": 4.52,
+        "source": "llm"
+      },
+      {
+        "order": "Iron studies (ferritin, TIBC, iron saturation)",
+        "category": "labs",
+        "cpt_code": "80050",
+        "price": 0.0,
+        "source": "llm"
+      },
+      {
+        "order": "Continue monitoring for symptoms of hyperviscosity or thrombosis",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Consider plain films if pain persists or worsens at next visit",
+        "category": "imaging",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Recheck blood pressure at next visit",
+        "category": "monitoring",
+        "cpt_code": "93784",
+        "price": 50.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Return in 4-6 weeks for repeat CBC",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Review of additional labs",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Blood pressure check",
+        "category": "monitoring",
+        "cpt_code": "93784",
+        "price": 50.0,
+        "source": "rule_based"
+      }
+    ],
+    "llm_dx_cost": 150.56,
+    "llm_all_count": 17,
+    "cost_ratio": 4.376744186046512
+  },
+  {
+    "case_id": "MTS_0041",
+    "sample_name": "Polycythemia Vera Followup",
+    "model": "gpt-4.1",
+    "human_ap": "ASSESSMENT AND PLAN:,1.  JAK-2 positive myeloproliferative disorder.  The patient has failed pretty much all available options.  He is not a candidate for chlorambucil or radioactive phosphorus because of his young age and the concern for secondary malignancy.  I have e-mailed Dr. X to see whether he will be a candidate for the LBH trial.  Hopefully, we can get a JAK-2 inhibitor trial quickly on board.,2.  I am concerned about the risk of thrombosis with his elevated white count.  He is on aspir",
+    "human_orders": [
+      {
+        "order": "X-rays of the left tibia and knee",
+        "category": "imaging",
+        "cpt_code": "73560",
+        "price": 34.4,
+        "source": "llm"
+      }
+    ],
+    "human_dx_cost": 34.4,
+    "human_all_count": 6,
+    "llm_plan": "**ASSESSMENT:**\n\n1. **Polycythemia vera with secondary myelofibrosis:**  \n   The patient has a longstanding history of polycythemia vera, now progressed to secondary myelofibrosis. He is JAK2 positive. He has previously been intolerant to hydroxyurea, interferon, and lenalidomide (due to severe fatigue and diarrhea). He is not a candidate for allogeneic transplant due to social support limitations. Current symptoms are minimal, with ECOG performance status of 1. Spleen remains palpable but stabl",
+    "llm_orders": [
+      {
+        "order": "Repeat CBC with differential in 2 weeks",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Peripheral blood smear",
+        "category": "labs",
+        "cpt_code": "85007",
+        "price": 3.8,
+        "source": "llm"
+      },
+      {
+        "order": "Comprehensive metabolic panel (CMP)",
+        "category": "labs",
+        "cpt_code": "80053",
+        "price": 25.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Iron studies",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "LDH, uric acid, and reticulocyte count",
+        "category": "labs",
+        "cpt_code": "80500",
+        "price": 0.0,
+        "source": "llm"
+      },
+      {
+        "order": "Monitor for B symptoms (fever, night sweats, weight loss), worsening splenomegaly, or signs of leukemic transformation",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Order left tibia/fibula plain X-ray",
+        "category": "imaging",
+        "cpt_code": "73590",
+        "price": 31.4,
+        "source": "llm"
+      },
+      {
+        "order": "Advise to monitor for increased pain, swelling, redness, or fever",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Encourage continued weight monitoring and balanced nutrition",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Blood pressure is mildly elevated; continue to monitor, consider lifestyle modifications",
+        "category": "monitoring",
+        "cpt_code": "93784",
+        "price": 50.0,
+        "source": "rule_based"
+      }
+    ],
+    "llm_dx_cost": 125.2,
+    "llm_all_count": 20,
+    "cost_ratio": 3.6395348837209305
+  },
+  {
+    "case_id": "MTS_0041",
+    "sample_name": "Polycythemia Vera Followup",
+    "model": "grok-4.1",
+    "human_ap": "ASSESSMENT AND PLAN:,1.  JAK-2 positive myeloproliferative disorder.  The patient has failed pretty much all available options.  He is not a candidate for chlorambucil or radioactive phosphorus because of his young age and the concern for secondary malignancy.  I have e-mailed Dr. X to see whether he will be a candidate for the LBH trial.  Hopefully, we can get a JAK-2 inhibitor trial quickly on board.,2.  I am concerned about the risk of thrombosis with his elevated white count.  He is on aspir",
+    "human_orders": [
+      {
+        "order": "X-rays of the left tibia and knee",
+        "category": "imaging",
+        "cpt_code": "73560",
+        "price": 34.4,
+        "source": "llm"
+      }
+    ],
+    "human_dx_cost": 34.4,
+    "human_all_count": 6,
+    "llm_plan": "**ASSESSMENT:**  \n1. **Polycythemia vera (JAK2+) with secondary/post-PV myelofibrosis**: Clinically stable on surveillance with no current cytoreductive therapy due to prior intolerances (hydroxyurea, interferon, lenalidomide). Notable persistent splenomegaly (4 fb LCM), leukocytosis (WBC 41.9k with neutrophilia), and microcytosis (MCV 56.7) on background of remote phlebotomy history; hemoglobin normalized at 14.8 g/dL. No thrombotic events or significant symptoms at this time (ECOG 1); marijuan",
+    "llm_orders": [
+      {
+        "order": "Peripheral blood smear",
+        "category": "labs",
+        "cpt_code": "85007",
+        "price": 3.8,
+        "source": "llm"
+      },
+      {
+        "order": "iron studies (ferritin, serum iron, TIBC, % saturation)",
+        "category": "labs",
+        "cpt_code": "80050",
+        "price": 0.0,
+        "source": "llm"
+      },
+      {
+        "order": "Repeat CBC in 4 weeks",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      }
+    ],
+    "llm_dx_cost": 18.8,
+    "llm_all_count": 10,
+    "cost_ratio": 0.5465116279069768
+  },
+  {
+    "case_id": "MTS_0042",
+    "sample_name": "Podiatry - Progress Note",
+    "model": "claude-sonnet",
+    "human_ap": "ASSESSMENT:,  Plantar fascitis/heel spur syndrome, right foot.,PLAN:,  The patient was given injections of 3 cc 2:1 mixture of 1% lidocaine plain with dexamethasone phospate.  He was given a low dye strapping and a heel lift was placed in his right shoe.  The patient will be seen back in approximately one month for further evaluation if necessary.  He was told to call if anything should occur before that.  The patient was told to continue with the good work on his diabetic control.",
+    "human_orders": [
+      {
+        "order": "Low dye strapping",
+        "category": "procedure",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "human_dx_cost": 0,
+    "human_all_count": 5,
+    "llm_plan": "**ASSESSMENT:**\nPlantar fasciitis, right foot. The patient presents with classic symptoms of plantar fasciitis including heel pain that is worst with first steps in the morning and worsens with activity throughout the day. Physical examination confirms tenderness at the medial calcaneal tubercle extending along the medial arch, which is consistent with inflammation of the plantar fascia. No signs of infection or other concerning findings noted.\n\n**PLAN:**\n\n**Labs to order:** None indicated at th",
+    "llm_orders": [],
+    "llm_dx_cost": 0,
+    "llm_all_count": 9,
+    "cost_ratio": 1.0
+  },
+  {
+    "case_id": "MTS_0042",
+    "sample_name": "Podiatry - Progress Note",
+    "model": "gpt-4.1",
+    "human_ap": "ASSESSMENT:,  Plantar fascitis/heel spur syndrome, right foot.,PLAN:,  The patient was given injections of 3 cc 2:1 mixture of 1% lidocaine plain with dexamethasone phospate.  He was given a low dye strapping and a heel lift was placed in his right shoe.  The patient will be seen back in approximately one month for further evaluation if necessary.  He was told to call if anything should occur before that.  The patient was told to continue with the good work on his diabetic control.",
+    "human_orders": [
+      {
+        "order": "Low dye strapping",
+        "category": "procedure",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "human_dx_cost": 0,
+    "human_all_count": 5,
+    "llm_plan": "ASSESSMENT:  \nRight heel pain, most consistent with plantar fasciitis. The patient describes classic symptoms of plantar fasciitis, including pain with the first step in the morning and worsening with activity, as well as point tenderness at the medial tubercle of the calcaneus and along the medial arch. There are no signs of infection or neurovascular compromise. No history or exam findings to suggest fracture, systemic illness, or other acute pathology.\n\nPLAN:  \n1. Conservative management for ",
+    "llm_orders": [
+      {
+        "order": "If symptoms persist beyond 6-8 weeks of conservative therapy, consider plain X-ray to rule out calcaneal stress fracture or other pathology.",
+        "category": "imaging",
+        "cpt_code": "73620",
+        "price": 28.72,
+        "source": "llm"
+      }
+    ],
+    "llm_dx_cost": 28.72,
+    "llm_all_count": 9,
+    "cost_ratio": Infinity
+  },
+  {
+    "case_id": "MTS_0042",
+    "sample_name": "Podiatry - Progress Note",
+    "model": "grok-4.1",
+    "human_ap": "ASSESSMENT:,  Plantar fascitis/heel spur syndrome, right foot.,PLAN:,  The patient was given injections of 3 cc 2:1 mixture of 1% lidocaine plain with dexamethasone phospate.  He was given a low dye strapping and a heel lift was placed in his right shoe.  The patient will be seen back in approximately one month for further evaluation if necessary.  He was told to call if anything should occur before that.  The patient was told to continue with the good work on his diabetic control.",
+    "human_orders": [
+      {
+        "order": "Low dye strapping",
+        "category": "procedure",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "human_dx_cost": 0,
+    "human_all_count": 5,
+    "llm_plan": "**ASSESSMENT:**  \n1. Right plantar fasciitis. This is the most likely diagnosis given the classic history of insidious-onset heel pain worst with first morning steps and prolonged weight-bearing activity, localized to the medial calcaneal tuberosity and medial arch, with corresponding focal tenderness on exam and no evidence of infection, trauma, or systemic symptoms.\n\n**PLAN:**  \n- **Medications:** Prescribe ibuprofen 600 mg PO TID with food for 2 weeks PRN pain/inflammation (or naproxen 500 mg",
+    "llm_orders": [
+      {
+        "order": "plain X-ray of right foot only if no improvement in 4-6 weeks to r/o calcaneal stress reaction",
+        "category": "imaging",
+        "cpt_code": "73620",
+        "price": 28.72,
+        "source": "llm"
+      }
+    ],
+    "llm_dx_cost": 28.72,
+    "llm_all_count": 10,
+    "cost_ratio": Infinity
+  },
+  {
+    "case_id": "MTS_0043",
+    "sample_name": "Posttransplant Lymphoproliferative Disorder",
+    "model": "claude-sonnet",
+    "human_ap": "ASSESSMENT AND PLAN:,1.  Diffuse large B-cell lymphoma following transplantation.  The patient is to receive his sixth and final cycle of chemotherapy today.  PET scan has been ordered to be done within 2 weeks.  He will see me back for the visit in 3 weeks with CBC, CMP, and LDH.,2.  Chronic renal insufficiency.,3.  Anemia secondary to chronic renal failure and chemotherapy.  He is to continue on his regimen of growth factor support.,4.  Hypertension.  This is elevated today because he held his",
+    "human_orders": [
+      {
+        "order": "PET scan",
+        "category": "imaging",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "CBC",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "CMP",
+        "category": "labs",
+        "cpt_code": "80053",
+        "price": 25.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "LDH",
+        "category": "labs",
+        "cpt_code": "83615",
+        "price": 6.04,
+        "source": "llm"
+      },
+      {
+        "order": "CMP",
+        "category": "labs",
+        "cpt_code": "80053",
+        "price": 25.0,
+        "source": "rule_based"
+      }
+    ],
+    "human_dx_cost": 71.04,
+    "human_all_count": 7,
+    "llm_plan": "**ASSESSMENT:**\n\n1. **Post-transplant lymphoproliferative disorder (PTLD) - large cell lymphoma**: 51-year-old male s/p renal transplant with PTLD diagnosed in 2007, currently receiving 6th and final cycle of R-CHOP chemotherapy. Patient reports feeling well with good performance status (ECOG 1). Previous therapy complicated by sepsis and treatment delays due to infections and skin cancer surgery. Current labs show adequate counts for chemotherapy administration.\n\n2. **Anemia secondary to chroni",
+    "llm_orders": [
+      {
+        "order": "Schedule restaging PET scan 4-6 weeks post-completion of chemotherapy",
+        "category": "imaging",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "CBC with differential in 1 week post-chemotherapy",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Comprehensive metabolic panel including creatinine, LFTs",
+        "category": "labs",
+        "cpt_code": "80053",
+        "price": 25.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Consider B12/folate levels given macrocytic anemia",
+        "category": "labs",
+        "cpt_code": "82607",
+        "price": 15.08,
+        "source": "llm"
+      },
+      {
+        "order": "Home blood pressure monitoring",
+        "category": "monitoring",
+        "cpt_code": "93784",
+        "price": 50.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Monitor hemoglobin; transfusion threshold <7 g/dL given stable symptoms",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Iron studies if not recently checked",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "llm_dx_cost": 105.08,
+    "llm_all_count": 14,
+    "cost_ratio": 1.4791666666666665
+  },
+  {
+    "case_id": "MTS_0043",
+    "sample_name": "Posttransplant Lymphoproliferative Disorder",
+    "model": "gpt-4.1",
+    "human_ap": "ASSESSMENT AND PLAN:,1.  Diffuse large B-cell lymphoma following transplantation.  The patient is to receive his sixth and final cycle of chemotherapy today.  PET scan has been ordered to be done within 2 weeks.  He will see me back for the visit in 3 weeks with CBC, CMP, and LDH.,2.  Chronic renal insufficiency.,3.  Anemia secondary to chronic renal failure and chemotherapy.  He is to continue on his regimen of growth factor support.,4.  Hypertension.  This is elevated today because he held his",
+    "human_orders": [
+      {
+        "order": "PET scan",
+        "category": "imaging",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "CBC",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "CMP",
+        "category": "labs",
+        "cpt_code": "80053",
+        "price": 25.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "LDH",
+        "category": "labs",
+        "cpt_code": "83615",
+        "price": 6.04,
+        "source": "llm"
+      },
+      {
+        "order": "CMP",
+        "category": "labs",
+        "cpt_code": "80053",
+        "price": 25.0,
+        "source": "rule_based"
+      }
+    ],
+    "human_dx_cost": 71.04,
+    "human_all_count": 7,
+    "llm_plan": "**ASSESSMENT:**\n\n1. **Posttransplant Lymphoproliferative Disorder (PTLD), Large Cell Lymphoma:**  \n   The patient is completing his sixth and final cycle of R-CHOP chemotherapy. He has tolerated treatment reasonably well, with prior complications including sepsis and infection related to squamous cell carcinoma. Currently, he is asymptomatic with ECOG 1 and no new complaints. He missed a PET scan after cycle 3, so interim response assessment is lacking.\n\n2. **Chronic Renal Insufficiency (Status ",
+    "llm_orders": [
+      {
+        "order": "PET-CT scan 3-4 weeks after completion of chemotherapy",
+        "category": "imaging",
+        "cpt_code": "78815",
+        "price": 0.0,
+        "source": "llm"
+      },
+      {
+        "order": "Monitor for late complications of chemotherapy (infection, cytopenias, neuropathy)",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "CBC weekly for 4 weeks post-chemotherapy, then as clinically indicated",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "CMP weekly for 4 weeks post-chemotherapy, then as clinically indicated",
+        "category": "labs",
+        "cpt_code": "80053",
+        "price": 25.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Consider bone marrow biopsy if cytopenias persist or if PET/CT is equivocal",
+        "category": "procedure",
+        "cpt_code": "38221",
+        "price": 400.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Monitor renal function (BUN, creatinine, electrolytes) with weekly CMP",
+        "category": "labs",
+        "cpt_code": "80051",
+        "price": 20.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Monitor CBC weekly",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Check iron studies, B12, folate to rule out additional contributors to macrocytosis",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Recheck BP at next visit",
+        "category": "exam",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "llm_dx_cost": 475.0,
+    "llm_all_count": 26,
+    "cost_ratio": 6.686373873873873
+  },
+  {
+    "case_id": "MTS_0043",
+    "sample_name": "Posttransplant Lymphoproliferative Disorder",
+    "model": "grok-4.1",
+    "human_ap": "ASSESSMENT AND PLAN:,1.  Diffuse large B-cell lymphoma following transplantation.  The patient is to receive his sixth and final cycle of chemotherapy today.  PET scan has been ordered to be done within 2 weeks.  He will see me back for the visit in 3 weeks with CBC, CMP, and LDH.,2.  Chronic renal insufficiency.,3.  Anemia secondary to chronic renal failure and chemotherapy.  He is to continue on his regimen of growth factor support.,4.  Hypertension.  This is elevated today because he held his",
+    "human_orders": [
+      {
+        "order": "PET scan",
+        "category": "imaging",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "CBC",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "CMP",
+        "category": "labs",
+        "cpt_code": "80053",
+        "price": 25.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "LDH",
+        "category": "labs",
+        "cpt_code": "83615",
+        "price": 6.04,
+        "source": "llm"
+      },
+      {
+        "order": "CMP",
+        "category": "labs",
+        "cpt_code": "80053",
+        "price": 25.0,
+        "source": "rule_based"
+      }
+    ],
+    "human_dx_cost": 71.04,
+    "human_all_count": 7,
+    "llm_plan": "**ASSESSMENT:**  \n1. **Posttransplant lymphoproliferative disorder (PTLD), large cell lymphoma**: Status post 5 cycles of R-CHOP chemotherapy. Patient clinically well (ECOG 1), denies B symptoms or adenopathy, no exam evidence of progression or relapse. Adequate pre-chemo counts (ANC 7400). Proceeding to final (6th) cycle as planned. Missed interim PET after cycle 3 but stable clinically.  \n2. **Anemia secondary to CKD and chemotherapy**: Stable mild-severe anemia (Hgb 8.9 g/dL, Hct 26.5%, MCV 1",
+    "llm_orders": [
+      {
+        "order": "STAT CMP, B12, folate, reticulocyte count, iron studies (ferritin, TIBC, %sat)",
+        "category": "labs",
+        "cpt_code": "80053",
+        "price": 25.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "CBC with diff weekly x3 weeks post-chemo, then biweekly until stable",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "PET/CT chest/abdomen/pelvis 4-6 weeks after cycle 6 completion",
+        "category": "imaging",
+        "cpt_code": "71250",
+        "price": 350.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Recheck BP in 1 week",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "llm_dx_cost": 390.0,
+    "llm_all_count": 18,
+    "cost_ratio": 5.489864864864864
+  },
+  {
+    "case_id": "MTS_0050",
+    "sample_name": "Possible Spider Bite",
+    "model": "claude-sonnet",
+    "human_ap": "ASSESSMENT:,  Possible insect bite with lymphangitis.,PLAN:,1.  Duricef 1 g daily for seven days.,2.  Cold packs to the area.,3.  Discussed symptoms that were suggestive of the worsening, in which case she would need to call me.,4.  Incidentally, she has noticed a little bit of dryness and redness on her eyelids, particularly the upper ones\u2019 and the lower lateral areas.  I suspect she has a mild contact dermatitis and suggested hydrocortisone 1% cream to be applied sparingly at bedtime only.",
+    "human_orders": [],
+    "human_dx_cost": 0,
+    "human_all_count": 4,
+    "llm_plan": "**ASSESSMENT:**\nCellulitis of left posterior shoulder/neck region, likely secondary to insect bite. The presence of erythematous streaks extending toward the neck indicates early lymphangitis. The patient is afebrile and the area is only minimally tender, suggesting this is caught relatively early in the infectious process.\n\n**PLAN:**\n\n**Labs to order:**\n- CBC with differential to assess for leukocytosis\n- Basic metabolic panel to establish baseline\n\n**Imaging to order:**\n- None indicated at thi",
+    "llm_orders": [
+      {
+        "order": "CBC with differential to assess for leukocytosis",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      },
+      {
+        "order": "Basic metabolic panel to establish baseline",
+        "category": "labs",
+        "cpt_code": "80048",
+        "price": 20.0,
+        "source": "rule_based"
+      }
+    ],
+    "llm_dx_cost": 35.0,
+    "llm_all_count": 8,
+    "cost_ratio": Infinity
+  },
+  {
+    "case_id": "MTS_0050",
+    "sample_name": "Possible Spider Bite",
+    "model": "gpt-4.1",
+    "human_ap": "ASSESSMENT:,  Possible insect bite with lymphangitis.,PLAN:,1.  Duricef 1 g daily for seven days.,2.  Cold packs to the area.,3.  Discussed symptoms that were suggestive of the worsening, in which case she would need to call me.,4.  Incidentally, she has noticed a little bit of dryness and redness on her eyelids, particularly the upper ones\u2019 and the lower lateral areas.  I suspect she has a mild contact dermatitis and suggested hydrocortisone 1% cream to be applied sparingly at bedtime only.",
+    "human_orders": [],
+    "human_dx_cost": 0,
+    "human_all_count": 4,
+    "llm_plan": "**ASSESSMENT:**\n\n47-year-old female with no known drug allergies, presenting with a 2-day history of expanding erythema and mild tenderness over the left posterior shoulder/neckline, with a central punctate mark (possible insect or spider bite) and associated red streaks extending up the neck. She denies fever or significant pain. On exam, there is a 6 cm area of faint erythema with a central mark and red streaks, but no eschar or fluctuance. Findings are most consistent with early localized cel",
+    "llm_orders": [
+      {
+        "order": "monitor for worsening redness, swelling, pain, fever, chills, or development of pus/abscess",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "return immediately or go to the ER if she develops high fever, rapidly spreading redness, confusion, or difficulty breathing",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "llm_dx_cost": 0,
+    "llm_all_count": 6,
+    "cost_ratio": 1.0
+  },
+  {
+    "case_id": "MTS_0050",
+    "sample_name": "Possible Spider Bite",
+    "model": "grok-4.1",
+    "human_ap": "ASSESSMENT:,  Possible insect bite with lymphangitis.,PLAN:,1.  Duricef 1 g daily for seven days.,2.  Cold packs to the area.,3.  Discussed symptoms that were suggestive of the worsening, in which case she would need to call me.,4.  Incidentally, she has noticed a little bit of dryness and redness on her eyelids, particularly the upper ones\u2019 and the lower lateral areas.  I suspect she has a mild contact dermatitis and suggested hydrocortisone 1% cream to be applied sparingly at bedtime only.",
+    "human_orders": [],
+    "human_dx_cost": 0,
+    "human_all_count": 4,
+    "llm_plan": "**ASSESSMENT:**  \nCellulitis of the left posterior shoulder with early lymphangitis, likely secondary to an insect/spider bite. This is a mild, superficial bacterial skin infection (most commonly streptococcal or staphylococcal) based on the 6 cm area of faint erythema, central punctum, and proximal red streaks without systemic symptoms (afebrile, minimal tenderness), abscess, or eschar. Low risk for MRSA given community-acquired presentation without purulence or risk factors.\n\n**PLAN:**  \n- **M",
+    "llm_orders": [],
+    "llm_dx_cost": 0,
+    "llm_all_count": 7,
+    "cost_ratio": 1.0
+  },
+  {
+    "case_id": "MTS_0052",
+    "sample_name": "ORIF - Followup",
+    "model": "claude-sonnet",
+    "human_ap": "ASSESSMENT: , Status post open reduction and internal fixation of right tibial plateau fracture with removal ex fix.,PLANS: , I gave the patient a prescription for aggressive range of motion of the right knee.  I would like to really work on this as he has not had much up to this time.  He should remain nonweightbearing.  I would like to have him return in 2 weeks' time to assess his knee range of motion.  He should not need x-rays at that time.",
+    "human_orders": [
+      {
+        "order": "No x-rays at that time",
+        "category": "imaging",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "human_dx_cost": 0,
+    "human_all_count": 4,
+    "llm_plan": "**ASSESSMENT:**\n1. **Right tibial plateau fracture status post ORIF with excellent healing** - Patient is approximately 1 week post external fixator removal following ORIF. Hardware placement and alignment are excellent on imaging. Pain is well controlled and patient is appropriately initiating range of motion exercises.\n\n2. **Pin site drainage, likely normal post-procedural** - Mild drainage from pin sites without erythema or signs of infection. Patient appropriately treating with topical bacit",
+    "llm_orders": [],
+    "llm_dx_cost": 0,
+    "llm_all_count": 7,
+    "cost_ratio": 1.0
+  },
+  {
+    "case_id": "MTS_0052",
+    "sample_name": "ORIF - Followup",
+    "model": "gpt-4.1",
+    "human_ap": "ASSESSMENT: , Status post open reduction and internal fixation of right tibial plateau fracture with removal ex fix.,PLANS: , I gave the patient a prescription for aggressive range of motion of the right knee.  I would like to really work on this as he has not had much up to this time.  He should remain nonweightbearing.  I would like to have him return in 2 weeks' time to assess his knee range of motion.  He should not need x-rays at that time.",
+    "human_orders": [
+      {
+        "order": "No x-rays at that time",
+        "category": "imaging",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "human_dx_cost": 0,
+    "human_all_count": 4,
+    "llm_plan": "**ASSESSMENT:**\n\n1. **Status post removal of external fixator and open reduction internal fixation (ORIF) of right tibial plateau fracture, now several weeks post-op.**  \n   - Patient is recovering well overall. Pain is well controlled. No systemic symptoms (fever, chills, night sweats) to suggest deep infection.  \n   - Mild drainage from pin sites, but no erythema or overt signs of infection. Pin sites being managed with bacitracin and dressings.  \n   - Neurovascular exam: 3/5 strength in EHL, ",
+    "llm_orders": [
+      {
+        "order": "Monitor for signs of infection: increased redness, swelling, warmth, purulent drainage, or systemic symptoms (fever, chills)",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "CBC with differential, ESR, CRP, and wound culture (if drainage worsens or infection is suspected)",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 15.0,
+        "source": "rule_based"
+      }
+    ],
+    "llm_dx_cost": 15.0,
+    "llm_all_count": 11,
+    "cost_ratio": Infinity
+  },
+  {
+    "case_id": "MTS_0052",
+    "sample_name": "ORIF - Followup",
+    "model": "grok-4.1",
+    "human_ap": "ASSESSMENT: , Status post open reduction and internal fixation of right tibial plateau fracture with removal ex fix.,PLANS: , I gave the patient a prescription for aggressive range of motion of the right knee.  I would like to really work on this as he has not had much up to this time.  He should remain nonweightbearing.  I would like to have him return in 2 weeks' time to assess his knee range of motion.  He should not need x-rays at that time.",
+    "human_orders": [
+      {
+        "order": "No x-rays at that time",
+        "category": "imaging",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "human_dx_cost": 0,
+    "human_all_count": 4,
+    "llm_plan": "**ASSESSMENT:**  \n1. Right tibial plateau fracture s/p ORIF and recent Ex-Fix removal with MUA (~1 week ago): Doing well clinically with pain controlled, no systemic signs of infection, and excellent hardware placement/alignment on today's X-rays.  \n2. Mild pin site drainage: Likely benign post-procedural serous drainage without erythema, cellulitis, or systemic symptoms (no fevers/chills); low concern for infection at this time.  \n3. Mild lower extremity weakness (3/5 EHL/FHL strength): Likely ",
+    "llm_orders": [
+      {
+        "order": "Monitor for increased drainage, erythema, warmth, or fever - return to clinic/ED if worsens",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "llm_dx_cost": 0,
+    "llm_all_count": 8,
+    "cost_ratio": 1.0
+  }
+]

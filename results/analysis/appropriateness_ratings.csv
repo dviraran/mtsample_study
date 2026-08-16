@@ -1,0 +1,1001 @@
+case_id,specialty,model,llm_cost,phys_cost,excess,excess_pos,dvir,grok,shahar
+MTS_0001,SOAP / Chart / Progress Notes,GPT-5.2,15.36,0.0,15.36,15.36,3,3,3
+MTS_0001,SOAP / Chart / Progress Notes,Claude 4.5,39.14,0.0,39.14,39.14,3,1,1
+MTS_0001,SOAP / Chart / Progress Notes,Gemini 3,20.81,0.0,20.81,20.81,4,3,3
+MTS_0001,SOAP / Chart / Progress Notes,Grok 4.1,269.94,0.0,269.94,269.94,2,1,1
+MTS_0001,SOAP / Chart / Progress Notes,OpenEvidence,20.81,0.0,20.81,20.81,3,2,3
+MTS_0002,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,4,4,1
+MTS_0002,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,3,4
+MTS_0002,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,3,3
+MTS_0002,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,4,2,2
+MTS_0002,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,4,2
+MTS_0004,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,2,1,1
+MTS_0004,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,2,2,2
+MTS_0004,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,3,3
+MTS_0004,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,2,1,2
+MTS_0004,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,3,4
+MTS_0005,SOAP / Chart / Progress Notes,GPT-5.2,394.8,269.55,125.25,125.25,2,2,2
+MTS_0005,SOAP / Chart / Progress Notes,Claude 4.5,108.68,269.55,-160.87,0.0,4,4,3
+MTS_0005,SOAP / Chart / Progress Notes,Gemini 3,269.55,269.55,0.0,0.0,4,3,4
+MTS_0005,SOAP / Chart / Progress Notes,Grok 4.1,191.72,269.55,-77.83000000000001,0.0,2,1,1
+MTS_0005,SOAP / Chart / Progress Notes,OpenEvidence,110.22,269.55,-159.33,0.0,2,1,2
+MTS_0006,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,2,1,1
+MTS_0006,SOAP / Chart / Progress Notes,Claude 4.5,15.36,0.0,15.36,15.36,3,3,3
+MTS_0006,SOAP / Chart / Progress Notes,Gemini 3,8.72,0.0,8.72,8.72,3,2,2
+MTS_0006,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,3,1,1
+MTS_0006,SOAP / Chart / Progress Notes,OpenEvidence,17.18,0.0,17.18,17.18,1,2,1
+MTS_0008,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,3,2,2
+MTS_0008,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,3,3
+MTS_0008,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,3,3
+MTS_0008,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,4,3,3
+MTS_0008,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,3,2
+MTS_0010,SOAP / Chart / Progress Notes,GPT-5.2,7.77,7.77,0.0,0.0,4,4,4
+MTS_0010,SOAP / Chart / Progress Notes,Claude 4.5,7.77,7.77,0.0,0.0,4,2,4
+MTS_0010,SOAP / Chart / Progress Notes,Gemini 3,7.77,7.77,0.0,0.0,4,3,4
+MTS_0010,SOAP / Chart / Progress Notes,Grok 4.1,7.77,7.77,0.0,0.0,4,2,4
+MTS_0010,SOAP / Chart / Progress Notes,OpenEvidence,15.53,7.77,7.76,7.76,4,1,4
+MTS_0017,SOAP / Chart / Progress Notes,GPT-5.2,6.01,3.28,2.73,2.73,4,3,2
+MTS_0017,SOAP / Chart / Progress Notes,Claude 4.5,0.0,3.28,-3.28,0.0,4,3,2
+MTS_0017,SOAP / Chart / Progress Notes,Gemini 3,111.9,3.28,108.62,108.62,2,1,2
+MTS_0017,SOAP / Chart / Progress Notes,Grok 4.1,126.92,3.28,123.64,123.64,3,1,2
+MTS_0017,SOAP / Chart / Progress Notes,OpenEvidence,0.0,3.28,-3.28,0.0,4,2,1
+MTS_0018,SOAP / Chart / Progress Notes,GPT-5.2,1501.84,215.1,1286.74,1286.74,2,2,3
+MTS_0018,SOAP / Chart / Progress Notes,Claude 4.5,30.79,215.1,-184.31,0.0,3,3,2
+MTS_0018,SOAP / Chart / Progress Notes,Gemini 3,211.23,215.1,-3.8700000000000045,0.0,4,4,3
+MTS_0018,SOAP / Chart / Progress Notes,Grok 4.1,7.77,215.1,-207.32999999999998,0.0,2,2,3
+MTS_0018,SOAP / Chart / Progress Notes,OpenEvidence,61.26,215.1,-153.84,0.0,3,2,3
+MTS_0019,SOAP / Chart / Progress Notes,GPT-5.2,279.58,0.0,279.58,279.58,1,1,1
+MTS_0019,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,1,2
+MTS_0019,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,3,3
+MTS_0019,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,2,1,3
+MTS_0019,SOAP / Chart / Progress Notes,OpenEvidence,1009.71,0.0,1009.71,1009.71,2,4,2
+MTS_0021,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,4,3,3
+MTS_0021,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,4,4
+MTS_0021,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,4,4
+MTS_0021,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,4,4,4
+MTS_0021,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,4,4
+MTS_0022,SOAP / Chart / Progress Notes,GPT-5.2,30.85,0.0,30.85,30.85,3,2,2
+MTS_0022,SOAP / Chart / Progress Notes,Claude 4.5,285.69,0.0,285.69,285.69,3,2,1
+MTS_0022,SOAP / Chart / Progress Notes,Gemini 3,8.46,0.0,8.46,8.46,4,3,3
+MTS_0022,SOAP / Chart / Progress Notes,Grok 4.1,8.46,0.0,8.46,8.46,3,3,2
+MTS_0022,SOAP / Chart / Progress Notes,OpenEvidence,8.46,0.0,8.46,8.46,3,1,1
+MTS_0023,SOAP / Chart / Progress Notes,GPT-5.2,82.28,25.47,56.81,56.81,3,1,4
+MTS_0023,SOAP / Chart / Progress Notes,Claude 4.5,76.27,25.47,50.8,50.8,3,3,2
+MTS_0023,SOAP / Chart / Progress Notes,Gemini 3,83.7,25.47,58.230000000000004,58.230000000000004,4,2,1
+MTS_0023,SOAP / Chart / Progress Notes,Grok 4.1,84.04,25.47,58.57000000000001,58.57000000000001,4,1,2
+MTS_0023,SOAP / Chart / Progress Notes,OpenEvidence,48.96,25.47,23.490000000000002,23.490000000000002,4,4,4
+MTS_0024,SOAP / Chart / Progress Notes,GPT-5.2,94.22,10.02,84.2,84.2,3,1,1
+MTS_0024,SOAP / Chart / Progress Notes,Claude 4.5,49.35,10.02,39.33,39.33,4,3,1
+MTS_0024,SOAP / Chart / Progress Notes,Gemini 3,58.01,10.02,47.989999999999995,47.989999999999995,4,2,1
+MTS_0024,SOAP / Chart / Progress Notes,Grok 4.1,45.67,10.02,35.650000000000006,35.650000000000006,4,2,1
+MTS_0024,SOAP / Chart / Progress Notes,OpenEvidence,50.65,10.02,40.629999999999995,40.629999999999995,4,3,1
+MTS_0025,SOAP / Chart / Progress Notes,GPT-5.2,67.81,0.0,67.81,67.81,2,2,2
+MTS_0025,SOAP / Chart / Progress Notes,Claude 4.5,143.31,0.0,143.31,143.31,2,3,2
+MTS_0025,SOAP / Chart / Progress Notes,Gemini 3,4.01,0.0,4.01,4.01,4,2,3
+MTS_0025,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,2,1,2
+MTS_0025,SOAP / Chart / Progress Notes,OpenEvidence,143.31,0.0,143.31,143.31,2,3,2
+MTS_0026,SOAP / Chart / Progress Notes,GPT-5.2,14.36,764.88,-750.52,0.0,4,3,2
+MTS_0026,SOAP / Chart / Progress Notes,Claude 4.5,0.0,764.88,-764.88,0.0,4,4,2
+MTS_0026,SOAP / Chart / Progress Notes,Gemini 3,0.0,764.88,-764.88,0.0,4,4,2
+MTS_0026,SOAP / Chart / Progress Notes,Grok 4.1,0.0,764.88,-764.88,0.0,2,1,2
+MTS_0026,SOAP / Chart / Progress Notes,OpenEvidence,0.0,764.88,-764.88,0.0,4,3,2
+MTS_0027,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,4,4,2
+MTS_0027,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,2,3
+MTS_0027,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,2,3
+MTS_0027,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,4,1,1
+MTS_0027,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,3,3
+MTS_0028,SOAP / Chart / Progress Notes,GPT-5.2,59.64,0.0,59.64,59.64,3,2,3
+MTS_0028,SOAP / Chart / Progress Notes,Claude 4.5,57.7,0.0,57.7,57.7,4,3,3
+MTS_0028,SOAP / Chart / Progress Notes,Gemini 3,18.33,0.0,18.33,18.33,3,3,2
+MTS_0028,SOAP / Chart / Progress Notes,Grok 4.1,62.77,0.0,62.77,62.77,4,2,2
+MTS_0028,SOAP / Chart / Progress Notes,OpenEvidence,90.06,0.0,90.06,90.06,3,1,2
+MTS_0035,SOAP / Chart / Progress Notes,GPT-5.2,314.61,0.0,314.61,314.61,3,2,1
+MTS_0035,SOAP / Chart / Progress Notes,Claude 4.5,488.43,0.0,488.43,488.43,3,1,1
+MTS_0035,SOAP / Chart / Progress Notes,Gemini 3,260.12,0.0,260.12,260.12,3,3,2
+MTS_0035,SOAP / Chart / Progress Notes,Grok 4.1,46.28,0.0,46.28,46.28,2,1,1
+MTS_0035,SOAP / Chart / Progress Notes,OpenEvidence,278.34,0.0,278.34,278.34,3,4,1
+MTS_0037,SOAP / Chart / Progress Notes,GPT-5.2,124.53,81.54,42.989999999999995,42.989999999999995,2,1,1
+MTS_0037,SOAP / Chart / Progress Notes,Claude 4.5,207.5,86.62,120.88,120.88,3,2,3
+MTS_0037,SOAP / Chart / Progress Notes,Gemini 3,254.41,80.78,173.63,173.63,3,3,3
+MTS_0037,SOAP / Chart / Progress Notes,Grok 4.1,249.69,86.62,163.07,163.07,3,3,3
+MTS_0037,SOAP / Chart / Progress Notes,OpenEvidence,387.36,86.62,300.74,300.74,2,2,2
+MTS_0041,SOAP / Chart / Progress Notes,GPT-5.2,117.66,42.09,75.57,75.57,3,3,3
+MTS_0041,SOAP / Chart / Progress Notes,Claude 4.5,95.3,42.09,53.209999999999994,53.209999999999994,3,3,3
+MTS_0041,SOAP / Chart / Progress Notes,Gemini 3,56.16,42.09,14.069999999999993,14.069999999999993,3,2,3
+MTS_0041,SOAP / Chart / Progress Notes,Grok 4.1,21.31,42.09,-20.780000000000005,0.0,2,2,2
+MTS_0041,SOAP / Chart / Progress Notes,OpenEvidence,177.02,42.09,134.93,134.93,2,4,2
+MTS_0042,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,4,3,2
+MTS_0042,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,3,1
+MTS_0042,SOAP / Chart / Progress Notes,Gemini 3,28.72,0.0,28.72,28.72,3,1,2
+MTS_0042,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,4,2,3
+MTS_0042,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,1,1
+MTS_0043,SOAP / Chart / Progress Notes,GPT-5.2,121.69,156.64,-34.94999999999999,0.0,3,1,3
+MTS_0043,SOAP / Chart / Progress Notes,Claude 4.5,157.53,156.64,0.8900000000000148,0.8900000000000148,4,4,4
+MTS_0043,SOAP / Chart / Progress Notes,Gemini 3,0.0,156.64,-156.64,0.0,4,3,3
+MTS_0043,SOAP / Chart / Progress Notes,Grok 4.1,186.1,156.64,29.460000000000008,29.460000000000008,3,2,2
+MTS_0043,SOAP / Chart / Progress Notes,OpenEvidence,188.72,156.64,32.08000000000001,32.08000000000001,3,2,2
+MTS_0050,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,4,4,4
+MTS_0050,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,1,1
+MTS_0050,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,3,4
+MTS_0050,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,4,3,4
+MTS_0050,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,3,4
+MTS_0052,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,4,2,3
+MTS_0052,SOAP / Chart / Progress Notes,Claude 4.5,117.24,0.0,117.24,117.24,3,4,3
+MTS_0052,SOAP / Chart / Progress Notes,Gemini 3,34.4,0.0,34.4,34.4,3,1,2
+MTS_0052,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,4,3,3
+MTS_0052,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,3,3,2
+MTS_0059,SOAP / Chart / Progress Notes,GPT-5.2,336.66,0.0,336.66,336.66,4,4,4
+MTS_0059,SOAP / Chart / Progress Notes,Claude 4.5,177.02,0.0,177.02,177.02,4,3,4
+MTS_0059,SOAP / Chart / Progress Notes,Gemini 3,59.14,0.0,59.14,59.14,3,2,3
+MTS_0059,SOAP / Chart / Progress Notes,Grok 4.1,132.68,0.0,132.68,132.68,3,2,3
+MTS_0059,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,2,1,1
+MTS_0060,SOAP / Chart / Progress Notes,GPT-5.2,55.11,13.28,41.83,41.83,3,3,4
+MTS_0060,SOAP / Chart / Progress Notes,Claude 4.5,95.26,13.28,81.98,81.98,3,4,3
+MTS_0060,SOAP / Chart / Progress Notes,Gemini 3,50.66,13.28,37.379999999999995,37.379999999999995,4,3,4
+MTS_0060,SOAP / Chart / Progress Notes,Grok 4.1,50.11,13.28,36.83,36.83,2,2,2
+MTS_0060,SOAP / Chart / Progress Notes,OpenEvidence,73.61,13.28,60.33,60.33,3,3,4
+MTS_0062,SOAP / Chart / Progress Notes,GPT-5.2,76.35,0.0,76.35,76.35,3,1,3
+MTS_0062,SOAP / Chart / Progress Notes,Claude 4.5,60.8,0.0,60.8,60.8,4,3,3
+MTS_0062,SOAP / Chart / Progress Notes,Gemini 3,13.54,0.0,13.54,13.54,4,4,4
+MTS_0062,SOAP / Chart / Progress Notes,Grok 4.1,113.83,0.0,113.83,113.83,1,1,2
+MTS_0062,SOAP / Chart / Progress Notes,OpenEvidence,50.5,0.0,50.5,50.5,4,3,4
+MTS_0068,SOAP / Chart / Progress Notes,GPT-5.2,72.17,33.66,38.510000000000005,38.510000000000005,4,3,4
+MTS_0068,SOAP / Chart / Progress Notes,Claude 4.5,69.92,33.66,36.260000000000005,36.260000000000005,4,3,4
+MTS_0068,SOAP / Chart / Progress Notes,Gemini 3,65.44,33.66,31.78,31.78,4,4,3
+MTS_0068,SOAP / Chart / Progress Notes,Grok 4.1,52.88,33.66,19.220000000000006,19.220000000000006,2,2,3
+MTS_0068,SOAP / Chart / Progress Notes,OpenEvidence,20.6,33.66,-13.059999999999995,0.0,4,4,4
+MTS_0072,SOAP / Chart / Progress Notes,GPT-5.2,514.61,64.13,450.48,450.48,2,1,2
+MTS_0072,SOAP / Chart / Progress Notes,Claude 4.5,184.04,64.13,119.91,119.91,4,3,3
+MTS_0072,SOAP / Chart / Progress Notes,Gemini 3,184.04,64.13,119.91,119.91,4,2,4
+MTS_0072,SOAP / Chart / Progress Notes,Grok 4.1,184.04,64.13,119.91,119.91,3,2,2
+MTS_0072,SOAP / Chart / Progress Notes,OpenEvidence,379.77,64.13,315.64,315.64,4,4,3
+MTS_0077,SOAP / Chart / Progress Notes,GPT-5.2,104.82,50.16,54.66,54.66,3,1,2
+MTS_0077,SOAP / Chart / Progress Notes,Claude 4.5,50.11,50.16,-0.04999999999999716,0.0,4,2,3
+MTS_0077,SOAP / Chart / Progress Notes,Gemini 3,31.61,50.16,-18.549999999999997,0.0,4,3,4
+MTS_0077,SOAP / Chart / Progress Notes,Grok 4.1,119.68,50.16,69.52000000000001,69.52000000000001,3,2,3
+MTS_0077,SOAP / Chart / Progress Notes,OpenEvidence,84.38,50.16,34.22,34.22,4,2,3
+MTS_0078,SOAP / Chart / Progress Notes,GPT-5.2,59.01,0.0,59.01,59.01,4,3,3
+MTS_0078,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,3,4,3
+MTS_0078,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,3,4,4
+MTS_0078,SOAP / Chart / Progress Notes,Grok 4.1,103.41,0.0,103.41,103.41,4,2,1
+MTS_0078,SOAP / Chart / Progress Notes,OpenEvidence,105.72,0.0,105.72,105.72,3,1,3
+MTS_0081,SOAP / Chart / Progress Notes,GPT-5.2,297.59,0.0,297.59,297.59,2,2,2
+MTS_0081,SOAP / Chart / Progress Notes,Claude 4.5,57.22,0.0,57.22,57.22,2,3,2
+MTS_0081,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0081,SOAP / Chart / Progress Notes,Grok 4.1,48.52,0.0,48.52,48.52,3,3,3
+MTS_0081,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,3,2
+MTS_0082,SOAP / Chart / Progress Notes,GPT-5.2,238.12,0.0,238.12,238.12,2,1,3
+MTS_0082,SOAP / Chart / Progress Notes,Claude 4.5,205.21,0.0,205.21,205.21,2,2,4
+MTS_0082,SOAP / Chart / Progress Notes,Gemini 3,113.57,0.0,113.57,113.57,2,3,3
+MTS_0082,SOAP / Chart / Progress Notes,Grok 4.1,19.86,0.0,19.86,19.86,1,2,2
+MTS_0082,SOAP / Chart / Progress Notes,OpenEvidence,131.86,0.0,131.86,131.86,2,1,3
+MTS_0083,SOAP / Chart / Progress Notes,GPT-5.2,850.14,0.0,850.14,850.14,1,1,3
+MTS_0083,SOAP / Chart / Progress Notes,Claude 4.5,7.77,0.0,7.77,7.77,4,4,4
+MTS_0083,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,3,2,3
+MTS_0083,SOAP / Chart / Progress Notes,Grok 4.1,194.48,0.0,194.48,194.48,2,3,4
+MTS_0083,SOAP / Chart / Progress Notes,OpenEvidence,18.94,0.0,18.94,18.94,2,2,2
+MTS_0084,SOAP / Chart / Progress Notes,GPT-5.2,329.89,0.0,329.89,329.89,1,1,2
+MTS_0084,SOAP / Chart / Progress Notes,Claude 4.5,70.63,0.0,70.63,70.63,4,3,4
+MTS_0084,SOAP / Chart / Progress Notes,Gemini 3,60.62,0.0,60.62,60.62,4,3,4
+MTS_0084,SOAP / Chart / Progress Notes,Grok 4.1,84.43,0.0,84.43,84.43,3,2,3
+MTS_0084,SOAP / Chart / Progress Notes,OpenEvidence,7.77,0.0,7.77,7.77,3,2,4
+MTS_0085,SOAP / Chart / Progress Notes,GPT-5.2,39.44,10.56,28.879999999999995,28.879999999999995,4,4,4
+MTS_0085,SOAP / Chart / Progress Notes,Claude 4.5,55.64,10.56,45.08,45.08,4,3,3
+MTS_0085,SOAP / Chart / Progress Notes,Gemini 3,9.71,10.56,-0.8499999999999996,0.0,4,3,3
+MTS_0085,SOAP / Chart / Progress Notes,Grok 4.1,38.84,10.56,28.28,28.28,4,2,4
+MTS_0085,SOAP / Chart / Progress Notes,OpenEvidence,54.15,10.56,43.589999999999996,43.589999999999996,2,4,2
+MTS_0091,SOAP / Chart / Progress Notes,GPT-5.2,453.63,202.37,251.26,251.26,3,2,3
+MTS_0091,SOAP / Chart / Progress Notes,Claude 4.5,648.26,202.37,445.89,445.89,3,1,3
+MTS_0091,SOAP / Chart / Progress Notes,Gemini 3,408.68,202.37,206.31,206.31,3,2,3
+MTS_0091,SOAP / Chart / Progress Notes,Grok 4.1,422.32,202.37,219.95,219.95,3,2,2
+MTS_0091,SOAP / Chart / Progress Notes,OpenEvidence,458.86,202.37,256.49,256.49,2,1,2
+MTS_0093,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,2,2,1
+MTS_0093,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,3,3,2
+MTS_0093,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,2,2,2
+MTS_0093,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,3,3,2
+MTS_0093,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,3,2,3
+MTS_0094,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,4,3,3
+MTS_0094,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,4,4
+MTS_0094,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,4,4
+MTS_0094,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,4,3,4
+MTS_0094,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,3,3
+MTS_0095,SOAP / Chart / Progress Notes,GPT-5.2,184.58,36.65,147.93,147.93,3,2,3
+MTS_0095,SOAP / Chart / Progress Notes,Claude 4.5,546.52,36.65,509.87,509.87,4,1,4
+MTS_0095,SOAP / Chart / Progress Notes,Gemini 3,175.47,36.65,138.82,138.82,4,3,3
+MTS_0095,SOAP / Chart / Progress Notes,Grok 4.1,157.05,36.65,120.4,120.4,3,2,2
+MTS_0095,SOAP / Chart / Progress Notes,OpenEvidence,187.86,36.65,151.21,151.21,4,3,3
+MTS_0097,SOAP / Chart / Progress Notes,GPT-5.2,56.87,140.62,-83.75,0.0,2,1,3
+MTS_0097,SOAP / Chart / Progress Notes,Claude 4.5,16.23,140.62,-124.39,0.0,4,4,3
+MTS_0097,SOAP / Chart / Progress Notes,Gemini 3,24.1,140.62,-116.52000000000001,0.0,4,3,3
+MTS_0097,SOAP / Chart / Progress Notes,Grok 4.1,521.83,140.62,381.21000000000004,381.21000000000004,1,1,1
+MTS_0097,SOAP / Chart / Progress Notes,OpenEvidence,0.0,140.62,-140.62,0.0,3,4,3
+MTS_0098,SOAP / Chart / Progress Notes,GPT-5.2,96.11,7.77,88.34,88.34,2,3,4
+MTS_0098,SOAP / Chart / Progress Notes,Claude 4.5,74.75,7.77,66.98,66.98,2,2,4
+MTS_0098,SOAP / Chart / Progress Notes,Gemini 3,28.14,7.77,20.37,20.37,3,3,3
+MTS_0098,SOAP / Chart / Progress Notes,Grok 4.1,330.26,7.77,322.49,322.49,1,1,2
+MTS_0098,SOAP / Chart / Progress Notes,OpenEvidence,150.84,7.77,143.07,143.07,3,3,2
+MTS_0100,SOAP / Chart / Progress Notes,GPT-5.2,427.8,383.28,44.52000000000004,44.52000000000004,3,2,3
+MTS_0100,SOAP / Chart / Progress Notes,Claude 4.5,421.78,383.28,38.5,38.5,3,2,3
+MTS_0100,SOAP / Chart / Progress Notes,Gemini 3,113.75,383.28,-269.53,0.0,4,4,2
+MTS_0100,SOAP / Chart / Progress Notes,Grok 4.1,307.08,5.18,301.9,301.9,3,2,3
+MTS_0100,SOAP / Chart / Progress Notes,OpenEvidence,118.66,5.18,113.47999999999999,113.47999999999999,4,3,1
+MTS_0102,SOAP / Chart / Progress Notes,GPT-5.2,132.94,0.0,132.94,132.94,2,2,3
+MTS_0102,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,3,3,3
+MTS_0102,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,3,3
+MTS_0102,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,2,1,2
+MTS_0102,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,3,2,3
+MTS_0103,SOAP / Chart / Progress Notes,GPT-5.2,95.8,0.0,95.8,95.8,4,3,3
+MTS_0103,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,2,3
+MTS_0103,SOAP / Chart / Progress Notes,Gemini 3,33.07,0.0,33.07,33.07,4,1,3
+MTS_0103,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,4,3,3
+MTS_0103,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,4,3
+MTS_0106,SOAP / Chart / Progress Notes,GPT-5.2,169.85,289.18,-119.33000000000001,0.0,4,2,3
+MTS_0106,SOAP / Chart / Progress Notes,Claude 4.5,159.92,289.18,-129.26000000000002,0.0,4,3,3
+MTS_0106,SOAP / Chart / Progress Notes,Gemini 3,159.92,289.18,-129.26000000000002,0.0,3,2,3
+MTS_0106,SOAP / Chart / Progress Notes,Grok 4.1,159.97,289.18,-129.21,0.0,4,2,3
+MTS_0106,SOAP / Chart / Progress Notes,OpenEvidence,149.36,289.18,-139.82,0.0,4,3,3
+MTS_0108,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,3,1,3
+MTS_0108,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,2,3
+MTS_0108,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,2,2
+MTS_0108,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,1,1,2
+MTS_0108,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,3,3
+MTS_0109,SOAP / Chart / Progress Notes,GPT-5.2,216.02,0.0,216.02,216.02,4,1,4
+MTS_0109,SOAP / Chart / Progress Notes,Claude 4.5,1716.67,0.0,1716.67,1716.67,4,2,3
+MTS_0109,SOAP / Chart / Progress Notes,Gemini 3,1618.27,0.0,1618.27,1618.27,4,3,3
+MTS_0109,SOAP / Chart / Progress Notes,Grok 4.1,64.24,0.0,64.24,64.24,4,4,4
+MTS_0109,SOAP / Chart / Progress Notes,OpenEvidence,22.85,0.0,22.85,22.85,4,3,4
+MTS_0112,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,3,1,2
+MTS_0112,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,2,3
+MTS_0112,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0112,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,4,2,3
+MTS_0112,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,3,3
+MTS_0113,SOAP / Chart / Progress Notes,GPT-5.2,42.12,0.0,42.12,42.12,3,2,3
+MTS_0113,SOAP / Chart / Progress Notes,Claude 4.5,21.85,0.0,21.85,21.85,4,3,3
+MTS_0113,SOAP / Chart / Progress Notes,Gemini 3,33.66,0.0,33.66,33.66,4,2,3
+MTS_0113,SOAP / Chart / Progress Notes,Grok 4.1,33.66,0.0,33.66,33.66,4,3,3
+MTS_0113,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,4,3
+MTS_0117,SOAP / Chart / Progress Notes,GPT-5.2,31.88,22.86,9.02,9.02,4,3,3
+MTS_0117,SOAP / Chart / Progress Notes,Claude 4.5,22.1,22.86,-0.759999999999998,0.0,4,1,3
+MTS_0117,SOAP / Chart / Progress Notes,Gemini 3,22.86,22.86,0.0,0.0,4,4,3
+MTS_0117,SOAP / Chart / Progress Notes,Grok 4.1,36.38,22.86,13.520000000000003,13.520000000000003,4,2,3
+MTS_0117,SOAP / Chart / Progress Notes,OpenEvidence,22.86,22.86,0.0,0.0,4,4,2
+MTS_0118,SOAP / Chart / Progress Notes,GPT-5.2,71.6,0.0,71.6,71.6,3,1,2
+MTS_0118,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0118,SOAP / Chart / Progress Notes,Gemini 3,40.75,0.0,40.75,40.75,3,2,3
+MTS_0118,SOAP / Chart / Progress Notes,Grok 4.1,37.59,0.0,37.59,37.59,3,1,2
+MTS_0118,SOAP / Chart / Progress Notes,OpenEvidence,52.65,0.0,52.65,52.65,3,2,2
+MTS_0119,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,4,4,3
+MTS_0119,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0119,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0119,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,4,4,3
+MTS_0119,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,4,3
+MTS_0120,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,4,4,3
+MTS_0120,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0120,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0120,SOAP / Chart / Progress Notes,Grok 4.1,288.61,0.0,288.61,288.61,2,1,2
+MTS_0120,SOAP / Chart / Progress Notes,OpenEvidence,9.27,0.0,9.27,9.27,2,2,2
+MTS_0121,SOAP / Chart / Progress Notes,GPT-5.2,50.46,0.0,50.46,50.46,3,2,3
+MTS_0121,SOAP / Chart / Progress Notes,Claude 4.5,12.39,0.0,12.39,12.39,4,3,3
+MTS_0121,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0121,SOAP / Chart / Progress Notes,Grok 4.1,37.64,0.0,37.64,37.64,3,2,3
+MTS_0121,SOAP / Chart / Progress Notes,OpenEvidence,18.39,0.0,18.39,18.39,3,3,3
+MTS_0122,SOAP / Chart / Progress Notes,GPT-5.2,123.18,0.0,123.18,123.18,3,3,3
+MTS_0122,SOAP / Chart / Progress Notes,Claude 4.5,3.93,0.0,3.93,3.93,4,4,4
+MTS_0122,SOAP / Chart / Progress Notes,Gemini 3,115.15,0.0,115.15,115.15,3,2,4
+MTS_0122,SOAP / Chart / Progress Notes,Grok 4.1,7.77,0.0,7.77,7.77,3,3,4
+MTS_0122,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,4,4
+MTS_0123,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,4,4,3
+MTS_0123,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0123,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0123,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,4,4,3
+MTS_0123,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,4,3
+MTS_0124,SOAP / Chart / Progress Notes,GPT-5.2,47.01,0.0,47.01,47.01,4,2,4
+MTS_0124,SOAP / Chart / Progress Notes,Claude 4.5,44.34,0.0,44.34,44.34,4,3,4
+MTS_0124,SOAP / Chart / Progress Notes,Gemini 3,47.0,0.0,47.0,47.0,4,2,4
+MTS_0124,SOAP / Chart / Progress Notes,Grok 4.1,77.58,0.0,77.58,77.58,4,3,4
+MTS_0124,SOAP / Chart / Progress Notes,OpenEvidence,152.48,0.0,152.48,152.48,3,1,3
+MTS_0125,SOAP / Chart / Progress Notes,GPT-5.2,67.04,0.0,67.04,67.04,3,2,4
+MTS_0125,SOAP / Chart / Progress Notes,Claude 4.5,44.85,0.0,44.85,44.85,4,4,4
+MTS_0125,SOAP / Chart / Progress Notes,Gemini 3,42.77,0.0,42.77,42.77,4,4,4
+MTS_0125,SOAP / Chart / Progress Notes,Grok 4.1,51.14,0.0,51.14,51.14,4,2,4
+MTS_0125,SOAP / Chart / Progress Notes,OpenEvidence,77.65,0.0,77.65,77.65,4,2,2
+MTS_0130,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,3,1,2
+MTS_0130,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0130,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,3,3
+MTS_0130,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,4,3,3
+MTS_0130,SOAP / Chart / Progress Notes,OpenEvidence,47.76,0.0,47.76,47.76,2,1,1
+MTS_0131,SOAP / Chart / Progress Notes,GPT-5.2,37.07,0.0,37.07,37.07,4,2,3
+MTS_0131,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0131,SOAP / Chart / Progress Notes,Gemini 3,13.39,0.0,13.39,13.39,4,4,4
+MTS_0131,SOAP / Chart / Progress Notes,Grok 4.1,37.59,0.0,37.59,37.59,4,2,3
+MTS_0131,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,4,3
+MTS_0132,SOAP / Chart / Progress Notes,GPT-5.2,44.42,24.0,20.42,20.42,4,2,2
+MTS_0132,SOAP / Chart / Progress Notes,Claude 4.5,9.71,24.0,-14.29,0.0,4,3,2
+MTS_0132,SOAP / Chart / Progress Notes,Gemini 3,0.0,24.0,-24.0,0.0,3,1,1
+MTS_0132,SOAP / Chart / Progress Notes,Grok 4.1,46.61,24.0,22.61,22.61,2,1,2
+MTS_0132,SOAP / Chart / Progress Notes,OpenEvidence,92.91,24.0,68.91,68.91,3,3,2
+MTS_0134,SOAP / Chart / Progress Notes,GPT-5.2,148.59,0.0,148.59,148.59,4,4,4
+MTS_0134,SOAP / Chart / Progress Notes,Claude 4.5,195.73,0.0,195.73,195.73,4,3,4
+MTS_0134,SOAP / Chart / Progress Notes,Gemini 3,195.73,0.0,195.73,195.73,4,1,3
+MTS_0134,SOAP / Chart / Progress Notes,Grok 4.1,48.38,0.0,48.38,48.38,2,3,2
+MTS_0134,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,4,4
+MTS_0140,SOAP / Chart / Progress Notes,GPT-5.2,97.1,0.0,97.1,97.1,3,1,3
+MTS_0140,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,3,2,3
+MTS_0140,SOAP / Chart / Progress Notes,Gemini 3,29.98,0.0,29.98,29.98,2,2,3
+MTS_0140,SOAP / Chart / Progress Notes,Grok 4.1,44.14,0.0,44.14,44.14,3,2,2
+MTS_0140,SOAP / Chart / Progress Notes,OpenEvidence,4.47,0.0,4.47,4.47,3,3,3
+MTS_0142,SOAP / Chart / Progress Notes,GPT-5.2,192.26,9.71,182.54999999999998,182.54999999999998,2,1,3
+MTS_0142,SOAP / Chart / Progress Notes,Claude 4.5,90.0,9.71,80.28999999999999,80.28999999999999,4,4,3
+MTS_0142,SOAP / Chart / Progress Notes,Gemini 3,79.62,9.71,69.91,69.91,3,1,3
+MTS_0142,SOAP / Chart / Progress Notes,Grok 4.1,123.46,9.71,113.75,113.75,2,3,2
+MTS_0142,SOAP / Chart / Progress Notes,OpenEvidence,58.38,9.71,48.67,48.67,4,4,4
+MTS_0143,SOAP / Chart / Progress Notes,GPT-5.2,204.97,0.0,204.97,204.97,4,3,4
+MTS_0143,SOAP / Chart / Progress Notes,Claude 4.5,601.03,0.0,601.03,601.03,2,1,2
+MTS_0143,SOAP / Chart / Progress Notes,Gemini 3,222.27,0.0,222.27,222.27,4,3,4
+MTS_0143,SOAP / Chart / Progress Notes,Grok 4.1,484.57,0.0,484.57,484.57,1,1,1
+MTS_0143,SOAP / Chart / Progress Notes,OpenEvidence,426.76,0.0,426.76,426.76,2,1,1
+MTS_0145,SOAP / Chart / Progress Notes,GPT-5.2,214.1,0.0,214.1,214.1,3,4,4
+MTS_0145,SOAP / Chart / Progress Notes,Claude 4.5,55.68,0.0,55.68,55.68,4,2,3
+MTS_0145,SOAP / Chart / Progress Notes,Gemini 3,87.05,0.0,87.05,87.05,4,2,3
+MTS_0145,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,4,3,2
+MTS_0145,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,3,2
+MTS_0149,SOAP / Chart / Progress Notes,GPT-5.2,17.26,48.43,-31.169999999999998,0.0,4,2,3
+MTS_0149,SOAP / Chart / Progress Notes,Claude 4.5,8.46,48.43,-39.97,0.0,4,4,3
+MTS_0149,SOAP / Chart / Progress Notes,Gemini 3,8.46,48.43,-39.97,0.0,4,4,3
+MTS_0149,SOAP / Chart / Progress Notes,Grok 4.1,33.03,48.43,-15.399999999999999,0.0,4,2,3
+MTS_0149,SOAP / Chart / Progress Notes,OpenEvidence,107.99,48.43,59.559999999999995,59.559999999999995,4,1,3
+MTS_0152,SOAP / Chart / Progress Notes,GPT-5.2,64.92,0.0,64.92,64.92,4,4,4
+MTS_0152,SOAP / Chart / Progress Notes,Claude 4.5,28.29,0.0,28.29,28.29,4,1,3
+MTS_0152,SOAP / Chart / Progress Notes,Gemini 3,417.2,0.0,417.2,417.2,4,3,2
+MTS_0152,SOAP / Chart / Progress Notes,Grok 4.1,28.04,0.0,28.04,28.04,3,2,2
+MTS_0152,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,3,4
+MTS_0153,SOAP / Chart / Progress Notes,GPT-5.2,37.07,0.0,37.07,37.07,4,2,3
+MTS_0153,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,2,3
+MTS_0153,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,3,4
+MTS_0153,SOAP / Chart / Progress Notes,Grok 4.1,162.33,0.0,162.33,162.33,3,2,3
+MTS_0153,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,4,3
+MTS_0157,SOAP / Chart / Progress Notes,GPT-5.2,33.66,0.0,33.66,33.66,3,1,3
+MTS_0157,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0157,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0157,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,4,4,3
+MTS_0157,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,4,3
+MTS_0159,SOAP / Chart / Progress Notes,GPT-5.2,173.92,0.0,173.92,173.92,3,2,2
+MTS_0159,SOAP / Chart / Progress Notes,Claude 4.5,353.79,0.0,353.79,353.79,4,2,2
+MTS_0159,SOAP / Chart / Progress Notes,Gemini 3,189.05,0.0,189.05,189.05,4,4,4
+MTS_0159,SOAP / Chart / Progress Notes,Grok 4.1,199.83,0.0,199.83,199.83,3,1,2
+MTS_0159,SOAP / Chart / Progress Notes,OpenEvidence,553.87,0.0,553.87,553.87,2,2,1
+MTS_0162,SOAP / Chart / Progress Notes,GPT-5.2,209.34,41.88,167.46,167.46,2,2,4
+MTS_0162,SOAP / Chart / Progress Notes,Claude 4.5,83.31,41.88,41.43,41.43,4,3,3
+MTS_0162,SOAP / Chart / Progress Notes,Gemini 3,28.04,41.88,-13.840000000000003,0.0,4,3,3
+MTS_0162,SOAP / Chart / Progress Notes,Grok 4.1,69.77,41.88,27.889999999999993,27.889999999999993,4,3,3
+MTS_0162,SOAP / Chart / Progress Notes,OpenEvidence,272.43,41.88,230.55,230.55,2,1,2
+MTS_0164,SOAP / Chart / Progress Notes,GPT-5.2,0.0,0.0,0.0,0.0,4,2,2
+MTS_0164,SOAP / Chart / Progress Notes,Claude 4.5,0.0,0.0,0.0,0.0,4,3,3
+MTS_0164,SOAP / Chart / Progress Notes,Gemini 3,0.0,0.0,0.0,0.0,4,2,3
+MTS_0164,SOAP / Chart / Progress Notes,Grok 4.1,0.0,0.0,0.0,0.0,4,2,3
+MTS_0164,SOAP / Chart / Progress Notes,OpenEvidence,0.0,0.0,0.0,0.0,4,3,3
+MTS_0179,General Medicine,GPT-5.2,0.0,381.44,-381.44,0.0,4,1,3
+MTS_0179,General Medicine,Claude 4.5,0.0,381.44,-381.44,0.0,4,3,3
+MTS_0179,General Medicine,Gemini 3,0.0,381.44,-381.44,0.0,4,2,3
+MTS_0179,General Medicine,Grok 4.1,381.44,381.44,0.0,0.0,4,4,3
+MTS_0179,General Medicine,OpenEvidence,46.09,381.44,-335.35,0.0,4,1,2
+MTS_0189,General Medicine,GPT-5.2,97.64,0.0,97.64,97.64,4,1,3
+MTS_0189,General Medicine,Claude 4.5,34.27,0.0,34.27,34.27,4,2,3
+MTS_0189,General Medicine,Gemini 3,31.59,0.0,31.59,31.59,4,3,3
+MTS_0189,General Medicine,Grok 4.1,16.23,0.0,16.23,16.23,4,3,3
+MTS_0189,General Medicine,OpenEvidence,49.64,0.0,49.64,49.64,4,2,3
+MTS_0213,General Medicine,GPT-5.2,260.14,0.0,260.14,260.14,3,1,4
+MTS_0213,General Medicine,Claude 4.5,4.01,0.0,4.01,4.01,4,4,4
+MTS_0213,General Medicine,Gemini 3,9.03,0.0,9.03,9.03,4,4,4
+MTS_0213,General Medicine,Grok 4.1,48.19,0.0,48.19,48.19,4,3,4
+MTS_0213,General Medicine,OpenEvidence,9.03,0.0,9.03,9.03,4,4,4
+MTS_0230,General Medicine,GPT-5.2,15.36,0.0,15.36,15.36,4,2,3
+MTS_0230,General Medicine,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0230,General Medicine,Gemini 3,0.0,0.0,0.0,0.0,4,3,3
+MTS_0230,General Medicine,Grok 4.1,0.0,0.0,0.0,0.0,4,3,3
+MTS_0230,General Medicine,OpenEvidence,0.0,0.0,0.0,0.0,4,1,3
+MTS_0231,General Medicine,GPT-5.2,81.85,0.0,81.85,81.85,3,2,4
+MTS_0231,General Medicine,Claude 4.5,49.02,0.0,49.02,49.02,3,3,3
+MTS_0231,General Medicine,Gemini 3,0.0,0.0,0.0,0.0,4,1,3
+MTS_0231,General Medicine,Grok 4.1,78.54,0.0,78.54,78.54,3,4,4
+MTS_0231,General Medicine,OpenEvidence,106.6,0.0,106.6,106.6,3,2,4
+MTS_0235,General Medicine,GPT-5.2,0.0,0.0,0.0,0.0,4,1,3
+MTS_0235,General Medicine,Claude 4.5,0.0,0.0,0.0,0.0,4,2,2
+MTS_0235,General Medicine,Gemini 3,0.0,0.0,0.0,0.0,4,2,3
+MTS_0235,General Medicine,Grok 4.1,0.0,0.0,0.0,0.0,4,1,3
+MTS_0235,General Medicine,OpenEvidence,0.0,0.0,0.0,0.0,3,1,2
+MTS_0238,General Medicine,GPT-5.2,0.0,0.0,0.0,0.0,3,3,4
+MTS_0238,General Medicine,Claude 4.5,0.0,0.0,0.0,0.0,3,1,3
+MTS_0238,General Medicine,Gemini 3,0.0,0.0,0.0,0.0,3,1,3
+MTS_0238,General Medicine,Grok 4.1,0.0,0.0,0.0,0.0,3,4,4
+MTS_0238,General Medicine,OpenEvidence,0.0,0.0,0.0,0.0,3,3,4
+MTS_0239,General Medicine,GPT-5.2,2699.01,367.07,2331.94,2331.94,1,4,4
+MTS_0239,General Medicine,Claude 4.5,943.05,526.06,416.99,416.99,2,3,4
+MTS_0239,General Medicine,Gemini 3,514.3,526.06,-11.759999999999991,0.0,4,3,4
+MTS_0239,General Medicine,Grok 4.1,931.17,534.41,396.76,396.76,3,2,3
+MTS_0239,General Medicine,OpenEvidence,1203.62,676.36,527.2599999999999,527.2599999999999,3,4,4
+MTS_0254,General Medicine,GPT-5.2,232.63,121.57,111.06,111.06,3,3,4
+MTS_0254,General Medicine,Claude 4.5,45.81,121.57,-75.75999999999999,0.0,4,2,3
+MTS_0254,General Medicine,Gemini 3,201.77,121.57,80.20000000000002,80.20000000000002,4,2,4
+MTS_0254,General Medicine,Grok 4.1,72.12,121.57,-49.44999999999999,0.0,3,3,3
+MTS_0254,General Medicine,OpenEvidence,82.36,121.57,-39.209999999999994,0.0,4,1,4
+MTS_0255,General Medicine,GPT-5.2,1121.45,403.36,718.09,718.09,2,2,3
+MTS_0255,General Medicine,Claude 4.5,425.21,403.36,21.849999999999966,21.849999999999966,4,3,3
+MTS_0255,General Medicine,Gemini 3,816.39,403.36,413.03,413.03,3,1,4
+MTS_0255,General Medicine,Grok 4.1,539.03,214.31,324.71999999999997,324.71999999999997,3,2,4
+MTS_0255,General Medicine,OpenEvidence,608.82,214.31,394.51000000000005,394.51000000000005,3,2,4
+MTS_0285,General Medicine,GPT-5.2,320.77,139.65,181.11999999999998,181.11999999999998,3,3,3
+MTS_0285,General Medicine,Claude 4.5,311.33,139.65,171.67999999999998,171.67999999999998,3,2,3
+MTS_0285,General Medicine,Gemini 3,170.47,139.65,30.819999999999993,30.819999999999993,4,3,3
+MTS_0285,General Medicine,Grok 4.1,188.81,139.65,49.16,49.16,4,3,3
+MTS_0285,General Medicine,OpenEvidence,153.74,139.65,14.090000000000003,14.090000000000003,4,4,3
+MTS_0287,General Medicine,GPT-5.2,90.31,0.0,90.31,90.31,4,2,4
+MTS_0287,General Medicine,Claude 4.5,81.09,0.0,81.09,81.09,4,3,4
+MTS_0287,General Medicine,Gemini 3,59.92,0.0,59.92,59.92,4,4,4
+MTS_0287,General Medicine,Grok 4.1,118.47,0.0,118.47,118.47,4,2,4
+MTS_0287,General Medicine,OpenEvidence,162.32,0.0,162.32,162.32,4,2,4
+MTS_0304,General Medicine,GPT-5.2,133.15,0.0,133.15,133.15,3,3,2
+MTS_0304,General Medicine,Claude 4.5,7.87,0.0,7.87,7.87,4,1,1
+MTS_0304,General Medicine,Gemini 3,114.08,0.0,114.08,114.08,3,3,3
+MTS_0304,General Medicine,Grok 4.1,29.28,0.0,29.28,29.28,4,2,3
+MTS_0304,General Medicine,OpenEvidence,183.04,0.0,183.04,183.04,3,1,2
+MTS_0305,General Medicine,GPT-5.2,1125.34,399.22,726.1199999999999,726.1199999999999,2,3,3
+MTS_0305,General Medicine,Claude 4.5,47.67,813.86,-766.19,0.0,4,4,4
+MTS_0305,General Medicine,Gemini 3,205.41,813.86,-608.45,0.0,4,3,3
+MTS_0305,General Medicine,Grok 4.1,275.82,813.86,-538.04,0.0,3,2,3
+MTS_0305,General Medicine,OpenEvidence,581.0,813.86,-232.86,0.0,3,4,4
+MTS_0314,General Medicine,GPT-5.2,80.03,0.0,80.03,80.03,3,3,2
+MTS_0314,General Medicine,Claude 4.5,0.0,0.0,0.0,0.0,4,3,3
+MTS_0314,General Medicine,Gemini 3,25.26,0.0,25.26,25.26,4,2,3
+MTS_0314,General Medicine,Grok 4.1,7.77,0.0,7.77,7.77,4,3,2
+MTS_0314,General Medicine,OpenEvidence,44.71,0.0,44.71,44.71,4,2,3
+MTS_0316,General Medicine,GPT-5.2,0.0,0.0,0.0,0.0,4,4,3
+MTS_0316,General Medicine,Claude 4.5,11.7,0.0,11.7,11.7,4,1,3
+MTS_0316,General Medicine,Gemini 3,43.99,0.0,43.99,43.99,4,3,3
+MTS_0316,General Medicine,Grok 4.1,56.13,0.0,56.13,56.13,4,2,3
+MTS_0316,General Medicine,OpenEvidence,0.0,0.0,0.0,0.0,4,3,3
+MTS_0317,General Medicine,GPT-5.2,105.93,0.0,105.93,105.93,3,1,4
+MTS_0317,General Medicine,Claude 4.5,97.02,0.0,97.02,97.02,4,2,4
+MTS_0317,General Medicine,Gemini 3,295.99,0.0,295.99,295.99,3,1,4
+MTS_0317,General Medicine,Grok 4.1,104.23,0.0,104.23,104.23,3,1,4
+MTS_0317,General Medicine,OpenEvidence,22.44,0.0,22.44,22.44,4,3,4
+MTS_0321,General Medicine,GPT-5.2,0.0,0.0,0.0,0.0,4,4,3
+MTS_0321,General Medicine,Claude 4.5,0.0,0.0,0.0,0.0,4,2,3
+MTS_0321,General Medicine,Gemini 3,0.0,0.0,0.0,0.0,3,1,1
+MTS_0321,General Medicine,Grok 4.1,0.0,0.0,0.0,0.0,4,4,3
+MTS_0321,General Medicine,OpenEvidence,0.0,0.0,0.0,0.0,4,4,3
+MTS_0324,General Medicine,GPT-5.2,0.0,0.0,0.0,0.0,4,2,4
+MTS_0324,General Medicine,Claude 4.5,0.0,0.0,0.0,0.0,4,4,4
+MTS_0324,General Medicine,Gemini 3,0.0,0.0,0.0,0.0,4,4,4
+MTS_0324,General Medicine,Grok 4.1,0.0,0.0,0.0,0.0,4,3,4
+MTS_0324,General Medicine,OpenEvidence,0.0,0.0,0.0,0.0,4,3,4
+MTS_0325,General Medicine,GPT-5.2,0.0,0.0,0.0,0.0,4,2,3
+MTS_0325,General Medicine,Claude 4.5,0.0,0.0,0.0,0.0,4,2,4
+MTS_0325,General Medicine,Gemini 3,0.0,0.0,0.0,0.0,4,1,3
+MTS_0325,General Medicine,Grok 4.1,0.0,0.0,0.0,0.0,4,2,4
+MTS_0325,General Medicine,OpenEvidence,0.0,0.0,0.0,0.0,4,3,4
+MTS_0327,General Medicine,GPT-5.2,0.0,0.0,0.0,0.0,4,4,3
+MTS_0327,General Medicine,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0327,General Medicine,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0327,General Medicine,Grok 4.1,0.0,0.0,0.0,0.0,4,4,3
+MTS_0327,General Medicine,OpenEvidence,10.12,0.0,10.12,10.12,3,1,2
+MTS_0328,General Medicine,GPT-5.2,0.0,0.0,0.0,0.0,3,2,3
+MTS_0328,General Medicine,Claude 4.5,0.0,0.0,0.0,0.0,4,3,3
+MTS_0328,General Medicine,Gemini 3,0.0,0.0,0.0,0.0,4,3,3
+MTS_0328,General Medicine,Grok 4.1,0.0,0.0,0.0,0.0,3,2,3
+MTS_0328,General Medicine,OpenEvidence,0.0,0.0,0.0,0.0,4,3,3
+MTS_0329,General Medicine,GPT-5.2,0.0,0.0,0.0,0.0,4,4,4
+MTS_0329,General Medicine,Claude 4.5,0.0,0.0,0.0,0.0,4,3,2
+MTS_0329,General Medicine,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0329,General Medicine,Grok 4.1,0.0,0.0,0.0,0.0,4,3,2
+MTS_0329,General Medicine,OpenEvidence,0.0,0.0,0.0,0.0,4,3,3
+MTS_0331,General Medicine,GPT-5.2,0.0,0.0,0.0,0.0,3,1,2
+MTS_0331,General Medicine,Claude 4.5,0.0,0.0,0.0,0.0,3,2,3
+MTS_0331,General Medicine,Gemini 3,0.0,0.0,0.0,0.0,4,2,3
+MTS_0331,General Medicine,Grok 4.1,0.0,0.0,0.0,0.0,3,2,3
+MTS_0331,General Medicine,OpenEvidence,0.0,0.0,0.0,0.0,4,3,3
+MTS_0332,General Medicine,GPT-5.2,0.0,0.0,0.0,0.0,4,2,3
+MTS_0332,General Medicine,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0332,General Medicine,Gemini 3,0.0,0.0,0.0,0.0,4,3,3
+MTS_0332,General Medicine,Grok 4.1,0.0,0.0,0.0,0.0,4,3,3
+MTS_0332,General Medicine,OpenEvidence,0.0,0.0,0.0,0.0,4,3,3
+MTS_0333,General Medicine,GPT-5.2,397.07,0.0,397.07,397.07,2,4,2
+MTS_0333,General Medicine,Claude 4.5,269.43,0.0,269.43,269.43,3,4,4
+MTS_0333,General Medicine,Gemini 3,233.19,0.0,233.19,233.19,3,2,3
+MTS_0333,General Medicine,Grok 4.1,40.78,0.0,40.78,40.78,3,1,2
+MTS_0333,General Medicine,OpenEvidence,72.35,0.0,72.35,72.35,3,3,3
+MTS_0334,General Medicine,GPT-5.2,344.11,0.0,344.11,344.11,3,3,4
+MTS_0334,General Medicine,Claude 4.5,342.01,0.0,342.01,342.01,3,3,4
+MTS_0334,General Medicine,Gemini 3,141.23,0.0,141.23,141.23,3,3,3
+MTS_0334,General Medicine,Grok 4.1,119.42,0.0,119.42,119.42,3,2,2
+MTS_0334,General Medicine,OpenEvidence,277.42,0.0,277.42,277.42,4,4,3
+MTS_0336,General Medicine,GPT-5.2,0.0,0.0,0.0,0.0,4,3,3
+MTS_0336,General Medicine,Claude 4.5,0.0,0.0,0.0,0.0,4,1,2
+MTS_0336,General Medicine,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0336,General Medicine,Grok 4.1,0.0,0.0,0.0,0.0,4,2,3
+MTS_0336,General Medicine,OpenEvidence,0.0,0.0,0.0,0.0,4,4,3
+MTS_0337,General Medicine,GPT-5.2,0.0,0.0,0.0,0.0,4,2,3
+MTS_0337,General Medicine,Claude 4.5,0.0,0.0,0.0,0.0,4,3,3
+MTS_0337,General Medicine,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0337,General Medicine,Grok 4.1,0.0,0.0,0.0,0.0,3,1,2
+MTS_0337,General Medicine,OpenEvidence,0.0,0.0,0.0,0.0,4,3,3
+MTS_0338,General Medicine,GPT-5.2,18.33,50.77,-32.440000000000005,0.0,4,2,3
+MTS_0338,General Medicine,Claude 4.5,7.77,50.77,-43.0,0.0,4,3,4
+MTS_0338,General Medicine,Gemini 3,144.59,50.77,93.82,93.82,3,1,2
+MTS_0338,General Medicine,Grok 4.1,18.33,50.77,-32.440000000000005,0.0,4,3,3
+MTS_0338,General Medicine,OpenEvidence,111.12,50.77,60.35,60.35,3,1,4
+MTS_0339,General Medicine,GPT-5.2,154.82,2.25,152.57,152.57,2,1,3
+MTS_0339,General Medicine,Claude 4.5,57.55,2.25,55.3,55.3,3,2,2
+MTS_0339,General Medicine,Gemini 3,126.26,148.77,-22.510000000000005,0.0,3,3,3
+MTS_0339,General Medicine,Grok 4.1,73.09,2.25,70.84,70.84,2,1,3
+MTS_0339,General Medicine,OpenEvidence,242.59,2.25,240.34,240.34,2,1,1
+MTS_0340,General Medicine,GPT-5.2,227.18,697.17,-469.98999999999995,0.0,3,3,3
+MTS_0340,General Medicine,Claude 4.5,558.82,654.81,-95.9899999999999,0.0,3,2,3
+MTS_0340,General Medicine,Gemini 3,859.53,697.17,162.36,162.36,2,1,3
+MTS_0340,General Medicine,Grok 4.1,566.69,654.81,-88.11999999999989,0.0,2,2,3
+MTS_0340,General Medicine,OpenEvidence,10.12,697.17,-687.05,0.0,4,4,2
+MTS_0343,General Medicine,GPT-5.2,8.61,37.38,-28.770000000000003,0.0,3,3,3
+MTS_0343,General Medicine,Claude 4.5,0.0,37.38,-37.38,0.0,3,4,3
+MTS_0343,General Medicine,Gemini 3,0.0,37.38,-37.38,0.0,3,4,2
+MTS_0343,General Medicine,Grok 4.1,117.57,37.38,80.19,80.19,3,2,4
+MTS_0343,General Medicine,OpenEvidence,117.57,37.38,80.19,80.19,3,1,3
+MTS_0344,General Medicine,GPT-5.2,109.05,106.45,2.5999999999999943,2.5999999999999943,3,3,4
+MTS_0344,General Medicine,Claude 4.5,437.32,106.45,330.87,330.87,2,1,4
+MTS_0344,General Medicine,Gemini 3,40.75,106.45,-65.7,0.0,4,4,3
+MTS_0344,General Medicine,Grok 4.1,31.77,106.45,-74.68,0.0,4,3,3
+MTS_0344,General Medicine,OpenEvidence,355.85,106.45,249.40000000000003,249.40000000000003,2,1,1
+MTS_0346,General Medicine,GPT-5.2,42.41,0.0,42.41,42.41,3,2,4
+MTS_0346,General Medicine,Claude 4.5,243.54,0.0,243.54,243.54,3,3,3
+MTS_0346,General Medicine,Gemini 3,211.89,0.0,211.89,211.89,3,2,3
+MTS_0346,General Medicine,Grok 4.1,46.21,0.0,46.21,46.21,3,2,3
+MTS_0346,General Medicine,OpenEvidence,0.0,0.0,0.0,0.0,1,1,1
+MTS_0356,General Medicine,GPT-5.2,0.0,0.0,0.0,0.0,4,4,3
+MTS_0356,General Medicine,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0356,General Medicine,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0356,General Medicine,Grok 4.1,0.0,0.0,0.0,0.0,4,3,3
+MTS_0356,General Medicine,OpenEvidence,0.0,0.0,0.0,0.0,4,4,3
+MTS_0395,General Medicine,GPT-5.2,96.3,66.21,30.090000000000003,30.090000000000003,4,2,4
+MTS_0395,General Medicine,Claude 4.5,314.2,66.21,247.99,247.99,4,4,4
+MTS_0395,General Medicine,Gemini 3,314.2,66.21,247.99,247.99,4,3,4
+MTS_0395,General Medicine,Grok 4.1,72.84,66.21,6.63000000000001,6.63000000000001,4,2,4
+MTS_0395,General Medicine,OpenEvidence,248.25,66.21,182.04000000000002,182.04000000000002,3,4,4
+MTS_0396,General Medicine,GPT-5.2,270.98,499.1,-228.12,0.0,3,1,3
+MTS_0396,General Medicine,Claude 4.5,295.94,499.1,-203.16000000000003,0.0,3,2,3
+MTS_0396,General Medicine,Gemini 3,31.32,499.1,-467.78000000000003,0.0,4,2,3
+MTS_0396,General Medicine,Grok 4.1,252.85,499.1,-246.25000000000003,0.0,3,1,3
+MTS_0396,General Medicine,OpenEvidence,97.64,499.1,-401.46000000000004,0.0,3,2,3
+MTS_0398,General Medicine,GPT-5.2,26.65,48.66,-22.009999999999998,0.0,3,2,3
+MTS_0398,General Medicine,Claude 4.5,214.86,48.66,166.20000000000002,166.20000000000002,3,1,3
+MTS_0398,General Medicine,Gemini 3,428.56,48.66,379.9,379.9,2,3,3
+MTS_0398,General Medicine,Grok 4.1,32.41,48.66,-16.25,0.0,4,2,3
+MTS_0398,General Medicine,OpenEvidence,261.52,48.66,212.85999999999999,212.85999999999999,4,3,3
+MTS_0402,General Medicine,GPT-5.2,700.66,634.95,65.70999999999992,65.70999999999992,4,3,3
+MTS_0402,General Medicine,Claude 4.5,1064.68,634.95,429.73,429.73,3,1,2
+MTS_0402,General Medicine,Gemini 3,539.62,634.95,-95.33000000000004,0.0,3,1,2
+MTS_0402,General Medicine,Grok 4.1,762.06,634.95,127.1099999999999,127.1099999999999,3,2,3
+MTS_0402,General Medicine,OpenEvidence,0.0,634.95,-634.95,0.0,4,1,3
+MTS_0415,General Medicine,GPT-5.2,81.12,752.19,-671.07,0.0,4,4,4
+MTS_0415,General Medicine,Claude 4.5,25.22,752.19,-726.97,0.0,4,3,4
+MTS_0415,General Medicine,Gemini 3,7.77,752.19,-744.4200000000001,0.0,4,4,4
+MTS_0415,General Medicine,Grok 4.1,29.51,746.18,-716.67,0.0,4,3,3
+MTS_0415,General Medicine,OpenEvidence,12.79,752.19,-739.4000000000001,0.0,4,2,2
+MTS_0418,General Medicine,GPT-5.2,79.26,0.0,79.26,79.26,3,4,4
+MTS_0418,General Medicine,Claude 4.5,344.58,0.0,344.58,344.58,3,2,3
+MTS_0418,General Medicine,Gemini 3,4.01,0.0,4.01,4.01,4,3,3
+MTS_0418,General Medicine,Grok 4.1,242.67,0.0,242.67,242.67,2,2,2
+MTS_0418,General Medicine,OpenEvidence,154.83,0.0,154.83,154.83,3,3,3
+MTS_0420,General Medicine,GPT-5.2,0.0,0.0,0.0,0.0,4,1,3
+MTS_0420,General Medicine,Claude 4.5,0.0,0.0,0.0,0.0,4,1,3
+MTS_0420,General Medicine,Gemini 3,0.0,0.0,0.0,0.0,4,1,3
+MTS_0420,General Medicine,Grok 4.1,0.0,0.0,0.0,0.0,4,1,3
+MTS_0420,General Medicine,OpenEvidence,0.0,0.0,0.0,0.0,4,4,3
+MTS_0425,Emergency Room Reports,GPT-5.2,4.5,331.34,-326.84,0.0,4,3,3
+MTS_0425,Emergency Room Reports,Claude 4.5,702.95,331.34,371.61000000000007,371.61000000000007,3,1,3
+MTS_0425,Emergency Room Reports,Gemini 3,393.8,331.34,62.460000000000036,62.460000000000036,3,2,2
+MTS_0425,Emergency Room Reports,Grok 4.1,0.0,331.34,-331.34,0.0,4,2,3
+MTS_0425,Emergency Room Reports,OpenEvidence,0.0,331.34,-331.34,0.0,4,3,3
+MTS_0426,Emergency Room Reports,GPT-5.2,334.08,241.89,92.19,92.19,2,2,3
+MTS_0426,Emergency Room Reports,Claude 4.5,431.07,241.89,189.18,189.18,2,2,3
+MTS_0426,Emergency Room Reports,Gemini 3,362.53,241.89,120.63999999999999,120.63999999999999,3,2,3
+MTS_0426,Emergency Room Reports,Grok 4.1,231.37,241.89,-10.519999999999982,0.0,3,3,3
+MTS_0426,Emergency Room Reports,OpenEvidence,294.02,241.89,52.129999999999995,52.129999999999995,2,2,2
+MTS_0440,Emergency Room Reports,GPT-5.2,17.98,0.0,17.98,17.98,4,4,3
+MTS_0440,Emergency Room Reports,Claude 4.5,0.0,285.91,-285.91,0.0,3,2,2
+MTS_0440,Emergency Room Reports,Gemini 3,32.05,0.0,32.05,32.05,4,3,2
+MTS_0440,Emergency Room Reports,Grok 4.1,23.04,0.0,23.04,23.04,4,2,3
+MTS_0440,Emergency Room Reports,OpenEvidence,285.91,0.0,285.91,285.91,3,4,4
+MTS_0441,Emergency Room Reports,GPT-5.2,1997.47,0.0,1997.47,1997.47,1,1,2
+MTS_0441,Emergency Room Reports,Claude 4.5,40.1,0.0,40.1,40.1,4,3,3
+MTS_0441,Emergency Room Reports,Gemini 3,95.71,0.0,95.71,95.71,3,2,3
+MTS_0441,Emergency Room Reports,Grok 4.1,103.1,0.0,103.1,103.1,3,2,3
+MTS_0441,Emergency Room Reports,OpenEvidence,60.02,0.0,60.02,60.02,3,1,2
+MTS_0449,Emergency Room Reports,GPT-5.2,793.88,308.62,485.26,485.26,3,3,3
+MTS_0449,Emergency Room Reports,Claude 4.5,699.02,308.62,390.4,390.4,3,4,3
+MTS_0449,Emergency Room Reports,Gemini 3,3016.94,308.62,2708.32,2708.32,1,2,3
+MTS_0449,Emergency Room Reports,Grok 4.1,524.86,308.62,216.24,216.24,2,2,3
+MTS_0449,Emergency Room Reports,OpenEvidence,2513.2,308.62,2204.58,2204.58,1,3,3
+MTS_0459,Emergency Room Reports,GPT-5.2,52.72,0.0,52.72,52.72,3,4,3
+MTS_0459,Emergency Room Reports,Claude 4.5,32.38,0.0,32.38,32.38,3,1,2
+MTS_0459,Emergency Room Reports,Gemini 3,17.98,0.0,17.98,17.98,4,4,3
+MTS_0459,Emergency Room Reports,Grok 4.1,17.98,0.0,17.98,17.98,3,3,3
+MTS_0459,Emergency Room Reports,OpenEvidence,17.98,0.0,17.98,17.98,3,2,1
+MTS_0468,Emergency Room Reports,GPT-5.2,0.0,0.0,0.0,0.0,4,3,3
+MTS_0468,Emergency Room Reports,Claude 4.5,0.0,0.0,0.0,0.0,4,3,3
+MTS_0468,Emergency Room Reports,Gemini 3,0.0,0.0,0.0,0.0,4,2,2
+MTS_0468,Emergency Room Reports,Grok 4.1,0.0,0.0,0.0,0.0,4,3,3
+MTS_0468,Emergency Room Reports,OpenEvidence,0.0,0.0,0.0,0.0,4,4,2
+MTS_0471,Emergency Room Reports,GPT-5.2,37.08,0.0,37.08,37.08,3,3,3
+MTS_0471,Emergency Room Reports,Claude 4.5,49.3,0.0,49.3,49.3,4,4,3
+MTS_0471,Emergency Room Reports,Gemini 3,53.54,0.0,53.54,53.54,3,1,2
+MTS_0471,Emergency Room Reports,Grok 4.1,46.02,0.0,46.02,46.02,3,3,3
+MTS_0471,Emergency Room Reports,OpenEvidence,69.22,0.0,69.22,69.22,4,2,3
+MTS_0473,Emergency Room Reports,GPT-5.2,0.0,0.0,0.0,0.0,3,1,3
+MTS_0473,Emergency Room Reports,Claude 4.5,0.0,0.0,0.0,0.0,3,1,1
+MTS_0473,Emergency Room Reports,Gemini 3,0.0,0.0,0.0,0.0,3,1,2
+MTS_0473,Emergency Room Reports,Grok 4.1,47.76,0.0,47.76,47.76,4,2,2
+MTS_0473,Emergency Room Reports,OpenEvidence,0.0,0.0,0.0,0.0,4,1,2
+MTS_0476,Emergency Room Reports,GPT-5.2,323.48,108.14,215.34000000000003,215.34000000000003,2,1,3
+MTS_0476,Emergency Room Reports,Claude 4.5,158.94,108.14,50.8,50.8,4,3,4
+MTS_0476,Emergency Room Reports,Gemini 3,187.39,108.14,79.24999999999999,79.24999999999999,3,2,3
+MTS_0476,Emergency Room Reports,Grok 4.1,223.82,108.14,115.67999999999999,115.67999999999999,3,1,3
+MTS_0476,Emergency Room Reports,OpenEvidence,156.15,108.14,48.010000000000005,48.010000000000005,4,2,3
+MTS_0480,Emergency Room Reports,GPT-5.2,106.55,0.0,106.55,106.55,4,4,3
+MTS_0480,Emergency Room Reports,Claude 4.5,114.32,0.0,114.32,114.32,4,4,3
+MTS_0480,Emergency Room Reports,Gemini 3,139.62,0.0,139.62,139.62,4,3,3
+MTS_0480,Emergency Room Reports,Grok 4.1,106.55,0.0,106.55,106.55,4,4,3
+MTS_0480,Emergency Room Reports,OpenEvidence,106.55,0.0,106.55,106.55,4,4,3
+MTS_0481,Emergency Room Reports,GPT-5.2,188.59,0.0,188.59,188.59,3,2,2
+MTS_0481,Emergency Room Reports,Claude 4.5,369.6,0.0,369.6,369.6,4,3,4
+MTS_0481,Emergency Room Reports,Gemini 3,296.01,0.0,296.01,296.01,3,1,3
+MTS_0481,Emergency Room Reports,Grok 4.1,20.24,0.0,20.24,20.24,4,1,3
+MTS_0481,Emergency Room Reports,OpenEvidence,1081.86,0.0,1081.86,1081.86,2,3,3
+MTS_0497,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,4,3
+MTS_0497,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0497,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,4,2,3
+MTS_0497,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,1,3
+MTS_0497,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,1,3
+MTS_0498,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,3,3
+MTS_0498,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,3,3
+MTS_0498,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,4,3,3
+MTS_0498,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,3,2,3
+MTS_0498,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,1,3
+MTS_0499,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,1,4
+MTS_0499,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0499,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,4,3,4
+MTS_0499,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,4,3
+MTS_0499,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,4,4
+MTS_0500,Consult - History and Phy.,GPT-5.2,270.27,211.89,58.379999999999995,58.379999999999995,3,3,4
+MTS_0500,Consult - History and Phy.,Claude 4.5,246.24,211.89,34.35000000000002,34.35000000000002,4,2,3
+MTS_0500,Consult - History and Phy.,Gemini 3,169.26,211.89,-42.629999999999995,0.0,3,1,1
+MTS_0500,Consult - History and Phy.,Grok 4.1,226.07,211.89,14.180000000000007,14.180000000000007,3,3,2
+MTS_0500,Consult - History and Phy.,OpenEvidence,197.12,211.89,-14.769999999999982,0.0,3,2,3
+MTS_0502,Consult - History and Phy.,GPT-5.2,14.48,7.77,6.710000000000001,6.710000000000001,4,1,4
+MTS_0502,Consult - History and Phy.,Claude 4.5,0.0,7.77,-7.77,0.0,4,4,3
+MTS_0502,Consult - History and Phy.,Gemini 3,20.11,7.77,12.34,12.34,4,1,3
+MTS_0502,Consult - History and Phy.,Grok 4.1,0.0,7.77,-7.77,0.0,4,2,3
+MTS_0502,Consult - History and Phy.,OpenEvidence,14.48,7.77,6.710000000000001,6.710000000000001,4,3,4
+MTS_0503,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,4,3
+MTS_0503,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0503,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0503,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,4,3
+MTS_0503,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,4,3
+MTS_0504,Consult - History and Phy.,GPT-5.2,4.01,0.0,4.01,4.01,4,3,3
+MTS_0504,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0504,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0504,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,4,3
+MTS_0504,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,4,3
+MTS_0505,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,4,3
+MTS_0505,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0505,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0505,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,4,3
+MTS_0505,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,3,3
+MTS_0506,Consult - History and Phy.,GPT-5.2,2.37,0.0,2.37,2.37,4,4,4
+MTS_0506,Consult - History and Phy.,Claude 4.5,14.48,0.0,14.48,14.48,4,3,3
+MTS_0506,Consult - History and Phy.,Gemini 3,14.48,0.0,14.48,14.48,4,4,4
+MTS_0506,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,4,3
+MTS_0506,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,3,1,2
+MTS_0507,Consult - History and Phy.,GPT-5.2,50.41,0.0,50.41,50.41,2,1,1
+MTS_0507,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,3,3
+MTS_0507,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,4,2,3
+MTS_0507,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,4,3
+MTS_0507,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,3,3
+MTS_0510,Consult - History and Phy.,GPT-5.2,405.63,101.15,304.48,304.48,3,3,4
+MTS_0510,Consult - History and Phy.,Claude 4.5,415.13,118.61,296.52,296.52,3,4,4
+MTS_0510,Consult - History and Phy.,Gemini 3,584.71,101.15,483.56000000000006,483.56000000000006,3,4,4
+MTS_0510,Consult - History and Phy.,Grok 4.1,399.72,322.54,77.18,77.18,2,3,4
+MTS_0510,Consult - History and Phy.,OpenEvidence,585.05,101.15,483.9,483.9,3,2,3
+MTS_0511,Consult - History and Phy.,GPT-5.2,16.33,0.0,16.33,16.33,3,3,3
+MTS_0511,Consult - History and Phy.,Claude 4.5,471.06,0.0,471.06,471.06,3,4,4
+MTS_0511,Consult - History and Phy.,Gemini 3,41.75,0.0,41.75,41.75,4,2,3
+MTS_0511,Consult - History and Phy.,Grok 4.1,494.81,0.0,494.81,494.81,3,3,4
+MTS_0511,Consult - History and Phy.,OpenEvidence,12.51,0.0,12.51,12.51,3,1,2
+MTS_0516,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,3,2
+MTS_0516,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,3,3
+MTS_0516,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,4,3,3
+MTS_0516,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,2,3
+MTS_0516,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,4,3
+MTS_0530,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,2,2
+MTS_0530,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,2,2
+MTS_0530,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0530,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,4,3
+MTS_0530,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,4,3
+MTS_0536,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,3,3
+MTS_0536,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,2,3
+MTS_0536,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,4,3,3
+MTS_0536,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,3,3
+MTS_0536,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,3,3
+MTS_0538,Consult - History and Phy.,GPT-5.2,130.18,0.0,130.18,130.18,3,1,2
+MTS_0538,Consult - History and Phy.,Claude 4.5,24.05,0.0,24.05,24.05,4,3,4
+MTS_0538,Consult - History and Phy.,Gemini 3,76.15,0.0,76.15,76.15,4,3,3
+MTS_0538,Consult - History and Phy.,Grok 4.1,103.29,0.0,103.29,103.29,3,1,2
+MTS_0538,Consult - History and Phy.,OpenEvidence,400.34,0.0,400.34,400.34,3,2,3
+MTS_0539,Consult - History and Phy.,GPT-5.2,13.39,0.0,13.39,13.39,4,2,2
+MTS_0539,Consult - History and Phy.,Claude 4.5,30.17,0.0,30.17,30.17,3,4,3
+MTS_0539,Consult - History and Phy.,Gemini 3,13.44,0.0,13.44,13.44,4,3,3
+MTS_0539,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,4,3
+MTS_0539,Consult - History and Phy.,OpenEvidence,8.19,0.0,8.19,8.19,4,3,3
+MTS_0544,Consult - History and Phy.,GPT-5.2,0.0,2.37,-2.37,0.0,4,4,3
+MTS_0544,Consult - History and Phy.,Claude 4.5,0.0,2.37,-2.37,0.0,4,3,3
+MTS_0544,Consult - History and Phy.,Gemini 3,0.0,2.37,-2.37,0.0,4,4,3
+MTS_0544,Consult - History and Phy.,Grok 4.1,0.0,2.37,-2.37,0.0,3,2,3
+MTS_0544,Consult - History and Phy.,OpenEvidence,31.75,2.37,29.38,29.38,2,1,1
+MTS_0545,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,1,2
+MTS_0545,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,3,3
+MTS_0545,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,4,3,3
+MTS_0545,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,2,2
+MTS_0545,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,3,2
+MTS_0546,Consult - History and Phy.,GPT-5.2,141.83,0.0,141.83,141.83,4,4,4
+MTS_0546,Consult - History and Phy.,Claude 4.5,107.91,0.0,107.91,107.91,4,4,4
+MTS_0546,Consult - History and Phy.,Gemini 3,82.91,0.0,82.91,82.91,4,4,3
+MTS_0546,Consult - History and Phy.,Grok 4.1,26.21,0.0,26.21,26.21,4,3,3
+MTS_0546,Consult - History and Phy.,OpenEvidence,204.24,0.0,204.24,204.24,4,2,3
+MTS_0555,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,3,2
+MTS_0555,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,1,3
+MTS_0555,Consult - History and Phy.,Gemini 3,31.06,0.0,31.06,31.06,4,2,3
+MTS_0555,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,3,3
+MTS_0555,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,2,3
+MTS_0559,Consult - History and Phy.,GPT-5.2,88.14,0.0,88.14,88.14,3,3,4
+MTS_0559,Consult - History and Phy.,Claude 4.5,72.57,0.0,72.57,72.57,3,2,3
+MTS_0559,Consult - History and Phy.,Gemini 3,53.65,0.0,53.65,53.65,3,2,2
+MTS_0559,Consult - History and Phy.,Grok 4.1,172.12,0.0,172.12,172.12,2,1,2
+MTS_0559,Consult - History and Phy.,OpenEvidence,128.61,0.0,128.61,128.61,3,1,3
+MTS_0560,Consult - History and Phy.,GPT-5.2,590.53,0.0,590.53,590.53,1,2,2
+MTS_0560,Consult - History and Phy.,Claude 4.5,802.29,0.0,802.29,802.29,1,1,1
+MTS_0560,Consult - History and Phy.,Gemini 3,681.38,0.0,681.38,681.38,2,1,1
+MTS_0560,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,3,3
+MTS_0560,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,4,3
+MTS_0574,Consult - History and Phy.,GPT-5.2,122.1,0.0,122.1,122.1,3,2,3
+MTS_0574,Consult - History and Phy.,Claude 4.5,35.23,0.0,35.23,35.23,4,3,4
+MTS_0574,Consult - History and Phy.,Gemini 3,147.15,0.0,147.15,147.15,3,2,3
+MTS_0574,Consult - History and Phy.,Grok 4.1,70.35,0.0,70.35,70.35,3,3,3
+MTS_0574,Consult - History and Phy.,OpenEvidence,188.25,0.0,188.25,188.25,3,2,3
+MTS_0578,Consult - History and Phy.,GPT-5.2,620.91,0.0,620.91,620.91,2,3,3
+MTS_0578,Consult - History and Phy.,Claude 4.5,743.65,0.0,743.65,743.65,2,2,3
+MTS_0578,Consult - History and Phy.,Gemini 3,341.05,0.0,341.05,341.05,3,4,3
+MTS_0578,Consult - History and Phy.,Grok 4.1,139.45,0.0,139.45,139.45,3,3,3
+MTS_0578,Consult - History and Phy.,OpenEvidence,358.69,0.0,358.69,358.69,3,2,3
+MTS_0582,Consult - History and Phy.,GPT-5.2,1274.11,0.0,1274.11,1274.11,3,4,4
+MTS_0582,Consult - History and Phy.,Claude 4.5,870.34,0.0,870.34,870.34,4,4,4
+MTS_0582,Consult - History and Phy.,Gemini 3,1285.77,0.0,1285.77,1285.77,2,2,3
+MTS_0582,Consult - History and Phy.,Grok 4.1,926.53,0.0,926.53,926.53,3,4,4
+MTS_0582,Consult - History and Phy.,OpenEvidence,1667.67,0.0,1667.67,1667.67,2,1,3
+MTS_0586,Consult - History and Phy.,GPT-5.2,106.55,189.05,-82.50000000000001,0.0,4,3,3
+MTS_0586,Consult - History and Phy.,Claude 4.5,199.49,189.05,10.439999999999998,10.439999999999998,4,4,3
+MTS_0586,Consult - History and Phy.,Gemini 3,359.06,189.05,170.01,170.01,3,1,2
+MTS_0586,Consult - History and Phy.,Grok 4.1,121.02,189.05,-68.03000000000002,0.0,4,2,3
+MTS_0586,Consult - History and Phy.,OpenEvidence,106.55,189.05,-82.50000000000001,0.0,4,3,2
+MTS_0593,Consult - History and Phy.,GPT-5.2,23.1,0.0,23.1,23.1,4,2,3
+MTS_0593,Consult - History and Phy.,Claude 4.5,13.39,0.0,13.39,13.39,4,2,3
+MTS_0593,Consult - History and Phy.,Gemini 3,20.26,0.0,20.26,20.26,4,2,3
+MTS_0593,Consult - History and Phy.,Grok 4.1,35.86,0.0,35.86,35.86,4,2,3
+MTS_0593,Consult - History and Phy.,OpenEvidence,20.26,0.0,20.26,20.26,4,2,3
+MTS_0599,Consult - History and Phy.,GPT-5.2,1024.43,182.47,841.96,841.96,2,1,3
+MTS_0599,Consult - History and Phy.,Claude 4.5,399.7,182.47,217.23,217.23,3,2,3
+MTS_0599,Consult - History and Phy.,Gemini 3,309.7,182.47,127.22999999999999,127.22999999999999,3,2,3
+MTS_0599,Consult - History and Phy.,Grok 4.1,311.83,182.47,129.35999999999999,129.35999999999999,3,2,3
+MTS_0599,Consult - History and Phy.,OpenEvidence,53.9,182.47,-128.57,0.0,4,3,3
+MTS_0600,Consult - History and Phy.,GPT-5.2,25.96,0.0,25.96,25.96,3,2,3
+MTS_0600,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0600,Consult - History and Phy.,Gemini 3,17.03,0.0,17.03,17.03,3,2,3
+MTS_0600,Consult - History and Phy.,Grok 4.1,45.63,0.0,45.63,45.63,3,1,2
+MTS_0600,Consult - History and Phy.,OpenEvidence,360.12,0.0,360.12,360.12,2,1,1
+MTS_0611,Consult - History and Phy.,GPT-5.2,131.13,0.0,131.13,131.13,3,3,3
+MTS_0611,Consult - History and Phy.,Claude 4.5,85.87,0.0,85.87,85.87,4,4,4
+MTS_0611,Consult - History and Phy.,Gemini 3,83.72,0.0,83.72,83.72,3,3,3
+MTS_0611,Consult - History and Phy.,Grok 4.1,184.2,0.0,184.2,184.2,3,3,3
+MTS_0611,Consult - History and Phy.,OpenEvidence,85.47,0.0,85.47,85.47,3,2,3
+MTS_0613,Consult - History and Phy.,GPT-5.2,236.81,0.0,236.81,236.81,2,3,3
+MTS_0613,Consult - History and Phy.,Claude 4.5,32.53,18.06,14.470000000000002,14.470000000000002,4,4,4
+MTS_0613,Consult - History and Phy.,Gemini 3,335.87,0.0,335.87,335.87,3,3,3
+MTS_0613,Consult - History and Phy.,Grok 4.1,35.78,18.06,17.720000000000002,17.720000000000002,2,3,3
+MTS_0613,Consult - History and Phy.,OpenEvidence,89.38,0.0,89.38,89.38,3,4,3
+MTS_0621,Consult - History and Phy.,GPT-5.2,78.6,0.0,78.6,78.6,3,3,3
+MTS_0621,Consult - History and Phy.,Claude 4.5,38.96,0.0,38.96,38.96,4,2,3
+MTS_0621,Consult - History and Phy.,Gemini 3,26.21,0.0,26.21,26.21,4,4,3
+MTS_0621,Consult - History and Phy.,Grok 4.1,387.79,0.0,387.79,387.79,2,1,2
+MTS_0621,Consult - History and Phy.,OpenEvidence,52.45,0.0,52.45,52.45,3,1,1
+MTS_0622,Consult - History and Phy.,GPT-5.2,153.37,25.27,128.1,128.1,4,2,3
+MTS_0622,Consult - History and Phy.,Claude 4.5,169.23,25.27,143.95999999999998,143.95999999999998,4,3,3
+MTS_0622,Consult - History and Phy.,Gemini 3,148.97,25.27,123.7,123.7,4,3,3
+MTS_0622,Consult - History and Phy.,Grok 4.1,160.79,25.27,135.51999999999998,135.51999999999998,4,3,3
+MTS_0622,Consult - History and Phy.,OpenEvidence,0.0,25.27,-25.27,0.0,4,2,3
+MTS_0625,Consult - History and Phy.,GPT-5.2,160.74,0.0,160.74,160.74,3,1,2
+MTS_0625,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,2,2
+MTS_0625,Consult - History and Phy.,Gemini 3,26.51,0.0,26.51,26.51,4,2,3
+MTS_0625,Consult - History and Phy.,Grok 4.1,81.54,0.0,81.54,81.54,3,3,3
+MTS_0625,Consult - History and Phy.,OpenEvidence,116.9,0.0,116.9,116.9,3,1,2
+MTS_0656,Consult - History and Phy.,GPT-5.2,15.36,413.5,-398.14,0.0,2,2,3
+MTS_0656,Consult - History and Phy.,Claude 4.5,216.06,413.5,-197.44,0.0,4,3,3
+MTS_0656,Consult - History and Phy.,Gemini 3,31.58,413.5,-381.92,0.0,4,4,3
+MTS_0656,Consult - History and Phy.,Grok 4.1,29.48,413.5,-384.02,0.0,4,3,3
+MTS_0656,Consult - History and Phy.,OpenEvidence,28.56,413.5,-384.94,0.0,3,1,3
+MTS_0670,Consult - History and Phy.,GPT-5.2,50.21,0.0,50.21,50.21,4,4,4
+MTS_0670,Consult - History and Phy.,Claude 4.5,533.75,0.0,533.75,533.75,4,4,4
+MTS_0670,Consult - History and Phy.,Gemini 3,216.77,0.0,216.77,216.77,4,3,3
+MTS_0670,Consult - History and Phy.,Grok 4.1,541.52,0.0,541.52,541.52,3,2,3
+MTS_0670,Consult - History and Phy.,OpenEvidence,216.77,0.0,216.77,216.77,3,3,3
+MTS_0675,Consult - History and Phy.,GPT-5.2,8.46,0.0,8.46,8.46,4,3,3
+MTS_0675,Consult - History and Phy.,Claude 4.5,449.78,0.0,449.78,449.78,3,2,3
+MTS_0675,Consult - History and Phy.,Gemini 3,23.81,0.0,23.81,23.81,4,3,3
+MTS_0675,Consult - History and Phy.,Grok 4.1,50.32,0.0,50.32,50.32,3,2,3
+MTS_0675,Consult - History and Phy.,OpenEvidence,291.95,0.0,291.95,291.95,3,3,3
+MTS_0677,Consult - History and Phy.,GPT-5.2,28.56,183.04,-154.48,0.0,4,3,4
+MTS_0677,Consult - History and Phy.,Claude 4.5,18.33,183.04,-164.70999999999998,0.0,4,4,3
+MTS_0677,Consult - History and Phy.,Gemini 3,25.81,183.04,-157.23,0.0,4,2,3
+MTS_0677,Consult - History and Phy.,Grok 4.1,371.08,183.04,188.04,188.04,3,1,3
+MTS_0677,Consult - History and Phy.,OpenEvidence,0.0,183.04,-183.04,0.0,4,2,3
+MTS_0680,Consult - History and Phy.,GPT-5.2,351.59,0.0,351.59,351.59,3,1,3
+MTS_0680,Consult - History and Phy.,Claude 4.5,264.6,0.0,264.6,264.6,3,3,3
+MTS_0680,Consult - History and Phy.,Gemini 3,175.92,0.0,175.92,175.92,2,2,3
+MTS_0680,Consult - History and Phy.,Grok 4.1,118.76,0.0,118.76,118.76,3,2,3
+MTS_0680,Consult - History and Phy.,OpenEvidence,261.6,0.0,261.6,261.6,3,3,3
+MTS_0687,Consult - History and Phy.,GPT-5.2,854.97,47.1,807.87,807.87,3,1,3
+MTS_0687,Consult - History and Phy.,Claude 4.5,178.21,47.1,131.11,131.11,4,3,3
+MTS_0687,Consult - History and Phy.,Gemini 3,104.3,47.1,57.199999999999996,57.199999999999996,4,3,3
+MTS_0687,Consult - History and Phy.,Grok 4.1,359.14,47.1,312.03999999999996,312.03999999999996,3,2,3
+MTS_0687,Consult - History and Phy.,OpenEvidence,0.0,47.1,-47.1,0.0,3,4,2
+MTS_0692,Consult - History and Phy.,GPT-5.2,556.09,0.0,556.09,556.09,2,1,3
+MTS_0692,Consult - History and Phy.,Claude 4.5,132.4,0.0,132.4,132.4,2,2,4
+MTS_0692,Consult - History and Phy.,Gemini 3,85.11,0.0,85.11,85.11,3,3,3
+MTS_0692,Consult - History and Phy.,Grok 4.1,573.05,0.0,573.05,573.05,2,1,2
+MTS_0692,Consult - History and Phy.,OpenEvidence,43.7,0.0,43.7,43.7,3,2,3
+MTS_0697,Consult - History and Phy.,GPT-5.2,516.73,0.0,516.73,516.73,1,2,2
+MTS_0697,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,3,3,3
+MTS_0697,Consult - History and Phy.,Gemini 3,13.25,0.0,13.25,13.25,3,4,4
+MTS_0697,Consult - History and Phy.,Grok 4.1,38.28,0.0,38.28,38.28,3,3,3
+MTS_0697,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,3,3,3
+MTS_0699,Consult - History and Phy.,GPT-5.2,33.73,352.38,-318.65,0.0,4,2,2
+MTS_0699,Consult - History and Phy.,Claude 4.5,352.7,352.38,0.3199999999999932,0.3199999999999932,2,2,3
+MTS_0699,Consult - History and Phy.,Gemini 3,66.04,352.38,-286.34,0.0,3,3,3
+MTS_0699,Consult - History and Phy.,Grok 4.1,414.53,352.38,62.14999999999998,62.14999999999998,2,1,2
+MTS_0699,Consult - History and Phy.,OpenEvidence,53.78,352.38,-298.6,0.0,4,3,3
+MTS_0706,Consult - History and Phy.,GPT-5.2,465.15,0.0,465.15,465.15,2,3,4
+MTS_0706,Consult - History and Phy.,Claude 4.5,232.56,0.0,232.56,232.56,3,1,2
+MTS_0706,Consult - History and Phy.,Gemini 3,230.39,0.0,230.39,230.39,3,3,3
+MTS_0706,Consult - History and Phy.,Grok 4.1,306.71,0.0,306.71,306.71,2,1,2
+MTS_0706,Consult - History and Phy.,OpenEvidence,230.39,0.0,230.39,230.39,3,3,4
+MTS_0717,Consult - History and Phy.,GPT-5.2,2365.22,2201.79,163.42999999999984,163.42999999999984,4,2,3
+MTS_0717,Consult - History and Phy.,Claude 4.5,2209.56,2201.79,7.769999999999982,7.769999999999982,4,3,3
+MTS_0717,Consult - History and Phy.,Gemini 3,2268.74,2201.79,66.94999999999982,66.94999999999982,4,4,3
+MTS_0717,Consult - History and Phy.,Grok 4.1,2245.18,2201.79,43.38999999999987,43.38999999999987,4,2,3
+MTS_0717,Consult - History and Phy.,OpenEvidence,20.51,2201.79,-2181.2799999999997,0.0,4,2,4
+MTS_0718,Consult - History and Phy.,GPT-5.2,0.0,67.81,-67.81,0.0,4,4,3
+MTS_0718,Consult - History and Phy.,Claude 4.5,33.07,67.81,-34.74,0.0,4,3,3
+MTS_0718,Consult - History and Phy.,Gemini 3,0.0,67.81,-67.81,0.0,4,4,3
+MTS_0718,Consult - History and Phy.,Grok 4.1,23.71,38.75,-15.04,0.0,4,3,3
+MTS_0718,Consult - History and Phy.,OpenEvidence,33.07,38.75,-5.68,0.0,4,2,3
+MTS_0727,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,1,3
+MTS_0727,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0727,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,4,1,3
+MTS_0727,Consult - History and Phy.,Grok 4.1,134.61,0.0,134.61,134.61,3,1,2
+MTS_0727,Consult - History and Phy.,OpenEvidence,111.89,0.0,111.89,111.89,2,2,2
+MTS_0736,Consult - History and Phy.,GPT-5.2,211.48,0.0,211.48,211.48,3,1,3
+MTS_0736,Consult - History and Phy.,Claude 4.5,264.2,0.0,264.2,264.2,3,3,3
+MTS_0736,Consult - History and Phy.,Gemini 3,224.11,0.0,224.11,224.11,3,2,3
+MTS_0736,Consult - History and Phy.,Grok 4.1,47.76,0.0,47.76,47.76,4,3,2
+MTS_0736,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,1,3
+MTS_0749,Consult - History and Phy.,GPT-5.2,79.16,97.2,-18.040000000000006,0.0,3,2,3
+MTS_0749,Consult - History and Phy.,Claude 4.5,38.08,97.2,-59.120000000000005,0.0,4,4,3
+MTS_0749,Consult - History and Phy.,Gemini 3,195.73,97.2,98.52999999999999,98.52999999999999,2,2,3
+MTS_0749,Consult - History and Phy.,Grok 4.1,0.0,97.2,-97.2,0.0,3,3,3
+MTS_0749,Consult - History and Phy.,OpenEvidence,31.4,97.2,-65.80000000000001,0.0,4,4,3
+MTS_0823,Consult - History and Phy.,GPT-5.2,246.62,17.06,229.56,229.56,2,2,3
+MTS_0823,Consult - History and Phy.,Claude 4.5,531.34,17.06,514.2800000000001,514.2800000000001,2,3,3
+MTS_0823,Consult - History and Phy.,Gemini 3,50.77,17.06,33.71000000000001,33.71000000000001,4,4,3
+MTS_0823,Consult - History and Phy.,Grok 4.1,63.41,17.06,46.349999999999994,46.349999999999994,4,2,3
+MTS_0823,Consult - History and Phy.,OpenEvidence,79.93,17.06,62.870000000000005,62.870000000000005,3,1,3
+MTS_0829,Consult - History and Phy.,GPT-5.2,62.42,58.97,3.450000000000003,3.450000000000003,3,3,3
+MTS_0829,Consult - History and Phy.,Claude 4.5,119.54,58.97,60.57000000000001,60.57000000000001,3,2,3
+MTS_0829,Consult - History and Phy.,Gemini 3,138.95,58.97,79.97999999999999,79.97999999999999,3,2,3
+MTS_0829,Consult - History and Phy.,Grok 4.1,24.72,58.97,-34.25,0.0,4,3,3
+MTS_0829,Consult - History and Phy.,OpenEvidence,24.72,58.97,-34.25,0.0,4,4,4
+MTS_0834,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,1,3
+MTS_0834,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,3,3
+MTS_0834,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,3,2,3
+MTS_0834,Consult - History and Phy.,Grok 4.1,285.24,0.0,285.24,285.24,3,2,3
+MTS_0834,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,3,3
+MTS_0835,Consult - History and Phy.,GPT-5.2,164.38,150.66,13.719999999999999,13.719999999999999,4,2,3
+MTS_0835,Consult - History and Phy.,Claude 4.5,95.91,150.66,-54.75,0.0,3,4,4
+MTS_0835,Consult - History and Phy.,Gemini 3,84.28,150.66,-66.38,0.0,4,3,3
+MTS_0835,Consult - History and Phy.,Grok 4.1,46.79,150.66,-103.87,0.0,3,2,3
+MTS_0835,Consult - History and Phy.,OpenEvidence,46.81,150.66,-103.85,0.0,4,3,3
+MTS_0837,Consult - History and Phy.,GPT-5.2,272.79,308.22,-35.43000000000001,0.0,3,2,3
+MTS_0837,Consult - History and Phy.,Claude 4.5,274.31,308.22,-33.910000000000025,0.0,3,3,3
+MTS_0837,Consult - History and Phy.,Gemini 3,204.5,311.01,-106.50999999999999,0.0,4,3,3
+MTS_0837,Consult - History and Phy.,Grok 4.1,430.65,311.01,119.63999999999999,119.63999999999999,2,1,3
+MTS_0837,Consult - History and Phy.,OpenEvidence,61.25,311.01,-249.76,0.0,3,2,3
+MTS_0840,Consult - History and Phy.,GPT-5.2,65.57,192.24,-126.67000000000002,0.0,2,1,2
+MTS_0840,Consult - History and Phy.,Claude 4.5,15.36,192.24,-176.88,0.0,4,2,3
+MTS_0840,Consult - History and Phy.,Gemini 3,0.0,192.24,-192.24,0.0,2,1,2
+MTS_0840,Consult - History and Phy.,Grok 4.1,35.13,192.24,-157.11,0.0,3,2,3
+MTS_0840,Consult - History and Phy.,OpenEvidence,27.36,192.24,-164.88,0.0,2,2,3
+MTS_0851,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,2,4
+MTS_0851,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,2,4
+MTS_0851,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,4,1,4
+MTS_0851,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,3,4
+MTS_0851,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,3,4
+MTS_0857,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,2,2
+MTS_0857,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,3,3
+MTS_0857,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,4,1,3
+MTS_0857,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,2,3
+MTS_0857,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,2,3
+MTS_0859,Consult - History and Phy.,GPT-5.2,74.21,0.0,74.21,74.21,3,4,3
+MTS_0859,Consult - History and Phy.,Claude 4.5,58.32,0.0,58.32,58.32,3,4,4
+MTS_0859,Consult - History and Phy.,Gemini 3,2.25,0.0,2.25,2.25,4,2,2
+MTS_0859,Consult - History and Phy.,Grok 4.1,48.14,0.0,48.14,48.14,3,3,3
+MTS_0859,Consult - History and Phy.,OpenEvidence,25.07,0.0,25.07,25.07,3,3,3
+MTS_0862,Consult - History and Phy.,GPT-5.2,37.07,0.0,37.07,37.07,4,4,4
+MTS_0862,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,4,4
+MTS_0862,Consult - History and Phy.,Gemini 3,37.07,0.0,37.07,37.07,4,4,4
+MTS_0862,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,3,4
+MTS_0862,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,1,3
+MTS_0863,Consult - History and Phy.,GPT-5.2,44.19,0.0,44.19,44.19,3,2,3
+MTS_0863,Consult - History and Phy.,Claude 4.5,52.02,0.0,52.02,52.02,3,3,3
+MTS_0863,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,4,1,3
+MTS_0863,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,3,3
+MTS_0863,Consult - History and Phy.,OpenEvidence,79.19,0.0,79.19,79.19,3,1,3
+MTS_0867,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,1,3
+MTS_0867,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,1,3
+MTS_0867,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,3,2,3
+MTS_0867,Consult - History and Phy.,Grok 4.1,39.98,0.0,39.98,39.98,3,2,3
+MTS_0867,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,1,3
+MTS_0881,Consult - History and Phy.,GPT-5.2,593.47,48.78,544.69,544.69,3,1,3
+MTS_0881,Consult - History and Phy.,Claude 4.5,254.01,48.78,205.23,205.23,3,3,3
+MTS_0881,Consult - History and Phy.,Gemini 3,466.21,48.78,417.42999999999995,417.42999999999995,3,2,3
+MTS_0881,Consult - History and Phy.,Grok 4.1,491.17,48.78,442.39,442.39,2,1,2
+MTS_0881,Consult - History and Phy.,OpenEvidence,396.43,48.78,347.65,347.65,3,2,3
+MTS_0898,Consult - History and Phy.,GPT-5.2,223.08,0.0,223.08,223.08,3,4,4
+MTS_0898,Consult - History and Phy.,Claude 4.5,373.42,0.0,373.42,373.42,3,3,3
+MTS_0898,Consult - History and Phy.,Gemini 3,533.75,0.0,533.75,533.75,3,3,3
+MTS_0898,Consult - History and Phy.,Grok 4.1,372.89,0.0,372.89,372.89,3,2,3
+MTS_0898,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,3,2
+MTS_0915,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,4,3
+MTS_0915,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0915,Consult - History and Phy.,Gemini 3,0.0,0.0,0.0,0.0,4,4,3
+MTS_0915,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,3,3
+MTS_0915,Consult - History and Phy.,OpenEvidence,0.0,0.0,0.0,0.0,4,2,3
+MTS_0917,Consult - History and Phy.,GPT-5.2,296.02,0.0,296.02,296.02,3,1,3
+MTS_0917,Consult - History and Phy.,Claude 4.5,58.23,0.0,58.23,58.23,4,3,4
+MTS_0917,Consult - History and Phy.,Gemini 3,34.97,0.0,34.97,34.97,4,3,3
+MTS_0917,Consult - History and Phy.,Grok 4.1,39.33,0.0,39.33,39.33,4,3,3
+MTS_0917,Consult - History and Phy.,OpenEvidence,832.31,0.0,832.31,832.31,2,1,3
+MTS_0962,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,4,3
+MTS_0962,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,4,3
+MTS_0962,Consult - History and Phy.,Gemini 3,20.52,0.0,20.52,20.52,3,1,2
+MTS_0962,Consult - History and Phy.,Grok 4.1,34.07,0.0,34.07,34.07,4,2,3
+MTS_0962,Consult - History and Phy.,OpenEvidence,28.72,0.0,28.72,28.72,4,3,3
+MTS_0974,Consult - History and Phy.,GPT-5.2,228.53,0.0,228.53,228.53,3,1,3
+MTS_0974,Consult - History and Phy.,Claude 4.5,114.28,0.0,114.28,114.28,3,3,3
+MTS_0974,Consult - History and Phy.,Gemini 3,55.86,0.0,55.86,55.86,3,3,3
+MTS_0974,Consult - History and Phy.,Grok 4.1,556.24,0.0,556.24,556.24,2,2,3
+MTS_0974,Consult - History and Phy.,OpenEvidence,1302.25,0.0,1302.25,1302.25,2,2,2
+MTS_0986,Consult - History and Phy.,GPT-5.2,0.0,0.0,0.0,0.0,4,4,3
+MTS_0986,Consult - History and Phy.,Claude 4.5,0.0,0.0,0.0,0.0,4,1,3
+MTS_0986,Consult - History and Phy.,Gemini 3,32.4,0.0,32.4,32.4,4,3,3
+MTS_0986,Consult - History and Phy.,Grok 4.1,0.0,0.0,0.0,0.0,4,4,3
+MTS_0986,Consult - History and Phy.,OpenEvidence,132.94,0.0,132.94,132.94,2,1,1
+MTS_0995,Consult - History and Phy.,GPT-5.2,87.42,0.0,87.42,87.42,3,3,3
+MTS_0995,Consult - History and Phy.,Claude 4.5,233.97,0.0,233.97,233.97,4,2,3
+MTS_0995,Consult - History and Phy.,Gemini 3,22.85,0.0,22.85,22.85,4,3,3
+MTS_0995,Consult - History and Phy.,Grok 4.1,566.78,0.0,566.78,566.78,2,1,3
+MTS_0995,Consult - History and Phy.,OpenEvidence,262.47,0.0,262.47,262.47,3,3,4

@@ -1,0 +1,2568 @@
+[
+  {
+    "case_id": "MTS_0449",
+    "sample_name": "Hip Fracture - ER Consult",
+    "specialty": "Emergency Room Reports",
+    "presentation": "REASON FOR CONSULTATION: , Left hip fracture.,HISTORY OF PRESENT ILLNESS: , The patient is a pleasant 53-year-old female with a known history of sciatica, apparently presented to the emergency room due to severe pain in the left lower extremity and unable to bear weight.  History was obtained from the patient.  As per the history, she reported that she has been having back pain with left leg pain since past 4 weeks.  She has been using a walker for ambulation due to disabling pain in her left thigh and lower back.  She was seen by her primary care physician and was scheduled to go for MRI yesterday.  However, she was walking and her right foot got caught on some type of rug leading to place excessive weight on her left lower extremity to prevent her fall.  Since then, she was unable to ambulate.  The patient called paramedics and was brought to the emergency room.  She denied any history of fall.  She reported that she stepped the wrong way causing the pain to become worse.  She is complaining of severe pain in her lower extremity and back pain.  Denies any tingling or numbness.  Denies any neurological symptoms.  Denies any bowel or bladder incontinence.,X-rays were obtained which were remarkable for left hip fracture.  Orthopedic consultation was called for further evaluation and management.  On further interview with the patient, it is noted that she has a history of malignant melanoma, which was diagnosed approximately 4 to 5 years ago.  She underwent surgery at that time and subsequently, she was noted to have a spread to the lymphatic system and lymph nodes for which she underwent surgery in 3/2008.,PAST MEDICAL HISTORY: , Sciatica and melanoma.,PAST SURGICAL HISTORY:  ,As discussed above, surgery for melanoma and hysterectomy.,ALLERGIES: , NONE.,SOCIAL HISTORY: , Denies any tobacco or alcohol use.  She is divorced with 2 children.  She lives with her son.,PHYSICAL EXAMINATION:,GENERAL:  The patient is well developed, well nourished in mild distress secondary to left lower extremity and back pain.,MUSCULOSKELETAL:  Examination of the left lower extremity, there is presence of apparent shortening and external rotation deformity.  Tenderness to palpation is present.  Leg rolling is positive for severe pain in the left proximal hip.  Further examination of the spine is incomplete secondary to severe leg pain.  She is unable to perform a straight leg raising.  EHL/EDL 5/5.  2+ pulses are present distally.  Calf is soft and nontender.  Homans sign is negative.  Sensation to light touch is intact.,IMAGING:,  AP view of the hip is reviewed.  Only 1 limited view is obtained.  This is a poor quality x-ray with a lot of soft tissue shadow.  This x-ray is significant for basicervical-type femoral neck fracture.  Lesser trochanter is intact.  This is a high intertrochanteric fracture/basicervical.  There is presence of lytic lesion around the femoral neck, which is not well delineated on this particular x-ray.  We need to order repeat x-rays including AP pelvis, femur, and knee.,LABS:,  Have been reviewed.,",
+    "model": "openevidence",
+    "prompt_arm": "parsimonious",
+    "human_ap": "ASSESSMENT: , The patient is a 53-year-old female with probable pathological fracture of the left proximal femur.,DISCUSSION AND PLAN: , Nature and course of the diagnosis has been discussed with the patient.  Based on her presentation without any history of obvious fall or trauma and past history of malignant melanoma, this appears to be a pathological fracture of the left proximal hip.  At the present time, I would recommend obtaining a bone scan and repeat x-rays, which will include AP pelvis, femur, hip including knee.  She denies any pain elsewhere.  She does have a past history of back pain and sciatica, but at the present time, this appears to be a metastatic bone lesion with pathological fracture.  I have discussed the case with Dr. X and recommended oncology consultation.,With the above fracture and presentation, she needs a left hip hemiarthroplasty versus calcar hemiarthroplasty, cemented type.  Indication, risk, and benefits of left hip hemiarthroplasty has been discussed with the patient, which includes, but not limited to bleeding, infection, nerve injury, blood vessel injury, dislocation early and late, persistent pain, leg length discrepancy, myositis ossificans, intraoperative fracture, prosthetic fracture, need for conversion to total hip replacement surgery, revision surgery, DVT, pulmonary embolism, risk of anesthesia, need for blood transfusion, and cardiac arrest.  She understands above and is willing to undergo further procedure.  The goal and the functional outcome have been explained.  Further plan will be discussed with her once we obtain the bone scan and the radiographic studies.  We will also await for the oncology feedback and clearance.,Thank you very much for allowing me to participate in the care of this patient.  I will continue to follow up.",
+    "human_diagnoses": [
+      "Probable pathological fracture of the left proximal femur",
+      "Metastatic bone lesion"
+    ],
+    "human_dx_summary": "A 53-year-old female with a probable pathological fracture of the left proximal femur likely due to metastatic bone lesion from a history of malignant melanoma, requiring further imaging and oncology consultation.",
+    "human_orders_a": [
+      {
+        "order": "bone scan",
+        "category": "imaging",
+        "cpt_code": "78306",
+        "price": 259.19,
+        "source": "rag"
+      },
+      {
+        "order": "repeat x-rays including AP pelvis, femur, hip including knee",
+        "category": "imaging",
+        "cpt_code": "73564",
+        "price": 49.43,
+        "source": "rag"
+      },
+      {
+        "order": "oncology consultation",
+        "category": "referral"
+      },
+      {
+        "order": "left hip hemiarthroplasty versus calcar hemiarthroplasty, cemented type",
+        "category": "procedure",
+        "cpt_code": "27256",
+        "price": 403.82,
+        "source": "rag"
+      }
+    ],
+    "human_orders_b": [
+      {
+        "order": "bone scan",
+        "category": "imaging",
+        "cpt_code": "78306",
+        "price": 259.19,
+        "source": "rag"
+      },
+      {
+        "order": "repeat x-rays including AP pelvis, femur, hip including knee",
+        "category": "imaging",
+        "cpt_code": "73564",
+        "price": 49.43,
+        "source": "rag"
+      },
+      {
+        "order": "oncology consultation",
+        "category": "referral"
+      },
+      {
+        "order": "left hip hemiarthroplasty versus calcar hemiarthroplasty, cemented type",
+        "category": "procedure",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "human_orders_c": [
+      {
+        "order": "bone scan",
+        "category": "imaging",
+        "cpt_code": "78306",
+        "price": 259.19,
+        "source": "rag"
+      },
+      {
+        "order": "repeat x-rays including AP pelvis, femur, hip including knee",
+        "category": "imaging",
+        "cpt_code": "73564",
+        "price": 49.43,
+        "source": "rag"
+      },
+      {
+        "order": "oncology consultation",
+        "category": "referral"
+      },
+      {
+        "order": "left hip hemiarthroplasty versus calcar hemiarthroplasty, cemented type",
+        "category": "procedure",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "human_referrals": [
+      {
+        "specialty": "Hematology/Oncology",
+        "quote": "oncology consultation",
+        "type": "DEFINITE",
+        "source": "structured",
+        "cpt_code": "99205",
+        "medicare_price": 236.81,
+        "cpt_description": "Office new patient high complexity 60 min"
+      }
+    ],
+    "human_referral_count": 1,
+    "human_referral_cost": 236.81,
+    "medicare_human_dx_cost": 308.62,
+    "llm_plan": "### Assessment and Plan \u2013 Left Hip Fracture\n\n**ASSESSMENT:**\n\n53-year-old female with history of malignant melanoma (diagnosed 4\u20135 years ago with lymph node metastasis, surgery 3/2008) presenting with a basicervical/high intertrochanteric left femoral neck fracture with an associated lytic lesion on radiograph, in the setting of 4 weeks of progressive back pain with left leg pain (sciatica). No history of significant trauma \u2014 mechanism was simply shifting weight to the left leg.\n\n**Three Most Likely Diagnoses:**\n\n1. **Pathologic fracture of the left proximal femur through a metastatic melanoma deposit.** The combination of a lytic lesion at the femoral neck, a low-energy mechanism (no fall), and a known history of melanoma with prior lymph node metastasis makes metastatic disease the most likely etiology. Melanoma bone metastases are predominantly osteolytic (77% of cases) and the proximal femur is a common site.\n2. **Spinal metastatic disease causing the 4-week history of progressive back pain and left-sided radiculopathy (sciatica).** The progressive, disabling back and leg pain preceding the fracture, in a patient with known metastatic melanoma, raises strong concern for concurrent vertebral/epidural metastatic disease. Radicular symptoms can result from nerve root compression by vertebral metastases or epidural tumor extension.\n3. **Widely disseminated metastatic melanoma.** Given confirmed lymph node spread and now likely osseous metastasis at two sites (femur and possibly spine), systemic dissemination is probable. Staging is essential to guide both orthopedic and oncologic management.\n\n**Can't-Miss Diagnoses:**\n\n- **Metastatic spinal cord compression (MSCC) or cauda equina syndrome.** The 4-week history of progressive back pain with radiculopathy in a melanoma patient demands urgent evaluation. Although she currently denies bowel/bladder incontinence and has intact EHL/EDL strength, MSCC can progress rapidly to irreversible paraplegia if not identified and treated promptly.\n- **Impending pathologic fracture of the contralateral femur or other weight-bearing bones.** Additional lytic lesions elsewhere could lead to further fractures perioperatively or during rehabilitation.\n\n---\n\n**PLAN:**\n\n**1. Pathologic fracture of the left proximal femur (most likely metastatic melanoma):**\n\n- Obtain AP pelvis, full-length left femur, and left knee radiographs (already ordered per note) to better characterize the lytic lesion, assess extent of bony involvement, and evaluate for additional femoral lesions.\n- Surgical fixation is indicated \u2014 this is a completed pathologic femoral neck fracture. Given the femoral neck location and lytic destruction, **arthroplasty** (long-stem cemented hemiarthroplasty or proximal femoral replacement) is preferred over internal fixation, as pathologic femoral neck fractures do not heal reliably and arthroplasty provides immediate weight-bearing stability. Choice of implant (hemiarthroplasty vs. endoprosthetic reconstruction) should be guided by estimated survival and extent of bone loss; consult orthopedic oncology if available.\n- Send intraoperative tissue for pathologic confirmation of metastatic melanoma at the time of surgery.\n- Postoperative radiation therapy to the surgical site is recommended for local tumor control.\n- Pain management: IV opioid analgesia for acute fracture pain; DVT prophylaxis per institutional protocol given immobility.\n\n**2. Possible spinal metastatic disease / rule out MSCC:**\n\n- **Urgent MRI of the entire spine** (with and without contrast) to evaluate for vertebral metastases, epidural disease, and spinal cord or cauda equina compression. This is the single most important diagnostic study to obtain and should be performed prior to or concurrent with surgical planning for the hip, as findings may alter the sequence of interventions.\n- If MRI confirms spinal cord compression: initiate dexamethasone (10 mg IV bolus, then 4 mg IV q6h) and obtain urgent neurosurgical/radiation oncology consultation.\n- If MRI shows vertebral metastases without cord compression: proceed with hip surgery first; spine can be addressed with radiation therapy postoperatively.\n\n**3. Staging of metastatic melanoma:**\n\n- CT chest/abdomen/pelvis with contrast and MRI brain to assess extent of systemic disease. These studies directly inform prognosis, survival estimation, and surgical decision-making (e.g., implant durability needs).\n- LDH level.\n- BRAF mutation testing on metastatic tissue (from femoral biopsy specimen) if not previously performed \u2014 this determines eligibility for targeted therapy (BRAF/MEK inhibitors) in addition to immunotherapy.\n- Oncology consultation for systemic therapy planning (checkpoint inhibitor immunotherapy \u00b1 targeted therapy depending on BRAF status).\n\n**4. Excluding can't-miss diagnoses:**\n\n- MSCC: addressed by urgent spine MRI as above.\n- Additional impending fractures: the AP pelvis and full femur films will screen the contralateral hip and bilateral femora. A bone scan or PET/CT (obtained as part of staging) will identify additional skeletal lesions at risk.\n\n**5. Additional orders:**\n\n- Type and screen (anticipate significant intraoperative blood loss given melanoma vascularity; consider preoperative embolization if large soft-tissue component identified on advanced imaging).\n- Standard preoperative labs: CBC, BMP, coagulation studies.\n- Strict non-weight-bearing on left lower extremity; bed rest with log-roll precautions pending spine MRI results.\n- Social work consultation for discharge planning given limited home support.\n\n**6. Follow-up:**\n\n- Multidisciplinary tumor board discussion once staging is complete to coordinate orthopedic, radiation oncology, and medical oncology care.\n- Postoperative rehabilitation planning contingent on spine MRI findings and overall disease burden.",
+    "llm_diagnoses": [
+      "Pathologic fracture of the left proximal femur through a metastatic melanoma deposit",
+      "Spinal metastatic disease causing progressive back pain and left-sided radiculopathy",
+      "Widely disseminated metastatic melanoma"
+    ],
+    "llm_dx_summary": "A 53-year-old female with a history of metastatic melanoma presents with a pathologic left femoral neck fracture due to metastatic bone disease, accompanied by progressive back pain and radiculopathy likely from spinal metastases, indicating widely disseminated melanoma.",
+    "llm_orders_a": [
+      {
+        "order": "AP pelvis radiograph",
+        "category": "imaging",
+        "cpt_code": "72190",
+        "price": 43.42,
+        "source": "rag"
+      },
+      {
+        "order": "Full-length left femur radiograph",
+        "category": "imaging",
+        "cpt_code": "73552",
+        "price": 35.74,
+        "source": "rag"
+      },
+      {
+        "order": "Left knee radiograph",
+        "category": "imaging",
+        "cpt_code": "73580",
+        "price": 117.24,
+        "source": "rag"
+      },
+      {
+        "order": "Surgical fixation with arthroplasty (long-stem cemented hemiarthroplasty or proximal femoral replacement)",
+        "category": "procedure",
+        "cpt_code": "27570",
+        "price": 149.97,
+        "source": "rag"
+      },
+      {
+        "order": "Send intraoperative tissue for pathologic confirmation of metastatic melanoma",
+        "category": "procedure",
+        "cpt_code": "11644",
+        "price": 392.79,
+        "source": "rag"
+      },
+      {
+        "order": "Urgent MRI of the entire spine with and without contrast",
+        "category": "imaging",
+        "cpt_code": "72148",
+        "price": 191.72,
+        "source": "rag"
+      },
+      {
+        "order": "CT chest/abdomen/pelvis with contrast",
+        "category": "imaging",
+        "cpt_code": "74176",
+        "price": 183.04,
+        "source": "rag"
+      },
+      {
+        "order": "MRI brain",
+        "category": "imaging",
+        "cpt_code": "70553",
+        "price": 316.97,
+        "source": "supplementary"
+      },
+      {
+        "order": "LDH level",
+        "category": "labs",
+        "cpt_code": "83615",
+        "price": 6.04,
+        "source": "canonical_override"
+      },
+      {
+        "order": "BRAF mutation testing on metastatic tissue from femoral biopsy specimen",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Oncology consultation for systemic therapy planning",
+        "category": "referral"
+      },
+      {
+        "order": "Type and screen",
+        "category": "labs",
+        "cpt_code": "86900",
+        "price": 2.99,
+        "source": "supplementary"
+      },
+      {
+        "order": "CBC",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 7.77,
+        "source": "supplementary"
+      },
+      {
+        "order": "BMP",
+        "category": "labs",
+        "cpt_code": "80048",
+        "price": 8.46,
+        "source": "supplementary"
+      },
+      {
+        "order": "Coagulation studies",
+        "category": "labs",
+        "cpt_code": "85347",
+        "price": 4.28,
+        "source": "rag"
+      },
+      {
+        "order": "Strict non-weight-bearing on left lower extremity; bed rest with log-roll precautions pending spine MRI results",
+        "category": "other"
+      },
+      {
+        "order": "Social work consultation for discharge planning",
+        "category": "referral"
+      }
+    ],
+    "llm_orders_b": [
+      {
+        "order": "AP pelvis, full-length left femur, and left knee radiographs",
+        "category": "imaging",
+        "cpt_code": "74710",
+        "price": 0,
+        "source": "rag"
+      },
+      {
+        "order": "Urgent MRI of entire spine with and without contrast",
+        "category": "imaging",
+        "cpt_code": "72148",
+        "price": 191.72,
+        "source": "rag"
+      },
+      {
+        "order": "CT chest/abdomen/pelvis with contrast",
+        "category": "imaging",
+        "cpt_code": "74176",
+        "price": 183.04,
+        "source": "rag"
+      },
+      {
+        "order": "MRI brain",
+        "category": "imaging",
+        "cpt_code": "70553",
+        "price": 316.97,
+        "source": "supplementary"
+      },
+      {
+        "order": "LDH level",
+        "category": "labs",
+        "cpt_code": "83615",
+        "price": 6.04,
+        "source": "canonical_override"
+      },
+      {
+        "order": "BRAF mutation testing on metastatic tissue",
+        "category": "labs",
+        "cpt_code": "81210",
+        "price": 175.4,
+        "source": "rag"
+      },
+      {
+        "order": "Type and screen",
+        "category": "labs",
+        "cpt_code": "86900",
+        "price": 2.99,
+        "source": "supplementary"
+      },
+      {
+        "order": "CBC",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 7.77,
+        "source": "supplementary"
+      },
+      {
+        "order": "BMP",
+        "category": "labs",
+        "cpt_code": "80048",
+        "price": 8.46,
+        "source": "supplementary"
+      },
+      {
+        "order": "Coagulation studies",
+        "category": "labs",
+        "cpt_code": "85347",
+        "price": 4.28,
+        "source": "rag"
+      },
+      {
+        "order": "Intraoperative tissue biopsy for pathologic confirmation",
+        "category": "procedure",
+        "cpt_code": "30100",
+        "price": 141.29,
+        "source": "rag"
+      },
+      {
+        "order": "Arthroplasty (hemiarthroplasty or proximal femoral replacement) of left hip",
+        "category": "procedure",
+        "cpt_code": "29914",
+        "price": 915.18,
+        "source": "rag"
+      },
+      {
+        "order": "Dexamethasone 10 mg IV bolus, then 4 mg IV q6h (if MRI confirms spinal cord compression)",
+        "category": "medication",
+        "monthly_cost_usd": 15.0
+      },
+      {
+        "order": "Neurosurgery consultation",
+        "category": "referral"
+      },
+      {
+        "order": "Radiation oncology consultation",
+        "category": "referral"
+      },
+      {
+        "order": "Oncology consultation",
+        "category": "referral"
+      },
+      {
+        "order": "Social work consultation",
+        "category": "referral"
+      }
+    ],
+    "llm_orders_c": [
+      {
+        "order": "AP pelvis radiographs",
+        "category": "imaging",
+        "cpt_code": "72170",
+        "price": 28.06,
+        "source": "rag"
+      },
+      {
+        "order": "full-length left femur radiographs",
+        "category": "imaging",
+        "cpt_code": "73552",
+        "price": 35.74,
+        "source": "rag"
+      },
+      {
+        "order": "left knee radiographs",
+        "category": "imaging",
+        "cpt_code": "73580",
+        "price": 117.24,
+        "source": "rag"
+      },
+      {
+        "order": "arthroplasty",
+        "category": "procedure",
+        "cpt_code": "29915",
+        "price": 932.22,
+        "source": "rag"
+      },
+      {
+        "order": "intraoperative tissue for pathologic confirmation of metastatic melanoma",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "postoperative radiation therapy to the surgical site",
+        "category": "procedure",
+        "cpt_code": "77431",
+        "price": 106.55,
+        "source": "rag"
+      },
+      {
+        "order": "IV opioid analgesia",
+        "category": "medication",
+        "monthly_cost_usd": 100.0
+      },
+      {
+        "order": "DVT prophylaxis",
+        "category": "medication",
+        "monthly_cost_usd": 50.0
+      },
+      {
+        "order": "Urgent MRI of the entire spine with and without contrast",
+        "category": "imaging",
+        "cpt_code": "72148",
+        "price": 191.72,
+        "source": "rag"
+      },
+      {
+        "order": "CT chest/abdomen/pelvis with contrast",
+        "category": "imaging",
+        "cpt_code": "74176",
+        "price": 183.04,
+        "source": "rag"
+      },
+      {
+        "order": "MRI brain",
+        "category": "imaging",
+        "cpt_code": "70553",
+        "price": 316.97,
+        "source": "supplementary"
+      },
+      {
+        "order": "LDH level",
+        "category": "labs",
+        "cpt_code": "83615",
+        "price": 6.04,
+        "source": "canonical_override"
+      },
+      {
+        "order": "BRAF mutation testing on metastatic tissue",
+        "category": "labs",
+        "cpt_code": "81210",
+        "price": 175.4,
+        "source": "rag"
+      },
+      {
+        "order": "Oncology consultation",
+        "category": "referral"
+      },
+      {
+        "order": "Type and screen",
+        "category": "labs",
+        "cpt_code": "86900",
+        "price": 2.99,
+        "source": "supplementary"
+      },
+      {
+        "order": "CBC",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 7.77,
+        "source": "supplementary"
+      },
+      {
+        "order": "BMP",
+        "category": "labs",
+        "cpt_code": "80048",
+        "price": 8.46,
+        "source": "supplementary"
+      },
+      {
+        "order": "coagulation studies",
+        "category": "labs",
+        "cpt_code": "85347",
+        "price": 4.28,
+        "source": "rag"
+      },
+      {
+        "order": "Strict non-weight-bearing on left lower extremity",
+        "category": "other"
+      },
+      {
+        "order": "bed rest with log-roll precautions",
+        "category": "other"
+      },
+      {
+        "order": "Social work consultation",
+        "category": "referral"
+      }
+    ],
+    "medicare_llm_med_cost": 15.0,
+    "source": "manual_openevidence",
+    "medicare_llm_dx_cost": 1953.14,
+    "dx_match_v2": "correct_plus",
+    "dx_gemini": "correct_plus",
+    "dx_claude": "correct_plus",
+    "medicare_human_med_cost": 0.0,
+    "llm_referrals": [
+      {
+        "specialty": "Hematology/Oncology",
+        "quote": "Oncology consultation for systemic therapy planning",
+        "type": "DEFINITE",
+        "source": "structured",
+        "cpt_code": "99205",
+        "medicare_price": 236.81,
+        "cpt_description": "Office new patient high complexity 60 min"
+      },
+      {
+        "specialty": "Social Work",
+        "quote": "Social work consultation for discharge planning",
+        "type": "DEFINITE",
+        "source": "structured",
+        "cpt_code": "99204",
+        "medicare_price": 177.36,
+        "cpt_description": "Office new patient moderate complexity 45 min"
+      }
+    ],
+    "llm_referral_cost": 414.17,
+    "llm_referral_count": 2
+  },
+  {
+    "case_id": "MTS_0582",
+    "sample_name": "Psych Consult - Dementia",
+    "specialty": "Consult - History and Phy.",
+    "presentation": "REASON FOR CONSULT,:  Dementia.,HISTORY OF PRESENT ILLNESS:  ,The patient is a 33-year-old black female, referred to the hospital by a neurologist in Tyler, Texas for disorientation and illusions.  Symptoms started in June of 2006, when the patient complained of vision problems and disorientation.  The patient was seen wearing clothes inside out along with other unusual behaviors.  In August or September of 2006, the patient reported having a sudden onset of headaches, loss of vision, and talking sporadically without making any sense.  The patient sought treatment from an ophthalmologist.  We did not find any abnormality in the Behavior Center in Tyler, Texas.  The Behavior Center referred the patient to Dr. Abc, a neurologist in Tyler, who then referred the patient to this hospital.,According to the mother, the patient has had no past major medical or psychiatric illnesses.  The patient was functioning normally before June 2006, working as accounting tech after having completed 2 years of college.  She reports of worsening in symptoms, mainly unable to communicate about auditory or visual hallucinations or any symptoms of anxiety.  Currently, the patient lives with mother and requires her assistance to perform ADLs and the patient has become ataxic since November 2006.  Sleeping patterns and the amount is unknown.  Appetite is okay.,PAST PSYCHIATRIC HISTORY:,  The patient was diagnosed with severe depression in November 2006 at the Behavior Center in Tyler, Texas, where she was given Effexor.  She stopped taking it soon after, since they worsened her eye vision and balance.,PAST MEDICAL HISTORY: , In 2001 diagnosed with Meniere disease, was treated such that she could function normally in everyday activities including work.  No current medications.  Denies history of seizures, strokes, diabetes, hypertension, heart disease, or head injury.,FAMILY MEDICAL HISTORY:  ,Father's grandmother was diagnosed with Alzheimer disease in her 70s with symptoms similar to the patient described by the patient's mother.  Both, the mother's father and father's mother had \"nervous breakdowns\" but at unknown dates.,SOCIAL HISTORY: , The patient lives with a mother, who takes care of the patient's ADLs.  The patient completed school, up to two years in college and worked as accounting tech for eight years.  Denies use of alcohol, tobacco, or illicit drugs.,MENTAL STATUS EXAMINATION: , The patient is 33-year-old black female wearing clean clothes, a small towel on her head and over a wheel chair with her head rested on a pillow and towel.  Decreased motor activity, but did blink her eyes often, but arrhythmically.  Poor eye contact.  Speech illogic.  Concentration was not able to be assessed.  Mood is unknown.  Flat and constricted affect.  Thought content, thought process and perception could not be assessed.  Sensorial memory, information, intelligence, judgment, and insight could not be evaluated due to lack of communication by the patient.,MINI-MENTAL STATUS EXAM: , Unable to be performed.,AXIS I:  Rapidly progressing early onset of dementia, rule out dementia secondary to general medical condition, rule out dementia secondary to substance abuse.,AXIS II:  Deferred.,AXIS III:  Deferred.,AXIS IV:  Deferred.,AXIS V:  1.,",
+    "model": "openevidence",
+    "prompt_arm": "parsimonious",
+    "human_ap": "ASSESSMENT: , The patient is a 32-year-old black female with rapid and early onset of dementia with no significant past medical history.  There is no indication as to what precipitated these symptoms, as the mother is not aware of any factors and the patient is unable to communicate.  The patient presented with headaches, vision forms, and disorientation in June 2006.  She currently presents with ataxia, vision loss, and illusions.,PLAN: , Wait for result of neurological tests.  Thank you very much for the consultation.",
+    "human_diagnoses": [
+      "Rapid and early onset dementia"
+    ],
+    "human_dx_summary": "A 32-year-old female presents with rapid and early onset dementia characterized by ataxia, vision loss, and illusions, with no clear precipitating factors.",
+    "human_orders_a": [],
+    "human_orders_b": [],
+    "human_orders_c": [],
+    "human_referrals": [],
+    "human_referral_count": 0,
+    "human_referral_cost": 0,
+    "medicare_human_dx_cost": 0,
+    "llm_plan": "## ASSESSMENT\n\n**1. Autoimmune encephalitis (most likely anti-NMDA receptor encephalitis)**\n\nThis is the leading diagnosis given the patient's demographics (33-year-old woman), subacute onset of behavioral changes, progressive cognitive decline to near-mutism, visual/auditory hallucinations, and speech dysfunction \u2014 all evolving over approximately 6 months.[1] Anti-NMDAR encephalitis is the most common autoimmune encephalitis in women under 40 and classically presents with psychiatric symptoms progressing to cognitive dysfunction, speech deterioration, movement abnormalities, and decreased level of consciousness.[2][1] The development of ataxia and flat affect with loss of communication is consistent with this trajectory. Autoimmune encephalitis is the most common treatable cause of rapidly progressive dementia and must be identified early, as immunotherapy can dramatically alter outcomes.[3][4]\n\n**2. Prion disease (Creutzfeldt-Jakob disease)**\n\nThe rapid progression from normal functioning to wheelchair-bound, nonverbal status over ~6 months, combined with visual symptoms, ataxia, and flat affect, is consistent with CJD.[5][6] Although sporadic CJD typically affects older adults (median onset ~65 years), rare cases occur in younger patients, and variant CJD specifically affects younger individuals. The combination of rapidly progressive dementia with cerebellar ataxia and visual disturbance is a classic CJD presentation.[5][7]\n\n**3. Metabolic/genetic neurodegenerative disease**\n\nGiven the young age, family history of early-onset Alzheimer-like symptoms in a paternal great-grandmother, and prior M\u00e9ni\u00e8re disease (associated with increased risk of young-onset dementia), inherited conditions such as Niemann-Pick type C (dementia + ataxia + vertical gaze palsy), adult-onset leukodystrophy, or mitochondrial disease should be considered.[8][9][10] Early-onset familial Alzheimer disease (presenilin mutations) can present in the 30s with rapid decline.\n\n**Can't-miss diagnoses:**\n\n- **Anti-NMDAR encephalitis with occult ovarian teratoma** \u2014 treatable and potentially reversible; failure to diagnose leads to continued decline and death[1]\n- **CNS infection** (HIV, neurosyphilis, progressive multifocal leukoencephalopathy) \u2014 treatable infectious causes must be excluded[11]\n- **CNS lymphoma or paraneoplastic encephalitis** \u2014 occult malignancy driving a paraneoplastic syndrome can mimic this presentation[12][13]\n\n---\n\n## PLAN\n\n**For autoimmune encephalitis (Diagnosis #1):**\n\n- **MRI brain with contrast** (with DWI/FLAIR sequences) \u2014 essential first test; will also evaluate for CJD pattern (cortical ribboning, basal ganglia signal), structural lesions, and inflammatory changes[5][11]\n- **EEG** \u2014 assess for extreme delta brush (suggestive of anti-NMDAR encephalitis), periodic sharp-wave complexes (CJD), or subclinical seizure activity[5][14][1]\n- **Lumbar puncture** with cell count, protein, glucose, oligoclonal bands, and CSF sent for **anti-NMDAR antibodies** and autoimmune encephalitis antibody panel (CSF is more sensitive than serum for NMDAR antibodies)[1]\n- **Pelvic ultrasound** to evaluate for ovarian teratoma, which is present in a substantial proportion of young women with anti-NMDAR encephalitis[1]\n- If antibody results are delayed and clinical suspicion is high, consider empiric **high-dose IV methylprednisolone** as a diagnostic-therapeutic trial, given that autoimmune encephalitis is the most common treatable RPD etiology[13][15]\n\n**For prion disease (Diagnosis #2):**\n\n- MRI with DWI (ordered above) will evaluate for cortical ribboning and caudate/putamen restricted diffusion characteristic of CJD[5][7][16]\n- EEG (ordered above) will assess for periodic sharp-wave complexes[5][6]\n- CSF **14-3-3 protein** and **RT-QuIC assay** (real-time quaking-induced conversion) \u2014 RT-QuIC has very high sensitivity and specificity for prion disease and should be sent from the LP specimen[5][7][16]\n\n**For metabolic/genetic disease (Diagnosis #3):**\n\n- **Basic labs**: CBC, CMP, TSH, vitamin B12, folate[17][11]\n- Defer genetic testing (e.g., presenilin, NPC1) pending MRI and LP results, as these are costly and the treatable diagnoses above take priority\n\n**To exclude can't-miss diagnoses:**\n\n- **HIV and RPR/VDRL** from serum \u2014 low cost, high yield to exclude treatable infections[11][18]\n- Pelvic ultrasound (ordered above) addresses occult teratoma\n- CT chest/abdomen/pelvis if paraneoplastic syndrome is suspected based on antibody results or imaging findings[13]\n\n**Medications:**\n\n- Hold all psychotropic medications pending workup; Effexor was previously discontinued\n- Supportive care with assistance for ADLs; fall precautions given ataxia\n\n**Follow-up:**\n\n- Expedite MRI, EEG, and LP results; if autoimmune encephalitis antibodies return positive, initiate first-line immunotherapy (IV methylprednisolone, IVIG, or plasma exchange) without delay[3][15]\n- Neurology consultation is already in place; ensure continuity for interpretation of specialized CSF biomarkers\n\n---\n\nWould you like to explore the specific immunotherapy protocols and expected timeline for treatment response in anti-NMDA receptor encephalitis?\n\nFigure 2\nMRI Findings in Antibody-Mediated Encephalitis.\nDalmau J, Graus F. Antibody-Mediated Encephalitis. The New England Journal of Medicine. 2018;378(9):840-851. doi:10.1056/NEJMra1708712.\n\nFigure 1\nRegional T2 Magnetic Resonance Imaging (MRI) Hyperintensities, Diffusion Restriction, and Contrast Uptake\nKelly MJ, Grant E, Murchison AG, et al. Magnetic Resonance Imaging Characteristics of LGI1-Antibody and CASPR2-Antibody Encephalitis. JAMA Neurology. 2024;81(5):525-533. doi:10.1001/jamaneurol.2024.0126.\n\nFigure 1\nEvaluation of cognitive impairment. Information from references 10\u201313.\nKramer ES, Johnson MN, Winslow B. Evaluation of Suspected Dementia. American Family Physician. 2025;112(6):657-667.\n\n### References\n\n1. An Update on Anti-Nmda Receptor Encephalitis for Neurologists and Psychiatrists: Mechanisms and Models. Dalmau J, Armangu\u00e9 T, Planagum\u00e0 J, et al. The Lancet. Neurology. 2019;18(11):1045-1057. doi:10.1016/S1474-4422(19)30244-3.\n2. Encephalitis. Binks SNM, Saylor D, Easton A, Thakur KT, Irani SR. Lancet (London, England). 2026;407(10542):1968-1983. doi:10.1016/S0140-6736(26)00363-6.\n3. Autoimmune Encephalitis as Treatment-Responsive Cause of Rapidly Progressive Dementia: A Multicenter Prospective Cohort Study. van Steenhoven RW, Bastiaansen AEM, Kerstens J, et al. Neurology. 2026;106(11):e214933. doi:10.1212/WNL.0000000000214933.\n4. The Evolving Etiologies of Rapidly Progressive Dementia: A Systematic Review. Lei MH, Cao LJ, Liu R, et al. Translational Psychiatry. 2025;:10.1038/s41398-025-03777-7. doi:10.1038/s41398-025-03777-7.\n5. Biomarkers and Diagnostic Guidelines for Sporadic Creutzfeldt-Jakob Disease. Hermann P, Appleby B, Brandel JP, et al. The Lancet. Neurology. 2021;20(3):235-246. doi:10.1016/S1474-4422(20)30477-4.\n6. Pearls & Oy-Sters: Rapidly Progressive Dementia: Prions or Immunomediated?. Cavallieri F, Mandrioli J, Tondelli M, et al. Neurology. 2014;82(17):e149-52. doi:10.1212/WNL.0000000000000354.\n7. Laboratory Diagnosis of Creutzfeldt\u2013Jakob Disease. Zerr I. The New England Journal of Medicine. 2022;386(14):1345-1350. doi:10.1056/NEJMra2119323.\n8. Association of Young-Onset Dementia With Pre-Existing Peripheral Vestibular Disorders. Hung SH, Chang AH, Cheng YF, Lin HC, Chen CS. Journal of Alzheimer's Disease : JAD. 2024;101(2):603-610. doi:10.3233/JAD-240309.\n9. The Diagnosis of Young-Onset Dementia. Rossor MN, Fox NC, Mummery CJ, Schott JM, Warren JD. The Lancet. Neurology. 2010;9(8):793-806. doi:10.1016/S1474-4422(10)70159-9.\n10. Genetic testing in dementia\u2010A medical genetics perspective. Huq AJ, Sexton A, Lacaze P, et al. International Journal of Geriatric Psychiatry. 2021;36(8):1158-1170. doi:10.1002/gps.5535.\n11. Clinical Reasoning: A 47-Year-Old Man With Diffuse White Matter Disease and Rapidly Progressive Dementia. Di Luca DG, Landman J, Ortega MR, Gultekin SH, Sun X. Neurology. 2019;92(24):e2832-e2837. doi:10.1212/WNL.0000000000007655.\n12. Clinical Reasoning: A 54-Year-Old Woman With Dementia, Myoclonus, and Ataxia. Ali F, Murray JA, Adams AC, Flanagan EP. Neurology. 2017;89(2):e7-e12. doi:10.1212/WNL.0000000000004093.\n13. Diagnostic Challenges in Rapidly Progressive Dementia. Zerr I, Hermann P. Expert Review of Neurotherapeutics. 2018;18(10):761-772. doi:10.1080/14737175.2018.1519397.\n14. Acute Encephalitis in Immunocompetent Adults. Venkatesan A, Michael BD, Probasco JC, Geocadin RG, Solomon T. Lancet (London, England). 2019;393(10172):702-716. doi:10.1016/S0140-6736(18)32526-1.\n15. Rapidly Progressive Dementias - Aetiologies, Diagnosis and Management. Hermann P, Zerr I. Nature Reviews. Neurology. 2022;18(6):363-376. doi:10.1038/s41582-022-00659-0.\n16. Advances in Biomarkers for Diagnosis and Prognosis of Prion Diseases. Zerr I, Hermann P, Mok TH, Mead S. The Lancet. Neurology. 2026;25(2):195-205. doi:10.1016/S1474-4422(25)00406-5.\n17. Evaluation of Suspected Dementia. Kramer ES, Johnson MN, Winslow B. American Family Physician. 2025;112(6):657-667.\n18. Clinical Reasoning: A 59-Year-Old Man Who Became Lost in His Own Home. Mondon K, Beaufils E, Perrier D, Matysiak A, Hommet C. Neurology. 2010;74(16):e66-8. doi:10.1212/WNL.0b013e3181d9ed32.",
+    "llm_diagnoses": [
+      "Autoimmune encephalitis (most likely anti-NMDA receptor encephalitis)",
+      "Prion disease (Creutzfeldt-Jakob disease)",
+      "Metabolic/genetic neurodegenerative disease"
+    ],
+    "llm_dx_summary": "A 33-year-old woman presents with subacute behavioral changes, progressive cognitive decline, and neurological symptoms most consistent with autoimmune encephalitis, likely anti-NMDA receptor encephalitis, with differential diagnoses including prion disease and metabolic/genetic neurodegenerative disorders.",
+    "llm_orders_a": [
+      {
+        "order": "MRI brain with contrast (with DWI/FLAIR sequences)",
+        "category": "imaging",
+        "cpt_code": "70553",
+        "price": 316.97,
+        "source": "substring"
+      },
+      {
+        "order": "EEG",
+        "category": "procedure",
+        "cpt_code": "95816",
+        "price": 413.5,
+        "source": "substring"
+      },
+      {
+        "order": "Lumbar puncture with cell count, protein, glucose, oligoclonal bands, and CSF sent for anti-NMDAR antibodies and autoimmune encephalitis antibody panel",
+        "category": "procedure",
+        "cpt_code": "62270",
+        "price": 165.0,
+        "source": "substring"
+      },
+      {
+        "order": "CSF 14-3-3 protein and RT-QuIC assay from LP specimen",
+        "category": "labs",
+        "cpt_code": "83873",
+        "price": 17.2,
+        "source": "rag"
+      },
+      {
+        "order": "Pelvic ultrasound to evaluate for ovarian teratoma",
+        "category": "imaging",
+        "cpt_code": "76830",
+        "price": 117.57,
+        "source": "rag"
+      },
+      {
+        "order": "Basic labs: CBC, CMP, TSH, vitamin B12, folate",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 7.77,
+        "source": "substring"
+      },
+      {
+        "order": "HIV and RPR/VDRL from serum",
+        "category": "labs",
+        "cpt_code": "86689",
+        "price": 19.35,
+        "source": "rag"
+      }
+    ],
+    "llm_orders_b": [
+      {
+        "order": "MRI brain with contrast (DWI/FLAIR sequences)",
+        "category": "imaging",
+        "cpt_code": "70553",
+        "price": 316.97,
+        "source": "substring"
+      },
+      {
+        "order": "EEG",
+        "category": "exam",
+        "cpt_code": "95816",
+        "price": 413.5,
+        "source": "substring"
+      },
+      {
+        "order": "Lumbar puncture with cell count, protein, glucose, oligoclonal bands",
+        "category": "procedure",
+        "cpt_code": "62270",
+        "price": 165.0,
+        "source": "substring"
+      },
+      {
+        "order": "CSF anti-NMDAR antibodies",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "CSF autoimmune encephalitis antibody panel",
+        "category": "labs",
+        "cpt_code": "86651",
+        "price": 13.19,
+        "source": "rag"
+      },
+      {
+        "order": "CSF 14-3-3 protein",
+        "category": "labs",
+        "cpt_code": "83873",
+        "price": 17.2,
+        "source": "rag"
+      },
+      {
+        "order": "CSF RT-QuIC assay (real-time quaking-induced conversion)",
+        "category": "labs",
+        "cpt_code": "84228",
+        "price": 11.63,
+        "source": "rag"
+      },
+      {
+        "order": "Pelvic ultrasound",
+        "category": "imaging",
+        "cpt_code": "76857",
+        "price": 51.1,
+        "source": "rag"
+      },
+      {
+        "order": "CBC",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 7.77,
+        "source": "supplementary"
+      },
+      {
+        "order": "CMP",
+        "category": "labs",
+        "cpt_code": "80053",
+        "price": 10.56,
+        "source": "supplementary"
+      },
+      {
+        "order": "TSH",
+        "category": "labs",
+        "cpt_code": "84443",
+        "price": 16.8,
+        "source": "supplementary"
+      },
+      {
+        "order": "Vitamin B12",
+        "category": "labs",
+        "cpt_code": "82607",
+        "price": 15.08,
+        "source": "supplementary"
+      },
+      {
+        "order": "Folate",
+        "category": "labs",
+        "cpt_code": "82746",
+        "price": 14.7,
+        "source": "supplementary"
+      },
+      {
+        "order": "HIV",
+        "category": "labs",
+        "cpt_code": "86701",
+        "price": 8.89,
+        "source": "rag"
+      },
+      {
+        "order": "RPR/VDRL",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "llm_orders_c": [],
+    "medicare_llm_med_cost": 0,
+    "source": "manual_openevidence",
+    "medicare_llm_dx_cost": 648.89,
+    "dx_match_v2": "related",
+    "dx_gemini": "wrong",
+    "dx_claude": "related",
+    "medicare_human_med_cost": 0.0,
+    "llm_referrals": [],
+    "llm_referral_cost": 0,
+    "llm_referral_count": 0
+  },
+  {
+    "case_id": "MTS_0239",
+    "sample_name": "Lymphoblastic Leukemia - Consult",
+    "specialty": "General Medicine",
+    "presentation": "CHIEF COMPLAINT: , Newly diagnosed high-risk acute lymphoblastic leukemia; extensive deep vein thrombosis, right iliac vein and inferior vena cava (IVC), status post balloon angioplasty, and mechanical and pharmacologic thrombolysis following placement of a vena caval filter.,HISTORY OF PRESENT ILLNESS: , The patient was transferred here the evening of 02/23/2007 from Hospital with a new diagnosis of high-risk acute lymphoblastic leukemia based on confirmation by flow cytometry of peripheral blood lymphoblasts that afternoon.  History related to this illness probably dates back to October of 2006 when he had onset of swelling and discomfort in the left testicle with what he described as a residual \"lump\" posteriorly.  The left testicle has continued to be painful off and on since.  In early November, he developed pain in the posterior part of his upper right leg, which he initially thought was related to skateboarding and muscle strain.  Physical therapy was prescribed and the discomfort temporarily improved.  In December, he noted onset of increasing fatigue.  He used to work out regularly, lifting lifts, doing abdominal exercises, and playing basketball and found he did not have energy to pursue these activities.  He has lost 10 pounds since December and feels his appetite has decreased.  Night sweats and cough began in December, for which he was treated with a course of Augmentin.  However, both of these problems have continued.  He also began taking Accutane for persistent acne in December (this agent was stopped on 02/19/2007).  Despite increasing fatigue and lethargy, he continues his studies at University of Denver, has a biology major (he aspires to be an ophthalmologist).,The morning of 02/19/2007, he awakened with severe right inguinal and right lower quadrant pain.  He was seen in Emergency Room where it was noted that he had an elevated WBC of 18,000.  CT scan of the abdomen was obtained to rule out possible appendicitis and on that CT, a large clot in the inferior vena cava extending to the right iliac and femoral veins was found.  He promptly underwent appropriate treatment in interventional radiology with the above-noted angioplasty and placement of a vena caval filter followed by mechanical and pharmacologic thrombolysis.  Repeat ultrasound there on 02/20/2007 showed no evidence of deep venous thrombosis (DVT).  Continuous intravenous unfractionated heparin infusion was continued.  Because there was no obvious cause of this extensive thrombosis, occult malignancy was suspected.  Appropriate blood studies were obtained and he underwent a PET/CT scan as part of his diagnostic evaluation.  This study showed moderately increased diffuse bone marrow metabolic activity.  Because the WBC continued to rise and showed a preponderance of lymphocytes, the smear was reviewed by pathologist, Sheryl Asplund, M.D., and flow cytometry was performed on the peripheral blood.  These studies became available the afternoon of 02/23/2007, and confirmed the diagnosis of precursor-B acute lymphoblastic leukemia.  The patient was transferred here after stopping of the continuous infusion heparin and receiving a dose of Lovenox 60 mg subcutaneously for further diagnostic evaluation and management of the acute lymphoblastic leukemia (ALL).,ALLERGIES: , NO KNOWN DRUG ALLERGIES.  HE DOES SEEM TO REACT TO CERTAIN ADHESIVES.,CURRENT MEDICATIONS:  ,1.  Lovenox 60 mg subcutaneously q.12h. initiated.,2.  Coumadin 5 mg p.o., was administered on 02/19/2007 and 02/22/2007.,3.  Protonix 40 mg intravenous (IV) daily.,4.  Vicodin p.r.n.,5.  Levaquin 750 mg IV on 02/23/2007.,IMMUNIZATIONS: , Up-to-date.,PAST SURGICAL HISTORY:  ,The treatment of the thrombosis as noted above on 02/19/2007 and 02/20/2007.,FAMILY HISTORY:  ,Two half-brothers, ages 26 and 28, both in good health.  Parents are in good health.  A maternal great-grandmother had a deep venous thrombosis (DVT) of leg in her 40s.  A maternal great-uncle developed leukemia around age 50.  A maternal great-grandfather had bone cancer around age 80.  His paternal grandfather died of colon cancer at age 73, which he had had since age 68.  Adult-onset diabetes is present in distant relatives on both sides.,SOCIAL HISTORY:  ,The patient is a student at the University majoring in biology.  He lives in a dorm there.  His parents live in Breckenridge.  He admits to having smoked marijuana off and on with friends and drinking beer off and on as well.,REVIEW OF SYSTEMS: , He has had emesis off and on related to Vicodin and constipation since 02/19/2007, also related to pain medication.  He has had acne for about two years, which he describes as mild to moderate.  He denied shortness of breath, chest pain, hemoptysis, dyspnea, headaches, joint pains, rashes, except where he has had dressings applied, and extremity pain except for the right leg pain noted above.,PHYSICAL EXAMINATION:  ,GENERAL:  Alert, cooperative, moderately ill-appearing young man.,VITAL SIGNS:  At the time of admission, pulse was 94, respirations 20, blood pressure 120/62, temperature 98.7, height 171.5 cm, weight 63.04 kg, and pulse oximetry on room air 95%.,HAIR AND SKIN:  Mild facial acne.,HEENT:  Extraocular muscles (EOMs) intact.  Pupils equal, round, and reactive to light and accommodation (PERRLA), fundi normal.,CARDIOVASCULAR:  A 2/6 systolic ejection murmur (SEM), regular sinus rhythm (RSR).,LUNGS:  Clear to auscultation with an occasional productive cough.,ABDOMEN:  Soft with mild lower quadrant tenderness, right more so than left; liver and spleen each decreased 4 cm below their respective costal margins.,MUSCULOSKELETAL:  Mild swelling of the dorsal aspect of the right foot and distal right leg.  Mild tenderness over the prior catheter entrance site in the right popliteal fossa and mild tenderness over the right medial upper thigh.,GENITOURINARY:  Testicle exam disclosed no firm swelling with mild nondiscrete fullness in the posterior left testicle.,NEUROLOGIC:  Exam showed him to be oriented x4.  Normal fundi, intact cranial nerves II through XII with downgoing toes, symmetric muscle strength, and decreased patellar deep tendon reflexes (DTRs).,LABORATORY DATA:  ,White count 25,500 (26 neutrophils, 1 band, 7 lymphocytes, 1 monocyte, 1 myelocyte, 64 blasts), hemoglobin 13.3, hematocrit 38.8, and 312,000 platelets.  Electrolytes, BUN, creatinine, phosphorus, uric acid, AST, ALT, alkaline phosphatase, and magnesium were all normal.  LDH was elevated to 1925 units/L (upper normal 670), and total protein and albumin were both low at 6.2 and 3.4 g/dL respectively.  Calcium was also slightly low at 8.8 mg/dL.  Low molecular weight heparin test was low at 0.27 units/mL.  PT was 11.8, INR 1.2, and fibrinogen 374.  Urinalysis was normal.,",
+    "model": "openevidence",
+    "prompt_arm": "parsimonious",
+    "human_ap": "ASSESSMENT: , 1.  Newly diagnosed high-risk acute lymphoblastic leukemia.,2.  Deep vein thrombosis of the distal iliac and common femoral/right femoral and iliac veins, status post vena caval filter placement and mechanical and thrombolytic therapy, on continued anticoagulation.,3.  Probable chronic left epididymitis.,PLAN: , 1.  Proceed with diagnostic bone marrow aspirate/biopsy and lumbar puncture (using a #27-gauge pencil-tip needle for minimal trauma) as soon as these procedures can be safely done with regard to the anticoagulation status.,2.  Prompt reassessment of the status of the deep venous thrombosis with Doppler studies.,3.  Ultrasound/Doppler of the testicles.,4.  Maintain therapeutic anticoagulation as soon as the diagnostic procedures for ALL can be completed.,",
+    "human_diagnoses": [
+      "Newly diagnosed high-risk acute lymphoblastic leukemia",
+      "Deep vein thrombosis of the distal iliac and common femoral/right femoral and iliac veins, status post vena caval filter placement and mechanical and thrombolytic therapy, on continued anticoagulation",
+      "Probable chronic left epididymitis"
+    ],
+    "human_dx_summary": "The patient has newly diagnosed high-risk acute lymphoblastic leukemia complicated by deep vein thrombosis requiring anticoagulation and probable chronic left epididymitis.",
+    "human_orders_a": [
+      {
+        "order": "Bone marrow aspirate/biopsy",
+        "category": "procedure",
+        "cpt_code": "38222",
+        "price": 177.02,
+        "source": "rag"
+      },
+      {
+        "order": "Lumbar puncture using a #27-gauge pencil-tip needle",
+        "category": "procedure",
+        "cpt_code": "62270",
+        "price": 165.0,
+        "source": "substring"
+      },
+      {
+        "order": "Doppler studies of the deep venous system",
+        "category": "imaging",
+        "cpt_code": "93970",
+        "price": 184.04,
+        "source": "substring"
+      }
+    ],
+    "human_orders_b": [
+      {
+        "order": "Diagnostic bone marrow aspirate/biopsy",
+        "category": "procedure",
+        "cpt_code": "38222",
+        "price": 177.02,
+        "source": "rag"
+      },
+      {
+        "order": "Lumbar puncture using a #27-gauge pencil-tip needle",
+        "category": "procedure",
+        "cpt_code": "635",
+        "price": 0,
+        "source": "rag"
+      },
+      {
+        "order": "Doppler studies of the deep venous system",
+        "category": "imaging",
+        "cpt_code": "93770",
+        "price": 0,
+        "source": "rag"
+      },
+      {
+        "order": "Ultrasound/Doppler of the testicles",
+        "category": "imaging",
+        "cpt_code": "78761",
+        "price": 190.05,
+        "source": "rag"
+      }
+    ],
+    "human_orders_c": [
+      {
+        "order": "Diagnostic bone marrow aspirate/biopsy",
+        "category": "procedure",
+        "cpt_code": "38222",
+        "price": 177.02,
+        "source": "rag"
+      },
+      {
+        "order": "Lumbar puncture using a #27-gauge pencil-tip needle",
+        "category": "procedure",
+        "cpt_code": "635",
+        "price": 0,
+        "source": "rag"
+      },
+      {
+        "order": "Doppler studies of the deep venous thrombosis",
+        "category": "imaging",
+        "cpt_code": "78457",
+        "price": 167.34,
+        "source": "rag"
+      },
+      {
+        "order": "Ultrasound/Doppler of the testicles",
+        "category": "imaging",
+        "cpt_code": "78761",
+        "price": 190.05,
+        "source": "rag"
+      }
+    ],
+    "human_referrals": [],
+    "human_referral_count": 0,
+    "human_referral_cost": 0,
+    "medicare_human_dx_cost": 526.06,
+    "llm_plan": "**ASSESSMENT AND PLAN**\n\n---\n\n**ASSESSMENT:**\n\n**Three Most Likely Diagnoses:**\n\n1. **Precursor B-cell acute lymphoblastic leukemia (ALL), high-risk** \u2014 Confirmed by flow cytometry of peripheral blood showing 64% blasts with precursor-B immunophenotype. The patient is an AYA (adolescent/young adult) male with a several-month prodrome of fatigue, weight loss, night sweats, and hepatosplenomegaly. WBC 25,500 with 64% blasts, markedly elevated LDH (1925 U/L), and diffuse bone marrow metabolic activity on PET/CT are all consistent. The left testicular fullness raises concern for possible testicular extramedullary involvement, which occurs in a small percentage of ALL cases at diagnosis.[1][2]\n2. **Cancer-associated extensive deep venous thrombosis (right iliac vein and IVC), status post mechanical/pharmacologic thrombolysis and IVC filter placement** \u2014 VTE is a well-recognized complication of ALL, occurring in 8\u201310% of cases, driven by the prothrombotic state of malignancy and potentially exacerbated by the Accutane (isotretinoin) use. The thrombosis has been acutely treated, but ongoing anticoagulation management will be complicated by anticipated chemotherapy-induced thrombocytopenia. The IVC filter is in situ and will need planned retrieval once sustained anticoagulation is feasible.[3][4]\n3. **Tumor lysis syndrome risk (intermediate-to-high)** \u2014 LDH is markedly elevated at 1925 U/L (>2\u00d7 ULN), with a WBC of 25,500 and hepatosplenomegaly indicating significant disease burden. Although current electrolytes, uric acid, and renal function are normal, the risk of TLS upon initiation of induction chemotherapy is substantial and requires prophylaxis.[5][6]\n\n**Can't-Miss Diagnoses:**\n\n- **Testicular germ cell tumor** \u2014 The patient is a young male with months of left testicular pain and posterior fullness. Although the clinical context strongly favors leukemic infiltration, a primary testicular germ cell tumor must be excluded, particularly given the age group. Scrotal ultrasound and serum tumor markers (AFP, beta-hCG, LDH) will clarify this.[1]\n- **Philadelphia chromosome-positive ALL (Ph+ ALL)** \u2014 Ph+ status fundamentally changes treatment (addition of TKI) and must be determined urgently before initiating induction chemotherapy.[7][1]\n- **CNS leukemia** \u2014 Present in 3\u20137% of ALL at diagnosis; missed CNS involvement leads to inadequate therapy and relapse. Lumbar puncture with intrathecal chemotherapy is required.[1]\n\n---\n\n**PLAN:**\n\n**1. Precursor B-cell ALL \u2014 Diagnostic Completion and Induction Therapy**\n\n- **Bone marrow aspirate and biopsy** (if not already performed): morphology, comprehensive flow cytometry, conventional karyotype, and FISH panel including BCR::ABL1, KMT2A rearrangements, and probes for hyperdiploidy/hypodiploidy. RT-PCR for BCR::ABL1 (with transcript size determination, p190 vs. p210) is essential to distinguish Ph+ from Ph\u2212 disease and guide regimen selection. Multigene panel testing for gene fusions and pathogenic variants is recommended per NCCN.[7][1]\n- **Lumbar puncture with intrathecal chemotherapy** at time of first scheduled IT therapy per protocol to assess CNS status (CNS-1/2/3).[1]\n- **Scrotal ultrasound** to evaluate the left testicular fullness and assess for leukemic infiltration vs. other pathology. Testicular disease at diagnosis that does not resolve after induction may require radiation (24 Gy).[1]\n- **Serum tumor markers**: AFP, beta-hCG to exclude concurrent germ cell tumor (can't-miss diagnosis).\n- **Echocardiogram** prior to anthracycline-based induction.[1]\n- **Hepatitis B/C and HIV testing** per NCCN workup recommendations.[1]\n- **Fertility counseling and sperm banking** \u2014 urgent, must occur before initiating chemotherapy.\n- **Induction chemotherapy**: Once Ph status is confirmed, initiate appropriate regimen. For Ph-negative B-ALL in an AYA patient without substantial comorbidities, NCCN-preferred regimens include pediatric-inspired protocols such as **CALGB 10403** (daunorubicin, pegaspargase, prednisone, vincristine) or the **DFCI ALL regimen**. If Ph-positive, a TKI-based regimen is indicated. Enrollment in a clinical trial is preferred if available.[1]\n- **Discontinue warfarin** \u2014 warfarin is not recommended for cancer-associated VTE; LMWH is preferred (see below).[8][4]\n- **Discontinue Accutane** (already stopped 02/19) \u2014 confirm discontinuation given teratogenicity concerns with chemotherapy agents and potential thrombotic risk.\n\n**2. Cancer-Associated DVT / IVC Filter Management**\n\n- **Continue enoxaparin (LMWH)** at therapeutic dosing (1 mg/kg BID) as the preferred anticoagulant for cancer-associated VTE. The current dose of 60 mg q12h is appropriate for his weight of 63 kg.[8]\n- **Discontinue warfarin** \u2014 LMWH is preferred over vitamin K antagonists in cancer-associated thrombosis per NCCN and ITAC guidelines.[8][4]\n- **Anticoagulation adjustment during chemotherapy-induced thrombocytopenia** per NCCN guidelines:[4]\n  - Platelets >50,000/\u03bcL: full-dose enoxaparin (1 mg/kg BID)\n  - Platelets 25,000\u201350,000/\u03bcL: half-dose enoxaparin (0.5 mg/kg BID)\n  - Platelets [4][9]\n- **Minimum 6 months of anticoagulation**, and indefinitely while cancer is active.[4][8]\n\n**3. Tumor Lysis Syndrome Prophylaxis**\n\n- **Aggressive IV hydration**: 1.5\u20132\u00d7 maintenance without potassium.[5]\n- **Rasburicase** (single dose 0.2 mg/kg, max 6 mg) prior to initiating chemotherapy, given LDH >2\u00d7 ULN indicating high risk. Screen for G6PD deficiency if feasible, though treatment should not be delayed if G6PD status is unknown and TLS risk is high.[5]\n- **Monitor TLS labs** (potassium, phosphorus, calcium, uric acid, creatinine) every 6\u20138 hours from admission through the initial days of induction.[5]\n- **Allopurinol** can be started after rasburicase effect for ongoing uric acid control.[5]\n\n**4. Excluding Can't-Miss Diagnoses**\n\n- **Ph+ ALL**: BCR::ABL1 RT-PCR and FISH (ordered above) \u2014 result needed urgently before or concurrent with induction start.[7]\n- **Testicular germ cell tumor**: Scrotal ultrasound + AFP/beta-hCG (ordered above).[1]\n- **CNS leukemia**: Lumbar puncture with IT chemotherapy (ordered above).[1]\n\n**5. Supportive Care and Follow-Up**\n\n- **Protonix** (pantoprazole) \u2014 continue for GI prophylaxis during corticosteroid therapy.\n- **Discontinue Vicodin** \u2014 transition to non-hepatotoxic analgesic given upcoming chemotherapy; avoid excessive acetaminophen.\n- **Psychosocial support** and counseling \u2014 young college student facing a life-altering diagnosis; social work and psychology referral.\n- **AYA-specific counseling**: cessation of marijuana and alcohol use during treatment.[5]\n- **Transfer/referral consideration**: NCCN recommends that ALL patients be evaluated and treated at specialized centers. If this facility lacks the resources for intensive ALL induction, transfer to a center with hematologic malignancy expertise should be arranged.[1]\n\n---\n\nWould you like to explore the specific cytogenetic and molecular risk stratification categories for B-ALL and how they influence the decision between consolidation with blinatumomab versus allogeneic transplant in first remission?\n\nALL-D-14\nAcute Lymphoblastic Leukemia: Ph-Negative B-ALL Frontline Induction Components \u2014 NCCN Guidelines\u00ae \u2014 Acute Lymphoblastic Leukemia p. 43 (v1.2026)\nNational Comprehensive Cancer Network. Acute Lymphoblastic Leukemia.\n\nALL-D-17\nAcute Lymphoblastic Leukemia: Principles of Systemic Therapy - Ph-Negative B-ALL Frontline Consolidation Regimens \u2014 NCCN Guidelines\u00ae \u2014 Acute Lymphoblastic Leukemia p. 46 (v1.2026)\nNational Comprehensive Cancer Network. Acute Lymphoblastic Leukemia.\n\nALL-D-13\nAcute Lymphoblastic Leukemia: Principles of Systemic Therapy - Ph-Negative B-ALL Frontline Induction Regimens \u2014 NCCN Guidelines\u00ae \u2014 Acute Lymphoblastic Leukemia p. 42 (v1.2026)\nNational Comprehensive Cancer Network. Acute Lymphoblastic Leukemia.\n\nALL-D-6\nAcute Lymphoblastic Leukemia: Ph-Positive B-ALL Frontline Induction Regimens \u2014 NCCN Guidelines\u00ae \u2014 Acute Lymphoblastic Leukemia p. 35 (v1.2026)\nNational Comprehensive Cancer Network. Acute Lymphoblastic Leukemia.\n\nALL-D-19\nAcute Lymphoblastic Leukemia: Ph-Negative B-ALL Frontline Consolidation Components Footnotes \u2014 NCCN Guidelines\u00ae \u2014 Acute Lymphoblastic Leukemia p. 48 (v1.2026)\nNational Comprehensive Cancer Network. Acute Lymphoblastic Leukemia.\n\nALL-5\nPh- B-ALL: Treatment Induction, Consolidation Therapy, and Post-Remission Management \u2014 NCCN Guidelines\u00ae \u2014 Acute Lymphoblastic Leukemia p. 17 (v1.2026)\nNational Comprehensive Cancer Network. Acute Lymphoblastic Leukemia.\n\nPEDALL-1\nDIAGNOSIS \u2014 NCCN Guidelines\u00ae \u2014 Pediatric Acute Lymphoblastic Leukemia p. 11 (v1.2026)\nNational Comprehensive Cancer Network. Pediatric Acute Lymphoblastic Leukemia.\n\nALL-1\nAcute Lymphoblastic Leukemia: Diagnosis \u2014 NCCN Guidelines\u00ae \u2014 Acute Lymphoblastic Leukemia p. 10 (v1.2026)\nNational Comprehensive Cancer Network. Acute Lymphoblastic Leukemia.\n\nALL-2\nAcute Lymphoblastic Leukemia: Cytogenetic and Molecular Prognostic Risk Stratification for B-ALL \u2014 NCCN Guidelines\u00ae \u2014 Acute Lymphoblastic Leukemia p. 12 (v1.2026)\nNational Comprehensive Cancer Network. Acute Lymphoblastic Leukemia.\n\nPEDALL-B\nPediatric Acute Lymphoblastic Leukemia: Genetic Risk Groups for B-ALL \u2014 NCCN Guidelines\u00ae \u2014 Pediatric Acute Lymphoblastic Leukemia p. 29 (v1.2026)\nNational Comprehensive Cancer Network. Pediatric Acute Lymphoblastic Leukemia.\n\nBLAST-1\nLymphoblastic Lymphoma: Additional Diagnostic Testing and Workup \u2014 NCCN Guidelines\u00ae \u2014 B-Cell Lymphomas p. 106 (v3.2026)\nNational Comprehensive Cancer Network. B-Cell Lymphomas.\n\nALL-3\nAcute Lymphoblastic Leukemia: Workup and ALL Subtype Classification \u2014 NCCN Guidelines\u00ae \u2014 Acute Lymphoblastic Leukemia p. 14 (v1.2026)\nNational Comprehensive Cancer Network. Acute Lymphoblastic Leukemia.\n\n### References\n\n1. Acute Lymphoblastic Leukemia. National Comprehensive Cancer Network. Updated 2026-04-08.\n2. Testicular Involvement of Acute Lymphoblastic Leukemia in Children and Adolescents: Diagnosis, Biology, and Management. Nguyen HTK, Terao MA, Green DM, Pui CH, Inaba H. Cancer. 2021;127(17):3067-3081. doi:10.1002/cncr.33609.\n3. Direct Oral Anticoagulants for Cancer\u2010Associated Venous Thromboembolism in Hematologic Malignancies: A Comprehensive Review. Zhu Y, Xu C, Chen Z, et al. European Journal of Haematology. 2026;116(5):512-521. doi:10.1111/ejh.70130.\n4. Cancer-Associated Venous Thromboembolic Disease. National Comprehensive Cancer Network. Updated 2026-05-05.\n5. Pediatric Acute Lymphoblastic Leukemia. National Comprehensive Cancer Network. Updated 2025-08-11.\n6. Tumor Lysis Syndrome in Patients With Hematological Malignancies. Belay Y, Yirdaw K, Enawgaw B. Journal of Oncology. 2017;2017:9684909. doi:10.1155/2017/9684909.\n7. Initial Diagnostic Work-Up of Acute Leukemia: ASCO Clinical Practice Guideline Endorsement of the College of American Pathologists and American Society of Hematology Guideline. de Haas V, Ismaila N, Advani A, et al. Journal of Clinical Oncology : Official Journal of the American Society of Clinical Oncology. 2019;37(3):239-253. doi:10.1200/JCO.18.01468.\n8. 2022 International Clinical Practice Guidelines for the Treatment and Prophylaxis of Venous Thromboembolism in Patients With Cancer, Including Patients With COVID-19. Farge D, Frere C, Connors JM, et al. The Lancet. Oncology. 2022;23(7):e334-e347. doi:10.1016/S1470-2045(22)00160-7.\n9. 2019 International Clinical Practice Guidelines for the Treatment and Prophylaxis of Venous Thromboembolism in Patients With Cancer. Farge D, Frere C, Connors JM, et al. The Lancet. Oncology. 2019;20(10):e566-e581. doi:10.1016/S1470-2045(19)30336-5.",
+    "llm_diagnoses": [
+      "Precursor B-cell acute lymphoblastic leukemia (ALL), high-risk",
+      "Cancer-associated extensive deep venous thrombosis (right iliac vein and IVC), status post mechanical/pharmacologic thrombolysis and IVC filter placement",
+      "Tumor lysis syndrome risk (intermediate-to-high)"
+    ],
+    "llm_dx_summary": "A high-risk adolescent/young adult male diagnosed with precursor B-cell acute lymphoblastic leukemia presenting with extensive deep venous thrombosis and at intermediate-to-high risk for tumor lysis syndrome.",
+    "llm_orders_a": [
+      {
+        "order": "Bone marrow aspirate and biopsy with morphology, comprehensive flow cytometry, conventional karyotype, FISH panel including BCR::ABL1, KMT2A rearrangements, hyperdiploidy/hypodiploidy probes, and RT-PCR for BCR::ABL1",
+        "category": "procedure",
+        "cpt_code": "38222",
+        "price": 177.02,
+        "source": "rag"
+      },
+      {
+        "order": "Multigene panel testing for gene fusions and pathogenic variants",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Lumbar puncture with intrathecal chemotherapy",
+        "category": "procedure",
+        "cpt_code": "62270",
+        "price": 165.0,
+        "source": "substring"
+      },
+      {
+        "order": "Scrotal ultrasound",
+        "category": "imaging",
+        "cpt_code": "76870",
+        "price": 98.53,
+        "source": "rag"
+      },
+      {
+        "order": "Serum tumor markers AFP and beta-hCG",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Echocardiogram prior to anthracycline-based induction",
+        "category": "imaging",
+        "cpt_code": "93306",
+        "price": 196.73,
+        "source": "substring"
+      },
+      {
+        "order": "Hepatitis B, Hepatitis C, and HIV testing",
+        "category": "labs",
+        "cpt_code": "87389",
+        "price": 13.71,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Fertility counseling and sperm banking",
+        "category": "referral"
+      },
+      {
+        "order": "Initiate induction chemotherapy regimen once Ph status confirmed",
+        "category": "medication",
+        "monthly_cost_usd": 15000.0
+      },
+      {
+        "order": "Discontinue warfarin",
+        "category": "medication"
+      },
+      {
+        "order": "Continue enoxaparin 60 mg subcutaneously every 12 hours (therapeutic dosing)",
+        "category": "medication",
+        "monthly_cost_usd": 1200.0
+      },
+      {
+        "order": "Aggressive IV hydration at 1.5\u20132\u00d7 maintenance without potassium",
+        "category": "other"
+      },
+      {
+        "order": "Administer rasburicase single dose 0.2 mg/kg (max 6 mg) prior to chemotherapy",
+        "category": "medication",
+        "monthly_cost_usd": 3000.0
+      },
+      {
+        "order": "Monitor tumor lysis syndrome labs (potassium, phosphorus, calcium, uric acid, creatinine) every 6\u20138 hours during initial induction days",
+        "category": "monitoring",
+        "cpt_code": "84105",
+        "price": 5.78,
+        "source": "rag"
+      },
+      {
+        "order": "Start allopurinol after rasburicase effect for ongoing uric acid control",
+        "category": "medication",
+        "monthly_cost_usd": 20.0
+      }
+    ],
+    "llm_orders_b": [
+      {
+        "order": "Bone marrow aspirate and biopsy with morphology, flow cytometry, conventional karyotype, FISH panel (BCR::ABL1, KMT2A, hyperdiploidy/hypodiploidy), and RT-PCR for BCR::ABL1",
+        "category": "procedure",
+        "cpt_code": "38222",
+        "price": 177.02,
+        "source": "rag"
+      },
+      {
+        "order": "Lumbar puncture with intrathecal chemotherapy",
+        "category": "procedure",
+        "cpt_code": "62270",
+        "price": 165.0,
+        "source": "substring"
+      },
+      {
+        "order": "Scrotal ultrasound",
+        "category": "imaging",
+        "cpt_code": "76870",
+        "price": 98.53,
+        "source": "rag"
+      },
+      {
+        "order": "Serum AFP and beta-hCG",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Echocardiogram",
+        "category": "imaging",
+        "cpt_code": "93306",
+        "price": 196.73,
+        "source": "supplementary"
+      },
+      {
+        "order": "Hepatitis B testing",
+        "category": "labs",
+        "cpt_code": "80055",
+        "price": 47.81,
+        "source": "substring"
+      },
+      {
+        "order": "Hepatitis C testing",
+        "category": "labs",
+        "cpt_code": "86803",
+        "price": 14.27,
+        "source": "rag"
+      },
+      {
+        "order": "HIV testing",
+        "category": "labs",
+        "cpt_code": "87389",
+        "price": 13.71,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Fertility counseling and sperm banking",
+        "category": "referral"
+      },
+      {
+        "order": "Rasburicase 0.2 mg/kg IV (max 6 mg) single dose prior to chemotherapy initiation",
+        "category": "medication",
+        "monthly_cost_usd": 0.0
+      },
+      {
+        "order": "Tumor lysis syndrome labs (potassium, phosphorus, calcium, uric acid, creatinine) every 6-8 hours from admission through initial days of induction",
+        "category": "monitoring",
+        "cpt_code": "90956",
+        "price": 366.74,
+        "source": "rag"
+      },
+      {
+        "order": "Allopurinol for ongoing uric acid control",
+        "category": "medication",
+        "monthly_cost_usd": 15.0
+      },
+      {
+        "order": "Enoxaparin 60 mg subcutaneous BID (therapeutic dosing for cancer-associated VTE)",
+        "category": "medication",
+        "monthly_cost_usd": 450.0
+      },
+      {
+        "order": "Psychosocial support and counseling referral",
+        "category": "referral"
+      },
+      {
+        "order": "Social work referral",
+        "category": "referral"
+      },
+      {
+        "order": "Psychology referral",
+        "category": "referral"
+      }
+    ],
+    "llm_orders_c": [
+      {
+        "order": "Bone marrow aspirate and biopsy",
+        "category": "procedure",
+        "cpt_code": "38222",
+        "price": 177.02,
+        "source": "rag"
+      },
+      {
+        "order": "Comprehensive flow cytometry (bone marrow)",
+        "category": "labs",
+        "cpt_code": "88187",
+        "price": 35.07,
+        "source": "rag"
+      },
+      {
+        "order": "Conventional karyotype (bone marrow)",
+        "category": "labs",
+        "cpt_code": "88280",
+        "price": 33.47,
+        "source": "rag"
+      },
+      {
+        "order": "FISH panel (bone marrow) including BCR::ABL1, KMT2A rearrangements, and probes for hyperdiploidy/hypodiploidy",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "RT-PCR for BCR::ABL1 (with transcript size determination, p190 vs. p210)",
+        "category": "labs",
+        "cpt_code": "81206",
+        "price": 163.96,
+        "source": "rag"
+      },
+      {
+        "order": "Multigene panel testing for gene fusions and pathogenic variants",
+        "category": "labs",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Lumbar puncture with intrathecal chemotherapy",
+        "category": "procedure",
+        "cpt_code": "62270",
+        "price": 165.0,
+        "source": "substring"
+      },
+      {
+        "order": "Scrotal ultrasound",
+        "category": "imaging",
+        "cpt_code": "76870",
+        "price": 98.53,
+        "source": "rag"
+      },
+      {
+        "order": "AFP",
+        "category": "labs",
+        "cpt_code": "82105",
+        "price": 16.77,
+        "source": "supplementary"
+      },
+      {
+        "order": "beta-hCG",
+        "category": "labs",
+        "cpt_code": "84704",
+        "price": 15.29,
+        "source": "rag"
+      },
+      {
+        "order": "Echocardiogram",
+        "category": "imaging",
+        "cpt_code": "93306",
+        "price": 196.73,
+        "source": "supplementary"
+      },
+      {
+        "order": "Hepatitis B testing",
+        "category": "labs",
+        "cpt_code": "80055",
+        "price": 47.81,
+        "source": "substring"
+      },
+      {
+        "order": "Hepatitis C testing",
+        "category": "labs",
+        "cpt_code": "86803",
+        "price": 14.27,
+        "source": "rag"
+      },
+      {
+        "order": "HIV testing",
+        "category": "labs",
+        "cpt_code": "87389",
+        "price": 13.71,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Fertility counseling",
+        "category": "referral"
+      },
+      {
+        "order": "Sperm banking",
+        "category": "procedure",
+        "cpt_code": "58323",
+        "price": 14.7,
+        "source": "rag"
+      },
+      {
+        "order": "Enoxaparin 1 mg/kg BID",
+        "category": "medication",
+        "monthly_cost_usd": 150.0
+      },
+      {
+        "order": "IV hydration 1.5-2x maintenance without potassium",
+        "category": "medication"
+      },
+      {
+        "order": "Rasburicase 0.2 mg/kg (max 6 mg) single dose",
+        "category": "medication",
+        "monthly_cost_usd": 15000.0
+      },
+      {
+        "order": "Monitor TLS labs (potassium, phosphorus, calcium, uric acid, creatinine) every 6-8 hours",
+        "category": "monitoring",
+        "cpt_code": "82570",
+        "price": 5.18,
+        "source": "rag"
+      },
+      {
+        "order": "Allopurinol",
+        "category": "medication",
+        "monthly_cost_usd": 10.0
+      },
+      {
+        "order": "Psychosocial support",
+        "category": "referral"
+      },
+      {
+        "order": "Social work referral",
+        "category": "referral"
+      },
+      {
+        "order": "Psychology referral",
+        "category": "referral"
+      }
+    ],
+    "medicare_llm_med_cost": 15160.0,
+    "source": "manual_openevidence",
+    "medicare_llm_dx_cost": 997.51,
+    "dx_match_v2": "correct_plus",
+    "dx_gemini": "correct_plus",
+    "dx_claude": "correct_plus",
+    "medicare_human_med_cost": 0.0,
+    "llm_referrals": [
+      {
+        "specialty": "Fertility Counseling And Sperm Banking",
+        "quote": "Fertility counseling and sperm banking",
+        "type": "DEFINITE",
+        "source": "structured",
+        "cpt_code": "99204",
+        "medicare_price": 177.36,
+        "cpt_description": "Office new patient moderate complexity 45 min"
+      }
+    ],
+    "llm_referral_cost": 177.36,
+    "llm_referral_count": 1
+  },
+  {
+    "case_id": "MTS_0481",
+    "sample_name": "Bronchiolitis - 2-month-old",
+    "specialty": "Emergency Room Reports",
+    "presentation": "CHIEF COMPLAINT: , Increased work of breathing.,HISTORY OF PRESENT ILLNESS: , The patient is a 2-month-old female with a 9-day history of illness.  Per mom's report, the illness started 9 days ago with a dry cough.  The patient was eating normal up until approximately three days ago.  Mom was using a vaporizer at night, which she feels to have helped.  The patient's cough gradually worsened and three days ago, the patient had a significant increasing cough.  At that time, the patient also had significant increasing congestion.  Two days ago the patient was taken to the primary care physician's office and the patient was given Xopenex 2 puffs every 4 to 6 hours for home regimen, but this per mom's report, did not help the patient's symptoms.  On Wednesday evening, the patient's congestion and work of breathing increased and the patient was gagging after feedings.  The patient was brought to Children's Hospital Emergency Room at which time the patient was evaluated.  A chest x-ray was obtained and was noted to be normal.  The patient's saturations were noted to be normal and the patient was discharged home.  Last night, the patient was having multiple episodes of emesis after feedings with coughing and today was noted to have decreasing activity.  The patient had a 101 temperature on Wednesday evening, but has had no true fevers.  The patient has had a mild decrease in urine output today and secondary to the persistent increased work of breathing, coughing, and posttussive emesis, the patient was brought to Children's Hospital for reevaluation.,REVIEW OF SYSTEMS: , The remainder of the review of system is otherwise negative, all systems being reviewed, outside of pertinent positives as stated above.,ALLERGIES:,  NO KNOWN DRUG ALLERGIES.,MEDICATIONS:  ,As above.,IMMUNIZATIONS:,  None.,PAST MEDICAL HISTORY:  ,No hospitalizations.  No surgeries.,BIRTH HISTORY: , The patient was born to a G8, P2, A6 mom via normal spontaneous vaginal delivery.  Birth weight 6 pounds 12 ounces.  Mom stated she had a uterine infection during her pregnancy and at the time of delivery, but the patient was only in the hospital for 24 hours with mom after delivery.  The patient was full term and mom was noted to have gestational diabetes controlled with diet during her pregnancy.,FAMILY HISTORY: , Brother, mother, and father all have asthma.  Mom was noted to have gestational diabetes.,SOCIAL HISTORY: , The patient lives with mother, father, and a brother.  There is one bird.  There are smokers in the household.  There are sick contacts.,PHYSICAL EXAMINATION:,VITAL SIGNS:  Temperature is 97.7 and pulse is 181, but the patient is fussy.  Respiratory rate ranged between 36 and 44.  The patient is saturating 100% on one-half liter and 89% on room air.,GENERAL APPEARANCE:  Nontoxic child, but with increased work of breathing.  No respiratory distress.,HEENT:  Head is normocephalic and atraumatic.  Anterior fontanelle flat.  Pupils are equal, round, and reactive to light bilaterally.  Tympanic membranes are clear bilaterally.  Nares are congested.  Mucous membranes are moist without erythema.,NECK:  Supple.  No lymphadenopathy.,CHEST:  Exhibits symmetric expansion and retractions.,LUNGS:  The patient has diffuse crackles bilaterally, but no wheezes, rales, or rhonchi.,CARDIOVASCULAR:  Heart has a 2/6 vibratory systolic ejection murmur, best heard over the left sternal boarder.,ABDOMEN:  Soft, nondistended, and nondistended.  Good bowel sounds noted in all 4 quadrants.,GU:  Normal female.  No discharge or erythema.,BACK:  Normal with a normal curvature.,EXTREMITIES:  A 2+ pulses in the bilateral upper lower extremities.  No evidence of clubbing, cyanosis, or edema.  Capillary refill less than 3 seconds.,LABORATORY DATA: , Labs in the emergency room include a CBC, which showed a white blood cell count of 20.8 with a hemoglobin of 10.7, hematocrit of 31.3 with platelet count of 715,000 with 40% neutrophils, 2 bands, and 70% monocytes.  A urinalysis obtained in the emergency room was noted to be negative.  CRP was noted to be 2.0.  The chest x-ray, reviewed by myself in the emergency room, showed no significant change from previous x-ray, but the patient does has some bronchial wall thickening.,",
+    "model": "openevidence",
+    "prompt_arm": "parsimonious",
+    "human_ap": "ASSESSMENT AND PLAN: , This is a 2-month-old female who presents to Children's Hospital with examination consistent with bronchiolitis.  At this time, the patient will be placed on the bronchiolitis pathway providing this patient with aggressive suctioning and supplemental oxygen as needed.  Currently, at this time, I feel no respiratory treatments are indicated in this patient.  I hear no evidence of wheezing or reactive airway disease.  We will continue to monitor and reassess this patient closely for this as there is a strong family history of reactive airway disease; however, at this time, the patient will be monitored without any medications and the remainder of the clinical course will be determined by her presentation during the course of this illness.",
+    "human_diagnoses": [
+      "bronchiolitis"
+    ],
+    "human_dx_summary": "A 2-month-old female presents with bronchiolitis and is being managed with aggressive suctioning and supplemental oxygen as needed, without respiratory treatments at this time.",
+    "human_orders_a": [],
+    "human_orders_b": [],
+    "human_orders_c": [],
+    "human_referrals": [],
+    "human_referral_count": 0,
+    "human_referral_cost": 0,
+    "medicare_human_dx_cost": 0,
+    "llm_plan": "## ASSESSMENT\n\n**1. Acute viral bronchiolitis** (most likely)\n\nThis 2-month-old presents with a 9-day progressive cough illness beginning with upper respiratory symptoms, now with diffuse bilateral crackles, retractions, hypoxemia (89% on room air), bronchial wall thickening on chest x-ray, and sick contacts in the household. The clinical course \u2014 URI prodrome progressing to lower respiratory tract involvement with peak severity around days 5\u20139 \u2014 is classic for bronchiolitis.[1][2] The reactive thrombocytosis (platelet count 715,000) is consistent with secondary thrombocythemia seen in infant respiratory viral infections.[3] The CRP of 2.0 and absence of focal consolidation argue against bacterial pneumonia. Bronchodilators (Xopenex) were appropriately ineffective, as expected in bronchiolitis.[4]\n\n**2. Pertussis**\n\nThis diagnosis warrants strong consideration given the patient's **unvaccinated** status, 9-day progressive paroxysmal cough with posttussive emesis, leukocytosis (WBC 20.8), and sick contacts.[5][6][7] Classic pertussis in young infants presents with a deceptively well-appearing child with progressive cough, gagging, and vomiting; leukocytosis with lymphocytosis is characteristic, though the differential here shows monocyte predominance rather than lymphocytosis.[5] The CDC clinical case definition includes cough illness with posttussive vomiting in infants [8] Pertussis in infants [9]\n\n**3. Bacterial superinfection complicating viral bronchiolitis**\n\nThe worsening clinical trajectory despite 9 days of illness, leukocytosis with bandemia (2% bands), and posttussive emesis raise concern for secondary bacterial pneumonia or other bacterial infection superimposed on a viral illness.[2] However, the low CRP (2.0), negative urinalysis, absence of focal consolidation on chest x-ray, and nontoxic appearance make this less likely.\n\n**Can't-miss diagnoses:**\n\n- **Pertussis** \u2014 already listed above but bears emphasis as a can't-miss given the unvaccinated status, age [10][5][7]\n- **Sepsis/serious bacterial infection** \u2014 although the infant appears nontoxic with a low CRP and negative urinalysis, age [11][12]\n- **Congenital heart disease** \u2014 the 2/6 systolic murmur is likely an innocent vibratory murmur given its character, but in the setting of tachycardia, hypoxemia, and feeding difficulty, hemodynamically significant heart disease should be considered.[2]\n\n---\n\n## PLAN\n\n**For bronchiolitis (primary working diagnosis):**\n\n- **Admit to hospital** \u2014 multiple criteria for hospitalization are met: age \u22642 months (OR 2.1 for requiring increased respiratory support), oxygen saturation 89% on room air, retractions, and poor feeding with posttussive emesis.[4][13]\n- **Supplemental oxygen** via nasal cannula to maintain SpO\u2082 \u226590% (currently on 0.5L with SpO\u2082 100%; wean as tolerated).[14][1]\n- **Supportive care**: gentle nasal suctioning before feeds; ensure adequate hydration \u2014 if oral intake remains poor with continued posttussive emesis, initiate **nasogastric or IV fluids**.[4][15]\n- **Discontinue Xopenex** \u2014 bronchodilators are not recommended in bronchiolitis and have not shown benefit.[4][1]\n- Do NOT obtain additional chest x-rays, blood gases, or electrolytes unless clinical deterioration occurs.[1][16][17]\n\n**For pertussis (must exclude):**\n\n- Obtain **nasopharyngeal swab for Bordetella pertussis PCR** \u2014 this is the key test that will change management.[6][8]\n- **Start empiric azithromycin** (10 mg/kg/day \u00d7 5 days) now, without waiting for PCR results, given the high clinical suspicion (unvaccinated infant [9][8]\n- **Monitor closely for apnea** \u2014 infants [5][7]\n\n**For bacterial superinfection:**\n\n- The low CRP, negative urinalysis, nontoxic appearance, and absence of consolidation on CXR make this unlikely. No empiric broad-spectrum antibiotics are indicated at this time. The azithromycin started empirically for pertussis also provides some atypical bacterial coverage. Reassess if the patient develops new fever, clinical deterioration, or focal findings.[1][2]\n\n**For can't-miss diagnoses:**\n\n- **Sepsis**: Blood culture was not mentioned in the ED labs \u2014 if not already obtained, send one now given age [18][11]\n- **Congenital heart disease**: The murmur is vibratory and consistent with an innocent murmur. If the patient's oxygen requirement does not improve as expected for bronchiolitis, or if there is persistent tachycardia after resolution of respiratory distress, obtain a **4-extremity blood pressure check and pre/post-ductal saturations**. Echocardiography only if these are abnormal or clinical concern persists.\n\n**Follow-up:**\n\n- Reassess respiratory status, feeding tolerance, and oxygen requirement every 4\u20136 hours. Discharge criteria: tolerating oral feeds, SpO\u2082 \u226590% on room air for \u22654 hours, and no significant respiratory distress.\n- Counsel family on **smoking cessation** \u2014 household smoke exposure worsens bronchiolitis severity and recurrence.\n- Ensure pertussis PCR result is followed up and reported to public health if positive; prophylactic azithromycin for household contacts if confirmed.\n\n---\n\nWould you like to explore the specific apnea monitoring protocols and ICU escalation criteria for young infants with pertussis or severe bronchiolitis?\n\n### References\n\n1. Bronchiolitis. Dalziel SR, Haskell L, O'Brien S, et al. Lancet (London, England). 2022;400(10349):392-406. doi:10.1016/S0140-6736(22)01016-9.\n2. Viral Bronchiolitis. Florin TA, Plint AC, Zorc JJ. Lancet (London, England). 2017;389(10065):211-224. doi:10.1016/S0140-6736(16)30951-5.\n3. A Study of the Relationship Between Cough and Wheezing Complicated by Common Respiratory Viral Infections in Infants and Secondary Thrombocythemia. He P, Hu F, Wang F. PloS One. 2025;20(7):e0326369. doi:10.1371/journal.pone.0326369.\n4. Respiratory Syncytial Virus Bronchiolitis: Rapid Evidence Review. Oppenlander KE, Chung AA, Clabaugh D. American Family Physician. 2023;108(1):52-57.\n5. Pertussis in Young Infants Throughout the World. Cherry JD. Clinical Infectious Diseases : An Official Publication of the Infectious Diseases Society of America. 2016;63(suppl 4):S119-S122. doi:10.1093/cid/ciw550.\n6. Pertussis: Common Questions and Answers. Kline JM, Smith EA, Zavala A. American Family Physician. 2021;104(2):186-192.\n7. Clinical Characteristics of 967 Children With Pertussis: A Single-Center Analysis Over an 8-Year Period in Beijing, China. Kang L, Cui X, Fu J, et al. European Journal of Clinical Microbiology & Infectious Diseases : Official Publication of the European Society of Clinical Microbiology. 2022;41(1):9-20. doi:10.1007/s10096-021-04336-w.\n8. Clinically Diagnosing Pertussis-Associated Cough in Adults and Children: CHEST Guideline and Expert Panel Report. Moore A, Harnden A, Grant CC, Patel S, Irwin RS. Chest. 2019;155(1):147-154. doi:10.1016/j.chest.2018.09.027.\n9. Leukocytosis and Delayed Macrolide Administration Were Risk Factors for Severe Pertussis in Newborn Infants. Luo J, Wang Y, Meng Q, et al. Acta Paediatrica (Oslo, Norway : 1992). 2026;115(4):812-820. doi:10.1111/apa.70401.\n10. Pertussis Leukocytosis: Mechanisms, Clinical Relevance and Treatment. Carbonetti NH. Pathogens and Disease. 2016;74(7):ftw087. doi:10.1093/femspd/ftw087.\n11. Evaluation and Management of Febrile Children: A Review. Cioffredi LA, Jhaveri R. JAMA Pediatrics. 2016;170(8):794-800. doi:10.1001/jamapediatrics.2016.0596.\n12. Management of Fever in Infants and Young Children. Hamilton JL, Evans SG, Bakshi M. American Family Physician. 2020;101(12):721-729.\n13. Predictors of Intensive Care Admission in Hypoxemic Bronchiolitis Infants, Secondary Analysis of a Randomized Trial. Franklin D, Babl FE, Neutze J, et al. The Journal of Pediatrics. 2023;256:92-97.e1. doi:10.1016/j.jpeds.2022.12.006.\n14. Severe Respiratory Syncytial Virus Infection in Children: Burden, Management, and Emerging Therapies. Mazur NI, Caballero MT, Nunes MC. Lancet (London, England). 2024;404(10458):1143-1156. doi:10.1016/S0140-6736(24)01716-1.\n15. Nebulised Hypertonic Saline Solution for Acute Bronchiolitis in Infants. Zhang L, Mendoza-Sassi RA, Wainwright CE, Aregbesola A, Klassen TP. The Cochrane Database of Systematic Reviews. 2023;4:CD006458. doi:10.1002/14651858.CD006458.pub5.\n16. Clinical Practice Guideline: The Diagnosis, Management, and Prevention of Bronchiolitis. Ralston SL, Lieberthal AS, Meissner HC, et al. Pediatrics. 2014;134(5):e1474-502. doi:10.1542/peds.2014-2742.\n17. Investigations for Bronchiolitis in Infants: An Overview of Reviews and Systematic Review of Primary Studies. Loveys K, Borland ML, Oakley E, et al. Pediatric Pulmonology. 2026;61(4):e71582. doi:10.1002/ppul.71582.\n18. Evaluation and Management of Well-Appearing Febrile Infants 8 to 60 Days Old. Pantell RH, Roberts KB, Adams WG, et al. Pediatrics. 2021;148(2):e2021052228. doi:10.1542/peds.2021-052228.",
+    "llm_diagnoses": [
+      "Acute viral bronchiolitis",
+      "Pertussis",
+      "Bacterial superinfection complicating viral bronchiolitis"
+    ],
+    "llm_dx_summary": "A 2-month-old unvaccinated infant presents with a 9-day progressive cough illness most consistent with acute viral bronchiolitis, with pertussis strongly considered and bacterial superinfection less likely.",
+    "llm_orders_a": [
+      {
+        "order": "Admit to hospital",
+        "category": "other"
+      },
+      {
+        "order": "Supplemental oxygen via nasal cannula to maintain SpO\u2082 \u226590%",
+        "category": "other"
+      },
+      {
+        "order": "Gentle nasal suctioning before feeds",
+        "category": "other"
+      },
+      {
+        "order": "Nasogastric or IV fluids if oral intake remains poor with continued posttussive emesis",
+        "category": "other"
+      },
+      {
+        "order": "Discontinue Xopenex",
+        "category": "medication"
+      },
+      {
+        "order": "Nasopharyngeal swab for Bordetella pertussis PCR",
+        "category": "labs",
+        "cpt_code": "87798",
+        "price": 35.09,
+        "source": "substring"
+      },
+      {
+        "order": "Azithromycin 10 mg/kg/day for 5 days",
+        "category": "medication",
+        "monthly_cost_usd": 40.0
+      },
+      {
+        "order": "Monitor closely for apnea",
+        "category": "monitoring",
+        "cpt_code": "94774",
+        "price": 0,
+        "source": "rag"
+      },
+      {
+        "order": "Send blood culture",
+        "category": "labs",
+        "cpt_code": "87040",
+        "price": 10.32,
+        "source": "canonical_override"
+      },
+      {
+        "order": "4-extremity blood pressure check and pre/post-ductal saturations if oxygen requirement does not improve or persistent tachycardia",
+        "category": "monitoring",
+        "cpt_code": "93653",
+        "price": 711.44,
+        "source": "rag"
+      }
+    ],
+    "llm_orders_b": [
+      {
+        "order": "Nasopharyngeal swab for Bordetella pertussis PCR",
+        "category": "labs",
+        "cpt_code": "87798",
+        "price": 35.09,
+        "source": "substring"
+      },
+      {
+        "order": "Azithromycin 10 mg/kg/day \u00d7 5 days",
+        "category": "medication",
+        "monthly_cost_usd": 12.0
+      },
+      {
+        "order": "Blood culture",
+        "category": "labs",
+        "cpt_code": "87040",
+        "price": 10.32,
+        "source": "supplementary"
+      },
+      {
+        "order": "4-extremity blood pressure check",
+        "category": "exam",
+        "cpt_code": "93788",
+        "price": 6.01,
+        "source": "rag"
+      },
+      {
+        "order": "Pre/post-ductal oxygen saturations",
+        "category": "monitoring",
+        "cpt_code": "82805",
+        "price": 78.77,
+        "source": "rag"
+      },
+      {
+        "order": "Apnea monitoring",
+        "category": "monitoring",
+        "cpt_code": "94774",
+        "price": 0,
+        "source": "rag"
+      },
+      {
+        "order": "Supplemental oxygen via nasal cannula to maintain SpO\u2082 \u226590%",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Hospital admission",
+        "category": "procedure",
+        "cpt_code": "99026",
+        "price": 0,
+        "source": "rag"
+      }
+    ],
+    "llm_orders_c": [
+      {
+        "order": "Admit to hospital",
+        "category": "other"
+      },
+      {
+        "order": "Supplemental oxygen via nasal cannula to maintain SpO\u2082 \u226590%",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Gentle nasal suctioning before feeds",
+        "category": "other"
+      },
+      {
+        "order": "Initiate nasogastric or IV fluids if oral intake remains poor with continued posttussive emesis",
+        "category": "other"
+      },
+      {
+        "order": "Nasopharyngeal swab for Bordetella pertussis PCR",
+        "category": "labs",
+        "cpt_code": "87798",
+        "price": 35.09,
+        "source": "substring"
+      },
+      {
+        "order": "Azithromycin (10 mg/kg/day \u00d7 5 days)",
+        "category": "medication",
+        "monthly_cost_usd": 10.0
+      },
+      {
+        "order": "Monitor closely for apnea",
+        "category": "monitoring",
+        "cpt_code": "94774",
+        "price": 0,
+        "source": "rag"
+      },
+      {
+        "order": "Blood culture",
+        "category": "labs",
+        "cpt_code": "87040",
+        "price": 10.32,
+        "source": "supplementary"
+      },
+      {
+        "order": "4-extremity blood pressure check",
+        "category": "exam",
+        "cpt_code": "93788",
+        "price": 6.01,
+        "source": "rag"
+      },
+      {
+        "order": "Pre/post-ductal saturations",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Echocardiography if 4-extremity blood pressure check or pre/post-ductal saturations are abnormal or clinical concern persists",
+        "category": "imaging",
+        "cpt_code": "76506",
+        "price": 108.89,
+        "source": "rag"
+      },
+      {
+        "order": "Reassess respiratory status every 4\u20136 hours",
+        "category": "monitoring",
+        "cpt_code": "94004",
+        "price": 43.76,
+        "source": "rag"
+      },
+      {
+        "order": "Reassess feeding tolerance every 4\u20136 hours",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Reassess oxygen requirement every 4\u20136 hours",
+        "category": "monitoring",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "medicare_llm_med_cost": 12.0,
+    "source": "manual_openevidence",
+    "medicare_llm_dx_cost": 198.06,
+    "dx_match_v2": "correct_plus",
+    "dx_gemini": "correct_plus",
+    "dx_claude": "correct_plus",
+    "medicare_human_med_cost": 0.0,
+    "llm_referrals": [],
+    "llm_referral_cost": 0,
+    "llm_referral_count": 0
+  },
+  {
+    "case_id": "MTS_0305",
+    "sample_name": "Gen Med Consult - 40",
+    "specialty": "General Medicine",
+    "presentation": "CHIEF COMPLAINT:, Altered mental status.,HISTORY OF PRESENT ILLNESS:, The patient is a 69-year-old male transferred from an outlying facility with diagnosis of a stroke. History is taken mostly from the emergency room record. The patient is unable to give any history and no family member is present for questioning. When asked why he came to the emergency room, the patient replies that it started about 2 PM yesterday. However, he is unable to tell me exactly what started at 2 PM yesterday. The patient's speech is clear, but he speaks nonsensically using words in combinations that don't make any sense. No other history of present illness is available.,PAST MEDICAL HISTORY:, Per the emergency room record, significant for atrial fibrillation, hypertension, and hyperlipidemia.,PAST SURGICAL HISTORY:, Unknown.,FAMILY HISTORY:, Unknown.,SOCIAL HISTORY:, The patient denies smoking and drinking.,MEDICATIONS:, Per the emergency room record, medications are Lotensin 20 mg daily, Toprol 50 mg daily, Plavix 75 mg daily and aspirin 81 mg daily.,ALLERGIES:, UNKNOWN.,REVIEW OF SYSTEMS:, Unobtainable secondary to the patient's condition.,PHYSICAL EXAMINATION:,VITAL SIGNS: Temperature: 97.9. Pulse: 79. Respiratory rate: 20. Blood pressure: 117/84.,GENERAL: Well-developed, well-nourished male in no acute distress.,HEENT: Eyes: Pupils are equal, round and reactive. There is no scleral icterus. Ears, nose and throat: His oropharynx is moist. His hearing is normal.,NECK: No JVD. No thyromegaly.,CARDIOVASCULAR: Irregular rhythm. No lower extremity edema.,RESPIRATORY: Clear to auscultation bilaterally with normal effort.,ABDOMEN: Nontender. Nondistended. Bowel sounds are positive.,MUSCULOSKELETAL: There is no clubbing of the digits. The patient's strength is 5/5 throughout.,NEUROLOGICAL: Babinski's are downgoing bilaterally. Deep tendon reflexes are 2+ throughout.,LABORATORY DATA:, By report, head CT from the outlying facility was negative. An EKG showed atrial fibrillation with a rate of 75. There is no indication of any acute cardiac ischemia. A chest x-ray shows no acute pulmonary process, but does show cardiomegaly.,Labs are as follows: White count 9.4, hemoglobin 17.2, hematocrit 52.5, platelet count 219. PTT 24, PT 13, INR 0.96. Sodium 135, potassium 3.6, chloride 99, bicarb 27, BUN 13, creatinine 1.4, glucose 161, calcium 9, magnesium 1.9, total protein 7, albumin 3.7, AST 22, ALT 41, alkaline phosphatase 85, total bilirubin 0.7, total cholesterol 193. Cardiac isoenzymes are negative times one with a troponin of 0.09.,",
+    "model": "openevidence",
+    "prompt_arm": "parsimonious",
+    "human_ap": "ASSESSMENT AND PLAN:,1. Probable stroke. The patient has an expressive aphasia. He does not have dysarthria, however. Also, his strength is not affected. I suspect that the patient has had strokes or TIAs in the past because he was taking aspirin and Plavix at home. Head CT is reportedly negative. I will ask our radiologist to re-read the head CT. I will also order MRI and MRA, carotid Doppler ultrasound and echocardiogram in addition to a fasting lipid profile. I will consult neurology to evaluate and continue his aspirin and Plavix.,2. Atrial fibrillation. The patient's rate is controlled currently. I will continue him on his amiodarone 200 mg twice daily and consult CHI to evaluate him.,3. Hypertension. I will continue his home medications and add clonidine as needed.,4. Hyperlipidemia. The patient takes no medications for this currently. I will check a fasting lipid profile.,5. Hyperglycemia. It is unknown whether the patient has a history of diabetes. His glucose is currently 171. I will start him on sliding scale insulin for now and monitor closely.,6. Renal insufficiency. It is also unknown whether the patient has a history of this and what his baseline creatinine might be. Currently he has only mild renal insufficiency. This does not appear to be prerenal. Will monitor for now.",
+    "human_diagnoses": [
+      "Probable stroke",
+      "Atrial fibrillation",
+      "Hypertension",
+      "Hyperlipidemia",
+      "Hyperglycemia",
+      "Renal insufficiency"
+    ],
+    "human_dx_summary": "The patient presents with probable stroke characterized by expressive aphasia without dysarthria or weakness, with a history of atrial fibrillation, hypertension, hyperlipidemia, hyperglycemia, and mild renal insufficiency.",
+    "human_orders_a": [
+      {
+        "order": "MRI brain",
+        "category": "imaging",
+        "cpt_code": "70553",
+        "price": 316.97,
+        "source": "supplementary"
+      },
+      {
+        "order": "MRA head and neck",
+        "category": "imaging",
+        "cpt_code": "76536",
+        "price": 108.55,
+        "source": "rag"
+      },
+      {
+        "order": "Carotid Doppler ultrasound",
+        "category": "imaging",
+        "cpt_code": "93880",
+        "price": 189.05,
+        "source": "substring"
+      },
+      {
+        "order": "Echocardiogram",
+        "category": "imaging",
+        "cpt_code": "93306",
+        "price": 196.73,
+        "source": "supplementary"
+      },
+      {
+        "order": "Fasting lipid profile",
+        "category": "labs",
+        "cpt_code": "80061",
+        "price": 13.39,
+        "source": "supplementary"
+      },
+      {
+        "order": "Neurology consult",
+        "category": "referral"
+      },
+      {
+        "order": "Start sliding scale insulin",
+        "category": "medication",
+        "monthly_cost_usd": 150.0
+      },
+      {
+        "order": "Consult CHI for atrial fibrillation evaluation",
+        "category": "referral"
+      }
+    ],
+    "human_orders_b": [
+      {
+        "order": "MRI",
+        "category": "imaging",
+        "cpt_code": "70553",
+        "price": 199.87,
+        "source": "supplementary"
+      },
+      {
+        "order": "MRA",
+        "category": "imaging",
+        "cpt_code": "70544",
+        "price": 214.77,
+        "source": "direct"
+      },
+      {
+        "order": "Carotid Doppler ultrasound",
+        "category": "imaging",
+        "cpt_code": "93880",
+        "price": 189.05,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Echocardiogram",
+        "category": "imaging",
+        "cpt_code": "93306",
+        "price": 196.73,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Fasting lipid profile",
+        "category": "labs",
+        "cpt_code": "80061",
+        "price": 13.44,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Neurology consult",
+        "category": "referral"
+      },
+      {
+        "order": "CHI consult for atrial fibrillation evaluation",
+        "category": "referral"
+      },
+      {
+        "order": "Sliding scale insulin",
+        "category": "medication",
+        "monthly_cost_usd": 150.0
+      }
+    ],
+    "human_orders_c": [
+      {
+        "order": "MRI",
+        "category": "imaging",
+        "cpt_code": "70553",
+        "price": 199.87,
+        "source": "supplementary"
+      },
+      {
+        "order": "MRA",
+        "category": "imaging",
+        "cpt_code": "70544",
+        "price": 214.77,
+        "source": "direct"
+      },
+      {
+        "order": "Carotid Doppler ultrasound",
+        "category": "imaging",
+        "cpt_code": "93880",
+        "price": 189.05,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Echocardiogram",
+        "category": "imaging",
+        "cpt_code": "93306",
+        "price": 196.73,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Fasting lipid profile",
+        "category": "labs",
+        "cpt_code": "80061",
+        "price": 13.44,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Neurology consult",
+        "category": "referral"
+      },
+      {
+        "order": "Sliding scale insulin",
+        "category": "medication",
+        "monthly_cost_usd": 150.0
+      },
+      {
+        "order": "CHI consult for atrial fibrillation evaluation",
+        "category": "referral"
+      }
+    ],
+    "human_referrals": [
+      {
+        "specialty": "Neurology",
+        "quote": "I will consult neurology to evaluate and continue his aspirin and Plavix.",
+        "type": "DEFINITE",
+        "source": "llm",
+        "cpt_code": "99204",
+        "medicare_price": 177.36,
+        "cpt_description": "Office new patient moderate complexity 45 min"
+      },
+      {
+        "specialty": "Cardiology",
+        "quote": "I will continue him on his amiodarone 200 mg twice daily and consult CHI to evaluate him.",
+        "type": "DEFINITE",
+        "source": "llm",
+        "cpt_code": "99204",
+        "medicare_price": 177.36,
+        "cpt_description": "Office new patient moderate complexity 45 min"
+      },
+      {
+        "specialty": "Consult Chi For Atrial Fibrillation Evaluation",
+        "quote": "Consult CHI for atrial fibrillation evaluation",
+        "type": "DEFINITE",
+        "source": "structured",
+        "cpt_code": "99204",
+        "medicare_price": 177.36,
+        "cpt_description": "Office new patient moderate complexity 45 min"
+      }
+    ],
+    "human_referral_count": 3,
+    "human_referral_cost": 532.08,
+    "medicare_human_dx_cost": 813.86,
+    "llm_plan": "High risk of ischemic stroke. Patients with a CHA\u2082DS\u2082-VASc score of 4 face a 4.8% risk of ischemic stroke and a 6.7% risk of stroke, TIA, or systemic embolism.[1]\n\n## ASSESSMENT\n\n**1. Acute ischemic stroke (cardioembolic, left MCA territory \u2014 Wernicke aphasia)** \u2014 Most likely diagnosis. This 69-year-old male with known atrial fibrillation (not anticoagulated, INR 0.96) presents with acute-onset fluent, nonsensical speech with preserved motor strength (5/5 throughout), consistent with **Wernicke aphasia** from a left posterior temporal/parietal infarct.[2][3] Fluent speech with incomprehensible word combinations, intact motor function, and no hemiparesis is the hallmark of a dominant-hemisphere posterior MCA territory stroke. The negative head CT does not exclude ischemic stroke \u2014 noncontrast CT is only 47\u201353% sensitive for acute ischemia within the first hours.[4] AF without anticoagulation is the most likely embolic source. His CHA\u2082DS\u2082-VASc score is **4** (age 65\u201374, hypertension, and now stroke), conferring a high annual stroke risk of ~4.8%.[5][6]\n\n**2. Seizure with postictal aphasia** \u2014 Focal seizure activity in the left temporal lobe can produce a transient fluent aphasia that mimics Wernicke aphasia.[7] No witnessed seizure activity is reported, but subclinical seizures remain possible, particularly if an underlying structural lesion is present.\n\n**3. Metabolic encephalopathy / Wernicke encephalopathy** \u2014 Glucose of 161 mg/dL (mildly elevated but not in the range to cause AMS), creatinine 1.4, and otherwise unremarkable metabolic panel make a purely metabolic cause less likely. Wernicke encephalopathy (thiamine deficiency) can present with altered mental status, though the classic triad (ophthalmoplegia, ataxia, confusion) is absent, and there is no reported alcohol use or nutritional risk.[8]\n\n**Can't-miss diagnoses:**\n\n- **Intracranial hemorrhage** \u2014 Excluded by negative head CT (high sensitivity for hemorrhage).[9]\n- **CNS infection (meningitis/encephalitis)** \u2014 HSV encephalitis has a predilection for the temporal lobe and can mimic Wernicke aphasia. No fever, meningismus, or leukocytosis is present, making this less likely but important to consider if clinical course worsens.[10]\n- **Nonconvulsive status epilepticus** \u2014 Can present as isolated altered mental status/aphasia without overt motor seizure activity.\n\n---\n\n## PLAN\n\n**1. Acute ischemic stroke (most likely \u2014 cardioembolic)**\n\n- **MRI brain with diffusion-weighted imaging (DWI):** This is the single most important next test. DWI is 88% sensitive and 95% specific for acute infarction and will confirm or exclude ischemic stroke when CT is negative. This directly changes management \u2014 confirming stroke determines anticoagulation strategy and timing.[4]\n- **Initiate anticoagulation with a DOAC** (e.g., apixaban 5 mg BID): If MRI confirms a small-to-moderate infarct without hemorrhagic transformation, early DOAC initiation (within \u22644 days) is supported by the ELAN and OPTIMAS trials as non-inferior to delayed initiation and safe with respect to intracranial hemorrhage. If a large territorial infarct is found, delay anticoagulation to ~14 days per AHA/ASA guidelines. **Discontinue aspirin and clopidogrel** once anticoagulation is started \u2014 combination antiplatelet plus anticoagulation is not recommended for secondary stroke prevention in AF.[11][12][13]\n- **Continue current antihypertensives** (benazepril, metoprolol). BP is currently well-controlled at 117/84. Metoprolol also provides rate control for AF. Target outpatient SBP [14][13]\n- **Statin therapy:** Initiate moderate-to-high intensity statin (total cholesterol 193, no prior statin). Appropriate for secondary prevention regardless of stroke subtype.\n- **Swallow evaluation** before oral intake given aphasia and stroke concern.\n\n**2. Seizure with postictal aphasia**\n\n- If MRI is negative for acute infarction or if the clinical picture does not improve as expected, obtain **EEG** to evaluate for nonconvulsive seizure activity or postictal state. EEG is not needed upfront if MRI confirms stroke.[10]\n\n**3. Metabolic / Wernicke encephalopathy**\n\n- Already largely excluded by labs (electrolytes, glucose, renal/hepatic function, CBC all near-normal). No specific additional workup needed unless clinical trajectory changes.\n- Administer **empiric thiamine 100 mg IV** \u2014 low cost, no risk, and addresses the rare possibility of Wernicke encephalopathy even without classic risk factors.[8]\n\n**Excluding can't-miss diagnoses:**\n\n- **Intracranial hemorrhage:** Already excluded by negative head CT.[9]\n- **CNS infection:** No fever, no meningismus, no leukocytosis \u2014 lumbar puncture is not indicated at this time. If fever develops or mental status worsens, pursue LP and empiric acyclovir/antibiotics.[10]\n- **Nonconvulsive status epilepticus:** Addressed by EEG if clinical course is atypical or MRI is negative.\n\n**Disposition:** Admit to a monitored bed. Obtain neurology consultation if available. Attempt to contact family/next of kin for collateral history (baseline cognition, medication compliance, symptom timeline).\n\n---\n\nWould you like to explore the optimal timing and choice of DOAC for secondary stroke prevention in this patient, particularly given his borderline creatinine of 1.4?\n\nFigure 2\nStepwise Algorithm for Initial Management of Acute Ischemic Stroke in Adults.\nPowers WJ. Acute Ischemic Stroke. The New England Journal of Medicine. 2020;383(3):252-260. doi:10.1056/NEJMcp1917030.\n\nFigure 1\nAlgorithm for the initial evaluation and management of patients with recent altered mental status. Information from references 2, 3, 10, and 12\u201318.\nVeauthier B, Hornecker JR, Thrasher T. Recent-Onset Altered Mental Status: Evaluation and Management. American Family Physician. 2021;104(5):461-470.\n\nFigure 3\nAntithrombotic therapy for the prevention of stroke recurrence. Information from reference 59.\nFord B, Dore MM, Koehn TR. Recurrent Ischemic Stroke: Prevention Strategies. American Family Physician. 2026;113(1):57-69.\n\nFigure 2\nCumulative Incidence of the Primary and Safety Outcomes.\nJohnston SC, Amarenco P, Denison H, et al. Ticagrelor and Aspirin or Aspirin Alone in Acute Ischemic Stroke or TIA. The New England Journal of Medicine. 2020;383(3):207-217. doi:10.1056/NEJMoa1916870.\n\nFigure 3\nCentral Illustration. CHA2DS2-VASc Score for Stroke Prediction in AF: Stroke Rates for All Patients\nKabra R, Girotra S, Vaughan Sarrazin M. Refining Stroke Prediction in Atrial\u00a0Fibrillation Patients by Addition Of\u00a0African-American Ethnicity to CHA2DS2-VASc Score. Journal of the American College of Cardiology. 2016;68(5):461-470. doi:10.1016/j.jacc.2016.05.044.\n\nFigure 3\nIncidence rates of ischemic stroke per 100 person\u2010years with 95% confidence intervals in men and women in relation to CHA 2 DS 2 \u2010VASc score.\nTomasdottir M, Friberg L, Hijazi Z, Lindb\u00e4ck J, Oldgren J. Risk of Ischemic Stroke and Utility of CHA2 DS2 -VASc Score in Women and Men With Atrial Fibrillation. Clinical Cardiology. 2019;42(10):1003-1009. doi:10.1002/clc.23257.\n\n### References\n\n1. Evaluation of Risk Stratification Schemes for Ischaemic Stroke and Bleeding in 182 678 Patients With Atrial Fibrillation: The Swedish Atrial Fibrillation Cohort Study. Friberg L, Rosenqvist M, Lip GY. European Heart Journal. 2012;33(12):1500-10. doi:10.1093/eurheartj/ehr488.\n2. Aphasia. Damasio AR. The New England Journal of Medicine. 1992;326(8):531-9. doi:10.1056/NEJM199202203260806.\n3. Aphasia: Progress in the Last Quarter of a Century. Hillis AE. Neurology. 2007;69(2):200-13. doi:10.1212/01.wnl.0000265600.69385.6f.\n4. Diagnosis and Management of Transient Ischemic Attack and Acute Ischemic Stroke: A Review. Mendelson SJ, Prabhakaran S. JAMA. 2021;325(11):1088-1098. doi:10.1001/jama.2020.26867.\n5. 2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation: A Report of the American College of Cardiology/American Heart Association Joint\u00a0Committee\u00a0on\u00a0Clinical Practice Guidelines. Writing Committee Members, Joglar JA, Chung MK, et al. Journal of the American College of Cardiology. 2024;83(1):109-279. doi:10.1016/j.jacc.2023.08.017.\n6. Atrial Fibrillation: Common Questions and Answers About Diagnosis and Treatment. Holder S, Amin P. American Family Physician. 2024;109(5):398-404.\n7. Postseizure Aphasia in Wernicke's Encephalopathy: A Case Report and Review of Literature. Devaraj S, Muralles SA, Gill CE, Meresh E. Neuropsychiatric Disease and Treatment. 2018;14:2593-2598. doi:10.2147/NDT.S174481.\n8. Wernicke's Encephalopathy: New Clinical Settings and Recent Advances in Diagnosis and Management. Sechi G, Serra A. The Lancet. Neurology. 2007;6(5):442-55. doi:10.1016/S1474-4422(07)70104-7.\n9. Acute Ischemic Stroke. Powers WJ. The New England Journal of Medicine. 2020;383(3):252-260. doi:10.1056/NEJMcp1917030.\n10. Recent-Onset Altered Mental Status: Evaluation and Management. Veauthier B, Hornecker JR, Thrasher T. American Family Physician. 2021;104(5):461-470.\n11. Optimal Timing of Anticoagulation After Acute Ischaemic Stroke With Atrial Fibrillation (OPTIMAS): A Multicentre, Blinded-Endpoint, Phase 4, Randomised Controlled Trial. Werring DJ, Dehbi HM, Ahmed N, et al. Lancet (London, England). 2024;:S0140-6736(24)02197-4. doi:10.1016/S0140-6736(24)02197-4.\n12. Early versus Later Anticoagulation for Stroke with Atrial Fibrillation. Fischer U, Koga M, Strbian D, et al. The New England Journal of Medicine. 2023;388(26):2411-2421. doi:10.1056/NEJMoa2303048.\n13. 2021 Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack: A Guideline From the American Heart Association/American Stroke Association. Kleindorfer DO, Towfighi A, Chaturvedi S, et al. Stroke. 2021;52(7):e364-e467. doi:10.1161/STR.0000000000000375.\n14. 2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Jones DW, Ferdinand KC, Taler SJ, et al. Journal of the American College of Cardiology. 2025;86(18):1567-1678. doi:10.1016/j.jacc.2025.05.007.",
+    "llm_diagnoses": [
+      "Acute ischemic stroke (cardioembolic, left MCA territory \u2014 Wernicke aphasia)",
+      "Seizure with postictal aphasia",
+      "Metabolic encephalopathy / Wernicke encephalopathy"
+    ],
+    "llm_dx_summary": "A 69-year-old male with atrial fibrillation presents with acute fluent aphasia consistent with a left MCA territory cardioembolic ischemic stroke, most likely due to embolism from untreated AF.",
+    "llm_orders_a": [
+      {
+        "order": "MRI brain with diffusion-weighted imaging (DWI)",
+        "category": "imaging",
+        "cpt_code": "70553",
+        "price": 316.97,
+        "source": "substring"
+      },
+      {
+        "order": "Initiate apixaban 5 mg BID",
+        "category": "medication",
+        "monthly_cost_usd": 450.0
+      },
+      {
+        "order": "Initiate moderate-to-high intensity statin therapy",
+        "category": "medication",
+        "monthly_cost_usd": 15.0
+      },
+      {
+        "order": "Swallow evaluation before oral intake",
+        "category": "exam",
+        "cpt_code": "92610",
+        "price": 84.84,
+        "source": "rag"
+      },
+      {
+        "order": "Administer empiric thiamine 100 mg IV",
+        "category": "medication",
+        "monthly_cost_usd": 25.0
+      }
+    ],
+    "llm_orders_b": [
+      {
+        "order": "MRI brain with diffusion-weighted imaging (DWI)",
+        "category": "imaging",
+        "cpt_code": "70553",
+        "price": 316.97,
+        "source": "substring"
+      },
+      {
+        "order": "Apixaban 5 mg BID",
+        "category": "medication",
+        "monthly_cost_usd": 12.0
+      },
+      {
+        "order": "Statin therapy (moderate-to-high intensity)",
+        "category": "medication",
+        "monthly_cost_usd": 8.0
+      },
+      {
+        "order": "Thiamine 100 mg IV",
+        "category": "medication",
+        "monthly_cost_usd": 15.0
+      },
+      {
+        "order": "Swallow evaluation",
+        "category": "exam",
+        "cpt_code": "92610",
+        "price": 84.84,
+        "source": "rag"
+      },
+      {
+        "order": "EEG",
+        "category": "monitoring",
+        "cpt_code": "95816",
+        "price": 413.5,
+        "source": "substring"
+      },
+      {
+        "order": "Neurology consultation",
+        "category": "referral"
+      }
+    ],
+    "llm_orders_c": [
+      {
+        "order": "MRI brain with diffusion-weighted imaging (DWI)",
+        "category": "imaging",
+        "cpt_code": "70553",
+        "price": 316.97,
+        "source": "substring"
+      },
+      {
+        "order": "apixaban 5 mg BID",
+        "category": "medication",
+        "monthly_cost_usd": 500.0
+      },
+      {
+        "order": "Initiate moderate-to-high intensity statin",
+        "category": "medication",
+        "monthly_cost_usd": 15.0
+      },
+      {
+        "order": "Swallow evaluation",
+        "category": "procedure",
+        "cpt_code": "92610",
+        "price": 84.84,
+        "source": "rag"
+      },
+      {
+        "order": "EEG",
+        "category": "procedure",
+        "cpt_code": "95816",
+        "price": 413.5,
+        "source": "substring"
+      },
+      {
+        "order": "thiamine 100 mg IV",
+        "category": "medication",
+        "monthly_cost_usd": 10.0
+      },
+      {
+        "order": "Admit to a monitored bed",
+        "category": "other"
+      },
+      {
+        "order": "Neurology consultation",
+        "category": "referral"
+      }
+    ],
+    "medicare_llm_med_cost": 490.0,
+    "source": "manual_openevidence",
+    "medicare_llm_dx_cost": 730.47,
+    "dx_match_v2": "correct_plus",
+    "dx_gemini": "correct_plus",
+    "dx_claude": "correct_plus",
+    "medicare_human_med_cost": 150.0,
+    "llm_referrals": [],
+    "llm_referral_cost": 0,
+    "llm_referral_count": 0
+  },
+  {
+    "case_id": "MTS_0159",
+    "sample_name": "Bell's Palsy",
+    "specialty": "SOAP / Chart / Progress Notes",
+    "presentation": "SUBJECTIVE:,  The patient is a 75-year-old female who comes in today with concerns of having a stroke.  She states she feels like she has something in her throat.  She started with some dizziness this morning and some left hand and left jaw numbness.  She said that she apparently had something about three weeks ago where she was dizzy and ended up falling down and she saw Dr. XYZ for that who gave her some Antivert.  She said that today though she woke up in the middle of the night and her left hand was numb and she was having numbness on the left side of her face, as well as the left side of her neck.  She said she had an earache a day or so ago.  She has not had any cold symptoms.,ALLERGIES:,  Demerol and codeine.,MEDICATIONS: , Lotensin, Lopid, metoprolol, and Darvocet.,REVIEW OF SYSTEMS:,  The patient says that she feels little bit nauseated at times.  She denies chest pain or shortness of breath and again feels like she has something in her throat.  She has been able to swallow liquids okay.  She said that she did brush her teeth this morning and did not have any fluid dripping out of her mouth.  She does say that she occasionally has numbness in her left hand prior to today.,PHYSICAL EXAMINATION:,General:  She is awake and alert, no acute distress.,Vital Signs:  Blood pressure:  175/86.  Temperature:  She is afebrile.  Pulse:  78.  Respiratory rate:  20.  O2 sat:  93% on room air.,HEENT:  Her TMs are normal bilaterally.  Posterior pharynx is unremarkable.  It should be noted that her uvula did not deviate and neither did her tongue.  When she smiles though she has some drooping of the left side of her face, as well as some mild nasolabial fold flattening.,Neck:  Without adenopathy or thyromegaly.  Carotids pulses are brisk without bruits.,Lungs:  Clear to auscultation.,Heart:  Regular rate and rhythm without murmur.,Extremities:  Her muscle strength is symmetrical and intact bilaterally.  DTRs are 2+/4+ bilaterally and muscle strength is intact in the upper extremities.  She has a positive Tinel\u2019s sign on her left wrist.,Neurological:  I also took monofilament and she could sense it easily when testing her sensation on her face.,",
+    "model": "openevidence",
+    "prompt_arm": "parsimonious",
+    "human_ap": "ASSESSMENT:,  Bell\u2019s Palsy.,PLAN:,  We did get an EKG showed some ST segment changes anterolaterally.  The only EKG I have here is from 1998 and she actually had bypass in 1999, but there certainly does not appear to be anything acute on his EKG.  I assured her that it does not look like she has a stroke.  If she wants to prevent a stroke, obviously quitting her smoking would help.  It should be noted she also takes Synthroid and Zocor.  We are going to give her Valtrex 1 g t.i.d. for seven days and then if she starts noticing any other drooping or worsening of her symptoms on the left side of her face, she needs to come back, but I will not start her on steroids at this time, which she agreed with.",
+    "human_diagnoses": [
+      "Bell\u2019s Palsy"
+    ],
+    "human_dx_summary": "The patient is diagnosed with Bell\u2019s Palsy, with no acute cardiac issues on EKG and a plan to treat with Valtrex without steroids at this time.",
+    "human_orders_a": [
+      {
+        "order": "Valtrex 1 g t.i.d. for seven days",
+        "category": "medication",
+        "monthly_cost_usd": 450.0
+      }
+    ],
+    "human_orders_b": [
+      {
+        "order": "Valtrex 1 g t.i.d. for seven days",
+        "category": "medication",
+        "monthly_cost_usd": 450.0
+      }
+    ],
+    "human_orders_c": [
+      {
+        "order": "Valtrex 1 g t.i.d. for seven days",
+        "category": "medication",
+        "monthly_cost_usd": 450.0
+      }
+    ],
+    "human_referrals": [],
+    "human_referral_count": 0,
+    "human_referral_cost": 0,
+    "medicare_human_dx_cost": 0,
+    "llm_plan": "### Assessment and Plan\n\n## ASSESSMENT\n\n**Three Most Likely Diagnoses:**\n\n1. **Bell's palsy (idiopathic facial nerve paralysis)** \u2014 Most likely diagnosis. The exam demonstrates left-sided facial droop with nasolabial fold flattening. Critically, the note does not describe forehead sparing \u2014 in central (stroke-related) facial palsy, the forehead is typically spared, whereas in peripheral (Bell's) palsy, the entire hemiface is affected. The preceding earache, acute onset, intact motor strength in all extremities, symmetric DTRs, intact sensation to monofilament, and absence of other focal neurologic deficits all favor a peripheral CN VII palsy. Risk factors include age >70 and hypertension. The left hand numbness is better explained by a separate process (see #3 below), given the positive Tinel's sign and her history of intermittent left hand numbness predating this episode.\n2. **Transient ischemic attack (TIA) or minor stroke** \u2014 Must remain on the differential given her age (75), hypertension (BP 175/86), vascular risk factors (on gemfibrozil for dyslipidemia), recurrent dizziness with a fall 3 weeks ago, and acute-onset left-sided numbness. However, the facial weakness pattern (lower face with likely forehead involvement), symmetric motor strength, intact DTRs, and absence of limb weakness or speech/language deficits make a central lesion less likely. The O2 sat of 93% is mildly low and warrants monitoring but is nonspecific.\n3. **Carpal tunnel syndrome (left)** \u2014 The intermittent left hand numbness predating this presentation, combined with a positive Tinel's sign at the left wrist, is consistent with median nerve entrapment. This likely represents a chronic, incidental finding separate from her acute facial symptoms.\n\n**Can't-Miss Diagnoses:**\n\n- **Acute ischemic stroke** \u2014 Given her age, hypertension, dyslipidemia, and acute neurologic symptoms, stroke must be excluded even though the exam pattern favors a peripheral process. A missed posterior circulation stroke could present with dizziness, facial numbness, and cranial nerve findings.\n- **Ramsay Hunt syndrome (herpes zoster oticus)** \u2014 Recent earache and facial palsy raise this possibility; vesicles may not appear for up to 2 weeks after palsy onset. This would change management (higher-dose antivirals, poorer prognosis).\n\n---\n\n## PLAN\n\n**1. Bell's palsy (most likely):**\n\n- Start oral prednisone 60 mg daily for 5 days, then taper over 5 days.\n- Add valacyclovir 1 g TID for 7 days (combination therapy may reduce synkinesis risk, and also covers for possible early Ramsay Hunt syndrome given the recent earache).\n- Eye protection: artificial tears during the day, lubricating ointment and tape at night if incomplete eye closure develops.\n- Counsel on expected course: most patients improve within weeks; follow up in 2\u20133 weeks to reassess facial function.\n\n**2. Exclude acute stroke/TIA:**\n\n- Obtain a **noncontrast CT head** today \u2014 this is the single most important test to rule out intracranial hemorrhage and mass lesion, and is appropriate for this resource-limited setting.\n- If CT is negative (expected), the clinical picture strongly favors Bell's palsy. However, given her age, hypertension, recurrent dizziness, and vascular risk factors, arrange **carotid duplex ultrasound** as an outpatient study to screen for significant carotid stenosis, which would change secondary prevention management.\n- Start **aspirin 81 mg daily** if not already on antiplatelet therapy \u2014 appropriate for both secondary cerebrovascular prevention and her overall cardiovascular risk profile.\n- Optimize blood pressure control: her current BP of 175/86 is above goal. She is already on benazepril and metoprolol. Consider uptitrating benazepril or adding a thiazide diuretic, targeting BP",
+    "llm_diagnoses": [
+      "Bell's palsy (idiopathic facial nerve paralysis)",
+      "Transient ischemic attack (TIA) or minor stroke",
+      "Carpal tunnel syndrome (left)"
+    ],
+    "llm_dx_summary": "The patient most likely has Bell's palsy presenting with left-sided facial droop, with TIA or minor stroke and left carpal tunnel syndrome as important differential diagnoses.",
+    "llm_orders_a": [
+      {
+        "order": "oral prednisone 60 mg daily for 5 days, then taper over 5 days",
+        "category": "medication",
+        "monthly_cost_usd": 20.0
+      },
+      {
+        "order": "valacyclovir 1 g TID for 7 days",
+        "category": "medication",
+        "monthly_cost_usd": 150.0
+      },
+      {
+        "order": "artificial tears during the day, lubricating ointment and tape at night if incomplete eye closure develops",
+        "category": "other"
+      },
+      {
+        "order": "noncontrast CT head today",
+        "category": "imaging",
+        "cpt_code": "70496",
+        "price": 273.89,
+        "source": "rag"
+      },
+      {
+        "order": "carotid duplex ultrasound outpatient study",
+        "category": "imaging",
+        "cpt_code": "93880",
+        "price": 189.05,
+        "source": "substring"
+      },
+      {
+        "order": "aspirin 81 mg daily",
+        "category": "medication",
+        "monthly_cost_usd": 4.0
+      }
+    ],
+    "llm_orders_b": [
+      {
+        "order": "Noncontrast CT head",
+        "category": "imaging",
+        "cpt_code": "70496",
+        "price": 273.89,
+        "source": "rag"
+      },
+      {
+        "order": "Carotid duplex ultrasound",
+        "category": "imaging",
+        "cpt_code": "93880",
+        "price": 189.05,
+        "source": "substring"
+      },
+      {
+        "order": "Prednisone 60 mg daily for 5 days, then taper over 5 days",
+        "category": "medication",
+        "monthly_cost_usd": 8.0
+      },
+      {
+        "order": "Valacyclovir 1 g three times daily for 7 days",
+        "category": "medication",
+        "monthly_cost_usd": 25.0
+      },
+      {
+        "order": "Aspirin 81 mg daily",
+        "category": "medication",
+        "monthly_cost_usd": 4.0
+      },
+      {
+        "order": "Artificial tears during the day",
+        "category": "medication",
+        "monthly_cost_usd": 8.0
+      },
+      {
+        "order": "Lubricating ointment and tape at night",
+        "category": "medication",
+        "monthly_cost_usd": 6.0
+      }
+    ],
+    "llm_orders_c": [
+      {
+        "order": "prednisone 60 mg daily for 5 days, then taper over 5 days",
+        "category": "medication",
+        "monthly_cost_usd": 10.0
+      },
+      {
+        "order": "valacyclovir 1 g TID for 7 days",
+        "category": "medication",
+        "monthly_cost_usd": 150.0
+      },
+      {
+        "order": "noncontrast CT head",
+        "category": "imaging",
+        "cpt_code": "70496",
+        "price": 273.89,
+        "source": "rag"
+      },
+      {
+        "order": "carotid duplex ultrasound",
+        "category": "imaging",
+        "cpt_code": "93880",
+        "price": 189.05,
+        "source": "substring"
+      },
+      {
+        "order": "aspirin 81 mg daily",
+        "category": "medication",
+        "monthly_cost_usd": 5.0
+      }
+    ],
+    "medicare_llm_med_cost": 165.0,
+    "source": "manual_openevidence",
+    "medicare_llm_dx_cost": 462.94,
+    "dx_match_v2": "correct_plus",
+    "dx_gemini": "correct_plus",
+    "dx_claude": "correct_plus",
+    "medicare_human_med_cost": 450.0,
+    "llm_referrals": [],
+    "llm_referral_cost": 0,
+    "llm_referral_count": 0
+  },
+  {
+    "case_id": "MTS_0974",
+    "sample_name": "Bariatric Consult - Surgical Weight Loss - 3",
+    "specialty": "Consult - History and Phy.",
+    "presentation": "PAST MEDICAL HISTORY: , Her medical conditions driving her toward surgery include hypercholesterolemia, hypertension, varicose veins, prior history of stroke.  She denies any history of cancer.  She does have a history of hepatitis which I will need to further investigate.  She complains of multiple joint pains, and heavy snoring.,PAST SURGICAL HISTORY: , Includes hysterectomy in 1995 for fibroids and varicose vein removal.  She had one ovary removed at the time of the hysterectomy as well.,SOCIAL HISTORY:,  She is a single mother of one adopted child.,FAMILY HISTORY:  ,There is a strong family history of heart disease and hypertension, as well as diabetes on both sides of her family.  Her mother is alive.  Her father is deceased from alcohol.  She has five siblings.,MEDICATIONS: , As you know she takes the following medications for her diabetes, insulin 70 units/6 units times four years, aspirin 81 mg a day, Actos 15 mg, Crestor 10 mg and CellCept 500 mg two times a day.,ALLERGIES: , She has no known drug allergies.,PHYSICAL EXAM: , She is a 54-year-old obese female.  She does not appear to have any significant residual deficits from her stroke.  There may be slight left arm weakness.,",
+    "model": "openevidence",
+    "prompt_arm": "parsimonious",
+    "human_ap": "ASSESSMENT/PLAN:,  We will have her undergo routine nutritional and psychosocial assessment.  I suspect that we can significantly improve the situation with her insulin and oral hypoglycemia, as well as hypertension, with significant weight loss.  She is otherwise at increased risk for future complications given her history, and weight loss will be a good option.  We will see her back in the office once she completes her preliminary workup and submit her for approval to the insurance company.",
+    "human_diagnoses": [
+      "Diabetes mellitus",
+      "Hypertension",
+      "Obesity"
+    ],
+    "human_dx_summary": "The patient is at increased risk for complications due to diabetes and hypertension, which may be improved with significant weight loss and optimization of insulin and oral hypoglycemic therapy.",
+    "human_orders_a": [],
+    "human_orders_b": [],
+    "human_orders_c": [],
+    "human_referrals": [],
+    "human_referral_count": 0,
+    "human_referral_cost": 0,
+    "medicare_human_dx_cost": 0,
+    "llm_plan": "ASSESSMENT:\n\n54-year-old obese woman with type 2 diabetes (on insulin and pioglitazone), prior stroke with residual mild left arm weakness, hypertension, hypercholesterolemia, history of hepatitis (type unspecified), and current use of mycophenolate mofetil (CellCept) 500 mg BID (indication unclear \u2014 likely autoimmune condition, needs clarification). She presents with multiple joint pains and heavy snoring, and is being evaluated for possible surgical candidacy.\n\nThree most likely diagnoses:\n\nDegenerative joint disease (osteoarthritis) \u2014 Most common cause of multiple joint pains in a 54-year-old obese woman with type 2 diabetes. Obesity and diabetes are independent and synergistic risk factors for OA. No features suggesting inflammatory arthritis are described.\n\nObstructive sleep apnea (OSA) \u2014 Heavy snoring in the setting of obesity, hypertension, diabetes, and prior stroke carries a very high pretest probability for OSA. OSA is an independent cardiovascular risk factor and is underrecognized, particularly in women.\n\nSuboptimally managed cardiometabolic risk / secondary stroke prevention \u2014 She has established ASCVD (prior stroke), diabetes, hypertension, and hypercholesterolemia. Current statin (rosuvastatin 10 mg) is moderate-intensity; guidelines recommend high-intensity statin therapy with an LDL-C goal <70 mg/dL for secondary prevention. The indication for pioglitazone is reasonable given its role in secondary stroke prevention, but the indication for mycophenolate is unclear and requires investigation. Aspirin 81 mg is appropriate for secondary prevention.\n\nCan't-miss diagnoses:\n\nHepatitis B or C reactivation \u2014 Patient has a history of hepatitis (type unspecified) and is on mycophenolate, an immunosuppressant with FDA-labeled risk of HBV/HCV viral reactivation. Active viral hepatitis must be excluded.\n\nUnderlying autoimmune or systemic disease \u2014 The use of mycophenolate in a non-transplant patient suggests an autoimmune condition (e.g., lupus, vasculitis, autoimmune hepatitis, glomerulonephritis) that may itself be contributing to joint pains and requires clarification for safe ongoing management.\n\nProgressive multifocal leukoencephalopathy (PML) \u2014 Mild left arm weakness in a patient on mycophenolate warrants consideration, though this is more likely a residual stroke deficit. Any new or progressive neurological symptoms should prompt urgent evaluation.\n\nPLAN:\n\n1. Osteoarthritis\n\nObtain focused history: which joints, duration, morning stiffness (<30 min favors OA), mechanical vs. inflammatory pattern.\n\nFocused exam of affected joints for bony enlargement, crepitus, effusion, and range of motion.\n\nNo imaging needed unless symptoms are severe, monoarticular, or atypical (e.g., concern for inflammatory arthritis).\n\nFirst-line management: weight loss counseling (even 5% body weight loss reduces knee OA risk by ~50%), structured low-impact exercise program, and trial of acetaminophen. If inadequate, topical NSAIDs preferred over oral NSAIDs given cardiovascular history. Avoid oral NSAIDs if possible given stroke history and likely renal considerations.\n\n2. Obstructive sleep apnea\n\nAdminister STOP-Bang questionnaire to quantify risk (likely high-risk given obesity, snoring, hypertension, and history of stroke).\n\nOrder home sleep apnea test (HSAT) for diagnostic confirmation. If positive, initiate auto-titrating CPAP.\n\nReinforce weight loss as a complementary treatment \u2014 even modest weight loss improves AHI.\n\nDiagnosing and treating OSA is particularly important in this patient given her established cerebrovascular disease and cardiovascular risk factors.\n\n3. Cardiometabolic risk optimization / secondary stroke prevention\n\nStatin intensification: Rosuvastatin 10 mg is moderate-intensity. Per AHA/ASA secondary stroke prevention guidelines, increase to rosuvastatin 20 mg (or atorvastatin 80 mg) targeting LDL-C <70 mg/dL. Check fasting lipid panel to guide further intensification (add ezetimibe if not at goal).\n\nBlood pressure: Confirm BP is at goal <130/80 mmHg per AHA/ASA guidelines. If not at goal, initiate or uptitrate an ACE inhibitor or ARB (preferred classes for secondary stroke prevention).\n\nDiabetes management: Obtain HbA1c. Target <7%. Pioglitazone is reasonable for secondary stroke prevention in this patient. However, given her established ASCVD, strongly consider adding a GLP-1 receptor agonist (e.g., semaglutide or dulaglutide) or SGLT2 inhibitor for cardiovascular risk reduction, per ADA and AHA/ASA guidelines. These agents would also assist with weight management. Monitor for pioglitazone-related adverse effects (edema, weight gain, fracture risk \u2014 particularly relevant in a postmenopausal woman).\n\nContinue aspirin 81 mg daily.\n\n4. Hepatitis history \u2014 urgent clarification needed given mycophenolate use\n\nClarify hepatitis type (A, B, or C) and prior treatment history.\n\nCheck hepatitis B serologies (HBsAg, anti-HBs, anti-HBc) and hepatitis C antibody with reflex HCV RNA.\n\nCheck LFTs and CBC (the latter also for mycophenolate-related neutropenia monitoring).\n\nPer FDA labeling, patients on mycophenolate with HBV or HCV infection require monitoring for viral reactivation. If active hepatitis is identified, coordinate with the prescribing specialist regarding dose reduction or discontinuation of mycophenolate.\n\n5. Mycophenolate \u2014 clarify indication and coordinate care\n\nDetermine the indication for CellCept (autoimmune disease, glomerulonephritis, etc.) and identify the prescribing specialist.\n\nEnsure appropriate monitoring is in place: CBC with differential (for neutropenia) and LFTs at regular intervals.\n\nIf the indication is autoimmune hepatitis, this has direct implications for hepatitis workup interpretation and management.\n\n6. Follow-up\n\nReturn visit in 2\u20134 weeks to review lab results (lipid panel, HbA1c, hepatitis serologies, CBC, LFTs) and HSAT results.\n\nAt that visit, reassess joint symptoms, BP control, and medication tolerability.\n\nClarify surgical candidacy context and optimize perioperative risk if surgery is being planned.",
+    "llm_diagnoses": [
+      "Degenerative joint disease (osteoarthritis)",
+      "Obstructive sleep apnea (OSA)",
+      "Suboptimally managed cardiometabolic risk / secondary stroke prevention"
+    ],
+    "llm_dx_summary": "A 54-year-old obese woman with type 2 diabetes and prior stroke presents with multiple joint pains likely due to osteoarthritis, probable obstructive sleep apnea, and suboptimal management of cardiometabolic risk factors for secondary stroke prevention.",
+    "llm_orders_a": [
+      {
+        "order": "STOP-Bang questionnaire",
+        "category": "exam",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Home sleep apnea test (HSAT)",
+        "category": "labs",
+        "cpt_code": "95806",
+        "price": 103.21,
+        "source": "rag"
+      },
+      {
+        "order": "Fasting lipid panel",
+        "category": "labs",
+        "cpt_code": "80061",
+        "price": 13.39,
+        "source": "supplementary"
+      },
+      {
+        "order": "HbA1c",
+        "category": "labs",
+        "cpt_code": "83036",
+        "price": 9.71,
+        "source": "supplementary"
+      },
+      {
+        "order": "Hepatitis B serologies (HBsAg, anti-HBs, anti-HBc)",
+        "category": "labs",
+        "cpt_code": "86706",
+        "price": 11.86,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Hepatitis C antibody with reflex HCV RNA",
+        "category": "labs",
+        "cpt_code": "81596",
+        "price": 72.19,
+        "source": "rag"
+      },
+      {
+        "order": "Liver function tests (LFTs)",
+        "category": "labs",
+        "cpt_code": "80076",
+        "price": 10.23,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Complete blood count (CBC) with differential",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 7.77,
+        "source": "substring"
+      },
+      {
+        "order": "Rosuvastatin 20 mg daily",
+        "category": "medication",
+        "monthly_cost_usd": 15.0
+      },
+      {
+        "order": "Initiate GLP-1 receptor agonist (e.g., semaglutide or dulaglutide)",
+        "category": "medication",
+        "monthly_cost_usd": 850.0
+      }
+    ],
+    "llm_orders_b": [
+      {
+        "order": "STOP-Bang questionnaire",
+        "category": "exam",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Home sleep apnea test (HSAT)",
+        "category": "imaging",
+        "cpt_code": "95806",
+        "price": 103.21,
+        "source": "rag"
+      },
+      {
+        "order": "Fasting lipid panel",
+        "category": "labs",
+        "cpt_code": "80061",
+        "price": 13.39,
+        "source": "supplementary"
+      },
+      {
+        "order": "HbA1c",
+        "category": "labs",
+        "cpt_code": "83036",
+        "price": 9.71,
+        "source": "supplementary"
+      },
+      {
+        "order": "Hepatitis B serologies (HBsAg, anti-HBs, anti-HBc)",
+        "category": "labs",
+        "cpt_code": "86706",
+        "price": 11.86,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Hepatitis C antibody with reflex HCV RNA",
+        "category": "labs",
+        "cpt_code": "81596",
+        "price": 72.19,
+        "source": "rag"
+      },
+      {
+        "order": "Liver function tests (LFTs)",
+        "category": "labs",
+        "cpt_code": "80076",
+        "price": 10.23,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Complete blood count (CBC) with differential",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 7.77,
+        "source": "substring"
+      },
+      {
+        "order": "Rosuvastatin 20 mg daily",
+        "category": "medication",
+        "monthly_cost_usd": 8.0
+      },
+      {
+        "order": "Semaglutide (GLP-1 receptor agonist)",
+        "category": "medication",
+        "monthly_cost_usd": 250.0
+      }
+    ],
+    "llm_orders_c": [
+      {
+        "order": "home sleep apnea test (HSAT)",
+        "category": "imaging",
+        "cpt_code": "95806",
+        "price": 103.21,
+        "source": "rag"
+      },
+      {
+        "order": "rosuvastatin 20 mg",
+        "category": "medication",
+        "monthly_cost_usd": 15.0
+      },
+      {
+        "order": "fasting lipid panel",
+        "category": "labs",
+        "cpt_code": "80061",
+        "price": 13.39,
+        "source": "supplementary"
+      },
+      {
+        "order": "HbA1c",
+        "category": "labs",
+        "cpt_code": "83036",
+        "price": 9.71,
+        "source": "supplementary"
+      },
+      {
+        "order": "hepatitis B serologies (HBsAg, anti-HBs, anti-HBc)",
+        "category": "labs",
+        "cpt_code": "86706",
+        "price": 11.86,
+        "source": "canonical_override"
+      },
+      {
+        "order": "hepatitis C antibody with reflex HCV RNA",
+        "category": "labs",
+        "cpt_code": "81596",
+        "price": 72.19,
+        "source": "rag"
+      },
+      {
+        "order": "LFTs",
+        "category": "labs",
+        "cpt_code": "80076",
+        "price": 8.17,
+        "source": "supplementary"
+      },
+      {
+        "order": "CBC",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 7.77,
+        "source": "supplementary"
+      }
+    ],
+    "medicare_llm_med_cost": 258.0,
+    "source": "manual_openevidence",
+    "medicare_llm_dx_cost": 228.36,
+    "dx_match_v2": "wrong",
+    "dx_gemini": "wrong",
+    "dx_claude": "wrong",
+    "medicare_human_med_cost": 0.0,
+    "llm_referrals": [],
+    "llm_referral_cost": 0,
+    "llm_referral_count": 0
+  },
+  {
+    "case_id": "MTS_0255",
+    "sample_name": "H&P - Weakness",
+    "specialty": "General Medicine",
+    "presentation": "CHIEF COMPLAINT:, Right-sided weakness.,HISTORY OF PRESENT ILLNESS:, The patient was doing well until this morning when she was noted to have right-sided arm weakness with speech difficulties. She was subsequently sent to ABC Medical Center for evaluation and treatment. At ABC, the patient was seen by Dr. H including labs and a head CT which is currently pending. The patient has continued to have right-sided arm and hand weakness, and has difficulty expressing herself. She does seem to comprehend words. The daughter states the patient is in the Life Care Center, and she believes this started this morning. The patient denies headache, visual changes, chest pain and shortness of breath. These changes have been constant since onset this morning, have not improved or worsened, and the patient notes no modifying factors.,ALLERGIES:, NO KNOWN DRUG ALLERGIES.,MEDICATIONS:, Medications are taken from the paperwork from Life Care Center and include: Lortab 3-4 times a day for pain, Ativan 0.25 mg by mouth every 12 hours p.r.n. pain, Depakote ER 250 mg p.o. q nightly, Actos 15 mg p.o. t.i.d., Lantus 35 units subcu q nightly, Glipizide 10 mg p.o. q day, Lanoxin 0.125 mg p.o. q day, Lasix 40 mg p.o. q day, Lopressor 50 mg p.o. b.i.d., insulin sliding scale, Lunesta 1 mg p.o. q nightly, Sorbitol 15 mg p.o. q day, Zoloft 50 mg p.o. q nightly, Dulcolax as needed for constipation.,PAST MEDICAL HISTORY:, Significant for moderate to severe aortic stenosis, urinary tract infection, hypertension, chronic kidney disease (although her creatinine is near normal).,SOCIAL HISTORY:, The patient lives at Life Care Center. She does not smoke, drink or use intravenous drugs.,FAMILY HISTORY:, Negative for cerebrovascular accident or cardiac disease.,REVIEW OF SYSTEMS:, As in HPI. Patient and daughter also deny weight loss, fevers, chills, sweats, nausea, vomiting, abdominal pain. She has had some difficulty expressing herself, but seems to comprehend speech as above. The patient has had a history of chronic urinary tract infections and her drainage is similar to past episodes when she has had such infection.,PHYSICAL EXAMINATION:,VITAL SIGNS: The patient is currently with a temperature of 99.1, blood pressure 138/59, pulse 69, respirations 15. She is 95% on room air.,GENERAL: This is a pleasant elderly female who appears stated age, in mild distress.,HEENT: Oropharynx is dry.,NECK: Supple with no jugular venous distention or thyromegaly.,RESPIRATORY: Clear to auscultation. No wheezes, rubs or crackles.,CARDIOVASCULAR: A 4/6 systolic ejection murmur best heard at the 2nd right intercostal space with radiation to the carotids.,ABDOMEN: Soft. Normal bowel sounds.,EXTREMITIES: No clubbing, cyanosis or edema. She does have bilateral above knee amputations.,NEUROLOGIC: Strength 2/5 in her right hand, 4/5 in her left hand. She does have mild right facial droop and an expressive aphasia.,VASCULAR: The patient has good capillary refill in her fingertips.,LABORATORY DATA:, BUN 52, creatinine 1.3. Normal coags. Glucose 220. White blood cell count 10,800. Urinalysis has 608 white cells, 625 RBCs. Head CT is currently pending. EKG shows normal sinus rhythm with mild ST-depression and biphasic T-waves diffusely.,",
+    "model": "openevidence",
+    "prompt_arm": "parsimonious",
+    "human_ap": "ASSESSMENT AND PLAN:,1. Right-sided weakness with an expressive aphasia, at this time concerning for a left-sided middle cerebral artery cerebrovascular accident/transient ischemic attach given the patient's serious vascular disease. At this point we will hydrate, treat her urinary tract infection, check an MRI, ultrasound of her carotids, and echocardiogram to reevaluate valvular and left ventricular function. Start antiplatelet therapy and ask Neuro to see the patient.,2. Urinary tract infection. Will treat with ceftriaxone, check urine culture data and adjust as needed.,3. Dehydration. Will hydrate with IV fluids and follow p.o. intake while holding diuretics.,4. Diabetes mellitus type 2 uncontrolled. Her sugar is 249. We will continue Lantus insulin and sliding scale coverage, and check hemoglobin A1c to gauge prior control.,5. Prophylaxis. Will institute low molecular weight heparin and follow activity levels.",
+    "human_diagnoses": [
+      "Left-sided middle cerebral artery cerebrovascular accident/transient ischemic attack",
+      "Urinary tract infection",
+      "Dehydration",
+      "Uncontrolled type 2 diabetes mellitus"
+    ],
+    "human_dx_summary": "The patient presents with right-sided weakness and expressive aphasia concerning for a left MCA stroke or TIA, complicated by a urinary tract infection, dehydration, and uncontrolled type 2 diabetes.",
+    "human_orders_a": [
+      {
+        "order": "MRI brain",
+        "category": "imaging",
+        "cpt_code": "70553",
+        "price": 316.97,
+        "source": "supplementary"
+      },
+      {
+        "order": "Carotid ultrasound",
+        "category": "imaging",
+        "cpt_code": "93880",
+        "price": 189.05,
+        "source": "supplementary"
+      },
+      {
+        "order": "Echocardiogram",
+        "category": "imaging",
+        "cpt_code": "93306",
+        "price": 196.73,
+        "source": "supplementary"
+      },
+      {
+        "order": "Start antiplatelet therapy",
+        "category": "medication",
+        "monthly_cost_usd": 15.0
+      },
+      {
+        "order": "Ceftriaxone",
+        "category": "medication",
+        "monthly_cost_usd": 120.0
+      },
+      {
+        "order": "Urine culture",
+        "category": "labs",
+        "cpt_code": "87086",
+        "price": 7.87,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Hemoglobin A1c",
+        "category": "labs",
+        "cpt_code": "83036",
+        "price": 9.71,
+        "source": "supplementary"
+      },
+      {
+        "order": "Low molecular weight heparin",
+        "category": "medication",
+        "monthly_cost_usd": 450.0
+      },
+      {
+        "order": "Neurology consult",
+        "category": "referral"
+      }
+    ],
+    "human_orders_b": [
+      {
+        "order": "MRI brain",
+        "category": "imaging",
+        "cpt_code": "70558",
+        "price": 0,
+        "source": "rag"
+      },
+      {
+        "order": "Carotid ultrasound",
+        "category": "imaging",
+        "cpt_code": "93880",
+        "price": 189.05,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Echocardiogram",
+        "category": "imaging",
+        "cpt_code": "93306",
+        "price": 196.73,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Start antiplatelet therapy",
+        "category": "medication",
+        "monthly_cost_usd": 15.0
+      },
+      {
+        "order": "Ceftriaxone",
+        "category": "medication",
+        "monthly_cost_usd": 100.0
+      },
+      {
+        "order": "Urine culture",
+        "category": "labs",
+        "cpt_code": "87086",
+        "price": 7.87,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Hemoglobin A1c",
+        "category": "labs",
+        "cpt_code": "83036",
+        "price": 9.71,
+        "source": "rag"
+      },
+      {
+        "order": "Low molecular weight heparin",
+        "category": "medication",
+        "monthly_cost_usd": 400.0
+      },
+      {
+        "order": "Neurology consult",
+        "category": "referral"
+      }
+    ],
+    "human_orders_c": [
+      {
+        "order": "MRI brain",
+        "category": "imaging",
+        "cpt_code": "70558",
+        "price": 0,
+        "source": "rag"
+      },
+      {
+        "order": "Carotid ultrasound",
+        "category": "imaging",
+        "cpt_code": "93880",
+        "price": 189.05,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Echocardiogram",
+        "category": "imaging",
+        "cpt_code": "93306",
+        "price": 196.73,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Start antiplatelet therapy",
+        "category": "medication",
+        "monthly_cost_usd": 15.0
+      },
+      {
+        "order": "Ceftriaxone",
+        "category": "medication",
+        "monthly_cost_usd": 150.0
+      },
+      {
+        "order": "Urine culture",
+        "category": "labs",
+        "cpt_code": "87086",
+        "price": 7.87,
+        "source": "canonical_override"
+      },
+      {
+        "order": "Hemoglobin A1c",
+        "category": "labs",
+        "cpt_code": "83036",
+        "price": 9.71,
+        "source": "rag"
+      },
+      {
+        "order": "Low molecular weight heparin prophylaxis",
+        "category": "medication",
+        "monthly_cost_usd": 400.0
+      },
+      {
+        "order": "Neurology consult",
+        "category": "referral"
+      }
+    ],
+    "human_referrals": [
+      {
+        "specialty": "Neurology",
+        "quote": "ask Neuro to see the patient",
+        "type": "DEFINITE",
+        "source": "llm",
+        "cpt_code": "99204",
+        "medicare_price": 177.36,
+        "cpt_description": "Office new patient moderate complexity 45 min"
+      }
+    ],
+    "human_referral_count": 1,
+    "human_referral_cost": 177.36,
+    "medicare_human_dx_cost": 403.36,
+    "llm_plan": "### Assessment and Plan\n\n**ASSESSMENT:**\n\nElderly female nursing home resident presenting with acute-onset right-sided arm/hand weakness (2/5), right facial droop, and expressive aphasia with preserved comprehension, consistent with a left middle cerebral artery (MCA) territory syndrome. Relevant comorbidities include moderate-to-severe aortic stenosis (4/6 SEM with carotid radiation), diabetes mellitus (glucose 220), chronic kidney disease (BUN 52, Cr 1.3), and she is on digoxin (raising concern for underlying atrial fibrillation or heart failure). Concurrent UTI is suggested by urinalysis (608 WBCs, 625 RBCs). Head CT is pending. Normal coagulation studies.\n\n**Three Most Likely Diagnoses:**\n\n1. **Acute ischemic stroke (left MCA territory)** \u2014 Most likely. Sudden-onset right hemiparesis with expressive aphasia and right facial droop is the classic presentation of left MCA ischemia. Multiple vascular risk factors (hypertension, diabetes, CKD, aortic stenosis) and use of digoxin (suggesting possible AF or structural heart disease) support a high pretest probability. Deficits have been persistent and non-fluctuating since onset.\n2. **Cardioembolic stroke secondary to occult atrial fibrillation or valvular disease** \u2014 This is a subtype of #1 rather than a separate entity, but warrants specific mention. The patient is on digoxin and has moderate-to-severe aortic stenosis with a 4/6 murmur. Digoxin use in the absence of documented AF raises the question of paroxysmal AF as the embolic source. Calcific aortic valve disease is also a recognized source of cerebral embolism.\n3. **Stroke mimic: hypoglycemia or metabolic encephalopathy** \u2014 Less likely given the focal, lateralized deficits and persistent course. However, glucose of 220 mg/dL is notable; severe hyperglycemia can rarely produce focal deficits. Concurrent UTI with low-grade temperature (99.1\u00b0F) could exacerbate baseline neurological vulnerability, though this would not typically produce a new dense hemiparesis with aphasia.\n\n**Can't-Miss Diagnoses:**\n\n- **Intracerebral hemorrhage** \u2014 Must be excluded by the pending head CT before any antiplatelet or thrombolytic therapy. Hemorrhagic stroke can present identically to ischemic stroke and management differs fundamentally.\n- **Seizure with postictal (Todd's) paralysis** \u2014 Patient is on valproate, suggesting a seizure history. A postictal state could mimic stroke with unilateral weakness and aphasia. However, no witnessed seizure activity is reported, and deficits have been constant for hours, making this less likely.\n\n---\n\n**PLAN:**\n\n**1. Acute Ischemic Stroke (most likely):**\n\n- **Head CT (pending):** The single most critical test. If no hemorrhage, proceed with acute ischemic stroke pathway.\n- **Thrombolysis eligibility:** Determine exact time last known well. If within 4.5 hours and CT shows no hemorrhage or extensive hypodensity, the patient is a candidate for IV alteplase (0.9 mg/kg, max 90 mg). Key eligibility considerations for this patient:\n  - Glucose 220 mg/dL \u2014 does not preclude alteplase (eligible if glucose >50 mg/dL per AHA/ASA guidelines).\n  - CKD with Cr 1.3 and normal coags \u2014 not a contraindication.\n  - Age >80 in the 3\u20134.5 hour window is a relative exclusion per 2018 AHA/ASA guidelines; within 3 hours, age is not an exclusion.\n  - History of diabetes \u2014 relevant only in the 3\u20134.5 hour window if combined with prior stroke history.\n  - If time of onset is uncertain or beyond 4.5 hours, advanced imaging (MRI DWI-FLAIR mismatch or CT perfusion) would be needed to determine extended-window eligibility, but this requires resources that may not be available at this facility; consider transfer if clinically appropriate.\n- **Aspirin 325 mg PO** once hemorrhage is excluded (hold 24 hours if alteplase is given).\n- **Blood glucose management:** Initiate insulin correction to target glucose",
+    "llm_diagnoses": [
+      "Acute ischemic stroke (left MCA territory)",
+      "Cardioembolic stroke secondary to occult atrial fibrillation or valvular disease",
+      "Stroke mimic: hypoglycemia or metabolic encephalopathy"
+    ],
+    "llm_dx_summary": "Elderly female nursing home resident presenting with acute-onset right-sided weakness, right facial droop, and expressive aphasia consistent with an acute ischemic stroke in the left MCA territory, likely cardioembolic in origin given underlying cardiac risk factors.",
+    "llm_orders_a": [
+      {
+        "order": "Head CT",
+        "category": "imaging",
+        "cpt_code": "70496",
+        "price": 273.89,
+        "source": "rag"
+      },
+      {
+        "order": "Aspirin 325 mg PO once hemorrhage is excluded",
+        "category": "medication",
+        "monthly_cost_usd": 15.0
+      },
+      {
+        "order": "Insulin for blood glucose management",
+        "category": "medication",
+        "monthly_cost_usd": 150.0
+      }
+    ],
+    "llm_orders_b": [
+      {
+        "order": "Head CT",
+        "category": "imaging",
+        "cpt_code": "70496",
+        "price": 273.89,
+        "source": "rag"
+      },
+      {
+        "order": "IV alteplase (0.9 mg/kg, max 90 mg)",
+        "category": "procedure",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "Aspirin 325 mg PO",
+        "category": "medication",
+        "monthly_cost_usd": 5.0
+      },
+      {
+        "order": "Insulin correction for hyperglycemia management",
+        "category": "medication",
+        "monthly_cost_usd": 30.0
+      }
+    ],
+    "llm_orders_c": [
+      {
+        "order": "Aspirin 325 mg PO",
+        "category": "medication",
+        "monthly_cost_usd": 4.0
+      },
+      {
+        "order": "insulin correction to target glucose",
+        "category": "medication",
+        "monthly_cost_usd": 50.0
+      }
+    ],
+    "medicare_llm_med_cost": 54.0,
+    "source": "manual_openevidence",
+    "medicare_llm_dx_cost": 273.89,
+    "dx_match_v2": "related",
+    "dx_gemini": "correct",
+    "dx_claude": "correct_plus",
+    "medicare_human_med_cost": 565.0,
+    "llm_referrals": [],
+    "llm_referral_cost": 0,
+    "llm_referral_count": 0
+  },
+  {
+    "case_id": "MTS_0019",
+    "sample_name": "Sleep Study Followup",
+    "specialty": "SOAP / Chart / Progress Notes",
+    "presentation": "REASON FOR VISIT:,  This 48-year-old woman returns in followup after a full-night sleep study performed to evaluate her for daytime fatigue and insomnia.,HISTORY OF PRESENT ILLNESS: , The patient presented initially to the Pulmonary Clinic with dyspnea on minimal exertion.  At that time, she was evaluated and found to have evidence for sleep disruption and daytime fatigue.  She also complained of nocturnal choking episodes that have since abated over the past several months.  In the meantime, she had been scheduled for an overnight sleep study performed to evaluate her for sleep apnea, returns today to review her study results.,The patient's sleep patterns consist of going to bed between 9.00 and 10.00 p.m. and awakening in the morning between 5.00 and 6.00 a.m.  She reports difficulty in initiating sleep and then recurrent awakenings every 1 to 2 hours throughout the night.  She reports tossing and turning throughout the night and awakening with the sheets in disarray.  She reports that her sleep was much better quality in the sleep laboratory as compared to home.  When she awakens, she might have a dull headache and feels tired in the morning.  Her daughter reports that she has heard the patient talking during sleep and snoring.  There are no apneic episodes.  The patient reports that she used to cough a lot in the middle of the night, but has no longer been doing so in recent weeks.,During the daytime, the patient reports spending a lot of sedentary time reading and watching TV.  She routinely dozes off during these sedentary activities.  She also might nap between 2.00 and 3.00 p.m., and nods off in the evening hours.,The patient smokes perhaps one to two packs of cigarettes per day, particularly after dinner.,She reports that her weight has fluctuated and peaked at 260 pounds approximately 1 year ago.  Since that time, her weight is down by approximately 30 pounds.,The patient is managed in Outpatient Psychiatry and at her Maintenance Clinic.  She takes methadone, trazodone, and Seroquel.,PAST MEDICAL HISTORY:,1.  Depression.,2.  Hepatitis C.,3.  Hypertension.,4.  Inhaled and intravenous drug abuse history.,The patient has a history of smoking two packs per day of cigarettes for approximately 25 pounds.  She also has a history of recurrent atypical chest pain for which she has been evaluated.,FAMILY HISTORY: , As previously documented.,SOCIAL HISTORY:  ,The patient has a history of inhalation on intravenous drug abuse.  She is currently on methadone maintenance.  She is being followed in Psychiatry for depression and substance abuse issues.  She lives with a room-mate.,REVIEW OF SYSTEMS:,  Not contributory.,MEDICATIONS: , Current medications include the following:,1.  Methadone 110 mg by mouth every day.,2.  Paxil 60 mg by mouth every day.,3.  Trazodone 30 mg by mouth nightly.,4.  Seroquel 20 mg by mouth nightly.,5.  Avalide (irbesartan) and hydrochlorothiazide.,6.  Albuterol and Flovent inhalers two puffs by mouth twice a day.,7.  Atrovent as needed.,FINDINGS: , Vital Signs:  Blood pressure 126/84, pulse 67, respiratory rate 18, weight 232 pounds, height 5 feet 8 inches, temperature 97.4 degrees, SaO2 is 99 percent on room air at rest.  HEENT:  Sclerae anicteric.  Conjunctivae pink.  Extraocular movements are intact.  Pupils are equal, round, and reactive to light.  The nasal passages show deviation in the nasal septum to the right.  There is a slight bloody exudate at the right naris.  Some nasal mucosal edema was noted with serous exudate bilaterally.  The jaw is not foreshortened.  The tongue is not large.  Mallampati airway score was 3.  The oropharynx was not shallow.  There is no pharyngeal mucosa hypertrophy.  No tonsillar tissue noted.  The tongue is not large.  Neck is supple.  Thyroid without nodules or masses.  Carotid upstrokes normal.  No bruits.  No jugular venous distention.  Chest is clear to auscultation and percussion.  No wheezing, rales, rhonchi or adventitious sounds.  No prolongation of the expiratory phase.  Cardiac:  PMI not palpable.  Regular rate and rhythm.  S1 and S2 normal.  No murmurs or gallops.  Abdomen:  Nontender.  Bowel sounds normal.  No liver or spleen palpable.  Extremities:  No clubbing or cyanosis.  There is 1+ pretibial edema.  Pulses are 2+ in upper and lower extremities.  Neurologic:  Grossly nonfocal.,LABORATORIES:,  Pulmonary function studies reportedly show a mild restrictive ventilatory defect without obstruction.  Diffusing capacity is well preserved.,An overnight sleep study was performed on this patient at the end of 02/07.  At that time, she reported that her sleep was better in the laboratories compared to home.  She slept for a total sleep time of 398 minutes out of 432 minutes in bed (sleep proficiency 92 percent).  She fell asleep in the middle of latency of less than 1 minute.  She woke up after sleep onset of 34 minutes.  She had stage I sleep that was some elevated at 28 percent of total sleep time, and stage I sleep is predominantly evident in the lateral portion of the night.  The remainders were stage II at 69 percent, stage III and IV at 3 percent of total sleep time.,The patient had no REM sleep.,The patient had no periodic limb movements during sleep.,The patient had no significant sleep-disordered breathing during non-REM sleep with less than one episode per hour.  Oxyhemoglobin saturation remained in the low to mid 90s throughout the night.,Intermittent inspiratory flow limitation compatible with snoring was observed during non-REM sleep.,",
+    "model": "openevidence",
+    "prompt_arm": "parsimonious",
+    "human_ap": "ASSESSMENT AND PLAN: , This patient presents with history of sleep disruption and daytime sleepiness with fatigue.  Her symptoms are multifactorial.,Regarding the etiology of difficulty in initiating and maintaining sleep, the patient has a component of psychophysiologic insomnia, based on reports of better sleep in the laboratory as compared to home.  In addition, nontrivial smoking in the home setting may be contributing significantly to sleep disruption.,Regarding her daytime sleepiness, the patient is taking a number of long-acting central nervous system acting medications to sedate her and can produce a lasting sedation throughout the daytime.  These include trazodone, Seroquel, and methadone.  Of these medications, the methadone is clearly indicative, given the history of substance abuse.  It would be desirable to reduce or discontinue trazodone and then perhaps consider doing the same with Seroquel.  I brought this possibility up with the patient, and I asked her to discuss this further with her psychiatrist.,Finally, to help mitigate sleep disruption at night, I have provided her with tips for sleep hygiene.  These include bedtime rituals, stimulus control therapy, and sleep restriction as well as avoidance of nicotine in the evening hours.",
+    "human_diagnoses": [
+      "Psychophysiologic insomnia",
+      "Sleep disruption due to environmental factors (smoking exposure)",
+      "Daytime sleepiness related to sedating CNS medications"
+    ],
+    "human_dx_summary": "The patient presents with multifactorial sleep disruption characterized by psychophysiologic insomnia, environmental smoking exposure, and daytime sleepiness likely exacerbated by sedating medications.",
+    "human_orders_a": [],
+    "human_orders_b": [],
+    "human_orders_c": [],
+    "human_referrals": [],
+    "human_referral_count": 0,
+    "human_referral_cost": 0,
+    "medicare_human_dx_cost": 0,
+    "llm_plan": "### Assessment and Plan\n\n## ASSESSMENT\n\n**Three Most Likely Diagnoses:**\n\n1. **Medication-induced sleep disruption with REM sleep suppression** \u2014 This patient is on multiple REM-suppressing medications: paroxetine (SSRI), methadone (opioid), and trazodone, all of which are known to suppress REM sleep. The complete absence of REM sleep on polysomnography, elevated stage I sleep (28%), reduced slow-wave sleep (3%), and frequent nocturnal awakenings are consistent with a polypharmacy-driven disruption of sleep architecture. Chronic methadone use in particular is associated with decreased N3 and REM sleep. The daytime fatigue, morning headaches, and excessive daytime sleepiness are downstream consequences.\n2. **Chronic insomnia disorder** \u2014 Difficulty initiating sleep, recurrent awakenings every 1\u20132 hours, and nonrestorative sleep with daytime impairment meet criteria for chronic insomnia. Contributing factors include depression, sedentary lifestyle, heavy nicotine use (especially after dinner), and suboptimal sleep hygiene (sedentary TV/reading with frequent dozing). The elevated stage I sleep and sleep fragmentation on PSG support this diagnosis.\n3. **Upper airway resistance syndrome (UARS)** \u2014 Intermittent inspiratory flow limitation compatible with snoring was observed on PSG despite AHI 100 mg) is associated with CSA and ataxic breathing in up to 30% of stable methadone patients. CSA events may have been underdetected on this single-night study, particularly given the absence of REM sleep (when respiratory events may be more prominent).\n\n- **Narcolepsy type 2** \u2014 Excessive daytime sleepiness with dozing during sedentary activities and napping could raise concern, though the clinical picture is better explained by medication effects and poor sleep quality. The absence of REM on PSG precludes assessment for sleep-onset REM periods.\n\n---\n\n## PLAN\n\n**1. Medication-induced sleep disruption / REM suppression**\n\n- Coordinate with Psychiatry regarding the cumulative REM-suppressing burden of paroxetine + methadone + trazodone. Discuss whether paroxetine could be switched to mirtazapine, which preserves REM sleep and may improve sleep quality and architecture, while still treating depression.\n- Trazodone at 30 mg is a low dose with limited evidence for insomnia efficacy; discuss tapering off if sleep hygiene and other interventions are pursued.\n- Quetiapine at 20 mg for sleep has insufficient evidence and carries metabolic risk in an already obese patient; discuss discontinuation with Psychiatry.\n- Do not adjust methadone dose, as this is managed by the Maintenance Clinic for opioid use disorder.\n\n**2. Chronic insomnia disorder**\n\n- First-line: Refer for cognitive behavioral therapy for insomnia (CBT-I), which is guideline-recommended as initial treatment and can be delivered via group sessions or digital platforms (low cost).\n- Sleep hygiene counseling at this visit: avoid nicotine in the evening (stimulant effect disrupts sleep), eliminate daytime napping, restrict sedentary TV/reading in bed, maintain consistent wake time.\n- Avoid prescribing benzodiazepines or Z-drugs given history of substance use disorder.\n\n**3. Upper airway resistance syndrome / snoring**\n\n- Conservative management: continued weight loss (already down 30 lbs \u2014 reinforce), lateral sleep positioning, and nasal saline irrigation for mucosal edema/deviated septum.\n- No CPAP indicated at this time given AHI",
+    "llm_diagnoses": [
+      "Medication-induced sleep disruption with REM sleep suppression",
+      "Chronic insomnia disorder",
+      "Upper airway resistance syndrome (UARS)"
+    ],
+    "llm_dx_summary": "The patient exhibits medication-induced sleep disruption characterized by REM sleep suppression due to multiple REM-suppressing medications, leading to fragmented and nonrestorative sleep with associated daytime symptoms.",
+    "llm_orders_a": [],
+    "llm_orders_b": [
+      {
+        "order": "Referral to Cognitive Behavioral Therapy for Insomnia (CBT-I)",
+        "category": "referral"
+      },
+      {
+        "order": "Coordination with Psychiatry regarding paroxetine, methadone, and trazodone REM-suppressing effects",
+        "category": "referral"
+      }
+    ],
+    "llm_orders_c": [
+      {
+        "order": "Referral for cognitive behavioral therapy for insomnia (CBT-I)",
+        "category": "referral"
+      }
+    ],
+    "medicare_llm_med_cost": 0,
+    "source": "manual_openevidence",
+    "medicare_llm_dx_cost": 0,
+    "dx_match_v2": "related",
+    "dx_gemini": "related",
+    "dx_claude": "correct_plus",
+    "medicare_human_med_cost": 0.0,
+    "llm_referrals": [],
+    "llm_referral_cost": 0,
+    "llm_referral_count": 0
+  },
+  {
+    "case_id": "MTS_0600",
+    "sample_name": "Pediatric Rheumatology Consult",
+    "specialty": "Consult - History and Phy.",
+    "presentation": "HISTORY:  ,We had the pleasure of seeing the patient today in our Pediatric Rheumatology Clinic.  He was sent here with a chief complaint of joint pain in several joints for few months.  This is a 7-year-old white male who has no history of systemic disease, who until 2 months ago, was doing well and 2 months ago, he started to complain of pain in his fingers, elbows, and neck.  At this moment, this is better and is almost gone, but for several months, he was having pain to the point that he would cry at some point.  He is not a complainer according to his mom and he is a very active kid.  There is no history of previous illness to this or had gastrointestinal problems.  He has problems with allergies, especially seasonal allergies and he takes Claritin for it.  Other than that, he has not had any other problem.  Denies any swelling except for that doctor mentioned swelling on his elbow.  There is no history of rash, no stomach pain, no diarrhea, no fevers, no weight loss, no ulcers in his mouth except for canker sores.  No lymphadenopathy, no eye problems, and no urinary problems.,MEDICATIONS: , His medications consist only of Motrin only as needed and Claritin currently for seasonal allergies and rhinitis.,ALLERGIES: , He has no allergies to any drugs.,BIRTH HISTORY:  ,Pregnancy and delivery with no complications.  He has no history of hospitalizations or surgeries.,FAMILY HISTORY: , Positive for arthritis in his grandmother.  No history of pediatric arthritis.  There is history of psoriasis in his dad.,SOCIAL HISTORY: , He lives with mom, dad, brother, sister, and everybody is healthy.  They live in Easton.  They have 4 dogs, 3 cats, 3 mules and no deer.  At school, he is in second grade and he is doing PE without any limitation.,PHYSICAL EXAMINATION: ,VITAL SIGNS:  Temperature is 98.7, pulse is 96, respiratory rate is 24, height is 118.1 cm, weight is 22.1 kg, and blood pressure is 61/44.,GENERAL:  He is alert, active, in no distress, very cooperative.,HEENT:  He has no facial rash.  No lymphadenopathy.  Oral mucosa is clear.  No tonsillitis.  His ear canals are clear and pupils are reactive to light and accommodation.,CHEST:  Clear to auscultation.,HEART:  Regular rhythm and no murmur.,ABDOMEN:  Soft, nontender with no visceromegaly.,MUSCULOSKELETAL:  Shows no limitation in any of his joints or active swelling today.  He has no tenderness either in any of his joints.  Muscle strength is 5/5 in proximal muscles.,LABORATORY DATA:,  Includes an arthritis panel.  It has normal uric acid, sedimentation rate of 2, rheumatoid factor of 6, and antinuclear antibody that is negative and C-reactive protein that is 7.1.  His mother stated that this was done while he was having symptoms.,",
+    "model": "openevidence",
+    "prompt_arm": "parsimonious",
+    "human_ap": "ASSESSMENT AND PLAN: , This patient may have had reactive arthritis.  He is seen frequently and the patient has family history of psoriatic arthritis or psoriasis.  I do not see any problems at this moment on his laboratories or on his physical examination.  This may have been related to recent episode of viral infection or infection of some sort.  Mother was oriented about the finding and my recommendation is to observe him and if there is any recurrence of the symptoms or persistence of swelling or limitation in any of his joints, I will be glad to see him back.,If you have any question on further assessment and plan, please do no hesitate to contact us.",
+    "human_diagnoses": [
+      "Reactive arthritis"
+    ],
+    "human_dx_summary": "The patient may have had reactive arthritis possibly related to a recent viral or other infection, with no current laboratory or physical examination abnormalities.",
+    "human_orders_a": [],
+    "human_orders_b": [],
+    "human_orders_c": [],
+    "human_referrals": [],
+    "human_referral_count": 0,
+    "human_referral_cost": 0,
+    "medicare_human_dx_cost": 0,
+    "llm_plan": "## ASSESSMENT\n\n**Three Most Likely Diagnoses:**\n\n1. **Benign arthralgias / joint hypermobility syndrome.** This is the most likely diagnosis. The child has polyarticular pain (fingers, elbows, neck) that is now resolving, with a completely normal exam today \u2014 no swelling, tenderness, or limitation of motion. Inflammatory markers are essentially normal (ESR 2, CRP 7.1 mg/L is borderline at most; RF negative, ANA negative). He is active, doing PE without limitation, and has no systemic symptoms. Joint hypermobility is the most common cause of chronic musculoskeletal pain in children referred to pediatric rheumatology, with an average age of symptom onset around 6 years. The absence of inflammatory signs and normal labs strongly favor a non-inflammatory etiology.[1][2][3][4]\n2. **Juvenile idiopathic arthritis (JIA), early or resolving.** JIA remains on the differential given the duration of symptoms (approximately 2 months), polyarticular distribution, and the reported elbow swelling noted by the referring physician. However, JIA requires arthritis persisting \u22656 weeks, and the current exam shows no active synovitis, swelling, or limitation. Normal ESR and negative ANA/RF further lower the probability, though these do not exclude JIA, as inflammatory markers can be normal in oligoarticular disease.[5][6][4]\n3. **Early psoriatic JIA.** The father's history of psoriasis is notable. Psoriatic JIA can present with oligoarticular or polyarticular joint pain in young children, and in 80% of pediatric cases, arthritis precedes skin disease by 2\u20133 years. Dactylitis, nail pitting, and enthesitis are supportive features \u2014 none of which are documented here. The current absence of active arthritis on exam makes this less likely at present but warrants monitoring.[5][7][8]\n\n**Can't-Miss Diagnoses:**\n\n- **Occult malignancy (e.g., acute leukemia).** Bone and joint pain can be the presenting feature of childhood leukemia, sometimes with normal or near-normal initial labs. The absence of fevers, weight loss, night sweats, limp, bone pain out of proportion to exam, cytopenias, or elevated LDH is reassuring, but a CBC with differential has not been documented.[9][4]\n\n---\n\n## PLAN\n\n**1. Benign arthralgias / joint hypermobility (most likely):**\n\n- Perform a **Beighton score** assessment today to evaluate for generalized joint hypermobility (if not already done during the musculoskeletal exam).\n- Continue **ibuprofen as needed** for pain episodes.\n- Encourage continued physical activity; if hypermobility is confirmed, provide guidance on joint-protective strengthening exercises and activity modification as needed.\n- No imaging or additional labs required at this time given the normal exam.\n\n**2. JIA \u2014 watchful waiting:**\n\n- The current exam shows no active arthritis. JIA cannot be diagnosed today.\n- Instruct the family to **return promptly if joint swelling, morning stiffness lasting >15 minutes, limp, or functional limitation recurs**, as JIA requires documentation of persistent arthritis \u22656 weeks.[5][10]\n- If symptoms recur with objective swelling, obtain **ultrasound of the affected joint(s)** as the initial imaging modality to confirm synovitis.[11]\n- Defer ophthalmologic screening for uveitis unless/until JIA is formally diagnosed.\n\n**3. Psoriatic JIA \u2014 monitoring:**\n\n- Given the paternal psoriasis history, perform a **focused skin and nail exam** at each visit (scalp, ears, umbilicus, nails for pitting/onycholysis).[5][12]\n- No additional workup needed now in the absence of active arthritis, dactylitis, or enthesitis.\n- Counsel the family that this family history is relevant and to report any new rash or nail changes.\n\n**4. Excluding occult malignancy:**\n\n- Obtain a **CBC with differential and peripheral smear** if not already done. This is a low-cost, high-value test that can effectively screen for leukemia in a child with unexplained polyarticular pain. If normal, no further workup is needed in the absence of red-flag features.[4]\n\n**Follow-up:**\n\n- Return to clinic in **3 months**, or sooner if symptoms recur with objective joint swelling, new systemic symptoms (fever, weight loss, rash, limp), or functional decline.\n\n---\n\nWould you like to explore the specific clinical features and Beighton score criteria that distinguish symptomatic joint hypermobility from early JIA in the pediatric population?\n\n### References\n\n1. Joint Hypermobility Syndrome: Recognizing a Commonly Overlooked Cause of Chronic Pain. Kumar B, Lenert P. The American Journal of Medicine. 2017;130(6):640-647. doi:10.1016/j.amjmed.2017.02.013.\n2. Joint Hypermobility Syndrome in Childhood. A Not So Benign Multisystem Disorder?. Adib N, Davies K, Grahame R, Woo P, Murray KJ. Rheumatology (Oxford, England). 2005;44(6):744-50. doi:10.1093/rheumatology/keh557.\n3. Genetic Diseases Mimicking Rheumatic Disorders: Insights From Southeastern Turkey. Akal\u0131n A, Karaka\u015f HD, \u00c7elebi C, et al. American Journal of Medical Genetics. Part A. 2025;197(10):e64174. doi:10.1002/ajmg.a.64174.\n4. The Child With Joint Pain in Primary Care. Sen ES, Clarke SL, Ramanan AV. Best Practice & Research. Clinical Rheumatology. 2014;28(6):888-906. doi:10.1016/j.berh.2015.04.008.\n5. Juvenile Idiopathic Arthritis. Sandborg CI, Schulert GS, Kimura Y. The New England Journal of Medicine. 2025;393(2):162-174. doi:10.1056/NEJMra2402073.\n6. Tumor Necrosis Factor (TNF) Inhibitors for Juvenile Idiopathic Arthritis. Cagnotto G, Juhl CB, Ahlstr\u00f6m F, et al. The Cochrane Database of Systematic Reviews. 2025;2:CD013715. doi:10.1002/14651858.CD013715.pub2.\n7. Joint American Academy of Dermatology-National Psoriasis Foundation Guidelines of Care for the Management and Treatment of Psoriasis in Pediatric Patients. Menter A, Cordoro KM, Davis DMR, et al. Journal of the American Academy of Dermatology. 2020;82(1):161-201. doi:10.1016/j.jaad.2019.08.049.\n8. Pediatric Psoriasis Comorbidity Screening Guidelines. Osier E, Wang AS, Tollefson MM, et al. JAMA Dermatology. 2017;153(7):698-704. doi:10.1001/jamadermatol.2017.0499.\n9. Differential Diagnosis Portfolio of a Pediatric Rheumatologist: Eight Cases, Eight Stories. \u00c7akan M, Karada\u011f \u015eG, Ayaz NA. Clinical Rheumatology. 2021;40(2):769-774. doi:10.1007/s10067-020-05287-x.\n10. 2019 American College of Rheumatology/Arthritis Foundation Guideline for the Treatment of Juvenile Idiopathic Arthritis: Therapeutic Approaches for Non-Systemic Polyarthritis, Sacroiliitis, and Enthesitis. Ringold S, Angeles-Han ST, Beukelman T, et al. Arthritis & Rheumatology (Hoboken, N.J.). 2019;71(6):846-863. doi:10.1002/art.40884.\n11. ESR Essentials: Juvenile Idiopathic Arthritis; What Every Radiologist Needs to Know-Practice Recommendations by the European Society of Paediatric Radiology. Costa Dias S, Habre C, Di Paolo PL, et al. European Radiology. 2025;:10.1007/s00330-025-11891-9. doi:10.1007/s00330-025-11891-9.\n12. Psoriatic Arthritis. Ritchlin CT, Colbert RA, Gladman DD. The New England Journal of Medicine. 2017;376(10):957-970. doi:10.1056/NEJMra1505557.",
+    "llm_diagnoses": [
+      "Benign arthralgias / joint hypermobility syndrome",
+      "Juvenile idiopathic arthritis (JIA), early or resolving",
+      "Early psoriatic JIA"
+    ],
+    "llm_dx_summary": "The child most likely has benign arthralgias related to joint hypermobility syndrome, with juvenile idiopathic arthritis and early psoriatic JIA remaining less likely differential diagnoses.",
+    "llm_orders_a": [
+      {
+        "order": "Beighton score assessment",
+        "category": "exam",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "CBC with differential and peripheral smear",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 7.77,
+        "source": "substring"
+      },
+      {
+        "order": "Focused skin and nail exam (scalp, ears, umbilicus, nails for pitting/onycholysis)",
+        "category": "exam",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      }
+    ],
+    "llm_orders_b": [
+      {
+        "order": "Beighton score assessment",
+        "category": "exam",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "CBC with differential and peripheral smear",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 7.77,
+        "source": "substring"
+      },
+      {
+        "order": "Focused skin and nail exam at each visit",
+        "category": "monitoring",
+        "cpt_code": "73140",
+        "price": 39.41,
+        "source": "rag"
+      }
+    ],
+    "llm_orders_c": [
+      {
+        "order": "Beighton score assessment",
+        "category": "exam",
+        "cpt_code": null,
+        "price": 0,
+        "source": "unmatched"
+      },
+      {
+        "order": "ibuprofen as needed",
+        "category": "medication",
+        "monthly_cost_usd": 10.0
+      },
+      {
+        "order": "focused skin and nail exam",
+        "category": "exam",
+        "cpt_code": "73140",
+        "price": 39.41,
+        "source": "rag"
+      },
+      {
+        "order": "CBC with differential and peripheral smear",
+        "category": "labs",
+        "cpt_code": "85025",
+        "price": 7.77,
+        "source": "substring"
+      },
+      {
+        "order": "Return to clinic in 3 months",
+        "category": "follow_up"
+      }
+    ],
+    "medicare_llm_med_cost": 0,
+    "source": "manual_openevidence",
+    "medicare_llm_dx_cost": 7.77,
+    "dx_match_v2": "related",
+    "dx_gemini": "related",
+    "dx_claude": "related",
+    "medicare_human_med_cost": 0.0,
+    "llm_referrals": [],
+    "llm_referral_cost": 0,
+    "llm_referral_count": 0
+  }
+]

@@ -1,0 +1,1204 @@
+{
+  "per_model": [
+    {
+      "model": "claude-opus-4.8",
+      "label": "Claude Opus 4.8",
+      "family": "Claude",
+      "gen": 2,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 215.53325,
+      "dx_ratio": 3.022626937758917,
+      "dx_excess": 144.22665,
+      "accuracy_pct": 82.8,
+      "related_pct": 12.6,
+      "wrong_pct": 4.5,
+      "llm_med_count": 1.1,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.695,
+      "phys_ref_count": 0.155,
+      "over": 130,
+      "match": 54,
+      "under": 16,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 60.9
+    },
+    {
+      "model": "claude-sonnet-3.5",
+      "label": "Claude 3.5",
+      "family": "Claude",
+      "gen": 0,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 167.05849999999998,
+      "dx_ratio": 2.3428195987468197,
+      "dx_excess": 95.7519,
+      "accuracy_pct": 76.1,
+      "related_pct": 19.3,
+      "wrong_pct": 4.6,
+      "llm_med_count": 1.055,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.845,
+      "phys_ref_count": 0.155,
+      "over": 112,
+      "match": 61,
+      "under": 27,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 54.1
+    },
+    {
+      "model": "claude-sonnet-4.5",
+      "label": "Claude 4.5",
+      "family": "Claude",
+      "gen": 1,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 181.2036,
+      "dx_ratio": 2.5411897355924977,
+      "dx_excess": 109.897,
+      "accuracy_pct": 78.3,
+      "related_pct": 15.7,
+      "wrong_pct": 6.1,
+      "llm_med_count": 1.155,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.705,
+      "phys_ref_count": 0.155,
+      "over": 114,
+      "match": 63,
+      "under": 23,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 54.1
+    },
+    {
+      "model": "deepseek-r1",
+      "label": "DeepSeek R1",
+      "family": "DeepSeek",
+      "gen": 1,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 217.94854999999998,
+      "dx_ratio": 3.056498977654242,
+      "dx_excess": 146.64195,
+      "accuracy_pct": 77.2,
+      "related_pct": 16.2,
+      "wrong_pct": 6.6,
+      "llm_med_count": 1.84,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 1.36,
+      "phys_ref_count": 0.15,
+      "over": 139,
+      "match": 43,
+      "under": 18,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 68.4
+    },
+    {
+      "model": "deepseek-v3.2",
+      "label": "DeepSeek V3",
+      "family": "DeepSeek",
+      "gen": 0,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 170.86739999999998,
+      "dx_ratio": 2.3962354115888287,
+      "dx_excess": 99.56079999999999,
+      "accuracy_pct": 75.3,
+      "related_pct": 18.2,
+      "wrong_pct": 6.6,
+      "llm_med_count": 1.07,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 1.02,
+      "phys_ref_count": 0.165,
+      "over": 123,
+      "match": 55,
+      "under": 22,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 59.4
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "label": "Gemini 2.5 Pro",
+      "family": "Gemini",
+      "gen": 0,
+      "n": 199,
+      "phys_dx_cost": 71.66492462311558,
+      "llm_dx_cost": 199.24261306532665,
+      "dx_ratio": 2.780197064507353,
+      "dx_excess": 127.57768844221106,
+      "accuracy_pct": 75.1,
+      "related_pct": 18.3,
+      "wrong_pct": 6.6,
+      "llm_med_count": 1.4874371859296482,
+      "phys_med_count": 0.5979899497487438,
+      "llm_ref_count": 0.8442211055276382,
+      "phys_ref_count": 0.1507537688442211,
+      "over": 131,
+      "match": 49,
+      "under": 19,
+      "n_zero_phys": 132,
+      "pct_added_when_phys_zero": 64.4
+    },
+    {
+      "model": "gemini-3-pro",
+      "label": "Gemini 3 Pro",
+      "family": "Gemini",
+      "gen": 1,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 145.29240000000001,
+      "dx_ratio": 2.037572959585789,
+      "dx_excess": 73.9858,
+      "accuracy_pct": 80.3,
+      "related_pct": 14.1,
+      "wrong_pct": 5.6,
+      "llm_med_count": 1.12,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.405,
+      "phys_ref_count": 0.155,
+      "over": 118,
+      "match": 57,
+      "under": 25,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 58.6
+    },
+    {
+      "model": "gemini-3.1-pro",
+      "label": "Gemini 3.1 Pro",
+      "family": "Gemini",
+      "gen": 2,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 146.04104999999998,
+      "dx_ratio": 2.048071987726241,
+      "dx_excess": 74.73445,
+      "accuracy_pct": 81.8,
+      "related_pct": 14.1,
+      "wrong_pct": 4.0,
+      "llm_med_count": 0.855,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.395,
+      "phys_ref_count": 0.16,
+      "over": 98,
+      "match": 74,
+      "under": 28,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 45.1
+    },
+    {
+      "model": "gemini-3.5-flash",
+      "label": "Gemini 3.5 Flash",
+      "family": "Gemini",
+      "gen": 3,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 166.80549999999997,
+      "dx_ratio": 2.3392715400818433,
+      "dx_excess": 95.49889999999999,
+      "accuracy_pct": 79.8,
+      "related_pct": 14.6,
+      "wrong_pct": 5.6,
+      "llm_med_count": 1.335,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.77,
+      "phys_ref_count": 0.15,
+      "over": 116,
+      "match": 58,
+      "under": 26,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 58.6
+    },
+    {
+      "model": "gpt-4.1",
+      "label": "GPT-4.1",
+      "family": "GPT",
+      "gen": 0,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 136.7424,
+      "dx_ratio": 1.9176682102357987,
+      "dx_excess": 65.4358,
+      "accuracy_pct": 82.1,
+      "related_pct": 11.7,
+      "wrong_pct": 6.1,
+      "llm_med_count": 0.575,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.68,
+      "phys_ref_count": 0.165,
+      "over": 105,
+      "match": 65,
+      "under": 30,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 51.9
+    },
+    {
+      "model": "gpt-5.2",
+      "label": "GPT-5.2",
+      "family": "GPT",
+      "gen": 1,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 216.71235000000001,
+      "dx_ratio": 3.039162574011382,
+      "dx_excess": 145.40574999999998,
+      "accuracy_pct": 84.3,
+      "related_pct": 10.6,
+      "wrong_pct": 5.1,
+      "llm_med_count": 1.525,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.69,
+      "phys_ref_count": 0.155,
+      "over": 134,
+      "match": 48,
+      "under": 18,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 64.7
+    },
+    {
+      "model": "gpt-5.5",
+      "label": "GPT-5.5",
+      "family": "GPT",
+      "gen": 2,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 229.88535,
+      "dx_ratio": 3.2239000316941206,
+      "dx_excess": 158.57875,
+      "accuracy_pct": 88.4,
+      "related_pct": 6.6,
+      "wrong_pct": 5.1,
+      "llm_med_count": 1.305,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.54,
+      "phys_ref_count": 0.15,
+      "over": 132,
+      "match": 51,
+      "under": 17,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 63.9
+    },
+    {
+      "model": "grok-3",
+      "label": "Grok 3",
+      "family": "Grok",
+      "gen": 0,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 189.20905,
+      "dx_ratio": 2.653457744444413,
+      "dx_excess": 117.90245000000003,
+      "accuracy_pct": 78.3,
+      "related_pct": 14.6,
+      "wrong_pct": 7.1,
+      "llm_med_count": 1.19,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 1.33,
+      "phys_ref_count": 0.155,
+      "over": 140,
+      "match": 39,
+      "under": 21,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 71.4
+    },
+    {
+      "model": "grok-4.1",
+      "label": "Grok 4.1",
+      "family": "Grok",
+      "gen": 1,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 158.60335,
+      "dx_ratio": 2.2242450207975137,
+      "dx_excess": 87.29674999999999,
+      "accuracy_pct": 75.3,
+      "related_pct": 18.7,
+      "wrong_pct": 6.1,
+      "llm_med_count": 2.025,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.89,
+      "phys_ref_count": 0.155,
+      "over": 125,
+      "match": 53,
+      "under": 22,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 60.9
+    },
+    {
+      "model": "grok-4.3",
+      "label": "Grok 4.3",
+      "family": "Grok",
+      "gen": 2,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 147.72154999999998,
+      "dx_ratio": 2.071639231151113,
+      "dx_excess": 76.41495,
+      "accuracy_pct": 80.3,
+      "related_pct": 13.6,
+      "wrong_pct": 6.1,
+      "llm_med_count": 1.085,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.665,
+      "phys_ref_count": 0.155,
+      "over": 105,
+      "match": 65,
+      "under": 30,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 51.1
+    },
+    {
+      "model": "llama-3.3-70b",
+      "label": "Llama 3.3",
+      "family": "Llama",
+      "gen": 0,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 97.47399999999999,
+      "dx_ratio": 1.3669702383790558,
+      "dx_excess": 26.167399999999997,
+      "accuracy_pct": 71.7,
+      "related_pct": 20.2,
+      "wrong_pct": 8.1,
+      "llm_med_count": 0.37,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.88,
+      "phys_ref_count": 0.155,
+      "over": 96,
+      "match": 71,
+      "under": 33,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 49.6
+    },
+    {
+      "model": "llama4",
+      "label": "Llama 4",
+      "family": "Llama",
+      "gen": 1,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 129.7117,
+      "dx_ratio": 1.8190700440071466,
+      "dx_excess": 58.405100000000004,
+      "accuracy_pct": 73.7,
+      "related_pct": 17.7,
+      "wrong_pct": 8.6,
+      "llm_med_count": 0.295,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.645,
+      "phys_ref_count": 0.15,
+      "over": 96,
+      "match": 64,
+      "under": 40,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 54.1
+    },
+    {
+      "model": "medgemma-27b",
+      "label": "MedGemma 27B",
+      "family": "MedGemma",
+      "gen": 1,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 185.25254999999999,
+      "dx_ratio": 2.597971996982046,
+      "dx_excess": 113.94595000000001,
+      "accuracy_pct": 80.1,
+      "related_pct": 14.8,
+      "wrong_pct": 5.1,
+      "llm_med_count": 0.97,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.97,
+      "phys_ref_count": 0.16,
+      "over": 127,
+      "match": 52,
+      "under": 21,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 61.7
+    },
+    {
+      "model": "medgemma-4b",
+      "label": "MedGemma 4B",
+      "family": "MedGemma",
+      "gen": 0,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 141.71460000000002,
+      "dx_ratio": 1.9873980809630527,
+      "dx_excess": 70.40799999999999,
+      "accuracy_pct": 72.7,
+      "related_pct": 18.2,
+      "wrong_pct": 9.1,
+      "llm_med_count": 0.685,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.705,
+      "phys_ref_count": 0.15,
+      "over": 110,
+      "match": 61,
+      "under": 29,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 55.6
+    },
+    {
+      "model": "meditron",
+      "label": "Meditron",
+      "family": "Meditron",
+      "gen": 0,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 171.20535,
+      "dx_ratio": 2.4009748045762946,
+      "dx_excess": 99.89875,
+      "accuracy_pct": 68.4,
+      "related_pct": 21.4,
+      "wrong_pct": 10.2,
+      "llm_med_count": 0.835,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.755,
+      "phys_ref_count": 0.16,
+      "over": 123,
+      "match": 51,
+      "under": 26,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 62.4
+    },
+    {
+      "model": "openevidence",
+      "label": "OpenEvidence",
+      "family": "OpenEvidence",
+      "gen": 0,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 181.4615,
+      "dx_ratio": 2.544806511599207,
+      "dx_excess": 110.15490000000001,
+      "accuracy_pct": 74.1,
+      "related_pct": 18.8,
+      "wrong_pct": 7.1,
+      "llm_med_count": 1.035,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.745,
+      "phys_ref_count": 0.155,
+      "over": 121,
+      "match": 58,
+      "under": 21,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 57.1
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "label": "Qwen 2.5",
+      "family": "Qwen",
+      "gen": 0,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 171.06035,
+      "dx_ratio": 2.398941332218897,
+      "dx_excess": 99.75375,
+      "accuracy_pct": 67.7,
+      "related_pct": 24.2,
+      "wrong_pct": 8.1,
+      "llm_med_count": 0.82,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 1.285,
+      "phys_ref_count": 0.155,
+      "over": 126,
+      "match": 48,
+      "under": 26,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 63.9
+    },
+    {
+      "model": "qwen-3.7",
+      "label": "Qwen 3.7",
+      "family": "Qwen",
+      "gen": 2,
+      "n": 200,
+      "phys_dx_cost": 71.3066,
+      "llm_dx_cost": 155.1164,
+      "dx_ratio": 2.1753442177862916,
+      "dx_excess": 83.8098,
+      "accuracy_pct": 80.8,
+      "related_pct": 13.1,
+      "wrong_pct": 6.1,
+      "llm_med_count": 1.13,
+      "phys_med_count": 0.595,
+      "llm_ref_count": 0.74,
+      "phys_ref_count": 0.15,
+      "over": 104,
+      "match": 67,
+      "under": 29,
+      "n_zero_phys": 133,
+      "pct_added_when_phys_zero": 51.1
+    },
+    {
+      "model": "qwen3",
+      "label": "Qwen 3",
+      "family": "Qwen",
+      "gen": 1,
+      "n": 198,
+      "phys_dx_cost": 72.02686868686868,
+      "llm_dx_cost": 289.2315151515151,
+      "dx_ratio": 4.015605848546978,
+      "dx_excess": 217.2046464646465,
+      "accuracy_pct": 77.6,
+      "related_pct": 15.3,
+      "wrong_pct": 7.1,
+      "llm_med_count": 1.4343434343434343,
+      "phys_med_count": 0.601010101010101,
+      "llm_ref_count": 1.9393939393939394,
+      "phys_ref_count": 0.1414141414141414,
+      "over": 154,
+      "match": 29,
+      "under": 15,
+      "n_zero_phys": 131,
+      "pct_added_when_phys_zero": 78.6
+    }
+  ],
+  "aggregate": {
+    "n_cases_primary": 200,
+    "n_models_total": 24,
+    "n_models_gp": 20,
+    "n_models_specialized": 4,
+    "n_ai_physician_comparisons": 4800,
+    "phys_dx_cost_avg": 71.35,
+    "phys_med_count": 0.6,
+    "phys_ref_count": 0.15,
+    "dx_ratio_min": 1.37,
+    "dx_ratio_max": 4.02,
+    "dx_cost_min": 97.0,
+    "dx_cost_max": 289.0,
+    "dx_ratio_min_model": "Llama 3.3",
+    "dx_ratio_max_model": "Qwen 3",
+    "mean_excess_gp_unweighted": 105.21,
+    "med_count_min": 0.29,
+    "med_count_max": 2.02,
+    "med_ratio_max": 3.4,
+    "ref_count_min": 0.4,
+    "ref_count_max": 1.94,
+    "ref_ratio_min": 2.6,
+    "ref_ratio_max": 12.6,
+    "pct_added_min": 45.0,
+    "pct_added_max": 79.0,
+    "n_zero_phys_cases": 133,
+    "n_nonzero_phys_cases": 67,
+    "pct_zero_phys": 66.5,
+    "namcs_strata_pct": {
+      "routine_zero": 66.0,
+      "simple_1_100": 16.0,
+      "significant_gt100": 17.0
+    },
+    "subset_zero_ai_mean": 117.08,
+    "subset_nonzero_phys_mean": 212.86,
+    "subset_nonzero_ratio_mean": 1.38,
+    "subset_nonzero_under_physician": 1
+  },
+  "version_changes": [
+    {
+      "family": "GPT",
+      "old_model": "gpt-4.1",
+      "new_model": "gpt-5.5",
+      "n": 200,
+      "fold_old": 1.92,
+      "fold_new": 3.22,
+      "pct_change": 68.1,
+      "p_value": 0.0
+    },
+    {
+      "family": "Qwen",
+      "old_model": "qwen-2.5-72b",
+      "new_model": "qwen-3.7",
+      "n": 200,
+      "fold_old": 2.4,
+      "fold_new": 2.18,
+      "pct_change": -9.3,
+      "p_value": 0.0019
+    },
+    {
+      "family": "Gemini",
+      "old_model": "gemini-2.5-pro",
+      "new_model": "gemini-3.1-pro",
+      "n": 199,
+      "fold_old": 2.78,
+      "fold_new": 2.05,
+      "pct_change": -26.3,
+      "p_value": 0.0
+    },
+    {
+      "family": "Grok",
+      "old_model": "grok-3",
+      "new_model": "grok-4.3",
+      "n": 200,
+      "fold_old": 2.65,
+      "fold_new": 2.07,
+      "pct_change": -21.9,
+      "p_value": 0.0
+    },
+    {
+      "family": "Llama",
+      "old_model": "llama-3.3-70b",
+      "new_model": "llama4",
+      "n": 200,
+      "fold_old": 1.37,
+      "fold_new": 1.82,
+      "pct_change": 33.1,
+      "p_value": 0.2737
+    },
+    {
+      "family": "Claude",
+      "old_model": "claude-sonnet-3.5",
+      "new_model": "claude-opus-4.8",
+      "n": 200,
+      "fold_old": 2.34,
+      "fold_new": 3.02,
+      "pct_change": 29.0,
+      "p_value": 0.0007
+    },
+    {
+      "family": "DeepSeek",
+      "old_model": "deepseek-v3.2",
+      "new_model": "deepseek-r1",
+      "n": 200,
+      "fold_old": 2.4,
+      "fold_new": 3.06,
+      "pct_change": 27.6,
+      "p_value": 0.0002
+    }
+  ],
+  "subset_by_phys_ordering": [
+    {
+      "model": "claude-opus-4.8",
+      "label": "Claude Opus 4.8",
+      "zero_phys_ai_cost": 137.38,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 370.68,
+      "nonzero_ratio": 1.74
+    },
+    {
+      "model": "claude-sonnet-3.5",
+      "label": "Claude 3.5",
+      "zero_phys_ai_cost": 101.67,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 296.85,
+      "nonzero_ratio": 1.39
+    },
+    {
+      "model": "claude-sonnet-4.5",
+      "label": "Claude 4.5",
+      "zero_phys_ai_cost": 89.04,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 364.16,
+      "nonzero_ratio": 1.71
+    },
+    {
+      "model": "deepseek-r1",
+      "label": "DeepSeek R1",
+      "zero_phys_ai_cost": 167.6,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 317.9,
+      "nonzero_ratio": 1.49
+    },
+    {
+      "model": "deepseek-v3.2",
+      "label": "DeepSeek V3",
+      "zero_phys_ai_cost": 111.34,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 289.03,
+      "nonzero_ratio": 1.36
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "label": "Gemini 2.5 Pro",
+      "zero_phys_ai_cost": 140.19,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 315.59,
+      "nonzero_ratio": 1.48
+    },
+    {
+      "model": "gemini-3-pro",
+      "label": "Gemini 3 Pro",
+      "zero_phys_ai_cost": 83.08,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 268.78,
+      "nonzero_ratio": 1.26
+    },
+    {
+      "model": "gemini-3.1-pro",
+      "label": "Gemini 3.1 Pro",
+      "zero_phys_ai_cost": 91.18,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 254.94,
+      "nonzero_ratio": 1.2
+    },
+    {
+      "model": "gemini-3.5-flash",
+      "label": "Gemini 3.5 Flash",
+      "zero_phys_ai_cost": 117.52,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 264.64,
+      "nonzero_ratio": 1.24
+    },
+    {
+      "model": "gpt-4.1",
+      "label": "GPT-4.1",
+      "zero_phys_ai_cost": 97.32,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 214.99,
+      "nonzero_ratio": 1.01
+    },
+    {
+      "model": "gpt-5.2",
+      "label": "GPT-5.2",
+      "zero_phys_ai_cost": 139.42,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 370.14,
+      "nonzero_ratio": 1.74
+    },
+    {
+      "model": "gpt-5.5",
+      "label": "GPT-5.5",
+      "zero_phys_ai_cost": 148.53,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 391.37,
+      "nonzero_ratio": 1.84
+    },
+    {
+      "model": "grok-3",
+      "label": "Grok 3",
+      "zero_phys_ai_cost": 148.26,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 270.5,
+      "nonzero_ratio": 1.27
+    },
+    {
+      "model": "grok-4.1",
+      "label": "Grok 4.1",
+      "zero_phys_ai_cost": 100.8,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 273.35,
+      "nonzero_ratio": 1.28
+    },
+    {
+      "model": "grok-4.3",
+      "label": "Grok 4.3",
+      "zero_phys_ai_cost": 110.92,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 220.78,
+      "nonzero_ratio": 1.04
+    },
+    {
+      "model": "llama-3.3-70b",
+      "label": "Llama 3.3",
+      "zero_phys_ai_cost": 61.38,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 169.12,
+      "nonzero_ratio": 0.79
+    },
+    {
+      "model": "llama4",
+      "label": "Llama 4",
+      "zero_phys_ai_cost": 57.04,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 273.97,
+      "nonzero_ratio": 1.29
+    },
+    {
+      "model": "medgemma-27b",
+      "label": "MedGemma 27B",
+      "zero_phys_ai_cost": 128.96,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 297.0,
+      "nonzero_ratio": 1.4
+    },
+    {
+      "model": "medgemma-4b",
+      "label": "MedGemma 4B",
+      "zero_phys_ai_cost": 99.14,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 226.23,
+      "nonzero_ratio": 1.06
+    },
+    {
+      "model": "meditron",
+      "label": "Meditron",
+      "zero_phys_ai_cost": 131.91,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 249.21,
+      "nonzero_ratio": 1.17
+    },
+    {
+      "model": "openevidence",
+      "label": "OpenEvidence",
+      "zero_phys_ai_cost": 134.7,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 274.29,
+      "nonzero_ratio": 1.29
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "label": "Qwen 2.5",
+      "zero_phys_ai_cost": 130.12,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 252.33,
+      "nonzero_ratio": 1.19
+    },
+    {
+      "model": "qwen-3.7",
+      "label": "Qwen 3.7",
+      "zero_phys_ai_cost": 96.75,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 270.98,
+      "nonzero_ratio": 1.27
+    },
+    {
+      "model": "qwen3",
+      "label": "Qwen 3",
+      "zero_phys_ai_cost": 212.15,
+      "nonzero_phys_phys_cost": 212.86,
+      "nonzero_phys_ai_cost": 439.95,
+      "nonzero_ratio": 2.07
+    }
+  ],
+  "projections": {
+    "5_pct": {
+      "min_billions": 5.6,
+      "min_model": "Grok 4.3",
+      "max_billions": 14.5,
+      "max_model": "GPT-5.5",
+      "per_model": [
+        [
+          "Grok 4.3",
+          5.631438024553296
+        ],
+        [
+          "Gemini 3.1 Pro",
+          5.830864452085804
+        ],
+        [
+          "Qwen 3.7",
+          6.860546509398497
+        ],
+        [
+          "DeepSeek R1",
+          12.225980444576736
+        ],
+        [
+          "Claude Opus 4.8",
+          13.228881406157672
+        ],
+        [
+          "GPT-5.5",
+          14.542656693188636
+        ]
+      ]
+    },
+    "10_pct": {
+      "min_billions": 11.3,
+      "min_model": "Grok 4.3",
+      "max_billions": 29.1,
+      "max_model": "GPT-5.5",
+      "per_model": [
+        [
+          "Grok 4.3",
+          11.262876049106591
+        ],
+        [
+          "Gemini 3.1 Pro",
+          11.661728904171609
+        ],
+        [
+          "Qwen 3.7",
+          13.721093018796994
+        ],
+        [
+          "DeepSeek R1",
+          24.451960889153472
+        ],
+        [
+          "Claude Opus 4.8",
+          26.457762812315345
+        ],
+        [
+          "GPT-5.5",
+          29.085313386377273
+        ]
+      ]
+    },
+    "25_pct": {
+      "min_billions": 28.2,
+      "min_model": "Grok 4.3",
+      "max_billions": 72.7,
+      "max_model": "GPT-5.5",
+      "per_model": [
+        [
+          "Grok 4.3",
+          28.157190122766472
+        ],
+        [
+          "Gemini 3.1 Pro",
+          29.154322260429016
+        ],
+        [
+          "Qwen 3.7",
+          34.30273254699248
+        ],
+        [
+          "DeepSeek R1",
+          61.12990222288367
+        ],
+        [
+          "Claude Opus 4.8",
+          66.14440703078836
+        ],
+        [
+          "GPT-5.5",
+          72.71328346594318
+        ]
+      ]
+    }
+  },
+  "exemplars": {
+    "MTS_0100_gpt-5.2": {
+      "stored_cost": 816.8,
+      "median_slot_total": 816.8,
+      "n_tests_median_slot": 16,
+      "stress_echo_cost": 270.21,
+      "xray_cost": 309.97,
+      "dexa_cost": 39.41,
+      "lab_cost": 197.21,
+      "n_labs": 11,
+      "phys_dx_cost": 383.28
+    },
+    "MTS_0100_phys_crp": {
+      "cost": 5.18,
+      "cpt": "86140"
+    },
+    "MTS_0334_gpt-5.2": {
+      "stored_cost": 417.2,
+      "median_slot_total": 417.2,
+      "n_tests_median_slot": 14,
+      "stress_echo_cost": 270.21,
+      "xray_cost": 0,
+      "dexa_cost": 0,
+      "lab_cost": 146.99,
+      "n_labs": 12,
+      "phys_dx_cost": 0
+    }
+  },
+  "appropriateness": {
+    "per_model": [
+      {
+        "model": "GPT-5.2",
+        "n": 200,
+        "score_pct_1": 4.5,
+        "score_pct_2": 18.0,
+        "score_pct_3": 55.0,
+        "score_pct_4": 22.5,
+        "pct_inappropriate": 22.5,
+        "pct_guideline_concordant": 22.5,
+        "unadj_per_visit": 114.16,
+        "strict_per_visit": 27.05,
+        "lenient_per_visit": 79.02,
+        "pct_retained_strict": 23.7,
+        "pct_retained_lenient": 69.2
+      },
+      {
+        "model": "Claude 4.5",
+        "n": 200,
+        "score_pct_1": 4.5,
+        "score_pct_2": 11.0,
+        "score_pct_3": 61.5,
+        "score_pct_4": 23.0,
+        "pct_inappropriate": 15.5,
+        "pct_guideline_concordant": 23.0,
+        "unadj_per_visit": 72.06,
+        "strict_per_visit": 11.83,
+        "lenient_per_visit": 48.71,
+        "pct_retained_strict": 16.4,
+        "pct_retained_lenient": 67.6
+      },
+      {
+        "model": "Gemini 3 Pro",
+        "n": 200,
+        "score_pct_1": 3.0,
+        "score_pct_2": 12.0,
+        "score_pct_3": 68.5,
+        "score_pct_4": 16.5,
+        "pct_inappropriate": 15.0,
+        "pct_guideline_concordant": 16.5,
+        "unadj_per_visit": 61.54,
+        "strict_per_visit": 3.63,
+        "lenient_per_visit": 52.84,
+        "pct_retained_strict": 5.9,
+        "pct_retained_lenient": 85.9
+      },
+      {
+        "model": "Grok 4.1",
+        "n": 200,
+        "score_pct_1": 4.5,
+        "score_pct_2": 24.0,
+        "score_pct_3": 59.0,
+        "score_pct_4": 12.5,
+        "pct_inappropriate": 28.5,
+        "pct_guideline_concordant": 12.5,
+        "unadj_per_visit": 56.88,
+        "strict_per_visit": 26.12,
+        "lenient_per_visit": 43.47,
+        "pct_retained_strict": 45.9,
+        "pct_retained_lenient": 76.4
+      },
+      {
+        "model": "OpenEvidence",
+        "n": 200,
+        "score_pct_1": 9.5,
+        "score_pct_2": 21.0,
+        "score_pct_3": 52.0,
+        "score_pct_4": 17.5,
+        "pct_inappropriate": 30.5,
+        "pct_guideline_concordant": 17.5,
+        "unadj_per_visit": 59.95,
+        "strict_per_visit": 21.06,
+        "lenient_per_visit": 60.1,
+        "pct_retained_strict": 35.1,
+        "pct_retained_lenient": 100.2
+      }
+    ],
+    "aggregate": {
+      "n_models": 5,
+      "n_cases_per_model": 200,
+      "mean_pct_1": 5.2,
+      "mean_pct_2": 17.2,
+      "mean_pct_3": 59.2,
+      "mean_pct_4": 18.4,
+      "mean_pct_inappropriate": 22.4,
+      "mean_pct_guideline_concordant": 18.4,
+      "mean_unadj": 72.92,
+      "mean_strict": 17.94,
+      "mean_lenient": 56.83,
+      "pct_retained_strict": 24.6,
+      "pct_retained_lenient": 77.9,
+      "inappropriate_min": 15.0,
+      "inappropriate_max": 30.5,
+      "concordant_min": 12.5,
+      "concordant_max": 23.0
+    }
+  },
+  "fig1_exemplar": {
+    "case_id": "MTS_0481",
+    "model": "grok-4.3",
+    "specialty": "Emergency Room Reports",
+    "presentation": "CHIEF COMPLAINT: , Increased work of breathing.,HISTORY OF PRESENT ILLNESS: , The patient is a 2-month-old female with a 9-day history of illness.  Per mom's report, the illness started 9 days ago with a dry cough.  The patient was eating normal up until approximately three days ago.  Mom was using a vaporizer at night, which she feels to have helped.  The patient's cough gradually worsened and three days ago, the patient had a significant increasing cough.  At that time, the patient also had significant increasing congestion.  Two days ago the patient was taken to the primary care physician's office and the patient was given Xopenex 2 puffs every 4 to 6 hours for home regimen, but this per mom's report, did not help the patient's symptoms.  On Wednesday evening, the patient's congestion and work of breathing increased and the patient was gagging after feedings.  The patient was brought to Children's Hospital Emergency Room at which time the patient was evaluated.  A chest x-ray was obtained and was noted to be normal.  The patient's saturations were noted to be normal and the patient was discharged home.  Last night, the patient was having multiple episodes of emesis after feedings with coughing and today was noted to have decreasing activity.  The patient had a 101 temperature on Wednesday evening, but has had no true fevers.  The patient has had a mild decrease in urine output today and secondary to the persistent increased work of breathing, coughing, and posttussive emesis, the patient was brought to Children's Hospital for reevaluation.,REVIEW OF SYSTEMS: , The remainder of the review of system is otherwise negative, all systems being reviewed, outside of pertinent positives as stated above.,ALLERGIES:,  NO KNOWN DRUG ALLERGIES.,MEDICATIONS:  ,As above.,IMMUNIZATIONS:,  None.,PAST MEDICAL HISTORY:  ,No hospitalizations.  No surgeries.,BIRTH HISTORY: , The patient was born to a G8, P2, A6 mom via normal spontaneous vaginal delivery.  Birth weight 6 pounds 12 ounces.  Mom stated she had a uterine infection during her pregnancy and at the time of delivery, but the patient was only in the hospital for 24 hours with mom after delivery.  The patient was full term and mom was noted to have gestational diabetes controlled with diet during her pregnancy.,FAMILY HISTORY: , Brother, mother, and father all have asthma.  Mom was noted to have gestational diabetes.,SOCIAL HISTORY: , The patient lives with mother, father, and a brother.  There is one bird.  There are smokers in the household.  There are sick contacts.,PHYSICAL EXAMINATION:,VITAL SIGNS:  Temperature is 97.7 and pulse is 181, but the patient is fussy.  Respiratory rate ranged between 36 and 44.  The patient is saturating 100% on one-half liter and 89% on room air.,GENERAL APPEARANCE:  Nontoxic child, but with increased work of breathing.  No respiratory distress.,HEENT:  Head is normocephalic and atraumatic.  Anterior fontanelle flat.  Pupils are equal, round, and reactive to light bilaterally.  Tympanic membranes are clear bilaterally.  Nares are congested.  Mucous membranes are moist without erythema.,NECK:  Supple.  No lymphadenopathy.,CHEST:  Exhibits symmetric expansion and retractions.,LUNGS:  The patient has diffuse crackles bilaterally, but no wheezes, rales, or rhonchi.,CARDIOVASCULAR:  Heart has a 2/6 vibratory systolic ejection murmur, best heard over the left sternal boarder.,ABDOMEN:  Soft, nondistended, and nondistended.  Good bowel sounds noted in all 4 quadrants.,GU:  Normal female.  No discharge or erythema.,BACK:  Normal with a normal curvature.,EXTREMITIES:  A 2+ pulses in the bilateral upper lower extremities.  No evidence of clubbing, cyanosis, or edema.  Capillary refill less than 3 seconds.,LABORATORY DATA: , Labs in the emergency room include a CBC, which showed a white blood cell count of 20.8 with a hemoglobin of 10.7, hematocrit of 31.3 with platelet count of 715,000 with 40% neutrophils, 2 bands, and 70% monocytes.  A urinalysis obtained in the emergency room was noted to be negative.  CRP was noted to be 2.0.  The chest x-ray, reviewed by myself in the emergency room, showed no significant change from previous x-ray, but the patient does has some bronchial wall thickening.,",
+    "physician": {
+      "dx_cost": 0,
+      "dx_test_cost": 0,
+      "dx_summary": "A 2-month-old female presents with bronchiolitis and is being managed with aggressive suctioning and supplemental oxygen as needed, without respiratory treatments at this time.",
+      "n_tests": 0,
+      "orders": [],
+      "category_totals": {}
+    },
+    "arms": {
+      "standard": {
+        "dx_cost": 453.73,
+        "dx_test_cost": 453.73,
+        "dx_summary": "A 2-month-old infant presents with hypoxic respiratory distress due to viral bronchiolitis, likely RSV or another winter virus, with a possible mild reactive airway component and an incidental physiologic flow murmur requiring follow-up.",
+        "n_tests": 6,
+        "orders": [
+          {
+            "name": "Continuous cardiorespiratory monitoring",
+            "category": "monitoring",
+            "price": 0.0
+          },
+          {
+            "name": "Nasopharyngeal viral respiratory panel (RSV, influenza, etc.)",
+            "category": "labs",
+            "price": 257.0
+          },
+          {
+            "name": "Strict I/O",
+            "category": "monitoring",
+            "price": 0.0
+          },
+          {
+            "name": "Daily weights",
+            "category": "monitoring",
+            "price": 0.0
+          },
+          {
+            "name": "Echocardiogram",
+            "category": "imaging",
+            "price": 196.73
+          },
+          {
+            "name": "Daily pediatric team rounds",
+            "category": "exam",
+            "price": 0.0
+          }
+        ],
+        "category_totals": {
+          "monitoring": 0.0,
+          "labs": 257.0,
+          "imaging": 196.73,
+          "exam": 0.0
+        }
+      },
+      "costaware": {
+        "dx_cost": 357.22,
+        "dx_test_cost": 292.09,
+        "dx_summary": "A 2-month-old infant presents with progressive cough, hypoxia, and respiratory distress consistent with viral bronchiolitis, with pertussis remaining a differential diagnosis.",
+        "n_tests": 5,
+        "orders": [
+          {
+            "name": "Nasopharyngeal viral PCR panel (RSV, influenza, other respiratory viruses)",
+            "category": "labs",
+            "price": 257.0
+          },
+          {
+            "name": "Pertussis PCR from nasopharyngeal swab",
+            "category": "labs",
+            "price": 35.09
+          },
+          {
+            "name": "Supplemental oxygen via nasal cannula to maintain SpO2 \u226592%",
+            "category": "monitoring",
+            "price": 0.0
+          },
+          {
+            "name": "Continuous cardiorespiratory monitoring",
+            "category": "monitoring",
+            "price": 0.0
+          },
+          {
+            "name": "Nasal suctioning every 2-4 hours and as needed",
+            "category": "procedure",
+            "price": 65.13
+          }
+        ],
+        "category_totals": {
+          "labs": 292.09,
+          "monitoring": 0.0,
+          "procedure": 65.13
+        }
+      },
+      "parsimonious": {
+        "dx_cost": 106.9,
+        "dx_test_cost": 35.09,
+        "dx_summary": "A 2-month-old infant presents with viral bronchiolitis likely due to RSV, complicated by symptoms suggestive of pertussis and chlamydial pneumonia, requiring hospitalization and targeted antibiotic therapy.",
+        "n_tests": 2,
+        "orders": [
+          {
+            "name": "Admit to pediatrics ward for continuous pulse-oximetry and supplemental oxygen titrated to SpO2 >92%",
+            "category": "monitoring",
+            "price": 71.81
+          },
+          {
+            "name": "Obtain nasopharyngeal pertussis PCR",
+            "category": "labs",
+            "price": 35.09
+          }
+        ],
+        "category_totals": {
+          "monitoring": 71.81,
+          "labs": 35.09
+        }
+      }
+    }
+  }
+}

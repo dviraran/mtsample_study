@@ -1,0 +1,14 @@
+\begin{table}[h!]
+\centering
+\small
+\caption{\textbf{Sensitivity Analysis: Robustness to Temporally Outdated Physician Plans.} Mean diagnostic-cost ratio, medication ratio, and referral ratio across the 20 general-purpose LLMs of the unified panel, recomputed on two case sets. The primary cohort excludes 20 cases whose physician plans were significantly or substantially outdated (guideline-currency score 4--5; e.g., pre-DOAC anticoagulation, pre-GLP-1 obesity management). The current-plan subset further restricts to cases that \emph{both} independent LLM guideline-currency reviewers (Claude and Grok) rated fully or mostly current (score 1--2); this is the two-LLM currency review, distinct from the physician appropriateness review. Restricting to current physician plans leaves the diagnostic-cost gap essentially unchanged (indeed marginally larger), arguing against a purely temporal explanation for the AI--physician differential. The medication ratio is higher on the current-plan subset because the excluded temporally-outdated cases are disproportionately physician medication decisions (e.g., anticoagulation, obesity pharmacotherapy, opioid analgesia), lowering the physician medication baseline in this subset (0.60 to 0.32 per visit) while AI medication counts are largely unchanged; the rise is therefore a denominator effect, not more AI prescribing. The re-run unified panel covers only the 200-case cohort, so the original all-220 row (which required the excluded cases) is not reproduced here.}
+\label{tab:guideline_sensitivity}
+\begin{tabular}{l c c c c}
+\toprule
+\textbf{Subset} & \textbf{N} & \textbf{Dx Cost Ratio} & \textbf{Medication Ratio} & \textbf{Referral Ratio} \\
+\midrule
+Primary cohort (outdated cases excluded) & 200 & 2.5$\times$ & 1.9$\times$ & 5.6$\times$ \\
+\rowcolor{gray!8} Current plans only (both LLM currency reviewers score 1--2) & 114 & 2.8$\times$ & 3.2$\times$ & 5.2$\times$ \\
+\bottomrule
+\end{tabular}
+\end{table}

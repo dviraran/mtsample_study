@@ -1,0 +1,267 @@
+{
+  "full_200_cohort": {
+    "n": 200,
+    "counts": {
+      "clearly_unnecessary": 11,
+      "debatable_defensive": 24,
+      "reasonable_given_context": 38,
+      "guideline_concordant": 127
+    },
+    "pct": {
+      "clearly_unnecessary": 5.5,
+      "debatable_defensive": 12.0,
+      "reasonable_given_context": 19.0,
+      "guideline_concordant": 63.5
+    },
+    "inappropriate_pct": 17.5,
+    "defensible_pct": 82.5
+  },
+  "random_only_batch2_3": {
+    "n": 162,
+    "counts": {
+      "clearly_unnecessary": 3,
+      "debatable_defensive": 13,
+      "reasonable_given_context": 31,
+      "guideline_concordant": 115
+    },
+    "pct": {
+      "clearly_unnecessary": 1.85,
+      "debatable_defensive": 8.02,
+      "reasonable_given_context": 19.14,
+      "guideline_concordant": 70.99
+    },
+    "inappropriate_pct": 9.88,
+    "defensible_pct": 90.12
+  },
+  "paper_published_97": {
+    "n": 97,
+    "counts": {
+      "clearly_unnecessary": 8,
+      "debatable_defensive": 19,
+      "reasonable_given_context": 23,
+      "guideline_concordant": 47
+    },
+    "pct": {
+      "clearly_unnecessary": 8.25,
+      "debatable_defensive": 19.59,
+      "reasonable_given_context": 23.71,
+      "guideline_concordant": 48.45
+    },
+    "inappropriate_pct": 27.84,
+    "defensible_pct": 72.16
+  },
+  "batch3_only": {
+    "n": 103,
+    "counts": {
+      "clearly_unnecessary": 3,
+      "debatable_defensive": 5,
+      "reasonable_given_context": 15,
+      "guideline_concordant": 80
+    },
+    "pct": {
+      "clearly_unnecessary": 2.91,
+      "debatable_defensive": 4.85,
+      "reasonable_given_context": 14.56,
+      "guideline_concordant": 77.67
+    },
+    "inappropriate_pct": 7.77,
+    "defensible_pct": 92.23
+  },
+  "physician_zero_diag": {
+    "n": 137,
+    "counts": {
+      "clearly_unnecessary": 9,
+      "debatable_defensive": 15,
+      "reasonable_given_context": 25,
+      "guideline_concordant": 88
+    },
+    "pct": {
+      "clearly_unnecessary": 6.57,
+      "debatable_defensive": 10.95,
+      "reasonable_given_context": 18.25,
+      "guideline_concordant": 64.23
+    },
+    "inappropriate_pct": 17.52,
+    "defensible_pct": 82.48
+  },
+  "physician_nonzero_diag": {
+    "n": 63,
+    "counts": {
+      "clearly_unnecessary": 2,
+      "debatable_defensive": 9,
+      "reasonable_given_context": 13,
+      "guideline_concordant": 39
+    },
+    "pct": {
+      "clearly_unnecessary": 3.17,
+      "debatable_defensive": 14.29,
+      "reasonable_given_context": 20.63,
+      "guideline_concordant": 61.9
+    },
+    "inappropriate_pct": 17.46,
+    "defensible_pct": 82.54
+  },
+  "by_cci_tier": {
+    "high": {
+      "n": 87,
+      "counts": {
+        "clearly_unnecessary": 5,
+        "debatable_defensive": 14,
+        "reasonable_given_context": 17,
+        "guideline_concordant": 51
+      },
+      "pct": {
+        "clearly_unnecessary": 5.75,
+        "debatable_defensive": 16.09,
+        "reasonable_given_context": 19.54,
+        "guideline_concordant": 58.62
+      },
+      "inappropriate_pct": 21.84,
+      "defensible_pct": 78.16
+    },
+    "moderate": {
+      "n": 62,
+      "counts": {
+        "clearly_unnecessary": 2,
+        "debatable_defensive": 6,
+        "reasonable_given_context": 10,
+        "guideline_concordant": 44
+      },
+      "pct": {
+        "clearly_unnecessary": 3.23,
+        "debatable_defensive": 9.68,
+        "reasonable_given_context": 16.13,
+        "guideline_concordant": 70.97
+      },
+      "inappropriate_pct": 12.9,
+      "defensible_pct": 87.1
+    },
+    "low": {
+      "n": 48,
+      "counts": {
+        "clearly_unnecessary": 4,
+        "debatable_defensive": 4,
+        "reasonable_given_context": 10,
+        "guideline_concordant": 30
+      },
+      "pct": {
+        "clearly_unnecessary": 8.33,
+        "debatable_defensive": 8.33,
+        "reasonable_given_context": 20.83,
+        "guideline_concordant": 62.5
+      },
+      "inappropriate_pct": 16.67,
+      "defensible_pct": 83.33
+    }
+  },
+  "by_specialty": {
+    "Consult - History and Phy.": {
+      "n": 70,
+      "counts": {
+        "clearly_unnecessary": 6,
+        "debatable_defensive": 8,
+        "reasonable_given_context": 11,
+        "guideline_concordant": 45
+      },
+      "pct": {
+        "clearly_unnecessary": 8.57,
+        "debatable_defensive": 11.43,
+        "reasonable_given_context": 15.71,
+        "guideline_concordant": 64.29
+      },
+      "inappropriate_pct": 20.0,
+      "defensible_pct": 80.0
+    },
+    "Emergency Room Reports": {
+      "n": 12,
+      "counts": {
+        "clearly_unnecessary": 0,
+        "debatable_defensive": 2,
+        "reasonable_given_context": 4,
+        "guideline_concordant": 6
+      },
+      "pct": {
+        "clearly_unnecessary": 0.0,
+        "debatable_defensive": 16.67,
+        "reasonable_given_context": 33.33,
+        "guideline_concordant": 50.0
+      },
+      "inappropriate_pct": 16.67,
+      "defensible_pct": 83.33
+    },
+    "General Medicine": {
+      "n": 43,
+      "counts": {
+        "clearly_unnecessary": 0,
+        "debatable_defensive": 4,
+        "reasonable_given_context": 11,
+        "guideline_concordant": 28
+      },
+      "pct": {
+        "clearly_unnecessary": 0.0,
+        "debatable_defensive": 9.3,
+        "reasonable_given_context": 25.58,
+        "guideline_concordant": 65.12
+      },
+      "inappropriate_pct": 9.3,
+      "defensible_pct": 90.7
+    },
+    "SOAP / Chart / Progress Notes": {
+      "n": 75,
+      "counts": {
+        "clearly_unnecessary": 5,
+        "debatable_defensive": 10,
+        "reasonable_given_context": 12,
+        "guideline_concordant": 48
+      },
+      "pct": {
+        "clearly_unnecessary": 6.67,
+        "debatable_defensive": 13.33,
+        "reasonable_given_context": 16.0,
+        "guideline_concordant": 64.0
+      },
+      "inappropriate_pct": 20.0,
+      "defensible_pct": 80.0
+    }
+  },
+  "excess_by_bucket": {
+    "clearly_unnecessary": {
+      "n": 11,
+      "mean_excess": 38.79,
+      "median_excess": 16.45,
+      "mean_ai_cost": 140.23,
+      "mean_physician_cost": 101.44
+    },
+    "debatable_defensive": {
+      "n": 24,
+      "mean_excess": 85.15,
+      "median_excess": 77.61,
+      "mean_ai_cost": 152.26,
+      "mean_physician_cost": 67.11
+    },
+    "reasonable_given_context": {
+      "n": 38,
+      "mean_excess": 71.62,
+      "median_excess": 49.24,
+      "mean_ai_cost": 127.09,
+      "mean_physician_cost": 55.47
+    },
+    "guideline_concordant": {
+      "n": 127,
+      "mean_excess": 88.89,
+      "median_excess": 47.36,
+      "mean_ai_cost": 157.89,
+      "mean_physician_cost": 69.0
+    }
+  },
+  "batch_totals": {
+    "batch1_stratified": 41,
+    "batch2_random": 59,
+    "batch3_random": 103,
+    "excluded_by_guideline_screen": [
+      "MTS_0013",
+      "MTS_0380",
+      "MTS_0971"
+    ]
+  }
+}

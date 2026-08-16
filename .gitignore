@@ -1,0 +1,25 @@
+# Large upstream data not redistributed here
+data/nadac.csv
+
+# Generated artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*

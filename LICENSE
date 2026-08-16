@@ -1,0 +1,55 @@
+This repository is released under a dual license.
+
+--------------------------------------------------------------------------
+1. CODE (files under `scripts/`, `figures/`, `simulations/`, and all `.py`
+   source files)
+
+   MIT License
+
+   Copyright (c) 2026 Dvir Aran and co-authors
+
+   Permission is hereby granted, free of charge, to any person obtaining a
+   copy of this software and associated documentation files (the
+   "Software"), to deal in the Software without restriction, including
+   without limitation the rights to use, copy, modify, merge, publish,
+   distribute, sublicense, and/or sell copies of the Software, and to
+   permit persons to whom the Software is furnished to do so, subject to
+   the following conditions:
+
+   The above copyright notice and this permission notice shall be included
+   in all copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+   IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+   CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+   TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+   SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+--------------------------------------------------------------------------
+2. DATA (files under `results/` and `data/`, excluding `data/mtsamples.csv`
+   and `data/nadac.csv`, which carry their own upstream terms)
+
+   Creative Commons Attribution 4.0 International (CC-BY-4.0)
+   https://creativecommons.org/licenses/by/4.0/
+
+   You are free to share and adapt the data for any purpose, including
+   commercially, provided you give appropriate credit by citing:
+
+     Aran D, Goldhaber-Fiebert JD, Many I, Nguyen A, Yang D, Shelly S.
+     Comparative Cost of Care Recommended by Clinicians vs. Large Language
+     Models. NEJM AI. 2026.
+
+--------------------------------------------------------------------------
+3. UPSTREAM DATA CARRIED FOR CONVENIENCE
+
+   - `data/mtsamples.csv` is a snapshot of the MTSamples transcription
+     corpus, publicly available at https://mtsamples.com under that
+     site's posted terms.
+   - `data/nadac.csv` (not redistributed here; referenced from its CMS
+     origin) is U.S. Centers for Medicare & Medicaid Services
+     public-domain data.
+
+   Both are included or referenced under their original terms, not under
+   the CC-BY-4.0 grant above.

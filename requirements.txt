@@ -1,0 +1,12 @@
+# Analysis and figure generation
+numpy
+pandas
+matplotlib
+scipy
+adjustText
+openpyxl
+
+# Model querying and order extraction (only needed to re-run the pipeline;
+# not required to reproduce numbers or figures from the archived JSON)
+requests
+python-dotenv

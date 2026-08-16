@@ -1,0 +1,196 @@
+{
+  "extractor_agreement": {
+    "medication": {
+      "a_vs_b": {
+        "ccc": 0.508922829832624,
+        "pearson_r": 0.6712306212129775,
+        "mean_x": 189.48905565978737,
+        "mean_y": 67.88346883468834
+      },
+      "a_vs_c": {
+        "ccc": 0.6137068068810971,
+        "pearson_r": 0.6396946393399746,
+        "mean_x": 189.48905565978737,
+        "mean_y": 129.9763393787784
+      },
+      "b_vs_c": {
+        "ccc": 0.7060276173408501,
+        "pearson_r": 0.7921335019956462,
+        "mean_x": 67.88346883468834,
+        "mean_y": 129.9763393787784
+      }
+    },
+    "diagnostic": {
+      "a_vs_b": {
+        "ccc": 0.759532750985064,
+        "pearson_r": 0.7694527191132319,
+        "mean_x": 165.84032728788827,
+        "mean_y": 197.73957890348134
+      },
+      "a_vs_c": {
+        "ccc": 0.7195362413079601,
+        "pearson_r": 0.7328515361245688,
+        "mean_x": 165.84032728788827,
+        "mean_y": 198.93440900562854
+      },
+      "b_vs_c": {
+        "ccc": 0.828435236011785,
+        "pearson_r": 0.8289406005341685,
+        "mean_x": 197.73957890348134,
+        "mean_y": 198.93440900562854
+      }
+    }
+  },
+  "medication_mean_per_plan_by_extractor": {
+    "a": 189.48905565978737,
+    "b": 67.88346883468834,
+    "c": 129.9763393787784
+  },
+  "concentration": {
+    "n_distinct_medication_strings": 3131,
+    "top_n": 12,
+    "top_n_share_of_cost": 0.5251246019340554,
+    "top": [
+      {
+        "drug": "ruxolitinib",
+        "n_orders": 4,
+        "total_cost": 44000.0,
+        "share": 0.13511978061461075,
+        "price_min": 8000.0,
+        "price_median": 12000.0,
+        "price_max": 12000.0
+      },
+      {
+        "drug": "rasburicase",
+        "n_orders": 3,
+        "total_cost": 21000.0,
+        "share": 0.06448898620242785,
+        "price_min": 5000.0,
+        "price_median": 8000.0,
+        "price_max": 8000.0
+      },
+      {
+        "drug": "pegfilgrastim",
+        "n_orders": 3,
+        "total_cost": 16000.0,
+        "share": 0.04913446567804027,
+        "price_min": 5000.0,
+        "price_median": 5000.0,
+        "price_max": 6000.0
+      },
+      {
+        "drug": "ruxolitinib 10 mg twice daily",
+        "n_orders": 1,
+        "total_cost": 12000.0,
+        "share": 0.0368508492585302,
+        "price_min": 12000.0,
+        "price_median": 12000.0,
+        "price_max": 12000.0
+      },
+      {
+        "drug": "ruxolitinib 15 mg po bid",
+        "n_orders": 1,
+        "total_cost": 12000.0,
+        "share": 0.0368508492585302,
+        "price_min": 12000.0,
+        "price_median": 12000.0,
+        "price_max": 12000.0
+      },
+      {
+        "drug": "ruxolitinib 20 mg po twice daily",
+        "n_orders": 1,
+        "total_cost": 12000.0,
+        "share": 0.0368508492585302,
+        "price_min": 12000.0,
+        "price_median": 12000.0,
+        "price_max": 12000.0
+      },
+      {
+        "drug": "ruxolitinib 10 mg bid",
+        "n_orders": 1,
+        "total_cost": 12000.0,
+        "share": 0.0368508492585302,
+        "price_min": 12000.0,
+        "price_median": 12000.0,
+        "price_max": 12000.0
+      },
+      {
+        "drug": "pegfilgrastim or filgrastim",
+        "n_orders": 2,
+        "total_cost": 10000.0,
+        "share": 0.03070904104877517,
+        "price_min": 5000.0,
+        "price_median": 5000.0,
+        "price_max": 5000.0
+      },
+      {
+        "drug": "ruxolitinib 20 mg bid",
+        "n_orders": 1,
+        "total_cost": 8000.0,
+        "share": 0.024567232839020136,
+        "price_min": 8000.0,
+        "price_median": 8000.0,
+        "price_max": 8000.0
+      },
+      {
+        "drug": "ruxolitinib 10mg bid",
+        "n_orders": 1,
+        "total_cost": 8000.0,
+        "share": 0.024567232839020136,
+        "price_min": 8000.0,
+        "price_median": 8000.0,
+        "price_max": 8000.0
+      },
+      {
+        "drug": "lokelma",
+        "n_orders": 1,
+        "total_cost": 8000.0,
+        "share": 0.024567232839020136,
+        "price_min": 8000.0,
+        "price_median": 8000.0,
+        "price_max": 8000.0
+      },
+      {
+        "drug": "ruxolitinib 10 mg po bid",
+        "n_orders": 1,
+        "total_cost": 8000.0,
+        "share": 0.024567232839020136,
+        "price_min": 8000.0,
+        "price_median": 8000.0,
+        "price_max": 8000.0
+      }
+    ]
+  },
+  "influence": {
+    "all_cases": {
+      "mean": 42.3866842105263,
+      "ci": [
+        -31.900862500000013,
+        131.47642796052625
+      ]
+    },
+    "top_case_share_of_absolute_difference": 0.2124077025892086,
+    "most_influential_case": "MTS_0041",
+    "drop_1": {
+      "mean": 13.308727849775185,
+      "ci": [
+        -46.90253537423963,
+        85.0638832319492
+      ]
+    },
+    "drop_3": {
+      "mean": -26.024432273577343,
+      "ci": [
+        -62.65321232968207,
+        0.1783161902217466
+      ]
+    },
+    "drop_5": {
+      "mean": -5.11468286099865,
+      "ci": [
+        -16.70481747638327,
+        7.524624493927107
+      ]
+    }
+  }
+}

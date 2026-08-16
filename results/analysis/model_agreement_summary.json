@@ -1,0 +1,458 @@
+{
+  "claude-sonnet-3.5": {
+    "label": "Claude 3.5",
+    "concordance_overall": 76.1,
+    "concordance_high": 95.6,
+    "concordance_moderate": 66.0,
+    "concordance_low": 22.6,
+    "n_concordant": 150,
+    "n_adjacent": 38,
+    "n_discordant": 9,
+    "n_total": 197,
+    "pct_concordant": 76.1,
+    "pct_adjacent": 19.3,
+    "pct_discordant": 4.6,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 31
+    }
+  },
+  "claude-sonnet-4.5": {
+    "label": "Claude 4.5",
+    "concordance_overall": 78.3,
+    "concordance_high": 98.2,
+    "concordance_moderate": 75.5,
+    "concordance_low": 12.5,
+    "n_concordant": 155,
+    "n_adjacent": 31,
+    "n_discordant": 12,
+    "n_total": 198,
+    "pct_concordant": 78.3,
+    "pct_adjacent": 15.7,
+    "pct_discordant": 6.1,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 32
+    }
+  },
+  "claude-opus-4.8": {
+    "label": "Claude Opus 4.8",
+    "concordance_overall": 82.8,
+    "concordance_high": 96.5,
+    "concordance_moderate": 83.0,
+    "concordance_low": 34.4,
+    "n_concordant": 164,
+    "n_adjacent": 25,
+    "n_discordant": 9,
+    "n_total": 198,
+    "pct_concordant": 82.8,
+    "pct_adjacent": 12.6,
+    "pct_discordant": 4.5,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 32
+    }
+  },
+  "deepseek-r1": {
+    "label": "DeepSeek R1",
+    "concordance_overall": 77.2,
+    "concordance_high": 97.3,
+    "concordance_moderate": 69.8,
+    "concordance_low": 16.1,
+    "n_concordant": 152,
+    "n_adjacent": 32,
+    "n_discordant": 13,
+    "n_total": 197,
+    "pct_concordant": 77.2,
+    "pct_adjacent": 16.2,
+    "pct_discordant": 6.6,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 31
+    }
+  },
+  "deepseek-v3.2": {
+    "label": "DeepSeek V3",
+    "concordance_overall": 75.3,
+    "concordance_high": 96.5,
+    "concordance_moderate": 58.5,
+    "concordance_low": 28.1,
+    "n_concordant": 149,
+    "n_adjacent": 36,
+    "n_discordant": 13,
+    "n_total": 198,
+    "pct_concordant": 75.3,
+    "pct_adjacent": 18.2,
+    "pct_discordant": 6.6,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 32
+    }
+  },
+  "gpt-4.1": {
+    "label": "GPT-4.1",
+    "concordance_overall": 82.1,
+    "concordance_high": 100.0,
+    "concordance_moderate": 79.2,
+    "concordance_low": 25.0,
+    "n_concordant": 161,
+    "n_adjacent": 23,
+    "n_discordant": 12,
+    "n_total": 196,
+    "pct_concordant": 82.1,
+    "pct_adjacent": 11.7,
+    "pct_discordant": 6.1,
+    "n_per_tier": {
+      "high": 111,
+      "moderate": 53,
+      "low": 32
+    }
+  },
+  "gpt-5.2": {
+    "label": "GPT-5.2",
+    "concordance_overall": 84.3,
+    "concordance_high": 100.0,
+    "concordance_moderate": 83.0,
+    "concordance_low": 31.2,
+    "n_concordant": 167,
+    "n_adjacent": 21,
+    "n_discordant": 10,
+    "n_total": 198,
+    "pct_concordant": 84.3,
+    "pct_adjacent": 10.6,
+    "pct_discordant": 5.1,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 32
+    }
+  },
+  "gpt-5.5": {
+    "label": "GPT-5.5",
+    "concordance_overall": 88.4,
+    "concordance_high": 100.0,
+    "concordance_moderate": 84.9,
+    "concordance_low": 53.1,
+    "n_concordant": 175,
+    "n_adjacent": 13,
+    "n_discordant": 10,
+    "n_total": 198,
+    "pct_concordant": 88.4,
+    "pct_adjacent": 6.6,
+    "pct_discordant": 5.1,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 32
+    }
+  },
+  "gemini-2.5-pro": {
+    "label": "Gemini 2.5 Pro",
+    "concordance_overall": 75.1,
+    "concordance_high": 93.8,
+    "concordance_moderate": 67.3,
+    "concordance_low": 21.9,
+    "n_concordant": 148,
+    "n_adjacent": 36,
+    "n_discordant": 13,
+    "n_total": 197,
+    "pct_concordant": 75.1,
+    "pct_adjacent": 18.3,
+    "pct_discordant": 6.6,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 52,
+      "low": 32
+    }
+  },
+  "gemini-3-pro": {
+    "label": "Gemini 3 Pro",
+    "concordance_overall": 80.3,
+    "concordance_high": 98.2,
+    "concordance_moderate": 71.7,
+    "concordance_low": 31.2,
+    "n_concordant": 159,
+    "n_adjacent": 28,
+    "n_discordant": 11,
+    "n_total": 198,
+    "pct_concordant": 80.3,
+    "pct_adjacent": 14.1,
+    "pct_discordant": 5.6,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 32
+    }
+  },
+  "gemini-3.1-pro": {
+    "label": "Gemini 3.1 Pro",
+    "concordance_overall": 81.8,
+    "concordance_high": 98.2,
+    "concordance_moderate": 77.4,
+    "concordance_low": 31.2,
+    "n_concordant": 162,
+    "n_adjacent": 28,
+    "n_discordant": 8,
+    "n_total": 198,
+    "pct_concordant": 81.8,
+    "pct_adjacent": 14.1,
+    "pct_discordant": 4.0,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 32
+    }
+  },
+  "gemini-3.5-flash": {
+    "label": "Gemini 3.5 Flash",
+    "concordance_overall": 79.8,
+    "concordance_high": 97.3,
+    "concordance_moderate": 79.2,
+    "concordance_low": 18.8,
+    "n_concordant": 158,
+    "n_adjacent": 29,
+    "n_discordant": 11,
+    "n_total": 198,
+    "pct_concordant": 79.8,
+    "pct_adjacent": 14.6,
+    "pct_discordant": 5.6,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 32
+    }
+  },
+  "grok-3": {
+    "label": "Grok 3",
+    "concordance_overall": 78.3,
+    "concordance_high": 99.1,
+    "concordance_moderate": 66.0,
+    "concordance_low": 25.0,
+    "n_concordant": 155,
+    "n_adjacent": 29,
+    "n_discordant": 14,
+    "n_total": 198,
+    "pct_concordant": 78.3,
+    "pct_adjacent": 14.6,
+    "pct_discordant": 7.1,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 32
+    }
+  },
+  "grok-4.1": {
+    "label": "Grok 4.1",
+    "concordance_overall": 75.3,
+    "concordance_high": 95.6,
+    "concordance_moderate": 66.0,
+    "concordance_low": 18.8,
+    "n_concordant": 149,
+    "n_adjacent": 37,
+    "n_discordant": 12,
+    "n_total": 198,
+    "pct_concordant": 75.3,
+    "pct_adjacent": 18.7,
+    "pct_discordant": 6.1,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 32
+    }
+  },
+  "grok-4.3": {
+    "label": "Grok 4.3",
+    "concordance_overall": 80.3,
+    "concordance_high": 98.2,
+    "concordance_moderate": 75.5,
+    "concordance_low": 25.0,
+    "n_concordant": 159,
+    "n_adjacent": 27,
+    "n_discordant": 12,
+    "n_total": 198,
+    "pct_concordant": 80.3,
+    "pct_adjacent": 13.6,
+    "pct_discordant": 6.1,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 32
+    }
+  },
+  "llama-3.3-70b": {
+    "label": "Llama 3.3",
+    "concordance_overall": 71.7,
+    "concordance_high": 95.6,
+    "concordance_moderate": 56.6,
+    "concordance_low": 12.5,
+    "n_concordant": 142,
+    "n_adjacent": 40,
+    "n_discordant": 16,
+    "n_total": 198,
+    "pct_concordant": 71.7,
+    "pct_adjacent": 20.2,
+    "pct_discordant": 8.1,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 32
+    }
+  },
+  "llama4": {
+    "label": "Llama 4",
+    "concordance_overall": 73.7,
+    "concordance_high": 94.7,
+    "concordance_moderate": 62.3,
+    "concordance_low": 18.8,
+    "n_concordant": 146,
+    "n_adjacent": 35,
+    "n_discordant": 17,
+    "n_total": 198,
+    "pct_concordant": 73.7,
+    "pct_adjacent": 17.7,
+    "pct_discordant": 8.6,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 32
+    }
+  },
+  "medgemma-27b": {
+    "label": "MedGemma 27B",
+    "concordance_overall": 80.1,
+    "concordance_high": 97.3,
+    "concordance_moderate": 77.4,
+    "concordance_low": 22.6,
+    "n_concordant": 157,
+    "n_adjacent": 29,
+    "n_discordant": 10,
+    "n_total": 196,
+    "pct_concordant": 80.1,
+    "pct_adjacent": 14.8,
+    "pct_discordant": 5.1,
+    "n_per_tier": {
+      "high": 112,
+      "moderate": 53,
+      "low": 31
+    }
+  },
+  "medgemma-4b": {
+    "label": "MedGemma 4B",
+    "concordance_overall": 72.7,
+    "concordance_high": 94.7,
+    "concordance_moderate": 62.3,
+    "concordance_low": 12.5,
+    "n_concordant": 144,
+    "n_adjacent": 36,
+    "n_discordant": 18,
+    "n_total": 198,
+    "pct_concordant": 72.7,
+    "pct_adjacent": 18.2,
+    "pct_discordant": 9.1,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 32
+    }
+  },
+  "meditron": {
+    "label": "Meditron",
+    "concordance_overall": 68.4,
+    "concordance_high": 91.2,
+    "concordance_moderate": 49.0,
+    "concordance_low": 18.8,
+    "n_concordant": 134,
+    "n_adjacent": 42,
+    "n_discordant": 20,
+    "n_total": 196,
+    "pct_concordant": 68.4,
+    "pct_adjacent": 21.4,
+    "pct_discordant": 10.2,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 51,
+      "low": 32
+    }
+  },
+  "openevidence": {
+    "label": "OpenEvidence",
+    "concordance_overall": 74.1,
+    "concordance_high": 90.3,
+    "concordance_moderate": 75.0,
+    "concordance_low": 15.6,
+    "n_concordant": 146,
+    "n_adjacent": 37,
+    "n_discordant": 14,
+    "n_total": 197,
+    "pct_concordant": 74.1,
+    "pct_adjacent": 18.8,
+    "pct_discordant": 7.1,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 52,
+      "low": 32
+    }
+  },
+  "qwen-2.5-72b": {
+    "label": "Qwen 2.5",
+    "concordance_overall": 67.7,
+    "concordance_high": 92.9,
+    "concordance_moderate": 49.1,
+    "concordance_low": 9.4,
+    "n_concordant": 134,
+    "n_adjacent": 48,
+    "n_discordant": 16,
+    "n_total": 198,
+    "pct_concordant": 67.7,
+    "pct_adjacent": 24.2,
+    "pct_discordant": 8.1,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 32
+    }
+  },
+  "qwen3": {
+    "label": "Qwen 3",
+    "concordance_overall": 77.6,
+    "concordance_high": 97.3,
+    "concordance_moderate": 68.6,
+    "concordance_low": 21.9,
+    "n_concordant": 152,
+    "n_adjacent": 30,
+    "n_discordant": 14,
+    "n_total": 196,
+    "pct_concordant": 77.6,
+    "pct_adjacent": 15.3,
+    "pct_discordant": 7.1,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 51,
+      "low": 32
+    }
+  },
+  "qwen-3.7": {
+    "label": "Qwen 3.7",
+    "concordance_overall": 80.8,
+    "concordance_high": 97.3,
+    "concordance_moderate": 79.2,
+    "concordance_low": 25.0,
+    "n_concordant": 160,
+    "n_adjacent": 26,
+    "n_discordant": 12,
+    "n_total": 198,
+    "pct_concordant": 80.8,
+    "pct_adjacent": 13.1,
+    "pct_discordant": 6.1,
+    "n_per_tier": {
+      "high": 113,
+      "moderate": 53,
+      "low": 32
+    }
+  }
+}

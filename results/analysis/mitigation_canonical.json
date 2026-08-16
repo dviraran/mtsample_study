@@ -1,0 +1,534 @@
+{
+  "qwen3": {
+    "arms": {
+      "default": {
+        "n": 198,
+        "ratio": 4.015605848546978,
+        "concordance_pct": 77.55102040816327,
+        "wrong_pct": 7.142857142857143,
+        "med_count": 1.4343434343434343,
+        "ref_count": 1.9141414141414141
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 2.686106896135841,
+        "concordance_pct": 74.74747474747475,
+        "wrong_pct": 7.575757575757576,
+        "med_count": 1.135,
+        "ref_count": 1.39
+      },
+      "parsimonious": {
+        "n": 199,
+        "ratio": 1.907183907240003,
+        "concordance_pct": 62.43654822335025,
+        "wrong_pct": 13.197969543147208,
+        "med_count": 1.0603015075376885,
+        "ref_count": 0.7035175879396985
+      }
+    }
+  },
+  "gpt-5.5": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 3.2239000316941206,
+        "concordance_pct": 88.38383838383838,
+        "wrong_pct": 5.05050505050505,
+        "med_count": 1.305,
+        "ref_count": 0.71
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 2.1814944198713726,
+        "concordance_pct": 85.85858585858585,
+        "wrong_pct": 3.5353535353535355,
+        "med_count": 1.175,
+        "ref_count": 0.48
+      },
+      "parsimonious": {
+        "n": 193,
+        "ratio": 1.9267306927920722,
+        "concordance_pct": 89.00523560209425,
+        "wrong_pct": 4.18848167539267,
+        "med_count": 1.544041450777202,
+        "ref_count": 0.18652849740932642
+      }
+    }
+  },
+  "deepseek-r1": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 3.056498977654242,
+        "concordance_pct": 77.15736040609137,
+        "wrong_pct": 6.598984771573604,
+        "med_count": 1.84,
+        "ref_count": 1.485
+      },
+      "costaware": {
+        "n": 199,
+        "ratio": 1.7198776610362079,
+        "concordance_pct": 75.1269035532995,
+        "wrong_pct": 6.091370558375634,
+        "med_count": 1.5175879396984924,
+        "ref_count": 0.8090452261306532
+      },
+      "parsimonious": {
+        "n": 198,
+        "ratio": 1.7532346234429916,
+        "concordance_pct": 64.1025641025641,
+        "wrong_pct": 11.282051282051283,
+        "med_count": 1.3838383838383839,
+        "ref_count": 0.32323232323232326
+      }
+    }
+  },
+  "gpt-5.2": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 3.039162574011382,
+        "concordance_pct": 84.34343434343434,
+        "wrong_pct": 5.05050505050505,
+        "med_count": 1.525,
+        "ref_count": 0.835
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 1.9534909811994965,
+        "concordance_pct": 83.83838383838383,
+        "wrong_pct": 6.0606060606060606,
+        "med_count": 1.555,
+        "ref_count": 0.585
+      },
+      "parsimonious": {
+        "n": 199,
+        "ratio": 1.4884398569486417,
+        "concordance_pct": 81.95876288659794,
+        "wrong_pct": 4.639175257731959,
+        "med_count": 1.914572864321608,
+        "ref_count": 0.23115577889447236
+      }
+    }
+  },
+  "claude-opus-4.8": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 3.022626937758917,
+        "concordance_pct": 82.82828282828282,
+        "wrong_pct": 4.545454545454546,
+        "med_count": 1.1,
+        "ref_count": 0.86
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 1.8735355493039918,
+        "concordance_pct": 81.31313131313131,
+        "wrong_pct": 4.545454545454546,
+        "med_count": 1.01,
+        "ref_count": 0.49
+      },
+      "parsimonious": {
+        "n": 200,
+        "ratio": 1.589938378775597,
+        "concordance_pct": 75.75757575757575,
+        "wrong_pct": 7.070707070707071,
+        "med_count": 1.175,
+        "ref_count": 0.315
+      }
+    }
+  },
+  "gemini-2.5-pro": {
+    "arms": {
+      "default": {
+        "n": 199,
+        "ratio": 2.780197064507353,
+        "concordance_pct": 75.1269035532995,
+        "wrong_pct": 6.598984771573604,
+        "med_count": 1.4874371859296482,
+        "ref_count": 0.864321608040201
+      },
+      "costaware": {
+        "n": 196,
+        "ratio": 1.9620978814615715,
+        "concordance_pct": 78.8659793814433,
+        "wrong_pct": 6.185567010309279,
+        "med_count": 1.403061224489796,
+        "ref_count": 0.7653061224489796
+      },
+      "parsimonious": {
+        "n": 187,
+        "ratio": 1.0855145274981375,
+        "concordance_pct": 70.8108108108108,
+        "wrong_pct": 8.108108108108109,
+        "med_count": 1.2513368983957218,
+        "ref_count": 0.20320855614973263
+      }
+    }
+  },
+  "medgemma-27b": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 2.597971996982046,
+        "concordance_pct": 80.10204081632654,
+        "wrong_pct": 5.1020408163265305,
+        "med_count": 0.97,
+        "ref_count": 1.16
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 2.7072851601394543,
+        "concordance_pct": 74.11167512690355,
+        "wrong_pct": 4.568527918781726,
+        "med_count": 0.905,
+        "ref_count": 1.225
+      },
+      "parsimonious": {
+        "n": 199,
+        "ratio": 1.1175788776915458,
+        "concordance_pct": 60.91370558375635,
+        "wrong_pct": 12.690355329949238,
+        "med_count": 0.9045226130653267,
+        "ref_count": 0.49246231155778897
+      }
+    }
+  },
+  "claude-sonnet-4.5": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 2.5411897355924977,
+        "concordance_pct": 78.28282828282828,
+        "wrong_pct": 6.0606060606060606,
+        "med_count": 1.155,
+        "ref_count": 0.74
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 1.519244361671991,
+        "concordance_pct": 78.78787878787878,
+        "wrong_pct": 6.0606060606060606,
+        "med_count": 1.03,
+        "ref_count": 0.49
+      },
+      "parsimonious": {
+        "n": 200,
+        "ratio": 1.0931281255872527,
+        "concordance_pct": 71.71717171717172,
+        "wrong_pct": 7.070707070707071,
+        "med_count": 1.075,
+        "ref_count": 0.355
+      }
+    }
+  },
+  "meditron": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 2.4009748045762946,
+        "concordance_pct": 68.36734693877551,
+        "wrong_pct": 10.204081632653061,
+        "med_count": 0.835,
+        "ref_count": 0.865
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 2.5357224997405567,
+        "concordance_pct": 69.54314720812182,
+        "wrong_pct": 9.137055837563452,
+        "med_count": 0.87,
+        "ref_count": 0.95
+      },
+      "parsimonious": {
+        "n": 194,
+        "ratio": 1.1655283721609582,
+        "concordance_pct": 76.04166666666667,
+        "wrong_pct": 8.333333333333334,
+        "med_count": 0.8195876288659794,
+        "ref_count": 0.3556701030927835
+      }
+    }
+  },
+  "qwen-2.5-72b": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 2.398941332218897,
+        "concordance_pct": 67.67676767676768,
+        "wrong_pct": 8.080808080808081,
+        "med_count": 0.82,
+        "ref_count": 1.34
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 1.901305769732395,
+        "concordance_pct": 69.1919191919192,
+        "wrong_pct": 9.090909090909092,
+        "med_count": 0.78,
+        "ref_count": 1.04
+      },
+      "parsimonious": {
+        "n": 200,
+        "ratio": 1.890687538039957,
+        "concordance_pct": 59.5959595959596,
+        "wrong_pct": 13.636363636363637,
+        "med_count": 1.0,
+        "ref_count": 0.725
+      }
+    }
+  },
+  "deepseek-v3.2": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 2.3962354115888287,
+        "concordance_pct": 75.25252525252525,
+        "wrong_pct": 6.565656565656566,
+        "med_count": 1.07,
+        "ref_count": 1.12
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 1.728820333601658,
+        "concordance_pct": 78.28282828282828,
+        "wrong_pct": 5.05050505050505,
+        "med_count": 1.0,
+        "ref_count": 0.695
+      },
+      "parsimonious": {
+        "n": 200,
+        "ratio": 1.1774660410116313,
+        "concordance_pct": 64.64646464646465,
+        "wrong_pct": 10.606060606060606,
+        "med_count": 0.765,
+        "ref_count": 0.275
+      }
+    }
+  },
+  "gemini-3.5-flash": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 2.3392715400818433,
+        "concordance_pct": 79.79797979797979,
+        "wrong_pct": 5.555555555555555,
+        "med_count": 1.335,
+        "ref_count": 0.815
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 2.053518888854608,
+        "concordance_pct": 85.35353535353535,
+        "wrong_pct": 6.0606060606060606,
+        "med_count": 1.25,
+        "ref_count": 0.71
+      },
+      "parsimonious": {
+        "n": 200,
+        "ratio": 1.370655030530133,
+        "concordance_pct": 75.25252525252525,
+        "wrong_pct": 8.080808080808081,
+        "med_count": 1.335,
+        "ref_count": 0.305
+      }
+    }
+  },
+  "qwen-3.7": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 2.1753442177862916,
+        "concordance_pct": 80.8080808080808,
+        "wrong_pct": 6.0606060606060606,
+        "med_count": 1.13,
+        "ref_count": 0.75
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 1.766546154212934,
+        "concordance_pct": 81.31313131313131,
+        "wrong_pct": 4.545454545454546,
+        "med_count": 0.89,
+        "ref_count": 0.595
+      },
+      "parsimonious": {
+        "n": 200,
+        "ratio": 1.1443786409673158,
+        "concordance_pct": 70.70707070707071,
+        "wrong_pct": 10.606060606060606,
+        "med_count": 0.9,
+        "ref_count": 0.255
+      }
+    }
+  },
+  "grok-4.3": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 2.071639231151113,
+        "concordance_pct": 80.3030303030303,
+        "wrong_pct": 6.0606060606060606,
+        "med_count": 1.085,
+        "ref_count": 0.635
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 1.1783502508884172,
+        "concordance_pct": 76.76767676767676,
+        "wrong_pct": 6.0606060606060606,
+        "med_count": 0.935,
+        "ref_count": 0.375
+      },
+      "parsimonious": {
+        "n": 200,
+        "ratio": 0.7390970821775263,
+        "concordance_pct": 70.70707070707071,
+        "wrong_pct": 8.585858585858587,
+        "med_count": 0.83,
+        "ref_count": 0.13
+      }
+    }
+  },
+  "gemini-3.1-pro": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 2.048071987726241,
+        "concordance_pct": 81.81818181818181,
+        "wrong_pct": 4.040404040404041,
+        "med_count": 0.855,
+        "ref_count": 0.445
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 1.859161003329285,
+        "concordance_pct": 79.79797979797979,
+        "wrong_pct": 6.0606060606060606,
+        "med_count": 0.845,
+        "ref_count": 0.415
+      },
+      "parsimonious": {
+        "n": 200,
+        "ratio": 0.9068606552549132,
+        "concordance_pct": 74.24242424242425,
+        "wrong_pct": 7.575757575757576,
+        "med_count": 0.745,
+        "ref_count": 0.25
+      }
+    }
+  },
+  "medgemma-4b": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 1.9873980809630527,
+        "concordance_pct": 72.72727272727273,
+        "wrong_pct": 9.090909090909092,
+        "med_count": 0.685,
+        "ref_count": 0.69
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 1.8817648015751698,
+        "concordance_pct": 72.72727272727273,
+        "wrong_pct": 8.080808080808081,
+        "med_count": 0.67,
+        "ref_count": 0.73
+      },
+      "parsimonious": {
+        "n": 200,
+        "ratio": 1.0056663759034927,
+        "concordance_pct": 69.6969696969697,
+        "wrong_pct": 10.1010101010101,
+        "med_count": 0.67,
+        "ref_count": 0.34
+      }
+    }
+  },
+  "gpt-4.1": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 1.9176682102357987,
+        "concordance_pct": 82.14285714285714,
+        "wrong_pct": 6.122448979591836,
+        "med_count": 0.575,
+        "ref_count": 0.78
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 1.3353174881427525,
+        "concordance_pct": 79.79797979797979,
+        "wrong_pct": 5.555555555555555,
+        "med_count": 0.54,
+        "ref_count": 0.56
+      },
+      "parsimonious": {
+        "n": 200,
+        "ratio": 0.5684557951157396,
+        "concordance_pct": 76.14213197969544,
+        "wrong_pct": 8.629441624365482,
+        "med_count": 0.415,
+        "ref_count": 0.105
+      }
+    }
+  },
+  "llama4": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 1.8190700440071466,
+        "concordance_pct": 73.73737373737374,
+        "wrong_pct": 8.585858585858587,
+        "med_count": 0.295,
+        "ref_count": 0.555
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 1.1682656303904546,
+        "concordance_pct": 70.20202020202021,
+        "wrong_pct": 8.585858585858587,
+        "med_count": 0.325,
+        "ref_count": 0.575
+      },
+      "parsimonious": {
+        "n": 200,
+        "ratio": 1.2075642366905728,
+        "concordance_pct": 67.17171717171718,
+        "wrong_pct": 11.616161616161616,
+        "med_count": 0.41,
+        "ref_count": 0.385
+      }
+    }
+  },
+  "llama-3.3-70b": {
+    "arms": {
+      "default": {
+        "n": 200,
+        "ratio": 1.3669702383790558,
+        "concordance_pct": 71.71717171717172,
+        "wrong_pct": 8.080808080808081,
+        "med_count": 0.37,
+        "ref_count": 0.655
+      },
+      "costaware": {
+        "n": 200,
+        "ratio": 1.1336433093149862,
+        "concordance_pct": 68.18181818181819,
+        "wrong_pct": 9.090909090909092,
+        "med_count": 0.33,
+        "ref_count": 0.555
+      },
+      "parsimonious": {
+        "n": 200,
+        "ratio": 0.8781494279631898,
+        "concordance_pct": 63.63636363636363,
+        "wrong_pct": 12.626262626262626,
+        "med_count": 0.325,
+        "ref_count": 0.545
+      }
+    }
+  }
+}

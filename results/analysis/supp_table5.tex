@@ -1,0 +1,42 @@
+\begin{table}[p]
+\centering
+\small
+\caption{\textbf{Subset Analysis: AI Diagnostic Cost Ratios by Physician Ordering Behavior.} Cases stratified by whether the treating physician ordered any diagnostic tests. In the 133 cases where physicians ordered no tests (\$0), AI systems generated \$57--212 per visit from a zero baseline. In the 67 cases where physicians did order tests (mean \$213/visit), the overall cost ratio collapses from 2.5$\times$ to 1.4$\times$, with 1 of 20 general-purpose models ordering less than the physician. This shows that the primary driver of AI excess is adding tests to visits where the physician ordered no diagnostic workup.}
+\label{tab:phys_ordering}
+\begin{tabular}{l c c c c}
+\toprule
+\textbf{Model} & \multicolumn{2}{c}{\textbf{Follow-up (n=133)}} & \multicolumn{2}{c}{\textbf{Active workup (n=67)}} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+ & AI \$/visit & & AI \$/visit & Ratio \\
+\midrule
+GPT-4.1 & \$97 & & \$215 & 1.01$\times$ \\
+\rowcolor{gray!8} GPT-5.2 & \$139 & & \$370 & 1.74$\times$ \\
+GPT-5.5 & \$149 & & \$391 & 1.84$\times$ \\
+\rowcolor{gray!8} Claude 3.5 & \$102 & & \$297 & 1.39$\times$ \\
+Claude 4.5 & \$89 & & \$364 & 1.71$\times$ \\
+\rowcolor{gray!8} Claude Opus 4.8 & \$137 & & \$371 & 1.74$\times$ \\
+Gemini 2.5 Pro & \$140 & & \$316 & 1.48$\times$ \\
+\rowcolor{gray!8} Gemini 3 Pro & \$83 & & \$269 & 1.26$\times$ \\
+Gemini 3.1 Pro & \$91 & & \$255 & 1.20$\times$ \\
+\rowcolor{gray!8} Gemini 3.5 Flash & \$118 & & \$265 & 1.24$\times$ \\
+Grok 3 & \$148 & & \$270 & 1.27$\times$ \\
+\rowcolor{gray!8} Grok 4.1 & \$101 & & \$273 & 1.28$\times$ \\
+Grok 4.3 & \$111 & & \$221 & 1.04$\times$ \\
+\rowcolor{gray!8} Llama 3.3 & \$61 & & \$169 & 0.79$\times$ \\
+Llama 4 & \$57 & & \$274 & 1.29$\times$ \\
+\rowcolor{gray!8} Qwen 2.5 & \$130 & & \$252 & 1.19$\times$ \\
+Qwen 3 & \$212 & & \$440 & 2.07$\times$ \\
+\rowcolor{gray!8} Qwen 3.7 & \$97 & & \$271 & 1.27$\times$ \\
+DeepSeek V3 & \$111 & & \$289 & 1.36$\times$ \\
+\rowcolor{gray!8} DeepSeek R1 & \$168 & & \$318 & 1.49$\times$ \\
+\midrule
+OpenEvidence & \$135 & & \$274 & 1.29$\times$ \\
+\rowcolor{gray!8} MedGemma 4B & \$99 & & \$226 & 1.06$\times$ \\
+MedGemma 27B & \$129 & & \$297 & 1.40$\times$ \\
+\rowcolor{gray!8} Meditron & \$132 & & \$249 & 1.17$\times$ \\
+\midrule
+\rowcolor{gray!8} \textbf{Mean (20 GP)} & \textbf{\$117} & & \textbf{\$295} & \textbf{1.38$\times$} \\
+Physician & \$0 & & \$213 & 1.0$\times$ \\
+\bottomrule
+\end{tabular}
+\end{table}
